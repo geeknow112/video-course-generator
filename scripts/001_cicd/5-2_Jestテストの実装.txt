@@ -1,0 +1,25 @@
+このレクチャーでは、Jestテストのじっそうについてせつめいします。
+---
+このレクチャーでまなぶことは、Jestとは、テストファイルのさくせい、テストのじっこうほうほう、buildspec.ymlへのくみこみ、です。
+---
+Jestとはなにか、からはじめましょう。Jestは、JavaScriptのテストフレームワークです。Facebook、げんざいのMeta、がかいはつしました。ゼロせっていでつかえて、React、Vue、Node.jsでひろくしようされています。
+---
+プロジェクトこうせいをかくにんしましょう。jsフォルダのなかに、package.json、sum.js、sum.test.js、があります。sum.jsがテストたいしょうで、sum.test.jsがテストファイルです。
+---
+テストたいしょうのコードをみてみましょう。sum.jsで、sumというかんすうをていぎします。ひきすうaとbをうけとり、aたすbをかえします。module.exportsで、sumをエクスポートします。
+---
+テストファイルをみてみましょう。sum.test.jsで、sumをrequireします。testかんすうで、1たす2は3、というテストをかきます。expectで、sum 1 2、のけっかが、toBe 3、であることをかくにんします。もうひとつ、0たす0は0、というテストもついかします。
+---
+package.jsonのせっていです。nameは、js-test、とします。scriptsセクションに、testとして、jestをしていします。devDependenciesに、jestのバージョン29をついかします。
+---
+ローカルでテストをじっこうするほうほうです。cdで、jsフォルダにいどうします。npm installで、いぞんパッケージをインストールします。npm testで、テストをじっこうします。
+---
+テストけっか、せいこうのばあいです。PASS、sum.test.js、とひょうじされます。チェックマークで、1たす2は3、2ミリセカンド、とひょうじされます。Test Suites、1 passed、Tests、2 passed、とひょうじされます。
+---
+テストけっか、しっぱいのばあいです。FAIL、sum.test.js、とひょうじされます。バツマークで、1たす2は3、とひょうじされます。Expected 4、Received 3、のように、きたいちとじっさいのちがひょうじされます。
+---
+よくつかうマッチャーをしょうかいします。toBeは、げんみつとうかのかくにんにつかいます。toEqualは、オブジェクトひかくにつかいます。toBeTruthyは、しんちチェックにつかいます。toContainは、はいれつにふくむかのかくにんにつかいます。
+---
+buildspec.ymlへのくみこみです。installフェーズで、nodejs 18をしてい、cd jsして、npm installをじっこうします。pre_buildフェーズで、cd jsして、npm testをじっこうします。
+---
+まとめです。Jestは、ゼロせっていでつかえるテストフレームワークです。testかんすうと、expectで、テストをきじゅつします。npm testでじっこうします。buildspec.ymlにくみこんで、CICD化します。つぎのレクチャーでは、PHPUnitをじっそうします。

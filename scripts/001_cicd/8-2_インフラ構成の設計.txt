@@ -1,0 +1,27 @@
+このレクチャーでは、インフラこうせいのせっけいをおこないます。
+---
+このレクチャーでまなぶことは、リソースのせっけい、データのながれ、IAMけんげんのせっけい、かんきょうへんすうのせっけい、です。
+---
+ひつようなリソースいちらんです。SNS Topicで、つうちをちゅうかいします。Lambda Functionで、メッセージをへんかんします。IAM Roleで、Lambdaのけんげんをかんりします。CloudWatch Logsで、ログをほぞんします。
+---
+SNS Topicのせっけいです。トピックめいは、CloudWatchAlarmTopicです。Lambdaを、サブスクライバーとしてとうろくします。CloudWatch Alarmから、メッセージをうけとります。
+---
+Lambda Functionのせっけいです。かんすうめいは、SlackNotificationFunctionです。ランタイムは、Node.js 20.xです。メモリは、128MBです。タイムアウトは、10びょうです。
+---
+データのながれです。CloudWatch Alarmが、SNSにメッセージをおくります。SNSが、Lambdaをきどうします。Lambdaが、SNSメッセージをパースします。Lambdaが、Slackけいしきにへんかんします。Lambdaが、Webhook URLにPOSTします。
+---
+SNSメッセージのこうぞうです。Recordsはいれつに、SNSオブジェクトがはいっています。SNSオブジェクトに、Messageがあります。Messageは、もじれつかされたJSONです。JSON.parseで、オブジェクトにへんかんします。
+---
+CloudWatch Alarmメッセージのこうぞうです。AlarmNameに、アラームめいがはいります。NewStateValueに、ALARMやOKがはいります。NewStateReasonに、りゆうがはいります。StateChangeTimeに、じこくがはいります。
+---
+Slackメッセージのこうぞうです。textに、メッセージほんぶんをいれます。blocksで、リッチなひょうじができます。attachmentsで、いろつきのメッセージができます。colorに、dangerやgoodをしていします。
+---
+IAMけんげんのせっけいです。Lambdaには、きほんじっこうロールがひつようです。CloudWatch Logsへの、しょきこみけんげんがひつようです。SAMでは、AWSLambdaBasicExecutionRoleを、じどうでアタッチします。
+---
+かんきょうへんすうのせっけいです。SLACK_WEBHOOK_URLを、かんきょうへんすうでかんりします。コードにちょくせつかかないことで、セキュリティをたもちます。ほんばんでは、Secrets Managerをすいしょうします。
+---
+エラーハンドリングのせっけいです。SNSメッセージのパースエラーを、キャッチします。Slackへのリクエストエラーを、キャッチします。エラーじは、CloudWatch Logsにきろくします。リトライは、SNSがじどうでおこないます。
+---
+ログせっけいです。CloudWatch Logsに、じっこうログをほぞんします。ログレベルを、INFO、ERROR、DEBUGでわけます。ほんばんでは、DEBUGをむこうにします。ログほぞんきかんを、せっていします。
+---
+まとめです。SNS Topicで、つうちをちゅうかいします。Lambdaで、メッセージをへんかんします。かんきょうへんすうで、Webhook URLをかんりします。IAMけんげんは、さいしょうげんにします。つぎのレクチャーで、SAMテンプレートをじっそうします。

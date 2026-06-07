@@ -1,0 +1,15 @@
+{
+  "name": "video-generator",
+  "version": "1.0.0",
+  "description": "スライド+音声から動画を自動生成",
+  "scripts": {
+    "generate": "npx ts-node generate-video.ts",
+    "screenshot": "npx ts-node screenshot-slides.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}

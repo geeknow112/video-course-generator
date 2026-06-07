@@ -1,0 +1,29 @@
+# 生成物（Marp/VOICEVOX）
+*.html
+*.pdf
+*.wav
+*.mp3
+*.mp4
+
+# 一時ファイル
+*.tmp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+
+# 個人メモ
+memo/
+
+# 生成出力
+video-generator/output/
+recording/videos/
+recording/playwright-report/
+
+# OS
+.DS_Store
+Thumbs.db

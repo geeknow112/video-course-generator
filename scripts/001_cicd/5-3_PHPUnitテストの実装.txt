@@ -1,0 +1,25 @@
+このレクチャーでは、PHPUnitテストのじっそうについてせつめいします。
+---
+このレクチャーでまなぶことは、PHPUnitとは、テストファイルのさくせい、テストのじっこうほうほう、buildspec.ymlへのくみこみ、です。
+---
+PHPUnitとはなにか、からはじめましょう。PHPUnitは、PHPのテストフレームワークです。PHPかいのデファクトスタンダードです。Laravel、Symfonyなどで、ひょうじゅんさいようされています。xUnitけいのテストフレームワークです。
+---
+プロジェクトこうせいをかくにんしましょう。phpフォルダのなかに、composer.json、srcフォルダ、testsフォルダ、があります。srcフォルダに、Calculator.php、testsフォルダに、CalculatorTest.php、があります。
+---
+テストたいしょうのコードをみてみましょう。src、スラッシュ、Calculator.phpで、Calculatorクラスをていぎします。addメソッドで、ひきすうaとbをうけとり、aたすbをかえします。
+---
+テストファイルをみてみましょう。tests、スラッシュ、CalculatorTest.phpで、PHPUnit、Framework、TestCaseをuseします。CalculatorTestクラスは、TestCaseをけいしょうします。testAddメソッドで、Calculatorをインスタンスかし、assertEqualsで、3と、calc add 1 2、がひとしいことをかくにんします。
+---
+composer.jsonのせっていです。require-devに、phpunit、スラッシュ、phpunit、バージョン10をしていします。autoloadセクションで、psr-4として、srcフォルダをしていします。
+---
+phpunit.xmlのせっていです。bootstrapに、vendor、スラッシュ、autoload.php、をしていします。testsuitesで、testsディレクトリをしていします。
+---
+ローカルでテストをじっこうするほうほうです。cdで、phpフォルダにいどうします。composer installで、いぞんパッケージをインストールします。vendor、スラッシュ、bin、スラッシュ、phpunit、で、テストをじっこうします。
+---
+テストけっか、せいこうのばあいです。PHPUnit 10.0.0、とひょうじされます。ドットで、しんちょくがひょうじされます。OK、1 test、1 assertion、とひょうじされます。
+---
+よくつかうアサーションをしょうかいします。assertEqualsは、とうかチェックにつかいます。assertTrueは、しんちチェックにつかいます。assertNullは、nullチェックにつかいます。assertCountは、はいれつのようそすうかくにんにつかいます。
+---
+buildspec.ymlへのくみこみです。installフェーズで、php 8.2をしてい、cd phpして、composer installをじっこうします。pre_buildフェーズで、cd phpして、vendor、スラッシュ、bin、スラッシュ、phpunit、をじっこうします。
+---
+まとめです。PHPUnitは、PHPのひょうじゅんテストフレームワークです。TestCaseをけいしょうして、テストクラスをさくせいします。assertメソッドでけんしょうします。Composerでインストールします。つぎのレクチャーでは、りょうほうをとうごうします。

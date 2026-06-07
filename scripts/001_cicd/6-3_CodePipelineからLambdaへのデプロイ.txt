@@ -1,0 +1,29 @@
+このレクチャーでは、CodePipelineからLambdaへデプロイするほうほうをせつめいします。
+---
+このレクチャーでまなぶことは、Lambdaデプロイのながれ、buildspec.ymlのせってい、IAMロールのせってい、パイプラインのこうちく、です。
+---
+デプロイのぜんたいぞうです。GitHubからソースをしゅとく。CodeBuildでパッケージか。そして、Lambdaにデプロイ。このながれをじどうかします。
+---
+プロジェクトこうぞうです。ルートに、index.jsをおきます。package.jsonをおきます。buildspec.ymlをおきます。testsフォルダに、テストファイルをおきます。シンプルなこうせいです。
+---
+index.jsのないようです。exports.handlerで、async functionをていぎします。eventから、nameをしゅとくします。messageに、Hello、nameをせっていします。statusCode 200と、bodyをかえします。
+---
+package.jsonのないようです。nameは、lambda-hello-functionです。versionは、1.0.0です。mainは、index.jsです。scriptsに、testをていぎします。devDependenciesに、jestをついかします。
+---
+buildspec.ymlのないようです。versionは、0.2です。phasesに、install、build、post_buildをていぎします。installで、npm installをじっこうします。buildで、npm testをじっこうします。post_buildで、aws lambda update-function-codeをじっこうします。
+---
+post_buildのコマンドをくわしくせつめいします。aws lambda update-function-codeをつかいます。function-nameに、かんすうめいをしていします。zip-fileに、fileb://function.zipをしていします。そのまえに、zipコマンドで、index.jsをあっしゅくします。
+---
+IAMロールのせっていです。CodeBuildのサービスロールに、Lambdaへのアクセスけんげんをついかします。lambda:UpdateFunctionCodeが、ひつようです。lambda:GetFunctionも、ひつようです。Resourceに、たいしょうのLambda ARNをしていします。
+---
+IAMポリシーのれいです。Effectは、Allowです。Actionに、lambda:UpdateFunctionCodeと、lambda:GetFunctionをしていします。Resourceに、arn:aws:lambda:リージョン:アカウントID:function:かんすうめい、をしていします。
+---
+パイプラインのこうちくです。CodePipelineコンソールをひらきます。パイプラインをさくせいします。ソースステージで、GitHubをせんたくします。ビルドステージで、CodeBuildをせんたくします。デプロイステージは、スキップします。buildspecでデプロイするためです。
+---
+CodeBuildプロジェクトのせっていです。かんきょうイメージは、aws/codebuild/amazonlinux2-x86_64-standard:5.0です。サービスロールに、さきほどのIAMポリシーをアタッチします。buildspec.ymlをつかうように、せっていします。
+---
+どうさかくにんです。GitHubにプッシュします。パイプラインがじどうきどうします。CodeBuildがじっこうされます。テストがせいこうしたら、Lambdaがこうしんされます。Lambdaコンソールで、コードがかわったことをかくにんします。
+---
+トラブルシューティングです。けんげんエラーのばあい、IAMロールをかくにんします。zipエラーのばあい、ファイルパスをかくにんします。Lambdaこうしんエラーのばあい、かんすうめいをかくにんします。ログは、CloudWatch Logsでかくにんできます。
+---
+まとめです。buildspec.ymlで、Lambdaデプロイをじどうかできます。IAMロールに、Lambdaけんげんがひつようです。aws lambda update-function-codeで、コードをこうしんします。テストせいこうご、じどうデプロイされます。つぎのレクチャーで、かんきょうへんすうをせっていします。

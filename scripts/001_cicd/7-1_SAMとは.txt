@@ -1,0 +1,25 @@
+このレクチャーでは、AWS SAMについてせつめいします。
+---
+このレクチャーでまなぶことは、SAMとはなにか、SAMのメリット、CloudFormationとのかんけい、SAMのきほんがいねん、です。
+---
+SAMとは、Serverless Application Modelのりゃくです。サーバーレスアプリケーションをかんたんにていぎできます。CloudFormationのかくちょうです。AWSがこうしきにていきょうしています。
+---
+SAMがかいけつするもんだいです。じゅうらいのLambdaかんりは、たいへんでした。かんすうごとにコンソールでせってい。IAMロールをべつべつにさくせい。API Gatewayをしゅどうでせってい。ふくすうかんすうのかんりがふくざつでした。
+---
+SAMのメリットです。かんけつなきじゅつで、すくないコードでていぎできます。ローカルテストで、じっきでうごかせます。CICDとうごうで、じどうデプロイできます。ベストプラクティスで、AWSすいしょうこうせいになります。
+---
+CloudFormationとのかんけいです。SAMは、CloudFormationのかくちょうです。SAMテンプレートは、CloudFormationにへんかんされます。Transformで、AWS::Serverless-2016-10-31をしていします。CloudFormationのきのうも、すべてつかえます。
+---
+SAMのきほんがいねんです。SAMテンプレートで、リソースをていぎします。SAM CLIで、ローカルじっこうやデプロイをします。SAMビルドで、パッケージをさくせいします。SAMデプロイで、AWSにデプロイします。
+---
+SAMテンプレートのきほんこうぞうです。AWSTemplateFormatVersionを、2010-09-09にします。Transformを、AWS::Serverless-2016-10-31にします。Descriptionに、せつめいをかきます。Resourcesに、リソースをていぎします。
+---
+SAMでていぎできるリソースです。AWS::Serverless::Functionで、Lambdaかんすうをていぎします。AWS::Serverless::Apiで、API Gatewayをていぎします。AWS::Serverless::SimpleTableで、DynamoDBをていぎします。AWS::Serverless::LayerVersionで、Lambdaレイヤーをていぎします。
+---
+SAM CLIのインストールです。Windowsのばあい、MSIインストーラーをダウンロードします。Macのばあい、brew install aws-sam-cliです。Linuxのばあい、pipでインストールします。sam versionで、インストールをかくにんします。
+---
+SAM CLIのしゅようコマンドです。sam initで、プロジェクトをしょきかします。sam buildで、ビルドします。sam localで、ローカルじっこうします。sam deployで、デプロイします。sam logsで、ログをかくにんします。
+---
+SAMとCloudFormationのひかくです。きじゅつりょうは、SAMがすくないです。ローカルテストは、SAMがかのうです。がくしゅうコストは、SAMがひくいです。じゅうなんせいは、CloudFormationがたかいです。ようとは、サーバーレスにSAM、それいがいにCloudFormationです。
+---
+まとめです。SAMは、サーバーレスアプリケーションのフレームワークです。CloudFormationのかくちょうで、かんけつにきじゅつできます。SAM CLIで、ローカルテストとデプロイができます。つぎのレクチャーで、SAMテンプレートをさくせいします。

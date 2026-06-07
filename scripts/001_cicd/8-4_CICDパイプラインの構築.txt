@@ -1,0 +1,33 @@
+このレクチャーでは、CICDパイプラインをこうちくします。
+---
+このレクチャーでまなぶことは、buildspec.ymlのさくせい、CodePipelineのせってい、CloudFormationデプロイのせってい、パラメータのわたしかた、です。
+---
+パイプラインのぜんたいぞうです。ソースステージで、GitHubからしゅとくします。ビルドステージで、SAMビルドとパッケージをします。デプロイステージで、CloudFormationでデプロイします。
+---
+buildspec.ymlのさくせいです。versionは、0.2です。phasesに、install、build、post_buildをていぎします。artifactsに、しゅつりょくファイルをしていします。
+---
+installフェーズです。runtime-versionsで、pythonを、3.11にします。commandsで、pip install aws-sam-cliをじっこうします。SAM CLIを、インストールします。
+---
+buildフェーズです。sam buildを、じっこうします。これで、Lambdaかんすうが、ビルドされます。いぞんかんけいが、かいけつされます。
+---
+post_buildフェーズです。sam packageを、じっこうします。template-fileに、.aws-sam/build/template.yamlをしていします。output-template-fileに、packaged.yamlをしていします。s3-bucketに、アーティファクトバケットをしていします。
+---
+artifactsセクションです。filesに、packaged.yamlをしていします。discard-pathsを、yesにします。これで、デプロイステージに、わたせます。
+---
+S3バケットのじゅんびです。SAMパッケージようの、S3バケットをさくせいします。バケットめいは、sam-artifacts-アカウントID、などにします。CodeBuildのIAMロールに、S3アクセスけんげんをついかします。
+---
+CodePipelineのさくせいです。CodePipelineコンソールを、ひらきます。パイプラインをさくせい、をクリックします。パイプラインめいを、monitoring-notification-pipeline、にします。
+---
+ソースステージのせっていです。ソースプロバイダーに、GitHubを、せんたくします。リポジトリを、せんたくします。ブランチを、mainに、します。けんしゅつオプションを、せっていします。
+---
+ビルドステージのせっていです。ビルドプロバイダーに、CodeBuildを、せんたくします。プロジェクトをさくせい、をクリックします。かんきょうイメージを、aws/codebuild/amazonlinux2-x86_64-standard:5.0に、します。
+---
+デプロイステージのせっていです。デプロイプロバイダーに、CloudFormationを、せんたくします。アクションモードを、CREATE_UPDATE、または、CHANGE_SET_REPLACEに、します。スタックめいを、monitoring-notification、にします。
+---
+パラメータのわたしかたです。テンプレートせっていで、パラメータオーバーライドを、せっていします。SlackWebhookUrlに、あたいをしていします。ほんばんでは、Parameter Storeや、Secrets Managerを、つかいます。
+---
+Capabilitiesのせっていです。CAPABILITY_IAMを、ゆうこうにします。CAPABILITY_AUTO_EXPANDを、ゆうこうにします。これがないと、IAMリソースのさくせいに、しっぱいします。
+---
+CloudFormationロールのせっていです。CloudFormationじっこうロールを、さくせいします。Lambda、SNS、IAM、CloudWatch Logsの、けんげんをふよします。さいしょうけんげんの、げんそくにしたがいます。
+---
+まとめです。buildspec.ymlで、SAMビルドとパッケージを、じどうかしました。CodePipelineで、3ステージのパイプラインを、こうちくしました。CloudFormationで、SAMテンプレートを、デプロイします。つぎのレクチャーで、どうさかくにんをします。

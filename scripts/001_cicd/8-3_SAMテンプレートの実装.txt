@@ -1,0 +1,31 @@
+このレクチャーでは、SAMテンプレートをじっそうします。
+---
+このレクチャーでまなぶことは、template.yamlのさくせい、Lambdaかんすうのていぎ、SNS Topicのていぎ、Lambdaコードのじっそう、です。
+---
+template.yamlのきほんこうぞうです。AWSTemplateFormatVersionを、2010-09-09にします。Transformを、AWS::Serverless-2016-10-31にします。Descriptionに、CloudWatch Alarm to Slack Notification、とかきます。
+---
+Parametersセクションです。SlackWebhookUrlを、パラメータとしてていぎします。Typeは、Stringです。Descriptionに、Slack Incoming Webhook URL、とかきます。NoEchoを、trueにして、ひょうじをふせぎます。
+---
+Globalsセクションです。Functionに、きょうつうせっていをかきます。Timeoutを、10びょうにします。Runtimeを、nodejs20.xにします。MemorySizeを、128にします。
+---
+Lambdaかんすうのていぎです。SlackNotificationFunctionを、ていぎします。Typeは、AWS::Serverless::Functionです。CodeUriは、srcスラッシュです。Handlerは、index.handlerです。
+---
+かんきょうへんすうのせっていです。Environmentセクションに、Variablesをていぎします。SLACK_WEBHOOK_URLに、!Ref SlackWebhookUrlをせっていします。パラメータのあたいを、かんきょうへんすうにわたします。
+---
+SNSイベントのせっていです。Eventsセクションに、SNSEventをていぎします。Typeは、SNSです。Propertiesに、Topicをせっていします。Topicに、!Ref AlarmTopicをせっていします。
+---
+SNS Topicのていぎです。AlarmTopicを、ていぎします。Typeは、AWS::SNS::Topicです。Propertiesに、TopicNameをせっていします。TopicNameは、CloudWatchAlarmTopicです。
+---
+Outputsセクションです。TopicArnを、しゅつりょくします。Valueに、!Ref AlarmTopicをせっていします。Descriptionに、SNS Topic ARN for CloudWatch Alarms、とかきます。CloudWatch Alarmせっていじに、つかいます。
+---
+Lambdaコードのじっそうです。srcフォルダに、index.jsをさくせいします。exports.handlerで、async functionをていぎします。eventから、SNSメッセージをしゅとくします。Slackにつうちをおくります。
+---
+SNSメッセージのパースです。event.Recordsの、さいしょのようそをしゅとくします。record.Sns.Messageを、しゅとくします。JSON.parseで、オブジェクトにへんかんします。AlarmNameや、NewStateValueを、しゅとくします。
+---
+Slackメッセージのさくせいです。textに、けいこくマークと、AWS Alertをせっていします。attachmentsはいれつを、さくせいします。colorに、NewStateValueがALARMなら、danger、そうでなければ、goodをせっていします。fieldsに、Alarm、Status、Reasonを、ついかします。
+---
+Slackへのそうしんです。fetchを、つかいます。URLは、process.env.SLACK_WEBHOOK_URLです。methodは、POSTです。headersに、Content-Type、application/jsonをせっていします。bodyに、JSON.stringifyした、メッセージをせっていします。
+---
+エラーハンドリングです。try-catchで、エラーをキャッチします。console.errorで、エラーをログにきろくします。エラーをthrowして、SNSにリトライさせます。
+---
+まとめです。template.yamlで、LambdaとSNSをていぎしました。パラメータで、Webhook URLをうけとります。Lambdaコードで、メッセージをへんかんします。つぎのレクチャーで、CICDパイプラインをこうちくします。

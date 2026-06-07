@@ -1,0 +1,27 @@
+このレクチャーでは、テストしっぱいじのパイプラインていしについてせつめいします。
+---
+このレクチャーでまなぶことは、とうごうbuildspec.ymlのさくせい、テストしっぱいじのどうさかくにん、じっせんてきなCICDフロー、です。
+---
+とうごうbuildspec.ymlをさくせいしましょう。versionは0.2です。installフェーズで、runtime-versionsに、nodejs 18と、php 8.2をしていします。commandsで、cd jsして、npm install、cd、ドットドット、スラッシュ、phpして、composer install、をじっこうします。
+---
+とうごうbuildspec.ymlのつづきです。pre_buildフェーズで、echo Running Jest tests、cd jsして、npm test、echo Running PHPUnit tests、cd、ドットドット、スラッシュ、phpして、vendor、スラッシュ、bin、スラッシュ、phpunit、をじっこうします。buildフェーズで、echo All tests passed、をじっこうします。
+---
+テストじっこうのながれです。まず、Jestテストをじっこうします。せいこうしたら、PHPUnitテストをじっこうします。せいこうしたら、ビルドしょりをじっこうします。そして、デプロイします。
+---
+テストしっぱいじのどうさです。Jestテストがしっぱいすると、パイプラインがていしします。PHPUnitはじっこうされません。デプロイもされません。
+---
+なぜていしするのか、せつめいします。exit codeのしくみです。テストせいこうは、exit code 0です。テストしっぱいは、exit code 1、つまり0いがいです。CodeBuildは、exit code 0いがいで、しっぱいとはんていします。
+---
+じっけんとして、わざとしっぱいさせてみましょう。sum.test.jsで、testかんすうに、わざとしっぱい、というテストをかきます。expectで、1たす1が、toBe 3、とします。これはしっぱいします。
+---
+しっぱいじのログをかくにんしましょう。Container、Running command npm test、とひょうじされます。FAIL、sum.test.js、バツマーク、わざとしっぱい、とひょうじされます。Command did not exit successfully、Phase complete PRE_BUILD State FAILED、とひょうじされます。
+---
+パイプラインのじょうたいをかくにんしましょう。Sourceは、せいこう、チェックマークです。Buildは、しっぱい、バツマーク、ここでていしします。Deployは、じっこうされません。ふかんぜんなコードは、デプロイされません。
+---
+しゅうせいして、さいじっこうするながれです。まず、テストをしゅうせいします。GitHubにプッシュします。パイプラインがじどうじっこうされます。テストせいこうで、デプロイされます。
+---
+ベストプラクティスをしょうかいします。ローカルでテストしてから、プッシュしましょう。ちいさなへんこうを、ひんぱんにコミットしましょう。テストカバレッジをいしきしましょう。しっぱいしたら、すぐしゅうせいしましょう。
+---
+かんせいしたプロジェクトこうせいです。projectフォルダに、jsフォルダ、phpフォルダ、buildspec.yml、があります。jsフォルダには、package.json、sum.js、sum.test.js、があります。phpフォルダには、composer.json、srcフォルダ、testsフォルダ、があります。
+---
+まとめです。ふくすうげんごのテストを、1つのbuildspecでじっこうできます。テストしっぱいで、パイプラインがていしします。ふかんぜんなコードは、デプロイされません。これがCICDのほんしつです。これでセクション5はしゅうりょうです。

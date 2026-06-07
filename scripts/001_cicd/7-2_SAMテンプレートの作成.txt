@@ -1,0 +1,27 @@
+このレクチャーでは、SAMテンプレートのさくせいほうほうをせつめいします。
+---
+このレクチャーでまなぶことは、SAMプロジェクトのしょきか、template.yamlのこうぞう、Lambdaかんすうのていぎ、API Gatewayのせってい、です。
+---
+プロジェクトのしょきかです。sam initコマンドをじっこうします。たいわけいしきでせっていします。テンプレートをせんたくします。ランタイムをせんたくします。プロジェクトめいをにゅうりょくします。
+---
+せいせいされるファイルこうぞうです。ルートに、template.yamlがあります。srcフォルダに、app.jsがあります。eventsフォルダに、event.jsonがあります。README.mdもせいせいされます。
+---
+template.yamlのきほんです。AWSTemplateFormatVersionを、2010-09-09にします。Transformを、AWS::Serverless-2016-10-31にします。Descriptionに、せつめいをかきます。Globalsに、きょうつうせっていをかきます。Resourcesに、リソースをていぎします。
+---
+Globalsセクションです。ぜんかんすうにきょうつうのせっていをかきます。Timeoutを、10びょうにします。Runtimeを、nodejs20.xにします。MemorySizeを、128MBにします。Environmentで、かんきょうへんすうをせっていします。
+---
+Lambdaかんすうのていぎです。Resourcesに、HelloFunctionをていぎします。Typeは、AWS::Serverless::Functionです。Propertiesに、CodeUri、Handler、Runtime、Eventsをせっていします。CodeUriは、srcスラッシュです。Handlerは、app.handlerです。
+---
+しゅようプロパティです。CodeUriは、コードのばしょです。Handlerは、エントリポイントです。Runtimeは、じっこうかんきょうです。Eventsは、トリガーせっていです。Policiesは、IAMポリシーです。
+---
+イベントタイプです。Apiは、API Gateway REST APIです。HttpApiは、API Gateway HTTP APIです。Scheduleは、CloudWatch Eventsです。S3は、S3イベントです。SNSは、SNSつうちです。SQSは、SQSメッセージです。
+---
+API Gatewayのせっていです。Eventsに、GetItemsをていぎします。Typeは、Apiです。Propertiesに、Pathと、Methodをせっていします。Pathは、スラッシュitemsです。Methodは、getです。ふくすうエンドポイントをていぎかのうです。
+---
+かんきょうへんすうのせっていです。Environmentセクションに、Variablesをていぎします。TABLE_NAMEに、!Ref MyTableをせっていします。STAGEに、!Ref Stageをせっていします。CloudFormationのさんしょうがつかえます。
+---
+IAMポリシーのせっていです。Policiesに、SAMポリシーテンプレートをしていします。DynamoDBCrudPolicyで、DynamoDBへのアクセスをきょかします。S3ReadPolicyで、S3のよみとりをきょかします。かんたんにけんげんをふよできます。
+---
+Outputsセクションです。デプロイごのじょうほうをしゅつりょくします。ApiEndpointに、APIのURLをしゅつりょくします。FunctionArnに、かんすうのARNをしゅつりょくします。!Subや、!GetAttがつかえます。
+---
+まとめです。sam initで、プロジェクトをしょきかします。template.yamlで、リソースをていぎします。Eventsで、トリガーをせっていします。Policiesで、けんげんをふよします。つぎのレクチャーで、ローカルテストをします。

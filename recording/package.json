@@ -1,0 +1,12 @@
+{
+  "name": "udemy-recording",
+  "version": "1.0.0",
+  "description": "Udemy動画用の画面録画スクリプト",
+  "scripts": {
+    "record:s3": "npx playwright test record_s3_bucket_creation.ts --headed",
+    "record:pipeline": "npx playwright test record_pipeline_creation.ts --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}

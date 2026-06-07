@@ -1,0 +1,29 @@
+このレクチャーでは、SAMとCodePipelineのとうごうほうほうをせつめいします。
+---
+このレクチャーでまなぶことは、SAMデプロイのながれ、buildspec.ymlのせってい、CloudFormationアクションのせってい、パイプラインのこうちく、です。
+---
+SAMデプロイのながれです。まず、sam buildで、ビルドします。つぎに、sam packageで、パッケージかします。そして、sam deployで、デプロイします。これをCodePipelineでじどうかします。
+---
+パイプラインのぜんたいぞうです。ソースステージで、GitHubからしゅとくします。ビルドステージで、CodeBuildでビルドします。デプロイステージで、CloudFormationでデプロイします。3つのステージでこうせいします。
+---
+buildspec.ymlのきほんです。versionは、0.2です。phasesに、install、build、post_buildをていぎします。installで、sam cliをインストールします。buildで、sam buildをじっこうします。post_buildで、sam packageをじっこうします。
+---
+buildspec.ymlのれいです。installフェーズで、pip install aws-sam-cliをじっこうします。buildフェーズで、sam buildをじっこうします。post_buildフェーズで、sam packageをじっこうします。template-fileに、template.yamlをしていします。output-template-fileに、packaged.yamlをしていします。
+---
+アーティファクトのせっていです。artifactsセクションで、しゅつりょくファイルをしていします。filesに、packaged.yamlをしていします。discard-pathsを、yesにします。これで、デプロイステージにわたせます。
+---
+S3バケットのじゅんびです。SAMパッケージようのS3バケットがひつようです。sam-artifacts-バケットめい、のようにさくせいします。buildspec.ymlで、s3-bucketにしていします。CodeBuildのIAMロールに、S3アクセスけんげんをついかします。
+---
+デプロイステージのせっていです。アクションプロバイダーに、CloudFormationをせんたくします。アクションモードに、CREATE_UPDATE、またはCHANGE_SET_REPLACEをせんたくします。スタックめいをにゅうりょくします。テンプレートに、packaged.yamlをしていします。
+---
+CloudFormationのIAMロールです。CloudFormationじっこうロールがひつようです。Lambda、API Gateway、IAMなどのけんげんをふよします。AdministratorAccessは、さけてください。さいしょうけんげんのげんそくにしたがいます。
+---
+Capabilitiesのせっていです。CAPABILITY_IAMを、ゆうこうにします。CAPABILITY_AUTO_EXPANDも、ゆうこうにします。これがないと、IAMリソースのさくせいにしっぱいします。CloudFormationのせっていがめんで、チェックをいれます。
+---
+パイプラインのさくせいてじゅんです。CodePipelineコンソールをひらきます。パイプラインをさくせいします。ソースに、GitHubをせんたくします。ビルドに、CodeBuildをせんたくします。デプロイに、CloudFormationをせんたくします。
+---
+どうさかくにんです。GitHubにプッシュします。パイプラインがじどうきどうします。ビルドステージで、sam buildとpackageがじっこうされます。デプロイステージで、CloudFormationスタックがさくせいされます。Lambdaコンソールで、かんすうをかくにんします。
+---
+トラブルシューティングです。ビルドしっぱいのばあい、CodeBuildログをかくにんします。デプロイしっぱいのばあい、CloudFormationイベントをかくにんします。けんげんエラーのばあい、IAMロールをかくにんします。
+---
+セクション7のまとめです。SAMで、サーバーレスアプリをかんたんにていぎできます。SAM CLIで、ローカルテストができます。CodePipelineで、じどうデプロイができます。CloudFormationで、インフラをコードかできます。つぎのセクションで、じっせんプロジェクトにとりくみます。

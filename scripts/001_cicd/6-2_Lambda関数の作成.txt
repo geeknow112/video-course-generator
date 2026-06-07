@@ -1,0 +1,23 @@
+このレクチャーでは、Lambdaかんすうをさくせいします。
+---
+このレクチャーでまなぶことは、Lambdaかんすうのきほんこうぞう、ハンドラーのかきかた、ローカルでのテストほうほう、AWSコンソールでのさくせい、です。
+---
+Lambdaかんすうのきほんこうぞうです。Node.jsのばあい、exports.handlerで、async functionをていぎします。ひきすうは、eventと、contextです。eventには、リクエストじょうほうがはいっています。contextには、じっこうかんきょうじょうほうがはいっています。
+---
+シンプルなれいをみましょう。exports.handlerイコール、async functionで、eventをうけとります。const nameイコール、event.nameまたは、Worldです。return、statusCode 200、bodyは、Hello、nameです。これがきほんけいです。
+---
+eventオブジェクトについてせつめいします。API Gatewayからのばあい、bodyに、リクエストボディがはいります。queryStringParametersに、クエリパラメータがはいります。headersに、HTTPヘッダーがはいります。httpMethodに、GET、POSTなどがはいります。
+---
+contextオブジェクトについてせつめいします。functionNameは、かんすうめいです。functionVersionは、バージョンです。memoryLimitInMBは、わりあてメモリです。awsRequestIdは、リクエストIDです。getRemainingTimeInMillisで、のこりじっこうじかんがとれます。
+---
+レスポンスのけいしきです。statusCodeは、HTTPステータスコードです。headersは、レスポンスヘッダーです。bodyは、レスポンスボディです。bodyはもじれつでかえすひつようがあります。JSONのばあい、JSON.stringifyをつかいます。
+---
+ローカルでのテストほうほうです。test.jsファイルをつくります。handlerをrequireします。テストイベントをさくせいします。handlerをよびだして、けっかをひょうじします。node test.jsでじっこうできます。
+---
+AWSコンソールでのさくせいです。Lambdaコンソールをひらきます。かんすうのさくせいをクリックします。いちからさくせいをせんたくします。かんすうめいを、hello-functionにします。ランタイムを、Node.js 20.xにします。さくせいをクリックします。
+---
+コードのへんしゅうです。コードソースセクションで、index.mjsをひらきます。コードをへんしゅうします。Deployボタンをクリックして、デプロイします。これでかんすうがこうしんされます。
+---
+テストのじっこうです。Testボタンをクリックします。テストイベントをせっていします。イベントめいを、testEventにします。JSONで、nameに、Udemyをしていします。テストをじっこうして、けっかをかくにんします。
+---
+まとめです。Lambdaかんすうは、handlerでていぎします。eventでリクエストをうけとります。レスポンスは、statusCodeとbodyをかえします。コンソールで、かんたんにさくせいとテストができます。つぎのレクチャーで、CodePipelineからデプロイします。
