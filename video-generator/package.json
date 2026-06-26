@@ -4,7 +4,11 @@
   "description": "スライド+音声から動画を自動生成",
   "scripts": {
     "generate": "npx ts-node generate-video.ts",
-    "screenshot": "npx ts-node screenshot-slides.ts"
+    "screenshot": "npx ts-node screenshot-slides.ts",
+    "batch": "npx ts-node batch-screenshot.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.7.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
