@@ -13,6 +13,25 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 /**
+ * プログレスバーを表示
+ */
+function showProgress(current: number, total: number, filename: string): void {
+  const barWidth = 30;
+  const percent = Math.round((current / total) * 100);
+  const filled = Math.round((current / total) * barWidth);
+  const empty = barWidth - filled;
+  const bar = '█'.repeat(filled) + '░'.repeat(empty);
+  
+  // 同じ行に上書き
+  process.stdout.write(`\r[${bar}] ${current}/${total} (${percent}%) - ${filename}`);
+  
+  // 最後は改行
+  if (current === total) {
+    process.stdout.write('\n');
+  }
+}
+
+/**
  * 入力ファイルの検証
  */
 function validateInput(htmlPath: string): void {
@@ -94,6 +113,7 @@ async function screenshotSlides(htmlPath: string, outputDir: string) {
   const baseName = path.basename(htmlPath, '.html');
 
   // 各スライドをスクリーンショット
+  console.log(''); // プログレスバー用の行を確保
   for (let i = 0; i < slideCount; i++) {
     // Marpはキーボードで操作
     if (i > 0) {
@@ -101,9 +121,10 @@ async function screenshotSlides(htmlPath: string, outputDir: string) {
       await page.waitForTimeout(300);
     }
 
-    const outputPath = path.join(outputDir, `${baseName}_${String(i + 1).padStart(2, '0')}.png`);
+    const filename = `${baseName}_${String(i + 1).padStart(2, '0')}.png`;
+    const outputPath = path.join(outputDir, filename);
     await page.screenshot({ path: outputPath, fullPage: false });
-    console.log(`  Saved: ${outputPath}`);
+    showProgress(i + 1, slideCount, filename);
   }
 
   await browser.close();
