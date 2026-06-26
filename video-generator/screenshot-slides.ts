@@ -2,15 +2,85 @@
  * スライドHTMLを1枚ずつスクリーンショットして画像化
  * 
  * 使い方:
- *   npx ts-node screenshot-slides.ts <HTMLファイル> <出力先>
+ *   npx ts-node screenshot-slides.ts [options] <HTMLファイル> <出力先>
+ * 
+ * オプション:
+ *   --format <png|jpg|webp>  出力フォーマット (デフォルト: png)
+ *   --quality <1-100>        JPEG/WebP品質 (デフォルト: 90)
+ *   --scale <number>         デバイススケール (デフォルト: 1)
  * 
  * 例:
- *   npx ts-node screenshot-slides.ts "H:\マイドライブ\d.動画作成\slides\4-1_CodeBuildの概念と料金.html" "./output"
+ *   npx ts-node screenshot-slides.ts "./slides/4-1.html" "./output"
+ *   npx ts-node screenshot-slides.ts --format jpg --quality 80 "./slides/4-1.html" "./output"
  */
 
 import { chromium } from '@playwright/test';
 import * as path from 'path';
 import * as fs from 'fs';
+
+interface Options {
+  format: 'png' | 'jpeg' | 'webp';
+  quality: number;
+  scale: number;
+}
+
+/**
+ * コマンドライン引数をパース
+ */
+function parseArgs(args: string[]): { options: Options; htmlPath: string; outputDir: string } {
+  const options: Options = {
+    format: 'png',
+    quality: 90,
+    scale: 1,
+  };
+  
+  const positionalArgs: string[] = [];
+  
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--format' && args[i + 1]) {
+      const fmt = args[i + 1].toLowerCase();
+      if (fmt === 'jpg' || fmt === 'jpeg') {
+        options.format = 'jpeg';
+      } else if (fmt === 'webp') {
+        options.format = 'webp';
+      } else if (fmt === 'png') {
+        options.format = 'png';
+      } else {
+        console.error(`Error: Invalid format: ${fmt}. Use png, jpg, or webp.`);
+        process.exit(1);
+      }
+      i++;
+    } else if (args[i] === '--quality' && args[i + 1]) {
+      const q = parseInt(args[i + 1], 10);
+      if (isNaN(q) || q < 1 || q > 100) {
+        console.error('Error: Quality must be between 1 and 100.');
+        process.exit(1);
+      }
+      options.quality = q;
+      i++;
+    } else if (args[i] === '--scale' && args[i + 1]) {
+      const s = parseFloat(args[i + 1]);
+      if (isNaN(s) || s <= 0) {
+        console.error('Error: Scale must be a positive number.');
+        process.exit(1);
+      }
+      options.scale = s;
+      i++;
+    } else if (!args[i].startsWith('--')) {
+      positionalArgs.push(args[i]);
+    }
+  }
+  
+  if (positionalArgs.length < 2) {
+    return { options, htmlPath: '', outputDir: '' };
+  }
+  
+  return {
+    options,
+    htmlPath: positionalArgs[0],
+    outputDir: positionalArgs[1],
+  };
+}
 
 /**
  * プログレスバーを表示
@@ -75,7 +145,7 @@ function ensureOutputDir(outputDir: string): void {
   }
 }
 
-async function screenshotSlides(htmlPath: string, outputDir: string) {
+async function screenshotSlides(htmlPath: string, outputDir: string, options: Options) {
   // 入力検証
   validateInput(htmlPath);
   
@@ -93,12 +163,14 @@ async function screenshotSlides(htmlPath: string, outputDir: string) {
   const context = await browser.newContext({
     viewport: { width: 1920, height: 1080 },
     locale: 'ja-JP',
+    deviceScaleFactor: options.scale,
   });
   const page = await context.newPage();
 
   // HTMLファイルを開く
   const fileUrl = `file:///${htmlPath.replace(/\\/g, '/')}`;
   console.log(`Opening: ${fileUrl}`);
+  console.log(`Format: ${options.format}, Quality: ${options.quality}, Scale: ${options.scale}x`);
   await page.goto(fileUrl);
   await page.waitForLoadState('networkidle');
 
@@ -111,6 +183,7 @@ async function screenshotSlides(htmlPath: string, outputDir: string) {
   console.log(`Total slides: ${slideCount}`);
 
   const baseName = path.basename(htmlPath, '.html');
+  const ext = options.format === 'jpeg' ? 'jpg' : options.format;
 
   // 各スライドをスクリーンショット
   console.log(''); // プログレスバー用の行を確保
@@ -121,9 +194,21 @@ async function screenshotSlides(htmlPath: string, outputDir: string) {
       await page.waitForTimeout(300);
     }
 
-    const filename = `${baseName}_${String(i + 1).padStart(2, '0')}.png`;
+    const filename = `${baseName}_${String(i + 1).padStart(2, '0')}.${ext}`;
     const outputPath = path.join(outputDir, filename);
-    await page.screenshot({ path: outputPath, fullPage: false });
+    
+    const screenshotOptions: any = {
+      path: outputPath,
+      fullPage: false,
+      type: options.format,
+    };
+    
+    // PNG以外は品質を指定
+    if (options.format !== 'png') {
+      screenshotOptions.quality = options.quality;
+    }
+    
+    await page.screenshot(screenshotOptions);
     showProgress(i + 1, slideCount, filename);
   }
 
@@ -133,19 +218,28 @@ async function screenshotSlides(htmlPath: string, outputDir: string) {
 
 // メイン実行
 const args = process.argv.slice(2);
-if (args.length < 2) {
-  console.log('Usage: npx ts-node screenshot-slides.ts <html-file> <output-dir>');
+const { options, htmlPath, outputDir } = parseArgs(args);
+
+if (!htmlPath || !outputDir) {
+  console.log('Usage: npx ts-node screenshot-slides.ts [options] <html-file> <output-dir>');
   console.log('');
   console.log('Arguments:');
   console.log('  <html-file>   Path to Marp HTML slide file');
   console.log('  <output-dir>  Directory to save screenshots');
   console.log('');
-  console.log('Example:');
+  console.log('Options:');
+  console.log('  --format <png|jpg|webp>  Output format (default: png)');
+  console.log('  --quality <1-100>        JPEG/WebP quality (default: 90)');
+  console.log('  --scale <number>         Device scale factor (default: 1)');
+  console.log('');
+  console.log('Examples:');
   console.log('  npx ts-node screenshot-slides.ts "./slides/4-1.html" "./output"');
+  console.log('  npx ts-node screenshot-slides.ts --format jpg --quality 80 "./slides/4-1.html" "./output"');
+  console.log('  npx ts-node screenshot-slides.ts --scale 2 "./slides/4-1.html" "./output"  # Retina');
   process.exit(1);
 }
 
-screenshotSlides(args[0], args[1]).catch((error) => {
+screenshotSlides(htmlPath, outputDir, options).catch((error) => {
   console.error('Error:', error.message);
   process.exit(1);
 });
