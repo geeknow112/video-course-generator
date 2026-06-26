@@ -1,0 +1,23 @@
+# video-generator 設定ファイル
+# screenshot-slides.ts と batch-screenshot.ts の共通設定
+
+# 出力設定
+output:
+  format: png          # png | jpg | webp
+  quality: 90          # 1-100 (jpg/webpのみ)
+  scale: 1             # デバイススケールファクター
+
+# ビューポート設定
+viewport:
+  width: 1920
+  height: 1080
+
+# ブラウザ設定
+browser:
+  headless: true
+  locale: ja-JP
+
+# バッチ処理設定
+batch:
+  pattern: "*.html"    # ファイルパターン
+  parallel: false      # 並列処理（将来実装）
