@@ -1,11 +1,14 @@
 {
   "name": "video-generator",
-  "version": "1.0.0",
-  "description": "スライド+音声から動画を自動生成",
+  "version": "2.0.0",
+  "description": "台本とスライドからコース動画を自動生成する",
   "scripts": {
-    "generate": "npx ts-node generate-video.ts",
-    "screenshot": "npx ts-node screenshot-slides.ts",
-    "batch": "npx ts-node batch-screenshot.ts"
+    "course": "npx ts-node course.ts",
+    "courses": "npx ts-node course.ts --list",
+    "scan": "npx ts-node scan-course.ts",
+    "prepare": "npx ts-node prepare-lecture.ts",
+    "video": "npx ts-node generate-video-v3.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
     "yaml": "^2.7.0"

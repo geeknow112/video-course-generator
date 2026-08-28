@@ -1,0 +1,156 @@
+# 自動生成（scan-course.ts）。手で編集してよい。
+# title は日本語のコース名に、lessons の並びと採否は必要に応じて直すこと。
+id: 001_cicd
+title: AWS CI/CD パイプライン構築
+speakerId: 2
+silenceDuration: 0.5
+audioLayout: nested
+lessons:
+  - id: 1-1
+    title: コース紹介
+    script: scripts/001_cicd/1-1_コース紹介.md
+    slide: slides/001_cicd/1-1_コース紹介_スライド.md
+  - id: 1-2
+    title: CI-CDとは
+    script: scripts/001_cicd/1-2_CI-CDとは.md
+    slide: slides/001_cicd/1-2_CI-CDとは_スライド.md
+  - id: 1-3
+    title: AWSサービス概要
+    script: scripts/001_cicd/1-3_AWSサービス概要.md
+    slide: slides/001_cicd/1-3_AWSサービス概要.md
+  - id: 1-4
+    title: 環境セットアップ
+    script: scripts/001_cicd/1-4_環境セットアップ.md
+    slide: slides/001_cicd/1-4_環境セットアップ.md
+  - id: 2-1
+    title: S3とは
+    script: scripts/001_cicd/2-1_S3とは.txt
+    slide: slides/001_cicd/2-1_S3とは.md
+  - id: 2-2
+    title: S3バケットの作成
+    script: scripts/001_cicd/2-2_S3バケットの作成.txt
+    slide: slides/001_cicd/2-2_S3バケットの作成.md
+  - id: 2-3
+    title: 静的ウェブサイトホスティング
+    script: scripts/001_cicd/2-3_静的ウェブサイトホスティング.txt
+    slide: slides/001_cicd/2-3_静的ウェブサイトホスティング.md
+  - id: 2-4
+    title: HTMLファイルのアップロード
+    script: scripts/001_cicd/2-4_HTMLファイルのアップロード.txt
+    slide: slides/001_cicd/2-4_HTMLファイルのアップロード.md
+  - id: 2-5
+    title: セクションまとめ
+    script: scripts/001_cicd/2-5_セクションまとめ.txt
+    slide: slides/001_cicd/2-5_セクションまとめ.md
+  - id: 3-1
+    title: CodePipelineの概念と構成要素
+    script: scripts/001_cicd/3-1_CodePipelineの概念と構成要素.txt
+    slide: slides/001_cicd/3-1_CodePipelineの概念と構成要素.md
+  - id: 3-2
+    title: GitHubリポジトリの準備
+    script: scripts/001_cicd/3-2_GitHubリポジトリの準備.txt
+    slide: slides/001_cicd/3-2_GitHubリポジトリの準備.md
+  - id: 3-3
+    title: GitHub接続の設定
+    script: scripts/001_cicd/3-3_GitHub接続の設定.txt
+    slide: slides/001_cicd/3-3_GitHub接続の設定.md
+  - id: 3-4
+    title: 最初のパイプライン作成
+    script: scripts/001_cicd/3-4_最初のパイプライン作成.txt
+    slide: slides/001_cicd/3-4_最初のパイプライン作成.md
+  - id: 3-5
+    title: トラブルシューティング
+    script: scripts/001_cicd/3-5_トラブルシューティング.txt
+    slide: slides/001_cicd/3-5_トラブルシューティング.md
+  - id: 4-1
+    title: CodeBuildの概念と料金
+    script: scripts/001_cicd/4-1_CodeBuildの概念と料金.txt
+    slide: slides/001_cicd/4-1_CodeBuildの概念と料金.md
+  - id: 4-2
+    title: buildspecの基本構造
+    script: scripts/001_cicd/4-2_buildspecの基本構造.txt
+    slide: slides/001_cicd/4-2_buildspecの基本構造.md
+  - id: 4-3
+    title: ビルド環境の設定
+    script: scripts/001_cicd/4-3_ビルド環境の設定.txt
+    slide: slides/001_cicd/4-3_ビルド環境の設定.md
+  - id: 4-4
+    title: テスト自動化の実装
+    script: scripts/001_cicd/4-4_テスト自動化の実装.txt
+    slide: slides/001_cicd/4-4_テスト自動化の実装.md
+  - id: 4-5
+    title: ビルドログの確認とデバッグ
+    script: scripts/001_cicd/4-5_ビルドログの確認とデバッグ.txt
+    slide: slides/001_cicd/4-5_ビルドログの確認とデバッグ.md
+  - id: 5-1
+    title: なぜ複数言語でテストするのか
+    script: scripts/001_cicd/5-1_なぜ複数言語でテストするのか.txt
+    slide: slides/001_cicd/5-1_なぜ複数言語でテストするのか.md
+  - id: 5-2
+    title: Jestテストの実装
+    script: scripts/001_cicd/5-2_Jestテストの実装.txt
+    slide: slides/001_cicd/5-2_Jestテストの実装.md
+  - id: 5-3
+    title: PHPUnitテストの実装
+    script: scripts/001_cicd/5-3_PHPUnitテストの実装.txt
+    slide: slides/001_cicd/5-3_PHPUnitテストの実装.md
+  - id: 5-4
+    title: テスト失敗時のパイプライン停止
+    script: scripts/001_cicd/5-4_テスト失敗時のパイプライン停止.txt
+    slide: slides/001_cicd/5-4_テスト失敗時のパイプライン停止.md
+  - id: 6-1
+    title: Lambdaの概要
+    script: scripts/001_cicd/6-1_Lambdaの概要.txt
+    slide: slides/001_cicd/6-1_Lambdaの概要.md
+  - id: 6-2
+    title: Lambda関数の作成
+    script: scripts/001_cicd/6-2_Lambda関数の作成.txt
+    slide: slides/001_cicd/6-2_Lambda関数の作成.md
+  - id: 6-3
+    title: CodePipelineからLambdaへのデプロイ
+    script: scripts/001_cicd/6-3_CodePipelineからLambdaへのデプロイ.txt
+    slide: slides/001_cicd/6-3_CodePipelineからLambdaへのデプロイ.md
+  - id: 6-4
+    title: 環境変数とシークレット管理
+    script: scripts/001_cicd/6-4_環境変数とシークレット管理.txt
+    slide: slides/001_cicd/6-4_環境変数とシークレット管理.md
+  - id: 7-1
+    title: SAMとは
+    script: scripts/001_cicd/7-1_SAMとは.txt
+    slide: slides/001_cicd/7-1_SAMとは.md
+  - id: 7-2
+    title: SAMテンプレートの作成
+    script: scripts/001_cicd/7-2_SAMテンプレートの作成.txt
+    slide: slides/001_cicd/7-2_SAMテンプレートの作成.md
+  - id: 7-3
+    title: SAM CLIでのローカルテスト
+    script: scripts/001_cicd/7-3_SAM CLIでのローカルテスト.txt
+    slide: slides/001_cicd/7-3_SAM CLIでのローカルテスト.md
+  - id: 7-4
+    title: SAMとCodePipelineの統合
+    script: scripts/001_cicd/7-4_SAMとCodePipelineの統合.txt
+    slide: slides/001_cicd/7-4_SAMとCodePipelineの統合.md
+  - id: 8-1
+    title: プロジェクト概要
+    script: scripts/001_cicd/8-1_プロジェクト概要.txt
+    slide: slides/001_cicd/8-1_プロジェクト概要.md
+  - id: 8-2
+    title: インフラ構成の設計
+    script: scripts/001_cicd/8-2_インフラ構成の設計.txt
+    slide: slides/001_cicd/8-2_インフラ構成の設計.md
+  - id: 8-3
+    title: SAMテンプレートの実装
+    script: scripts/001_cicd/8-3_SAMテンプレートの実装.txt
+    slide: slides/001_cicd/8-3_SAMテンプレートの実装.md
+  - id: 8-4
+    title: CICDパイプラインの構築
+    script: scripts/001_cicd/8-4_CICDパイプラインの構築.txt
+    slide: slides/001_cicd/8-4_CICDパイプラインの構築.md
+  - id: 8-5
+    title: 動作確認とテスト
+    script: scripts/001_cicd/8-5_動作確認とテスト.txt
+    slide: slides/001_cicd/8-5_動作確認とテスト.md
+  - id: 8-6
+    title: コースまとめと次のステップ
+    script: scripts/001_cicd/8-6_コースまとめと次のステップ.txt
+    slide: slides/001_cicd/8-6_コースまとめと次のステップ.md
