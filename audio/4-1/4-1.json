@@ -1,0 +1,49 @@
+{
+  "lecture_id": "4-1",
+  "total_pages": 7,
+  "total_duration": 149.42933333333332,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-1\\4-1_page01.wav",
+      "duration": 8.010666666666667,
+      "text": "このレクチャーでは、Hooksのきほんをまなびます。\nHooksは、とくていのタイミングで、じどうしょりをさしこむきのうです。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-1\\4-1_page02.wav",
+      "duration": 18.688,
+      "text": "Hooksとは、イベントくどうのじどうしょりです。\nファイルがほぞんされたらlintをじっこう。コミットまえにテストをじっこう。といったしょりをじどうかできます。\nプロジェクトのルートに、.kiro、スラッシュ、hooks、というフォルダをさくせいし、そのなかにJSONファイルをおきます。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-1\\4-1_page03.wav",
+      "duration": 35.818666666666665,
+      "text": "Hooksにはふくすうのしゅるいがあります。\nファイルイベントとして、fileEdited、ファイルがへんしゅうされたとき。fileCreated、ファイルがさくせいされたとき。fileDeleted、ファイルがさくじょされたとき。\nツールイベントとして、preToolUse、ツールじっこうのまえ。postToolUse、ツールじっこうのあと。\nそのたとして、promptSubmit、メッセージそうしんじ。agentStop、さぎょうかんりょうじ。userTriggered、しゅどうトリガー。\nこれらのイベントにたいして、しょりをひもづけます。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-1\\4-1_page04.wav",
+      "duration": 26.4,
+      "text": "Hookのきほんてきなかきかたをせつめいします。\nJSONけいしきでかきます。\nname、は、Hookのなまえ。\nversion、は、バージョン。\nwhen、は、トリガーじょうけん。\nthen、は、じっこうするしょり。\nwhen、ドット、type、でイベントのしゅるいをしてい。then、ドット、type、でしょりのしゅるいをしていします。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-1\\4-1_page05.wav",
+      "duration": 29.034666666666666,
+      "text": "then、ドット、type、には2しゅるいあります。\nrunCommand、は、シェルコマンドをじっこうします。npm run lint:fix、などをしていできます。\naskAgent、は、Kiroにしじをあたえます。テストがすべてパスしていることをかくにんしてください、などのプロンプトをしていできます。\nつかいわけとして、きまったコマンドをじっこうするばあいは、runCommand。はんだんがひつようなしょりのばあいは、askAgent。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-1\\4-1_page06.wav",
+      "duration": 20.064,
+      "text": "さくせいしたHookは、.kiro、スラッシュ、hooks、スラッシュ、lint-on-save.json、のようにほぞんします。\nファイルめいはじゆうですが、しょりないようがわかるなまえにしましょう。\nふくすうのHookをさくせいできます。それぞれべつファイルとしてほぞんします。"
+    },
+    {
+      "page": 7,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-1\\4-1_page07.wav",
+      "duration": 11.413333333333334,
+      "text": "Hooksのきほんをまなびました。\nつぎのレクチャーでは、じっさいにつかえるHookテンプレートをしょうかいします。\nSteeringとくみあわせて、かんぜんオートをじつげんしましょう。"
+    }
+  ]
+}

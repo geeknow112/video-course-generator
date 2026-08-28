@@ -1,0 +1,49 @@
+{
+  "lecture_id": "5-2",
+  "total_pages": 7,
+  "total_duration": 161.376,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-2\\5-2_page01.wav",
+      "duration": 7.84,
+      "text": "このレクチャーでは、かんぜんオートがもっともいりょくをはっきする、リポジトリちょうさ、のかつようほうほうをしょうかいします。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-2\\5-2_page02.wav",
+      "duration": 26.197333333333333,
+      "text": "かんぜんオートがちょうさタスクとあいしょうがいいりゆうをせつめいします。\nファイルたんさくにかくにんはふよう。grepやファイルけんさくで、みますか、ときかれてもいみがない。\nしこうのちゅうだんをふせげる。このファイルもみますか、ときかれるとしゅうちゅうがきれる。\nけっかだけほしい。とちゅうけいかより、さいしゅうレポートがほしい。\nちょうさタスクは、とまらずすすんで、けっかをまとめて、がりそうてきです。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-2\\5-2_page03.wav",
+      "duration": 38.12266666666667,
+      "text": "セクション3でしょうかいしたちょうさようSteeringをつかいます。\nチャットらんにいかをにゅうりょくします。\nハッシュ、investigate、にんしょうまわりのじっそうをちょうさして。\nKiroがうごきはじめます。\nディレクトリこうぞうをかくにん。エントリーポイントをとくてい。いぞんかんけいをさいきてきについせき。せっていファイルをかくにん。テストコードからしようをよみとり。レポートをさくせい。memo、スラッシュ、investigation、ハイフン、ひづけ、ハイフン、auth.md、にほぞん。\nわたしのにゅうりょくは1かいだけ。あとは100ファイルいじょうをじどうでちょうさします。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-2\\5-2_page04.wav",
+      "duration": 21.450666666666667,
+      "text": "ちょうさがとくにゆうこうなケースをしょうかいします。\nあたらしくさんかしたプロジェクトのりかい。このプロジェクトのぜんたいぞうをちょうさして。\nレガシーコードのはあく。このきのうのじっそうをちょうさして。\nえいきょうはんいのちょうさ。このクラスをつかっているかしょをちょうさして。\nセキュリティレビューのじぜんちょうさ。にんしょう、にんかのじっそうをちょうさして。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-2\\5-2_page05.wav",
+      "duration": 19.690666666666665,
+      "text": "ちょうさがおわったら、そのままつぎのアクションにうつれます。\nハッシュ、investigate、このAPIのえいきょうはんいをちょうさして。\nちょうさかんりょう。\nハッシュ、full-auto、ちょうさけっかをもとにリファクタリングをすすめて。\nちょうさ、から、じっそう、のながれがしぜんにつながります。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-2\\5-2_page06.wav",
+      "duration": 37.696,
+      "text": "だいきぼちょうさでは、しんちょくをほうこくするHookがあるとあんしんです。\ninvestigation-progress.json、としてほぞんします。\nwhen、ドット、type、は、postToolUse。\nwhen、ドット、toolTypes、は、read。\nthen、ドット、type、は、askAgent。\nthen、ドット、prompt、は、10ファイルいじょうよみこんだばあい、げんざいのしんちょくをかんけつにほうこくしてください。\nこのHookをついかすると、ちょうさちゅうにしんちょくほうこくがはいります。"
+    },
+    {
+      "page": 7,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-2\\5-2_page07.wav",
+      "duration": 10.378666666666666,
+      "text": "リポジトリちょうさのかつようほうほうをまなびました。\nつぎのセクションでは、コースのまとめをおこないます。\nかんぜんオートで、かいはつこうりつをさいだいかしましょう。"
+    }
+  ]
+}

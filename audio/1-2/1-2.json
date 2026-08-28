@@ -1,0 +1,43 @@
+{
+  "lecture_id": "1-2",
+  "total_pages": 6,
+  "total_duration": 147.38133333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\1-2\\1-2_page01.wav",
+      "duration": 10.357333333333333,
+      "text": "このレクチャーでは、Kiroのきほんをかんたんにおさらいします。\nすでにKiroをつかっているかたはふくしゅうとして、これからつかうかたはぜんたいぞうのはあくとしてきいてください。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\1-2\\1-2_page02.wav",
+      "duration": 26.922666666666668,
+      "text": "Kiroは、AWSがかいはつしたAIコーディングツールです。\nVS Codeのかくちょうきのうとしてどうさし、コードのせいせい、へんしゅう、じっこう、テスト、コミットまで、すべてをAIがだいこうしてくれます。\nGitHub Copilotとにていますが、Kiroはより、じりつてき、にどうさするてんがとくちょうです。\nたんなるコードほかんではなく、タスクをまるごとおまかせできる、のがKiroのつよみです。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\1-2\\1-2_page03.wav",
+      "duration": 29.152,
+      "text": "Kiroには、2つのどうさモードがあります。\nだいいちは、Supervisedモード、かんとくモードです。ファイルをへんしゅうするたびに、しょうにんをもとめてきます。あんぜんですが、まいかいクリックがひつようです。\nだいには、Autopilotモード、じどうモードです。しょうにんなしでじどうてきにさぎょうをすすめます。こうそくですが、まちがったへんこうもてきようされます。\nこのコースでは、Autopilotモードをあんぜんにつかいこなすほうほうをまなびます。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\1-2\\1-2_page04.wav",
+      "duration": 37.472,
+      "text": "Kiroのどうさをカスタマイズする3つのきのうがあります。\nだいいちは、Autopilotです。モードのきりかえきのうです。ONにするとしょうにんスキップでじどうじっこうされます。\nだいには、Steeringです。Kiroへのしじしょをかくきのうです。しつもんするな、このてじゅんですすめろ、など、はんだんきじゅんをあたえることができます。\nだいさんは、Hooksです。とくていのタイミングでじどうしょりをさしこむきのうです。ファイルほぞんじにlintをじっこう、コミットまえにテストをじっこう、などをじどうかできます。\nこれら3つをくみあわせることで、かんぜんオート、がじつげんできます。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\1-2\\1-2_page05.wav",
+      "duration": 31.754666666666665,
+      "text": "かんぜんオートとは、こういうじょうたいです。\nわたし：さぎょうをすすめて。\nKiro：memoをよむ。\nKiro：ブランチさくせい。\nKiro：ファイルへんしゅう。\nKiro：テストじっこう。\nKiro：lintじっこう。\nKiro：コミット。\nKiro：push。\nKiro：PRさくせい。\nKiro：かんりょうしました。PR、URL。\nとちゅうでしょうにんをもとめない。しつもんもしない。けっかだけかえす。\nこれをつぎのレクチャーからじつげんしていきます。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\1-2\\1-2_page06.wav",
+      "duration": 11.722666666666667,
+      "text": "Kiroのきほんをりかいしていただけたとおもいます。\nつぎのレクチャーでは、Autopilotモードをゆうこうかするほうほうをまなびます。\nここからがほんばんです。いっしょにせっていしていきましょう。"
+    }
+  ]
+}

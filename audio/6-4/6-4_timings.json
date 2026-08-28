@@ -1,0 +1,12 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 60.37,
+  "slides": [
+    {"slide": 1, "start": 0, "duration": 4.81, "text": "さいごに..."},
+    {"slide": 2, "start": 4.81, "duration": 14.58, "text": "まずは..."},
+    {"slide": 3, "start": 19.39, "duration": 10.07, "text": "つぎに..."},
+    {"slide": 4, "start": 29.46, "duration": 13.01, "text": "なれてきたら..."},
+    {"slide": 5, "start": 42.47, "duration": 10.56, "text": "Kiroは..."},
+    {"slide": 6, "start": 53.03, "duration": 7.34, "text": "それでは..."}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lecture_id": "2-1",
+  "total_pages": 6,
+  "total_duration": 116.19200000000001,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\2-1\\2-1_page01.wav",
+      "duration": 10.037333333333333,
+      "text": "このレクチャーでは、Autopilotモードをゆうこうかします。\nこれがかんぜんオートのだいぜんていとなるせっていです。\nじっさいにがめんをみながらすすめていきましょう。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\2-1\\2-1_page02.wav",
+      "duration": 23.754666666666665,
+      "text": "VS Codeをひらいて、Kiroのチャットらんをひょうじします。\nチャットらんのじょうぶに、トグルスイッチがあります。\nAutopilot、または、Supervised、とひょうじされているぶぶんです。\nこれをクリックすると、モードがきりかわります。\nAutopilot、ON、のじょうたいにしてください。\nこれだけで、ファイルへんしゅうのたびにしょうにんをもとめなくなります。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\2-1\\2-1_page03.wav",
+      "duration": 24.245333333333335,
+      "text": "AutopilotがONのじょうたいでは、Kiroはじどうてきにファイルをへんしゅうします。\nへんしゅうがてきようされると、ファイルがほぞんされます。\nView all changes、ボタンで、すべてのへんこうをかくにんできます。\nRevert、ボタンで、へんこうをもとにもどすこともできます。\nつまり、じどうですすめるけど、あとからかくにん、とりけしができる、というしくみです。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\2-1\\2-1_page04.wav",
+      "duration": 28.746666666666666,
+      "text": "Autopilotにはちゅういてんがあります。\nまちがったへんこうもじどうてきようされます。\nKiroはかんぺきではありません。ときどき、いとしないへんこうをすることがあります。\nそのため、Gitでかんりされたプロジェクトでつかうことを、つよくおすすめします。\nGitがあれば、いつでももとにもどせます。\nGitがないと、へんこうをついせきできません。\nまとめると、Autopilot、プラス、Git、イコール、あんぜん、です。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\2-1\\2-1_page05.wav",
+      "duration": 19.125333333333334,
+      "text": "AutopilotをONにしても、まだ、かんぜんオート、にはなりません。\nなぜなら、Kiroは、なにをすればいいか、がわからないからです。\nけっきょく、これでいいですか、としつもんしてきます。\nこのしつもんをとめるには、つぎのレクチャーでまなぶ、Steering、がひつようです。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\2-1\\2-1_page06.wav",
+      "duration": 10.282666666666668,
+      "text": "Autopilotをゆうこうかできました。\nつぎのレクチャーでは、Steeringで、しつもんさせない、せっていをおこないます。\nここからがほんとうのじどうかです。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "lecture_id": "4-2",
+  "total_pages": 7,
+  "total_duration": 209.632,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-2\\4-2_page01.wav",
+      "duration": 7.914666666666666,
+      "text": "このレクチャーでは、すぐにつかえるHookテンプレートをしょうかいします。\nコピペしてじぶんのプロジェクトにてきようしてください。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-2\\4-2_page02.wav",
+      "duration": 44.202666666666666,
+      "text": "さいしょは、ファイルほぞんじにlintじっこう、です。\nlint-on-save.json、としてほぞんします。\nwhen、ドット、type、は、fileEdited。\nwhen、ドット、patterns、は、アスタリスク、ドット、ts、アスタリスク、ドット、tsx、アスタリスク、ドット、js、アスタリスク、ドット、jsx。\nthen、ドット、type、は、runCommand。\nthen、ドット、command、は、npm run lint:fix。\nTypeScriptやJavaScriptファイルがほぞんされると、じどうでlintがじっこうされます。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-2\\4-2_page03.wav",
+      "duration": 38.026666666666664,
+      "text": "2つめは、PRさくせいまえにテストかくにん、です。\ntest-before-pr.json、としてほぞんします。\nwhen、ドット、type、は、preToolUse。\nwhen、ドット、toolTypes、は、shell。\nthen、ドット、type、は、askAgent。\nthen、ドット、prompt、は、git push、または、PRさくせいのまえに、テストがパスしていることをかくにんしてください。\nシェルコマンドじっこうまえに、テストのかくにんをうながします。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-2\\4-2_page04.wav",
+      "duration": 37.034666666666666,
+      "text": "3つめは、さぎょうかんりょうじのかくにん、です。\nverify-on-complete.json、としてほぞんします。\nwhen、ドット、type、は、agentStop。\nthen、ドット、type、は、askAgent。\nthen、ドット、prompt、は、さぎょうがかんりょうしたばあい、いかをほうこくしてください。1、へんこうファイルいちらん。2、テストけっか。3、つぎのアクション。\nさぎょうがおわったときに、じどうでレポートをしゅつりょくします。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-2\\4-2_page05.wav",
+      "duration": 39.178666666666665,
+      "text": "4つめは、あんぜんそうち、です。\nsafety-check.json、としてほぞんします。\nwhen、ドット、type、は、preToolUse。\nwhen、ドット、toolTypes、は、shell。\nthen、ドット、type、は、askAgent。\nthen、ドット、prompt、は、いかのコマンドはきんしです。rm -rf、git push -f、DROP TABLE。これらをじっこうしようとしているばあいはちゅうししてください。\nきけんなコマンドのじっこうをふせぎます。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-2\\4-2_page06.wav",
+      "duration": 30.197333333333333,
+      "text": "ふくすうのHookをくみあわせるコツです。\nすいしょうのくみあわせとして、lint-on-save.json、ひんしついじ。test-before-pr.json、リリースまえかくにん。verify-on-complete.json、けっかほうこく。safety-check.json、ぼうそうぼうし。\nこれらをぜんぶいれておくと、あんぜんかつじどうてきにさぎょうがすすみます。"
+    },
+    {
+      "page": 7,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\4-2\\4-2_page07.wav",
+      "duration": 13.077333333333334,
+      "text": "Hooksテンプレートをしょうかいしました。\nつぎのセクションでは、かんぜんオートのじっせんかつようをまなびます。\nSteering、プラス、Hooksのくみあわせで、ほんとうのじどうかをじつげんしましょう。"
+    }
+  ]
+}

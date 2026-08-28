@@ -1,0 +1,43 @@
+{
+  "lecture_id": "5-1",
+  "total_pages": 6,
+  "total_duration": 138.66666666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-1\\5-1_page01.wav",
+      "duration": 10.282666666666668,
+      "text": "このレクチャーでは、かんぜんオートのじっせんをみていきます。\nここまでまなんだせっていをくみあわせて、じっさいに、ひとことでさぎょうかんりょう、をたいけんします。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-1\\5-1_page02.wav",
+      "duration": 29.024,
+      "text": "まず、ひつようなせっていをかくにんしましょう。\nAutopilot、ON。チャットらんのじょうぶでONになっていることをかくにん。\nSteering。.kiro、スラッシュ、steering、スラッシュ、full-auto-workflow.md、がそんざいすること。\nHooks。.kiro、スラッシュ、hooks、フォルダにかくHookがそんざいすること。\nこれらがそろっていれば、かんぜんオートのじゅんびかんりょうです。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-1\\5-1_page03.wav",
+      "duration": 28.586666666666666,
+      "text": "それでは、じっさいにうごかしてみましょう。\nチャットらんにいかをにゅうりょくします。\nハッシュ、full-auto、さぎょうをすすめて。\nKiroがうごきはじめます。\nmemoファイルをかくにん。とうじつのタスクをはあく。ブランチさくせい。ファイルへんしゅう。lintじっこう、Hookでじどう。テストじっこう。コミット。push。PRさくせい。けっかほうこく。\nすべてじどうですすみます。とちゅうでしつもんされません。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-1\\5-1_page04.wav",
+      "duration": 30.858666666666668,
+      "text": "かんりょうごのしゅつりょくれいをみてみましょう。\nKiro：さぎょうかんりょうしました。\nへんこうファイルとして、src、スラッシュ、auth、スラッシュ、login.ts。src、スラッシュ、auth、スラッシュ、types.ts。\nテストけっかとして、Tests、23、passed、0、failed。\nつぎのアクションとして、PR、URL。\nすべてのじょうほうがまとまったかたちでほうこくされます。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-1\\5-1_page05.wav",
+      "duration": 29.130666666666666,
+      "text": "かんぜんオートでよくあるもんだいとたいしょほうです。\nそれでもしつもんしてくる、ばあいは、Steeringのひょうげんがよわいかのうせいがあります。できれば、を、きんし、にかえてみてください。\nとちゅうでとまる、ばあいは、エラーしょりのルールがふそくしています。そうていされるエラーパターンをついきしてください。\nぼうそうしてこまる、ばあいは、safety-check Hookをついかしてください。きけんなコマンドをブロックできます。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\5-1\\5-1_page06.wav",
+      "duration": 10.784,
+      "text": "かんぜんオートのじっせんをみてきました。\nつぎのレクチャーでは、リポジトリちょうさのかつようほうほうをまなびます。\nかんぜんオートがもっともいりょくをはっきするユースケースです。"
+    }
+  ]
+}

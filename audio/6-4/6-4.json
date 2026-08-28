@@ -1,0 +1,43 @@
+{
+  "lecture_id": "6-4",
+  "total_pages": 6,
+  "total_duration": 60.373333333333335,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-4\\6-4_page01.wav",
+      "duration": 4.810666666666667,
+      "text": "さいごに、このコースをおえたあとの、つぎのステップをごしょうかいします。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-4\\6-4_page02.wav",
+      "duration": 14.581333333333333,
+      "text": "まずは、じぶんのプロジェクトで、Steeringファイルをつくってみてください。\nさいしょは、かんたんなルールからはじめるのがおすすめです。\nたとえば、コーディングきやく、テストのルール、コミットメッセージのけいしきなどです。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-4\\6-4_page03.wav",
+      "duration": 10.069333333333333,
+      "text": "つぎに、Hooksをひとつせっていしてみましょう。\nファイルをほぞんしたら、じどうでLintをじっこうする。\nこれだけでも、さぎょうこうりつがおおきくかわります。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-4\\6-4_page04.wav",
+      "duration": 13.013333333333334,
+      "text": "なれてきたら、Autopilotをつかって、きのうをまるごとじどうでつくらせてみてください。\nさいしょはちいさなきのうからためすのがこつです。\nうまくいったら、すこしずつおおきなタスクにちょうせんしてみましょう。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-4\\6-4_page05.wav",
+      "duration": 10.56,
+      "text": "Kiroは、まだプレビューばんです。\nあたらしいきのうがつぎつぎとついかされています。\nこうしきドキュメントや、ディスコードをちぇっくして、さいしんじょうほうをおっていきましょう。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-4\\6-4_page06.wav",
+      "duration": 7.338666666666667,
+      "text": "それでは、Kiroをつかった、かいてきなかいはつライフをおたのしみください。\nごしちょう、ありがとうございました。"
+    }
+  ]
+}

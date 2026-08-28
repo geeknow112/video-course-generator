@@ -116,8 +116,10 @@ function mergeVideoAudio(videoPath: string, audioPath: string, outputPath: strin
 
   console.log('Merging video and audio...');
   
+  const FFMPEG_PATH = 'C:\\Users\\youre\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build\\bin\\ffmpeg.exe';
+  
   execSync(
-    `ffmpeg -y -i "${videoPath}" -i "${audioPath}" -c:v libx264 -c:a aac -b:a 192k -shortest "${outputPath}"`,
+    `"${FFMPEG_PATH}" -y -i "${videoPath}" -i "${audioPath}" -c:v libx264 -c:a aac -b:a 192k -shortest "${outputPath}"`,
     { stdio: 'inherit' }
   );
   
