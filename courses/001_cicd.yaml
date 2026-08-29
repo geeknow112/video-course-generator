@@ -6,6 +6,10 @@ speakerId: 2
 silenceDuration: 0.5
 audioLayout: nested
 lessons:
+  - id: promo
+    title: プロモーション
+    script: scripts/001_cicd/promo_プロモーション.txt
+    slide: slides/001_cicd/promo_プロモーション.md
   - id: 1-1
     title: コース紹介
     script: scripts/001_cicd/1-1_コース紹介.md

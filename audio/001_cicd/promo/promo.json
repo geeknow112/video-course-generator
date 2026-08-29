@@ -1,0 +1,55 @@
+{
+  "lecture_id": "promo",
+  "total_pages": 8,
+  "total_duration": 108.928,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page01.wav",
+      "duration": 16.938666666666666,
+      "text": "実践！AWS CI/CDパイプライン構築マスター講座へようこそ。\nコードをGitHubにプッシュすると、テストとデプロイが自動で走る。\nそんな開発環境を、AWSのサービスを使って自分の手で構築していくコースです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page02.wav",
+      "duration": 15.466666666666667,
+      "text": "コースは全8セクション、39本のレクチャーで構成されていて、\n現在、2時間50分ぶんの講義動画が公開されています。\nS3での基本から、実践的なプロジェクトまで、順を追って学べる内容です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page03.wav",
+      "duration": 16.16,
+      "text": "まずはS3で静的サイトを公開し、デプロイ先を用意します。\nそこにCodePipelineを組み合わせて、GitHubからの自動デプロイパイプラインを構築します。\nCodeBuildでビルドとテストを自動化し、buildspecの書き方も身につけます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page04.wav",
+      "duration": 15.338666666666667,
+      "text": "テストはJestとPHPUnit、複数の言語で実装し、\nテストが失敗したときにデプロイを止める仕組みも作ります。\nさらにLambda関数のCI/CDデプロイ、SAMを使ったサーバーレス開発にも進みます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page05.wav",
+      "duration": 16.736,
+      "text": "最終セクションでは、これまで学んだ内容をまとめた実践プロジェクトに取り組みます。\nインフラの設計からSAMテンプレートの実装、パイプラインの構築、\nCloudWatchのアラームをSlackに通知する仕組みまで、実際に手を動かして完成させます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page06.wav",
+      "duration": 10.218666666666667,
+      "text": "このコースは、AWSの基本操作ができる方、\n手動デプロイから自動化に移行したい方、\nDevOpsに興味があるエンジニアの方に向いています。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page07.wav",
+      "duration": 10.901333333333334,
+      "text": "進め方はハンズオン形式です。\n画面を見ながら一緒に手を動かして進めます。\nソースコードはGitHubで公開しているので、詰まったときの参考にしてください。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\promo\\promo_page08.wav",
+      "duration": 7.168,
+      "text": "それでは、このコースで、AWSを使った自動デプロイの仕組みを、一緒に身につけていきましょう。"
+    }
+  ]
+}
