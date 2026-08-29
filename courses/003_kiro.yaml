@@ -6,6 +6,10 @@ speakerId: 2
 silenceDuration: 0.5
 audioLayout: legacy
 lessons:
+  - id: promo
+    title: プロモーション
+    script: scripts/003_kiro/promo_プロモーション.txt
+    slide: slides/003_kiro/promo_プロモーション.md
   - id: 1-1
     title: コース紹介
     script: scripts/003_kiro/1-1_コース紹介.txt
