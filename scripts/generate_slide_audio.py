@@ -19,6 +19,19 @@ import requests
 VOICEVOX_HOST = os.environ.get("VOICEVOX_HOST", "http://localhost:50021")
 SPEAKER_ID = 2  # 四国めたん ノーマル
 
+# 音声合成パラメータの上書き値（--speed 等が指定された場合のみ設定される）。
+# 未指定（None）のキーは audio_query が返した既定値のまま synthesis に渡す。
+# ここを追加した目的は品質検証（feature/voice-quality）用で、CLI既定値は変えていない。
+QUERY_OVERRIDES = {
+    "speedScale": None,
+    "pitchScale": None,
+    "intonationScale": None,
+    "volumeScale": None,
+    "pauseLengthScale": None,
+    "prePhonemeLength": None,
+    "postPhonemeLength": None,
+}
+
 
 def text_to_speech(text: str, output_path: Path) -> float:
     """テキストを音声に変換してWAVファイルを保存"""
@@ -29,7 +42,12 @@ def text_to_speech(text: str, output_path: Path) -> float:
     )
     query_response.raise_for_status()
     query = query_response.json()
-    
+
+    # 明示的に指定されたパラメータだけ上書きする（未指定はaudio_queryの既定値のまま）
+    for key, value in QUERY_OVERRIDES.items():
+        if value is not None:
+            query[key] = value
+
     # 音声合成
     synthesis_response = requests.post(
         f"{VOICEVOX_HOST}/synthesis",
@@ -160,11 +178,27 @@ def main():
                         help=f"VOICEVOXの話者ID（既定: {SPEAKER_ID} 四国めたん ノーマル）")
     parser.add_argument("--host", default=VOICEVOX_HOST,
                         help=f"VOICEVOXのホスト（既定: {VOICEVOX_HOST}）")
+    # 以下は品質検証用のパラメータ上書き。未指定ならaudio_queryの既定値のまま（既存挙動を変えない）。
+    parser.add_argument("--speed", type=float, default=None, help="speedScaleを上書き（既定値は変更しない）")
+    parser.add_argument("--pitch", type=float, default=None, help="pitchScaleを上書き（既定値は変更しない）")
+    parser.add_argument("--intonation", type=float, default=None, help="intonationScaleを上書き（既定値は変更しない）")
+    parser.add_argument("--volume", type=float, default=None, help="volumeScaleを上書き（既定値は変更しない）")
+    parser.add_argument("--pause-scale", type=float, default=None, help="pauseLengthScaleを上書き（既定値は変更しない）")
+    parser.add_argument("--pre-phoneme-length", type=float, default=None, help="prePhonemeLengthを上書き（既定値は変更しない）")
+    parser.add_argument("--post-phoneme-length", type=float, default=None, help="postPhonemeLengthを上書き（既定値は変更しない）")
 
     args = parser.parse_args()
 
     SPEAKER_ID = args.speaker
     VOICEVOX_HOST = args.host
+
+    QUERY_OVERRIDES["speedScale"] = args.speed
+    QUERY_OVERRIDES["pitchScale"] = args.pitch
+    QUERY_OVERRIDES["intonationScale"] = args.intonation
+    QUERY_OVERRIDES["volumeScale"] = args.volume
+    QUERY_OVERRIDES["pauseLengthScale"] = args.pause_scale
+    QUERY_OVERRIDES["prePhonemeLength"] = args.pre_phoneme_length
+    QUERY_OVERRIDES["postPhonemeLength"] = args.post_phoneme_length
 
     script_path = Path(args.script)
     output_dir = Path(args.output_dir)
