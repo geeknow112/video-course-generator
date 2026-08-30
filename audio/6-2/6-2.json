@@ -1,0 +1,43 @@
+{
+  "lecture_id": "6-2",
+  "total_pages": 6,
+  "total_duration": 124.544,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-2\\6-2_page01.wav",
+      "duration": 10.154666666666667,
+      "text": "ボーナスレクチャーとして、Kiroをさらにかつようするためのヒントをおつたえします。\nこのレクチャーはひっすではありませんが、しっておくとべんりなじょうほうをまとめました。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-2\\6-2_page02.wav",
+      "duration": 26.581333333333333,
+      "text": "KiroはMCPサーバーとれんけいできます。\nMCPとは、Model Context Protocolのりゃくです。\nこれをつかうと、がいぶツールとKiroをせつぞくできます。\nたとえば、データベースへのちょくせつクエリ。APIドキュメントのじどうさんしょう。しゃないナレッジベースのけんさく。\nなどが、Kiroからちょくせつじっこうできるようになります。\nせっていは、.kiroフォルダないのmcp.jsonでおこないます。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-2\\6-2_page03.wav",
+      "duration": 27.24266666666667,
+      "text": "Kiroには、Specというきのうがあります。\nこれは、ようけんていぎからせっけい、じっそうまでを、ドキュメントくどうですすめるきのうです。\nおおきなきのうをつくるときにべんりです。\nながれは、ようけんをかく。Kiroがせっけいをていあん。せっけいをレビュー。Kiroがタスクにぶんかい。タスクをひとつずつじどうじっこう。\nというかたちですすみます。\nAutopilotとくみあわせると、だいきぼなきのうもじどうでじっそうできます。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-2\\6-2_page04.wav",
+      "duration": 23.658666666666665,
+      "text": "Kiroでは、カスタムエージェントをていぎできます。\nとくていのさぎょうにとっかしたエージェントをつくることで、よりせいどのたかいじどうかがかのうになります。\nたとえば、コードレビューせんようエージェント。テストさくせいせんようエージェント。ドキュメントこうしんせんようエージェント。\nなどをていぎできます。\nエージェントごとに、さんしょうするファイルやつかえるツールをせいげんできます。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-2\\6-2_page05.wav",
+      "duration": 23.445333333333334,
+      "text": "ふくすうのプロジェクトでKiroをつかうばあいのコツです。\nSteeringファイルは、グローバルせっていとプロジェクトせっていをわけましょう。\nグローバルせっていは、ホームディレクトリの.kiroフォルダにおきます。\nプロジェクトこゆうのせっていは、かくリポジトリの.kiroフォルダにおきます。\nこれで、きょうつうルールはいちげんかんり、プロジェクトこゆうのルールはこべつかんりできます。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-2\\6-2_page06.wav",
+      "duration": 13.461333333333334,
+      "text": "いじょうが、Kiroをさらにかつようするためのヒントでした。\nMCPやSpecは、こうしきドキュメントでしょうさいをかくにんできます。\nぜひためしてみてください。\nあらためて、コースのじゅこうありがとうございました。"
+    }
+  ]
+}

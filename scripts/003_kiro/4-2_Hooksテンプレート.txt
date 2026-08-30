@@ -1,0 +1,41 @@
+このレクチャーでは、すぐにつかえるHookテンプレートをしょうかいします。
+コピペしてじぶんのプロジェクトにてきようしてください。
+---
+さいしょは、ファイルほぞんじにlintじっこう、です。
+lint-on-save.json、としてほぞんします。
+when、ドット、type、は、fileEdited。
+when、ドット、patterns、は、アスタリスク、ドット、ts、アスタリスク、ドット、tsx、アスタリスク、ドット、js、アスタリスク、ドット、jsx。
+then、ドット、type、は、runCommand。
+then、ドット、command、は、npm run lint:fix。
+TypeScriptやJavaScriptファイルがほぞんされると、じどうでlintがじっこうされます。
+---
+2つめは、PRさくせいまえにテストかくにん、です。
+test-before-pr.json、としてほぞんします。
+when、ドット、type、は、preToolUse。
+when、ドット、toolTypes、は、shell。
+then、ドット、type、は、askAgent。
+then、ドット、prompt、は、git push、または、PRさくせいのまえに、テストがパスしていることをかくにんしてください。
+シェルコマンドじっこうまえに、テストのかくにんをうながします。
+---
+3つめは、さぎょうかんりょうじのかくにん、です。
+verify-on-complete.json、としてほぞんします。
+when、ドット、type、は、agentStop。
+then、ドット、type、は、askAgent。
+then、ドット、prompt、は、さぎょうがかんりょうしたばあい、いかをほうこくしてください。1、へんこうファイルいちらん。2、テストけっか。3、つぎのアクション。
+さぎょうがおわったときに、じどうでレポートをしゅつりょくします。
+---
+4つめは、あんぜんそうち、です。
+safety-check.json、としてほぞんします。
+when、ドット、type、は、preToolUse。
+when、ドット、toolTypes、は、shell。
+then、ドット、type、は、askAgent。
+then、ドット、prompt、は、いかのコマンドはきんしです。rm -rf、git push -f、DROP TABLE。これらをじっこうしようとしているばあいはちゅうししてください。
+きけんなコマンドのじっこうをふせぎます。
+---
+ふくすうのHookをくみあわせるコツです。
+すいしょうのくみあわせとして、lint-on-save.json、ひんしついじ。test-before-pr.json、リリースまえかくにん。verify-on-complete.json、けっかほうこく。safety-check.json、ぼうそうぼうし。
+これらをぜんぶいれておくと、あんぜんかつじどうてきにさぎょうがすすみます。
+---
+Hooksテンプレートをしょうかいしました。
+つぎのセクションでは、かんぜんオートのじっせんかつようをまなびます。
+Steering、プラス、Hooksのくみあわせで、ほんとうのじどうかをじつげんしましょう。

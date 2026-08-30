@@ -1,0 +1,49 @@
+{
+  "lecture_id": "3-1",
+  "total_pages": 7,
+  "total_duration": 150.82666666666668,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\3-1\\3-1_page01.wav",
+      "duration": 13.301333333333334,
+      "text": "このレクチャーでは、Steeringのきほんをまなびます。\nSteeringは、Kiroへの、しじしょ、をかくきのうです。\nしつもんするな、このてじゅんですすめろ、というはんだんきじゅんをあたえることができます。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\3-1\\3-1_page02.wav",
+      "duration": 21.824,
+      "text": "Steeringとは、Kiroのこうどうししんをていぎするファイルです。\nプロジェクトのルートに、.kiro、スラッシュ、steering、というフォルダをさくせいし、そのなかにMarkdownファイルをおきます。\nKiroは、このファイルをよみこんで、しじにしたがってどうさします。\nチームできょうゆうすれば、ぜんいんがおなじルールでさぎょうできます。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\3-1\\3-1_page03.wav",
+      "duration": 16.32,
+      "text": "じっさいにファイルをさくせいしてみましょう。\nプロジェクトのルートにいどうして、.kiro、スラッシュ、steering、フォルダをさくせいします。\nそのなかに、workflow.md、というファイルをさくせいします。\nMarkdownでしじをかいていきます。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\3-1\\3-1_page04.wav",
+      "duration": 29.269333333333332,
+      "text": "Steeringのきほんてきなかきかたをせつめいします。\nまず、フロントマターで、inclusion、をしていします。\nmanual、にすると、ハッシュ、ファイルめい、でめいじてきによびだしたときだけゆうこうになります。\nつぎに、みだしでセクションをわけます。\nきほんほうしん、として、しつもんしない、しょうにんをもとめない、かんりょうまでとまらない、などをかきます。\nこのように、めいかくに、してほしいこと、をかきます。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\3-1\\3-1_page05.wav",
+      "duration": 40.87466666666667,
+      "text": "Steeringをかくときのじゅうようなポイントをしょうかいします。\nだいいちに、しつもんしない、をめいきすることです。AIはしんせつしんでかくにんしてきます。これをとめるには、めいじてきに、しつもんきんし、とかくひつようがあります。\nだいにに、エラーじのたいおう、をかくことです。かかないと、エラーはっせいじに、どうしますか、ときいてきます。じこかいけつのルールをあたえておくと、とまらなくなります。\nだいさんに、かんりょうのていぎ、をかくことです。ゴールがあいまいだと、これでおわりでいいですか、とかくにんしてきます。かんりょうじょうけんをめいかくにすることで、じどうてきにしゅうてんをはんだんできます。"
+    },
+    {
+      "page": 6,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\3-1\\3-1_page06.wav",
+      "duration": 18.624,
+      "text": "さくせいしたSteeringをつかうほうほうです。\nチャットらんで、ハッシュ、workflow、とにゅうりょくすると、Steeringファイルがよみこまれます。\nハッシュ、workflow、さぎょうをすすめて、とにゅうりょくします。\nこれで、Steeringのルールにしたがってさぎょうがはじまります。"
+    },
+    {
+      "page": 7,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\3-1\\3-1_page07.wav",
+      "duration": 10.613333333333333,
+      "text": "Steeringのきほんをまなびました。\nつぎのレクチャーでは、じっさいにつかえるSteeringテンプレートをしょうかいします。\nコピペしてすぐにつかえるので、おたのしみに。"
+    }
+  ]
+}

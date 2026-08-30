@@ -15,8 +15,8 @@ from pathlib import Path
 
 import requests
 
-# VOICEVOX設定
-VOICEVOX_HOST = "http://localhost:50021"
+# VOICEVOX設定（--host / --speaker、または環境変数で上書きできる）
+VOICEVOX_HOST = os.environ.get("VOICEVOX_HOST", "http://localhost:50021")
 SPEAKER_ID = 2  # 四国めたん ノーマル
 
 
@@ -149,13 +149,23 @@ def generate_slide_audio(script_path: Path, output_dir: Path, lecture_id: str):
 
 
 def main():
+    # コース定義から渡された値でグローバル設定を上書きするため先に宣言する
+    global SPEAKER_ID, VOICEVOX_HOST
+
     parser = argparse.ArgumentParser(description="スライド単位音声生成")
     parser.add_argument("--script", required=True, help="台本ファイルのパス")
     parser.add_argument("--output-dir", required=True, help="出力ディレクトリ")
     parser.add_argument("--lecture-id", required=True, help="レクチャーID（例: 3-1）")
-    
+    parser.add_argument("--speaker", type=int, default=SPEAKER_ID,
+                        help=f"VOICEVOXの話者ID（既定: {SPEAKER_ID} 四国めたん ノーマル）")
+    parser.add_argument("--host", default=VOICEVOX_HOST,
+                        help=f"VOICEVOXのホスト（既定: {VOICEVOX_HOST}）")
+
     args = parser.parse_args()
-    
+
+    SPEAKER_ID = args.speaker
+    VOICEVOX_HOST = args.host
+
     script_path = Path(args.script)
     output_dir = Path(args.output_dir)
     

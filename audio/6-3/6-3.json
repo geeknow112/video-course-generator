@@ -1,0 +1,37 @@
+{
+  "lecture_id": "6-3",
+  "total_pages": 5,
+  "total_duration": 66.85866666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-3\\6-3_page01.wav",
+      "duration": 4.256,
+      "text": "さいごのボーナスレクチャーとして、よくあるしつもんにおこたえします。"
+    },
+    {
+      "page": 2,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-3\\6-3_page02.wav",
+      "duration": 14.314666666666668,
+      "text": "Q1、むりょうでつかえますか？\nはい、Kiroはげんざいプレビューばんのため、むりょうです。\nただし、しょうらいてきにはゆうりょうかのかのうせいがあります。\nいまのうちに、たくさんためしておくことをおすすめします。"
+    },
+    {
+      "page": 3,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-3\\6-3_page03.wav",
+      "duration": 17.194666666666667,
+      "text": "Q2、VS Codeとのちがいは？\nKiroのきばんは、VS Codeとおなじです。\nかくちょうきのうも、ほとんどつかえます。\nちがいは、AIとのとうごうがふかいことです。\nAutopilot、Steering、Hooksは、Kiroどくじのきのうです。"
+    },
+    {
+      "page": 4,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-3\\6-3_page04.wav",
+      "duration": 21.066666666666666,
+      "text": "Q3、うまくうごかないときは？\nまず、Steeringファイルをかくにんしてください。\nしじがあいまいだと、いとしたどうさになりません。\nつぎに、Hooksのログをかくにんします。\nしゅつりょくパネルに、エラーがひょうじされることがあります。\nそれでもかいけつしないばあいは、Kiroのこうしきディスコードでしつもんできます。"
+    },
+    {
+      "page": 5,
+      "wav": "c:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\6-3\\6-3_page05.wav",
+      "duration": 10.026666666666667,
+      "text": "いじょうで、ぜんレクチャーがしゅうりょうです。\nこのコースでまなんだことを、ぜひじっさいのかいはつでかつようしてください。\nごしちょう、ありがとうございました。"
+    }
+  ]
+}

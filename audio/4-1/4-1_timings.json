@@ -1,0 +1,48 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 149.42933333333332,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 8.010666666666667,
+      "text": "このレクチャーでは、Hooksのきほんをまなびます。\nHooksは、とくていのタイミングで、じどうし..."
+    },
+    {
+      "slide": 2,
+      "start": 8.010666666666667,
+      "duration": 18.688,
+      "text": "Hooksとは、イベントくどうのじどうしょりです。\nファイルがほぞんされたらlintをじっこう。コミ..."
+    },
+    {
+      "slide": 3,
+      "start": 26.698666666666668,
+      "duration": 35.818666666666665,
+      "text": "Hooksにはふくすうのしゅるいがあります。\nファイルイベントとして、fileEdited、ファイル..."
+    },
+    {
+      "slide": 4,
+      "start": 62.51733333333333,
+      "duration": 26.4,
+      "text": "Hookのきほんてきなかきかたをせつめいします。\nJSONけいしきでかきます。\nname、は、Hoo..."
+    },
+    {
+      "slide": 5,
+      "start": 88.91733333333333,
+      "duration": 29.034666666666666,
+      "text": "then、ドット、type、には2しゅるいあります。\nrunCommand、は、シェルコマンドをじっ..."
+    },
+    {
+      "slide": 6,
+      "start": 117.952,
+      "duration": 20.064,
+      "text": "さくせいしたHookは、.kiro、スラッシュ、hooks、スラッシュ、lint-on-save.j..."
+    },
+    {
+      "slide": 7,
+      "start": 138.016,
+      "duration": 11.413333333333334,
+      "text": "Hooksのきほんをまなびました。\nつぎのレクチャーでは、じっさいにつかえるHookテンプレートをし..."
+    }
+  ]
+}

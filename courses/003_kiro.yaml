@@ -1,0 +1,64 @@
+# 自動生成（scan-course.ts）。手で編集してよい。
+# title は日本語のコース名に、lessons の並びと採否は必要に応じて直すこと。
+id: 003_kiro
+title: Kiro 完全オートパイロット入門
+speakerId: 2
+silenceDuration: 0.5
+audioLayout: legacy
+lessons:
+  - id: promo
+    title: プロモーション
+    script: scripts/003_kiro/promo_プロモーション.txt
+    slide: slides/003_kiro/promo_プロモーション.md
+  - id: 1-1
+    title: コース紹介
+    script: scripts/003_kiro/1-1_コース紹介.txt
+    slide: slides/003_kiro/1-1_コース紹介.md
+  - id: 1-2
+    title: Kiroとは
+    script: scripts/003_kiro/1-2_Kiroとは.txt
+    slide: slides/003_kiro/1-2_Kiroとは.md
+  - id: 2-1
+    title: Autopilot有効化
+    script: scripts/003_kiro/2-1_Autopilot有効化.txt
+    slide: slides/003_kiro/2-1_Autopilot有効化.md
+  - id: 3-1
+    title: Steering基本
+    script: scripts/003_kiro/3-1_Steering基本.txt
+    slide: slides/003_kiro/3-1_Steering基本.md
+  - id: 3-2
+    title: Steeringテンプレート
+    script: scripts/003_kiro/3-2_Steeringテンプレート.txt
+    slide: slides/003_kiro/3-2_Steeringテンプレート.md
+  - id: 4-1
+    title: Hooks基本
+    script: scripts/003_kiro/4-1_Hooks基本.txt
+    slide: slides/003_kiro/4-1_Hooks基本.md
+  - id: 4-2
+    title: Hooksテンプレート
+    script: scripts/003_kiro/4-2_Hooksテンプレート.txt
+    slide: slides/003_kiro/4-2_Hooksテンプレート.md
+  - id: 5-1
+    title: 完全オート実践
+    script: scripts/003_kiro/5-1_完全オート実践.txt
+    slide: slides/003_kiro/5-1_完全オート実践.md
+  - id: 5-2
+    title: リポジトリ調査
+    script: scripts/003_kiro/5-2_リポジトリ調査.txt
+    slide: slides/003_kiro/5-2_リポジトリ調査.md
+  - id: 6-1
+    title: コースまとめ
+    script: scripts/003_kiro/6-1_コースまとめ.txt
+    slide: slides/003_kiro/6-1_コースまとめ.md
+  - id: 6-2
+    title: ボーナス
+    script: scripts/003_kiro/6-2_ボーナス_audio.txt
+    slide: slides/003_kiro/6-2_ボーナス.md
+  - id: 6-3
+    title: FAQ
+    script: scripts/003_kiro/6-3_FAQ_audio.txt
+    slide: slides/003_kiro/6-3_FAQ.md
+  - id: 6-4
+    title: 次のステップ
+    script: scripts/003_kiro/6-4_次のステップ_audio.txt
+    slide: slides/003_kiro/6-4_次のステップ.md

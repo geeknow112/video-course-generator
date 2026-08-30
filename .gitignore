@@ -27,3 +27,6 @@ recording/playwright-report/
 # OS
 .DS_Store
 Thumbs.db
+
+# 実行ログ
+logs/

@@ -1,0 +1,60 @@
+# 自動生成（scan-course.ts）。手で編集してよい。
+# title は日本語のコース名に、lessons の並びと採否は必要に応じて直すこと。
+id: 002_dlt
+title: AWS Distributed Load Testing (DLT)
+speakerId: 2
+silenceDuration: 0.5
+audioLayout: nested
+lessons:
+  - id: 1-1
+    title: コース紹介
+    script: scripts/002_dlt/1-1_コース紹介.md
+    slide: slides/002_dlt/1-1_コース紹介.md
+  - id: 1-2
+    title: DLTとは
+    script: scripts/002_dlt/1-2_DLTとは.md
+    slide: slides/002_dlt/1-2_DLTとは.md
+  - id: 2-1
+    title: デプロイ準備
+    script: scripts/002_dlt/2-1_デプロイ準備.md
+    slide: slides/002_dlt/2-1_デプロイ準備.md
+  - id: 2-2
+    title: CloudFormationデプロイ
+    script: scripts/002_dlt/2-2_CloudFormationデプロイ.md
+    slide: slides/002_dlt/2-2_CloudFormationデプロイ.md
+  - id: 3-1
+    title: Webコンソールログイン
+    script: scripts/002_dlt/3-1_Webコンソールログイン.md
+    slide: slides/002_dlt/3-1_Webコンソールログイン.md
+  - id: 3-2
+    title: シンプルなテスト作成
+    script: scripts/002_dlt/3-2_シンプルなテスト作成.md
+    slide: slides/002_dlt/3-2_シンプルなテスト作成.md
+  - id: 3-3
+    title: 結果分析
+    script: scripts/002_dlt/3-3_結果分析.md
+    slide: slides/002_dlt/3-3_結果分析.md
+  - id: 4-1
+    title: JMeter概要
+    script: scripts/002_dlt/4-1_JMeter概要.md
+    slide: slides/002_dlt/4-1_JMeter概要.md
+  - id: 4-2
+    title: JMeterスクリプト作成
+    script: scripts/002_dlt/4-2_JMeterスクリプト作成.md
+    slide: slides/002_dlt/4-2_JMeterスクリプト作成.md
+  - id: 4-3
+    title: JMeterスクリプト実行
+    script: scripts/002_dlt/4-3_JMeterスクリプト実行.md
+    slide: slides/002_dlt/4-3_JMeterスクリプト実行.md
+  - id: 5-1
+    title: トラブルシューティング
+    script: scripts/002_dlt/5-1_トラブルシューティング.md
+    slide: slides/002_dlt/5-1_トラブルシューティング.md
+  - id: 5-2
+    title: コスト最適化
+    script: scripts/002_dlt/5-2_コスト最適化.md
+    slide: slides/002_dlt/5-2_コスト最適化.md
+  - id: 5-3
+    title: まとめと次のステップ
+    script: scripts/002_dlt/5-3_まとめと次のステップ.md
+    slide: slides/002_dlt/5-3_まとめと次のステップ.md
