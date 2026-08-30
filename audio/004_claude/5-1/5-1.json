@@ -1,0 +1,43 @@
+{
+  "lecture_id": "5-1",
+  "total_pages": 6,
+  "total_duration": 125.01333333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-1\\5-1_page01.wav",
+      "duration": 9.536,
+      "text": "このレクチャーでは、push、PRさくせいはきょかするが、mainへのちょくせつコミットとPRのじどうマージはきんし、というようけんを、どうつくるか、をみていきます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-1\\5-1_page02.wav",
+      "duration": 24.906666666666666,
+      "text": "とうしょは、PRさくせいそのものもじどうかしない、というほうしんではじめました。\nallowed_toolsに、GitHubかきこみけいツールをふくめないことで、PRさくせいをぎじゅつてきにブロックしようとしました。\nしかし、リポジトリそうさをBashにまかせるせっけいにしたじてんで、gh pr createは、ただのシェルコマンドとしてじっこうできてしまいます。\nツールのきょか・ふきょかというつぶで、pushとPRさくせいをぶんりすることは、できませんでした。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-1\\5-1_page03.wav",
+      "duration": 28.16,
+      "text": "けっきょく、きょうかいせんをどこにひくかをみなおし、push・PRさくせいはじどうかするが、mainへのちょくせつコミットとじどうマージだけはゆるさない、というようけんにおとしなおしました。\nこのようけんをじつげんするしゅだんは、さいしゅうてきに、つぎのひとつしかありません。\nプロンプトでのめいじてききんし。mainブランチへのちょくせつコミット・pushはぜったいきんし。へんこうはかならずPRけいゆ。PRはさくせいするが、じぶんでマージはぜったいにしない、というぶんごんを、げんしゅじこうとしてめいきする。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-1\\5-1_page04.wav",
+      "duration": 20.288,
+      "text": "Bashをまるごときょかしたじてんで、げんりてきには、git push origin mainや、PRのじどうマージすら、じっこうかのうなじょうたいにあり、それをとめているのは、さいしゅうてきにはモデルがしじにしたがうことへの、しんらいだけでした。\nわたしたRoutineにわたしたけんげんの、つかいみちは、プロンプトがわでしばるしかない、というのが、じっさいにやってみてわかったことでした。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-1\\5-1_page05.wav",
+      "duration": 29.365333333333332,
+      "text": "チェックリストにすると、つぎのかたちです。\nこのRoutineがもつ、もっともつよいけんげん、Bash、で、りろんじょうなにができてしまうかを、あらいだしたか。\nあらいだしたきけんなそうさのうち、ツールけんげんだけでぶつりてきにふせげるものと、プロンプトのしじにたよるしかないものを、きりわけたか。\nプロンプトにたよるぶぶんは、あいまいご、きをつけて、などではなく、こういをなざししたきんしぶんごんになっているか。\nふくすうRoutineをどういつかんきょうでうごかすばあい、コネクターのスコープが、Routineごとにひつようさいしょうげんになっているか。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-1\\5-1_page06.wav",
+      "duration": 12.757333333333333,
+      "text": "push・PRさくせいはきょか、mainへのちょくせつコミットはきんし、というようけんを、どうつくるかをみました。\nつぎのレクチャーでは、がいぶAPIのたんいつしょうがいてんと、しっぱいのついせきほうほうに、はなしをすすめます。"
+    }
+  ]
+}

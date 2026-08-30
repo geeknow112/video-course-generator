@@ -1,0 +1,43 @@
+{
+  "lecture_id": "4-2",
+  "total_pages": 6,
+  "total_duration": 142.01600000000002,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-2\\4-2_page01.wav",
+      "duration": 5.450666666666667,
+      "text": "このレクチャーでは、じっさいにくんだRoutineのせっていちと、cronのせっけいパターンを、みていきます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-2\\4-2_page02.wav",
+      "duration": 30.090666666666667,
+      "text": "きじげんこうせいせいようのRoutineの、じっさいのせっていはこうでした。\ncron_expression、は、ゼロ、じゅうなな、アスタリスク、アスタリスク、アスタリスク。UTCじゅうななじ、イコール、JSTよくじつにじごふん、かどう。\nallowed_tools、は、じゅういっこ。Bash、Read、Write、Edit、Glob、Grep、WebFetch、Gmailけんさくけいふたつ、Slackチャンネルけんさく・そうしんふたつ。\nsources、は、たいしょうにリポジトリの、gitリポジトリURL。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-2\\4-2_page03.wav",
+      "duration": 25.376,
+      "text": "どうさのながれはこうです。\ncronがはっか。Anthropicかんりのぶんりコンテナで、セッションがきどう。\nsourcesでしていしたリポジトリを、クローン。\nGmailけんさくで、QiitaやZennのニュースレターをしゅとく。\nトレンドぶんせきと、じぶんのじったいけんとのこうさてんをたんさく。\nよいきりくちがあれば、ブランチさくせい、したがき.mdさくせい、コミット、push、gh pr create。\nよいきりくちがなければ、なにもせず、Slackにりゆうをほうこく。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-2\\4-2_page04.wav",
+      "duration": 43.904,
+      "text": "いっぽう、ようとのちがう4ほんのRoutineをうんようしてみると、cronのせっけいは、けっきょくこの3パターンにしゅうそくしました。\nパターン1、にちじ・しんや。ゼロ、にじゅうさん、アスタリスク、アスタリスク、アスタリスク、UTC。JSTはちじに1かい。まえじつぶんをまとめてしょり。けいりょうなじょうほうしゅうけいむき。\nパターン2、じじ・えいぎょうじかんたい。ゼロ、ゼロからじゅうに、アスタリスク、アスタリスク、アスタリスク、UTC。JSTくじからにじゅういちじにまいじ。しんちゃくをはやくひろいたいものむき。\nパターン3、にちじ・しんや・おもめ。ゼロ、じゅうなな、アスタリスク、アスタリスク、アスタリスク、UTC。JSTよくじつにじだいに1かい。がいぶトレンドぶんせきなど、じかんのかかるしょりむき。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-2\\4-2_page05.wav",
+      "duration": 24.629333333333335,
+      "text": "いずれも、cronのにゅうりょくはUTCきじゅんであるてんに、ちゅういがひつようです。\nJSTのくじからにじゅういちじに、まいじうごかしたい、をそのままUTCのすうじだときちがえて、9、ハイフン、21、とにゅうりょくすると、じっさいにはJSTじゅうはちじからよくあさろくじにうごくバッチになってしまいます。\nUTC、イコール、JST、マイナス、9じかん、でへんかんしてからにゅうりょくするひつようがあります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-2\\4-2_page06.wav",
+      "duration": 12.565333333333333,
+      "text": "Routineのじったいと、cronせっけい3パターンをみました。\nつぎのレクチャーでは、けんげんせっけいのきょうかいせん、push・PRさくせいはきょか、mainへのちょくせつコミットはきんし、をどうつくるかに、はなしをすすめます。"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lecture_id": "6-4",
+  "total_pages": 6,
+  "total_duration": 85.06666666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-4\\6-4_page01.wav",
+      "duration": 3.8506666666666667,
+      "text": "さいごに、このコースをおえたあとの、つぎのステップをごしょうかいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-4\\6-4_page02.wav",
+      "duration": 21.941333333333333,
+      "text": "まずは、じぶんのsettings.jsonを、みなおしてみてください。\npermissions.allowに、よみとりけいコマンド、ls、cat、grep、find、git log、git status、git diff、git branch、をとうろくします。\ngit push、git commit、gh pr createのような、かきこみけいは、あえてとうろくしないままにするのが、あんぜんです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-4\\6-4_page03.wav",
+      "duration": 12.725333333333333,
+      "text": "つぎに、CLAUDE.mdを、いちどかいてみましょう。\nプロジェクトがいよう、ぎじゅつスタック、かいはつルール、きんしじこう、というくみたてで、じゅうぶんです。\nさいしょはかんたんなルールからはじめるのがおすすめです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-4\\6-4_page04.wav",
+      "duration": 21.109333333333332,
+      "text": "なれてきたら、ちいさいRoutineを1ぽんだけ、つくってみてください。\ncronは、UTCきじゅんであることをわすれずに。next_run_atで、いとしたJSTじこくにあっているかを、かならずかくにんしてください。\npush、PRさくせいまではきょかするが、mainへのちょくせつコミットとじどうマージはぜったいきんし、というぶんごんを、プロンプトにめいきしましょう。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-4\\6-4_page05.wav",
+      "duration": 12.565333333333333,
+      "text": "がいぶAPIにいぞんするしょりをくむばあいは、けいろをぶんさんさせておくことをわすれずに。\nニュースレターけいゆと、APIちょくたたきの、りょうほうをようういしても、いっぽうがかんきょうよういんでまるごとしっぱいすることは、ありえます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-4\\6-4_page06.wav",
+      "duration": 12.874666666666666,
+      "text": "Claude Codeは、いまもきのうついかがつづいています。\nこうしきドキュメントをちぇっくして、さいしんじょうほうをおっていきましょう。\nそれでは、Claude Codeをつかった、しょうにんぜろのかいはつライフをおたのしみください。\nごしちょう、ありがとうございました。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "lecture_id": "4-1",
+  "total_pages": 7,
+  "total_duration": 97.00266666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-1\\4-1_page01.wav",
+      "duration": 14.314666666666668,
+      "text": "このレクチャーでは、かくりかんきょうをじぶんでつくる、というほうしんから、Routineというしくみへの、てんかんをみていきます。\nまえのセクションで、EC2たすtmuxのこうそうは、まだじっそうしていない、としめしたじれいです。5にちごの、じっさいのてんまつです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-1\\4-1_page02.wav",
+      "duration": 7.8933333333333335,
+      "text": "けっろんからいうと、5にちごにじっさいにどうにゅうしたのは、EC2ではありませんでした。\nClaude Code Remoteの、Routine、というしくみでした。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-1\\4-1_page03.wav",
+      "duration": 28.341333333333335,
+      "text": "Routineとは、プロンプト・たいしょうリポジトリ・コネクター、Gmail、Slack、Notionとう、をひとつにまとめて、スケジュールやAPIコール、GitHubイベントをトリガーに、じどうじっこうするしくみです。\nこうしきドキュメントには、こうきさいされています。\nRoutines execute on Anthropic-managed cloud infrastructure, so they keep working when your laptop is closed。\nつまり、かくりかんきょうをどうじぶんでつくるか、というといじたいが、Routineをつかうぜんていでは、はっせいしません。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-1\\4-1_page04.wav",
+      "duration": 16.096,
+      "text": "EC2たすtmuxのこうそうは、スケジューラ・ネットワークきょうかい・プロセスせいぞんかんしまで、じぶんでめんどうをみるぜんていでした。\nRoutineは、そのレイヤーをまるごとかたがわりします。\nかんりされたぶんりじっこうかんきょうが、プラットフォームがわのきのうとして、さいしょからようされているためです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-1\\4-1_page05.wav",
+      "duration": 12.821333333333333,
+      "text": "きょかリストほうしきとフルバイパスは、べつレイヤーというりかいがあったからこそ、Routineがていきょうするぶんりじっこうかんきょうが、そのだいたいになりうると、はんだんできました。\nまえのレクチャーまでのちしきが、ぜんていちしきになっていたということです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-1\\4-1_page06.wav",
+      "duration": 8.768,
+      "text": "どちらをえらぶべきか、というトレードオフもせいりしておきます。\nこわれても、ぼうそうしても、ひがいはんいがそのかんきょうないにおさまる、というつよいほしょうがほしいばあいは、EC2あんにぶんがあります。\nいっぽう、ようとごとにこまかくけんげんをしぼった、ちいさいバッチをなんぼんもすばやくたてたい、というばあいは、インフラこうちくコストがゼロのRoutineのほうが、げんじつてきでした。\nこんかいは、こうしゃのようけんがまさったため、Routineをさいようしています。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-1\\4-1_page07.wav",
+      "duration": 8.768,
+      "text": "EC2たすtmuxから、Routineへの、てんかんをみました。\nつぎのレクチャーでは、じっさいにくんだRoutineのじったいと、cronせっけいのパターンをみていきます。"
+    }
+  ]
+}

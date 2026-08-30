@@ -1,0 +1,43 @@
+{
+  "lecture_id": "3-3",
+  "total_pages": 6,
+  "total_duration": 107.33866666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-3\\3-3_page01.wav",
+      "duration": 20.917333333333332,
+      "text": "このレクチャーでは、Claude CodeをCLIでかいてきにつかうための、ターミナルかんきょうのせいびを、みていきます。\nClaude CodeはCLIツールで、VS CodeやJetBrainsのような、GUIのIDEはありません。\nさいしょは、IDEがないとふべんではないか、とかんじるかもしれません。ただ、てきせつにかんきょうをととのえれば、むしろかいてきにかいはつできます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-3\\3-3_page02.wav",
+      "duration": 22.773333333333333,
+      "text": "WindowsユーザーはWindows Terminalをつかいましょう。ペインぶんかつがつかえます。\nたてぶんかつ、さゆう、は、Alt、シフト、プラス。\nよこぶんかつ、じょうげ、は、Alt、シフト、マイナス。\nペインかんいどうは、Alt、やじるしキー、です。\nひだりペインでClaude Codeをうごかし、みぎペインでファイルのかくにんやコマンドじっこう、というつかいかたがきほんになります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-3\\3-3_page03.wav",
+      "duration": 18.154666666666667,
+      "text": "IDEがわりにVS Codeを、ファイルビューワーとしてひらいておくのがおすすめです。\nターミナルで、code、ドット、とうつと、げんざいのディレクトリをVS Codeでひらけます。\nVS Codeは、へんしゅうはしない、ファイルツリーのかくにんとコードのえつらんせんようとして、つかいます。\nじっさいのへんしゅうは、Claude Codeにまかせます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-3\\3-3_page04.wav",
+      "duration": 22.954666666666668,
+      "text": "かんきょうがととのったら、さぎょうフローはこうなります。\nWindows Terminalをひらく、ペインぶんかつ、ひだり、Claude Codeきどう、みぎ、ファイルかくにん、コマンドじっこうよう。\nプロジェクトディレクトリにいどう。cd、パス、Claude。\nさぎょうないようをしじする。このAPIのバリデーションしょりをついかして。\nClaude Codeがじどうでファイルをへんしゅうする。みぎペインでへんこうをかくにん。\nもんだいなければコミットする。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-3\\3-3_page05.wav",
+      "duration": 15.274666666666667,
+      "text": "IDEてきなそうさ、ファイルをさがす、かんすうにジャンプする、はぜんぶClaude Codeにたのめるので、いがいとふじゆうしません。\nIDEがない、はけってんではなく、AIにぜんぶまかせる、というわりきりです。なれると、IDEじだいよりもはやくかいはつできます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-3\\3-3_page06.wav",
+      "duration": 7.264,
+      "text": "ターミナルかんきょうのせいびをみました。\nつぎのレクチャーでは、EC2たすtmuxから、Routineへの、てんかんのはなしにすすみます。"
+    }
+  ]
+}

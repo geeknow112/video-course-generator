@@ -1,0 +1,37 @@
+{
+  "lecture_id": "6-3",
+  "total_pages": 5,
+  "total_duration": 109.696,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-3\\6-3_page01.wav",
+      "duration": 3.424,
+      "text": "さいごのボーナスレクチャーとして、よくあるしつもんにおこたえします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-3\\6-3_page02.wav",
+      "duration": 36.32,
+      "text": "Q1、Routineのallowed_toolsに、Bashをふくめるのはきけんでは？\nA、きけんどはあがります。こんかいは、リポジトリそうさ、git clone、branch、commit、push、PRさくせい、をBashけいゆでおこなうせっけいにしたため、Bashじたいをきょかせざるをえませんでした。\nツールがわでできるせいげんにはげんかいがあるため、mainへのちょくせつコミットや、じどうマージのような、ほんとうにさせたくないそうさは、プロンプトでめいじてききんしするいがい、しゅだんがありません。\nBashをきょかする、イコール、なんでもできてよい、ではなく、Bashでなにをさせないかを、プロンプトがわでげんみつにしばる、というぜんていがひつようです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-3\\6-3_page03.wav",
+      "duration": 31.776,
+      "text": "Q2、ふくすうほんのRoutineを、どういつかんきょうでうごかして、しょりがしょうとつしないか？\nA、たいしょうデータ、Gmailけんさくクエリや、Notion DBのIDなど、がRoutineごとにかんぜんにわかれていれば、どうじじっこうによるしょうとつは、はっせいしません。\nただし、どういつのリポジトリやDBに、ふくすうのRoutineがどうじにかきこみうるせっけいにするばあいは、べつとはいたせいぎょをけんとうするひつようがあります。\nきょかツールとconnectorのスコープが、Routineごとにこべつにしぼられていれば、あるRoutineのけんげんが、べつのRoutineにもれだすせっけいには、なりません。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-3\\6-3_page04.wav",
+      "duration": 30.154666666666667,
+      "text": "Q3、まえかいのEC2たすtmuxあんは、むだだったのか？\nA、むだではなく、こんかいのけつろんをだすぜんていちしきになりました。\nフルバイパスはかくりかんきょうとセットがぜんてい、というりかいがあったからこそ、Routineがていきょうするぶんりじっこうかんきょうが、そのだいたいになりうると、はんだんできました。\nかくりかんきょうをじぶんでこうちくするコスト、と、Routineのけんげんスコープせっけいコスト、はトレードオフのかんけいにあります。こんかいは、ちいさいバッチをすばやくふくすうたてる、というようけんだったため、Routineをせんたくしています。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-3\\6-3_page05.wav",
+      "duration": 8.021333333333333,
+      "text": "いじょうで、ぜんレクチャーがしゅうりょうです。\nこのコースでまなんだことを、ぜひじっさいのかいはつでかつようしてください。\nごしちょう、ありがとうございました。"
+    }
+  ]
+}
