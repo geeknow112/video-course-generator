@@ -98,6 +98,6 @@ cron発火 → 分離コンテナでセッション起動
 
 ## 次のレクチャー
 
-→ push・PR作成は許可、main直接コミット禁止をどう作るか
+→ 用途ごとに権限を絞る、4本のRoutineの実例
 
 ![bg right:50%](https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800)

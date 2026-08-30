@@ -1,0 +1,43 @@
+{
+  "lecture_id": "4-3",
+  "total_pages": 6,
+  "total_duration": 152.768,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-3\\4-3_page01.wav",
+      "duration": 12.384,
+      "text": "このレクチャーでは、じっさいにうんようしている4ほんのRoutineを、ようとごとに、どうけんげんをしぼったか、をみていきます。\nまえのレクチャーでみたcronせっけいを、ふくすうのRoutineにてきようすると、どうなるか、というはなしです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-3\\4-3_page02.wav",
+      "duration": 41.30133333333333,
+      "text": "まず、4ほんのうちわけです。\n1ほんめ、けいりょうなじょうほうのにちじしゅうけいバッチ。ゼロ、にじゅうさん、アスタリスク、アスタリスク、アスタリスク、UTC。JSTまいにちはちじ。\n2ほんめ、じゅしんメールのいちじしわけ、にちじばん。おなじく、JSTまいにちはちじ。\n3ほんめ、じゅしんメールのいちじしわけ、えいぎょうじかんたいばん。ゼロ、ゼロからじゅうに、アスタリスク、アスタリスク、アスタリスク、UTC。JSTくじからにじゅういちじにまいじ。\n4ほんめ、きじしたがきせいせい。ゼロ、じゅうなな、アスタリスク、アスタリスク、アスタリスク、UTC。JSTよくじつにじごふんごろ。\nまえのレクチャーの3パターンが、そのままこの4ほんにわりあたっています。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-3\\4-3_page03.wav",
+      "duration": 34.74133333333333,
+      "text": "つぎに、ようとごとのけんげんのちがいです。\nにちじしゅうけいバッチは、Gmailけんさくと、Notionのけんさく・さくせい・こうしんだけ。かきこみはんいは、Notionのデータベースへのとうろくとこうしんのみです。\nメールのいちじしわけは、これにGmailのスレッドそうさがくわわり、かきこみはんいに、Gmailのラベルそうさがくわわります。\nきじしたがきせいせいだけが、Bash、Read、Write、Edit、Glob、Grep、WebFetchと、かいはつけいのツールをもち、かきこみはんいが、ブランチのpushとPRさくせいまでひろがります。\nつまり、いちばんつよいけんげんをもつのは、4ほんのうち1ほんだけ、というかたちです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-3\\4-3_page04.wav",
+      "duration": 28.661333333333335,
+      "text": "ここでたいせつなのは、4ほんとも、おなじじっこうかんきょうのうえでうごいている、というてんです。\nおなじかんきょうでも、allowed_toolsと、コネクターのスコープは、Routineごとにこべつにしぼってあります。\nGmail、Notion、Slackの、どのはんいにアクセスできるかを、Routineごとにきめている、ということです。\nそのため、あるRoutineのけんげんが、べつのRoutineにもれだすことはありません。\nにちじしゅうけいバッチが、あやまってPRをつくってしまう、ということがおきないのは、そもそもそのツールをもたせていないからです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-3\\4-3_page05.wav",
+      "duration": 20.458666666666666,
+      "text": "けんげんをきめるときのかんがえかたは、シンプルです。\nそのRoutineが、しっぱいしたときにいちばんこまるそうさは、なにか。\nそのそうさをじっこうするために、ほんとうにひつようなツールは、どれか。\nこのふたつをさきにきめてから、allowed_toolsをかく、というじゅんばんです。\nとりあえずぜんぶきょかしておいて、あとでしぼる、というじゅんばんにすると、しぼるきっかけがえいえんにきません。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\4-3\\4-3_page06.wav",
+      "duration": 15.221333333333334,
+      "text": "ようとごとにけんげんをしぼった、4ほんのRoutineのじつれいをみました。\nつぎのレクチャーでは、そのけんげんのきょうかいせんを、もういちだんほりさげます。\npush・PRさくせいはきょか、mainへのちょくせつコミットはきんし、というようけんを、どうつくるか、というはなしです。"
+    }
+  ]
+}

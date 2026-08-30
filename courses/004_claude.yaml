@@ -46,6 +46,10 @@ lessons:
     title: Routineの実体とcron設計3パターン
     script: scripts/004_claude/4-2_Routineの実体とcron設計3パターン.txt
     slide: slides/004_claude/4-2_Routineの実体とcron設計3パターン.md
+  - id: 4-3
+    title: 用途ごとに権限を絞る4本のRoutine
+    script: scripts/004_claude/4-3_用途ごとに権限を絞る4本のRoutine.txt
+    slide: slides/004_claude/4-3_用途ごとに権限を絞る4本のRoutine.md
   - id: 5-1
     title: push・PR作成は許可main直接禁止
     script: scripts/004_claude/5-1_push・PR作成は許可main直接禁止.txt
