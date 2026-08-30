@@ -91,6 +91,64 @@ npm run video   -- 003_kiro 1-1   # 録画 + 音声結合
 
 Python は `requests` が入っているものが必要。
 
+## 音声パラメータ
+
+`scripts/generate_slide_audio.py` の既定値は、比較試聴（`audio/_quality_test_v2/`）の結果、
+2026-08-30に社長が決定した「中庸案（center）」に固定している。
+
+```
+speedScale        1.2   # 速く
+intonationScale   0.7   # 平坦に（抑揚を抑える）
+pitchScale        0.03
+pauseLengthScale  0.8   # 間を詰める
+prePhonemeLength  0.05  # 比較試聴で聴いていた center 音源の再現に必要
+postPhonemeLength 0.05  # 同上
+```
+
+狙いは「ゆっくり霊夢」寄りの速く平坦な読み上げ。話者は四国めたん ノーマル（id=2）のまま変更していない。
+経緯・比較音源・話者候補の検討は `audio/_quality_test_v2/README.md` を参照。
+
+### 個別に変えたいとき
+
+`generate_slide_audio.py` にCLI引数で渡すと、その回だけ既定値を上書きできる。
+
+```bash
+python scripts/generate_slide_audio.py --script <script> --output-dir <dir> --lecture-id <id> \
+  --speed 1.3 --intonation 0.6 --pitch 0.03 --pause-scale 0.7
+```
+
+コース単位で変えたい場合（例: あるコースだけ話者を変える）は、`courses/<id>.yaml` に `voice:` を書く。
+未指定のキーは上記の既定値のまま。過剰設計を避けるため、対応するキーは
+`generate_slide_audio.py` のCLI引数と1対1（`speedScale` / `intonationScale` / `pitchScale` /
+`volumeScale` / `pauseLengthScale` / `prePhonemeLength` / `postPhonemeLength`）。
+
+```yaml
+speakerId: 9        # コースごとに話者を変える場合はここも
+voice:
+  speedScale: 1.3
+  intonationScale: 0.6
+```
+
+### 辞書登録（誤読対策）
+
+VOICEVOXのユーザー辞書はエンジンのローカル設定で、再インストールや別PCへの移行で消える。
+`npm` は未登録だと「ンプ」と読まれるなど、動画の品質に直結するため、
+定義を `scripts/voicevox_user_dict.json` にリポジトリで管理し、以下のコマンドで復元する。
+
+```bash
+python scripts/register_user_dict.py
+```
+
+登録済みなら自動でスキップする（重複登録しない）。新しい環境やエンジン再インストール後は、
+音声生成の前に必ず一度実行すること。登録内容:
+
+| 語 | 読み | 登録前の誤読 |
+| --- | --- | --- |
+| `npm` | エヌピーエム | ンプ |
+| `Q2` | キューニ | キュウツウ |
+| `Hooks` | フックス | （文脈依存でエイチウックス） |
+| `VS` | ブイエス | バーサス（`VS Code`のスペース区切りに対応するため`VS`単体で登録） |
+
 ## 構成
 
 ```
