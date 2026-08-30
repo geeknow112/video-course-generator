@@ -1,0 +1,43 @@
+{
+  "lecture_id": "6-2",
+  "total_pages": 6,
+  "total_duration": 183.38133333333332,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-2\\6-2_page01.wav",
+      "duration": 12.586666666666666,
+      "text": "ボーナスレクチャーとして、Claude Codeのひこうかいきのう、カスタムテーマを、じっさいにグレップだけでかいめいしたじれいを、おつたえします。\nこのレクチャーはひっすではありませんが、ちょうさのしこうほうほうとして、しっておくとべんりなないようです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-2\\6-2_page02.wav",
+      "duration": 31.466666666666665,
+      "text": "きっかけは、Claude Code CLIのにゅうりょくらんのはいけいしょくを、むらさきにしたかった、ということでした。\n`/config`のテーマせっていをみると、えらべるのは、auto、dark、light、light-daltonized、dark-daltonized、light-ansi、dark-ansiの、7つだけでした。\nただし、settings.jsonのスキーマをみると、themeフィールドは、custom、コロン、というプレフィックスをうけつけるけいしきが、ていぎされていました。\nだが、ヘルプにも、オンラインドキュメントにも、このしくみのせつめいは、いっさいありませんでした。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-2\\6-2_page03.wav",
+      "duration": 37.76,
+      "text": "CLI本体は、minifyされたたんいつのJSファイルで、ソースはこうかいされていません。\ngrep、ハイフン、a、バイナリをテキストとしてよむオプション、で、それらしいしきべつしをけんさくしました。\ncustomThemeRef、customThemes、というしきべつしが、そんざいしました。\nここから、いもづるしきに、しゅうへんのもじれつをおっていきます。\ngetThemesDir、getCustomThemeBase、getCachedCustomThemes、loadCustomThemes、といったかんすうめいが、みつかりました。\nかんすうのていぎをちょくせつグレップでひくと、カスタムテーマのほぞんばしょは、なみがたディレクトリ、ドット、claude、スラッシュ、themes、と、はんめいしました。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-2\\6-2_page04.wav",
+      "duration": 38.50666666666667,
+      "text": "ほぞんしょりのかんすうも、もじれつとしてうめこまれていました。\nファイルパスは、なみがたディレクトリ、ドット、claude、スラッシュ、themes、スラッシュ、スラッグ、ドットjson。\nこうぞうは、name、base、overrides。\nbaseは、7つのくみこみテーマのいずれかを、けいしょうもととしていしていします。\nロードしょりをグレップでおうと、overridesのキーは、baseにしたテーマが、じっさいにもっているキーだけがゆうこう、というせいやくがみつかりました。そんざいしないキーをかいても、だまってむしされます。\nじっさいのパレットオブジェクトをグレップでひきあてると、userMessageBackground、というキーが、ユーザーにゅうりょくらんのはいけいしょくをせいぎょしているキーだと、はんめいしました。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-2\\6-2_page05.wav",
+      "duration": 36.437333333333335,
+      "text": "あたいのバリデーションけいしきも、おなじてじゅんでみつけました。\nrgb、かっこ、あか、みどり、あお、けいしき。じゅうろくしんろっけたまたはさんけたのけいしき。ansi256、かっこ、すうじ、けいしき。ansi、コロン、プレフィックス。この4しゅるいが、きょかされていました。\nこれらのちょうさけっかから、じっさいにうごくせっていをくみたてました。\nname、パープルインプット。base、dark。overrides、userMessageBackground、rgb、はちじゅうはち、にじゅうはち、ひゃくさんじゅうご。\nsettings.json、がわは、theme、custom、コロン、パープルインプット、としていします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-2\\6-2_page06.wav",
+      "duration": 26.624,
+      "text": "このちょうさで、つかったコマンドは、じっしつじゅうすうかいのgrepだけ、しょようじかんは、10ぷんていどでした。\nキーポイントは、ほぞんかんすう、ロードじのフィルタリングしょり、あたいけんしょうかんすう、の、さんてんをいもづるしきにおうことです。たんいつのきょだいなオブジェクトをいっきによもうとせず、しょりのいりぐちとなるかんすうめいからたどると、こうりつがよいです。\nドキュメントがないからむり、でおわらせず、うごいているバイナリじたいをよみにいく、というせんたくしを、おぼえておいてそんはありません。"
+    }
+  ]
+}

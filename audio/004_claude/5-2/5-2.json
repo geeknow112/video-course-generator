@@ -1,0 +1,49 @@
+{
+  "lecture_id": "5-2",
+  "total_pages": 7,
+  "total_duration": 124.49066666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-2\\5-2_page01.wav",
+      "duration": 7.8933333333333335,
+      "text": "このレクチャーでは、がいぶAPIをちょくたたきするせっけいが、たんいつしょうがいてんになったじれいと、しっぱいをついせきするほうほうを、みていきます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-2\\5-2_page02.wav",
+      "duration": 29.685333333333332,
+      "text": "きじげんこうせいせいRoutineでは、Zennのニュースレターがゼロけんだったばあい、Zennのこうかいこうかいえいえいピーアイをちょくせつしゅとくする、というだいたいけいろをようういしていました。\nじっさいにZennのニュースレターがゼロけんだったため、このAPIをたたきにいったところ、けっかはこうでした。\nEGRESS_BLOCKED、コロン、Access to zenn.dev is blocked by the network egress proxy。\ncurlでちょくせつたたいても、プロキシのCONNECTトンネルじたいが403できょひされ、けっかはおなじでした。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-2\\5-2_page03.wav",
+      "duration": 23.925333333333334,
+      "text": "Qiitaは、メールニュースレターけいゆのため、このせいやくをうけませんでしたが、Zennだけは、じっこうかんきょうのネットワークポリシーしだいで、じょうほうげんがまるごときえる、というひたいしょうなリスクが、かしかされました。\nニュースレターといういちじけいろと、APIちょくたたきというにじけいろの、りょうほうをようういしていたにもかかわらず、にじけいろがわが、かんきょうよういんできのうしない、というくみあわせは、せっけいじにはそうていしていませんでした。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-2\\5-2_page04.wav",
+      "duration": 17.44,
+      "text": "このつまずきをうけて、たんいつけいろへのいぞんは、きけんだ、というけつろんになりました。\nがいぶサイトにちょくせついぞんするしょりをくむばあい、じっこうかんきょう、じたくPC、CI、マネージドなじっこうかんきょう、ごとに、ネットワークポリシーがことなりうることをぜんていに、けいろをぶんさんさせておくひつようがあります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-2\\5-2_page05.wav",
+      "duration": 29.824,
+      "text": "では、Routineがしっぱいしたとき、どうきづくか。\ncronのじこくをまちがえてせっていしたばあい、Routineさくせいごにかえってくるnext_run_atを、かならずかくにんし、いとしたJSTじこくにへんかんしてあっているかをしょうごうするのが、たしかです。\nさくせいちょくご、とくにUTC、JSTのひづけまたぎに、きづきにくいので、ちゅういがひつようです。\nまた、よいきりくちがないばあいは、なにもせずSlackにりゆうをほうこくする、というせっけいにしていたため、なにもうごかなかったこと、じたいがSlackでかくにんできました。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-2\\5-2_page06.wav",
+      "duration": 7.8613333333333335,
+      "text": "じっさいのズレのれいをひとつしょうかいします。\nJSTのしんやにじにうごかしたいつもりで、cron_expression、を、ゼロ、じゅうなな、アスタリスク、アスタリスク、アスタリスク、UTC、じゅうななじ、としていしました。\nできあがったRoutineのcreated_atは、UTCじゅうろくじ、ゼロふん、JSTかんさんで、にじゅうろくねんはちがつじゅうよっか、いちじ、ゼロふんでした。\nたいかんの、じゅうさんにちのよる、とは、ひづけがすでにずれていました。\nこのように、さくせいちょくごに、created_atとnext_run_atを、じっさいのJSTじこくにへんかんしてかくにんしないと、ひづけまたぎのズレには、きづけません。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\5-2\\5-2_page07.wav",
+      "duration": 7.8613333333333335,
+      "text": "がいぶAPIちょくたたきのたんいつしょうがいてんと、しっぱいのついせきほうほうをみました。\nつぎのレクチャーでは、このコースのまとめを、おこないます。"
+    }
+  ]
+}

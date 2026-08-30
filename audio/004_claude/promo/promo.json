@@ -1,0 +1,43 @@
+{
+  "lecture_id": "promo",
+  "total_pages": 6,
+  "total_duration": 103.17866666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\promo\\promo_page01.wav",
+      "duration": 15.061333333333334,
+      "text": "こんにちは。\nClaude Codeで、やかんバッチやじどうかをためしてみて、pushやPRさくせいのてまえでとまった、ということはありませんか。\nきょかリストをせっていしたはずなのに、けっきょくまいかいかくにんをもとめられる。\nそのげんいんがわからないまま、むじんかをあきらめていませんか。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\promo\\promo_page02.wav",
+      "duration": 25.792,
+      "text": "このこうざでは、そのげんいんをひとつずつときながら、じっさいにむじんじっこうまでとどけるほうほうをまなびます。\nClaude Codeのけんげんモードのしくみをりかいし、CLAUDE.mdとsettings.jsonでかんきょうをととのえ、Routineというしくみでクラウドじょうにむじんじっこうをうごかします。\nとちゅうでつまずいたじっさいのじれい、EGRESS_BLOCKEDというつうしんエラーや、cronのじかんのズレなども、そのままきょうざいにしています。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\promo\\promo_page03.wav",
+      "duration": 21.429333333333332,
+      "text": "まなぶのは、3つのポイントです。\nだいいちに、けんげんモード。きょかリストほうしきと、バイパスほうしきは、べつのレイヤーだというじじつをりかいします。\nだいにに、Routine。クラウドじょうでスケジュールじっこうするしくみと、cronのせっけいをまなびます。\nだいさんに、しっぱいのついせき。がいぶAPIのたんいつしょうがいてんや、むじんじっこうがとまったときのかくにんほうほうをまなびます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\promo\\promo_page04.wav",
+      "duration": 18.133333333333333,
+      "text": "このこうざは、Kiroかんぜんオートパイロットにゅうもんの、しまいへんです。\nKiroが、Autopilot、Steering、Hooksだったのにたいして、Claude Codeでは、けんげんモード、Routine、cronせっけい、というたいひになります。\nりょうほうじゅこうすると、AIツールごとのけんげんせっけいのちがいが、よりくっきりみえてきます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\promo\\promo_page05.wav",
+      "duration": 12.277333333333333,
+      "text": "このこうざは、Claude Codeをつかいはじめたけれど、まいかいきょかをもとめられて、じどうかできていないかた、をたいしょうにしています。\nじっさいのせっていファイルをつくりながらすすめるので、みおわったころには、てもとにせっていがのこります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\promo\\promo_page06.wav",
+      "duration": 10.485333333333333,
+      "text": "きょかをもとめられつづける、そのくりかえしをおわらせたいかた。\nこのこうざが、そのだいいっぽになります。\nつぎのレクチャーから、いっしょにせっていをつくっていきましょう。\nいますぐ、じゅこうをはじめましょう。"
+    }
+  ]
+}

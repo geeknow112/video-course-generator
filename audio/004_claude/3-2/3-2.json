@@ -1,0 +1,43 @@
+{
+  "lecture_id": "3-2",
+  "total_pages": 6,
+  "total_duration": 74.47466666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-2\\3-2_page01.wav",
+      "duration": 5.674666666666667,
+      "text": "このレクチャーでは、しんらいずみコマンドのせっていと、Hooksによるじどうかを、じっさいにつくっていきます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-2\\3-2_page02.wav",
+      "duration": 22.709333333333333,
+      "text": "ls、grep、git logのような、よみとりけいコマンドは、まいかいしょうにんするのは、てまです。\nまとめてきょかしておきましょう。\n`Bash(ls *)`、`Bash(cat *)`、`Bash(grep *)`、`Bash(find *)`、`Bash(git log *)`、`Bash(git status)`、`Bash(git diff *)`、`Bash(git branch *)`。\nこれらを`permissions.allow`にとうろくします。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-2\\3-2_page03.wav",
+      "duration": 13.525333333333334,
+      "text": "はかいてきなそうさ、rm、git reset ハイフンハイフンhard、などは、きょかせず、つどかくにんするのが、おすすめです。\nよみとりけいはじどうか、かきかえけいはつどかくにん、というきょうかいせんが、あんぜんなうんようのきほんになります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-2\\3-2_page04.wav",
+      "duration": 16.032,
+      "text": "Hooksは、とくていのタイミングで、じどうてきにコマンドをじっこうするしくみです。\nPostToolUse、Edit、または、Write、のあとに、npm run lintをじっこうする。\nStop、さぎょうかんりょうじに、つうちをだす。\nくりかえしてどうでやっていたそうさを、じどうかできます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-2\\3-2_page05.wav",
+      "duration": 7.957333333333334,
+      "text": "ファイルへんしゅうごに、じどうでlintをはしらせる、さぎょうかんりょうじにつうちする、など、Hooksをくみあわせることで、かくにんのてまがへります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\3-2\\3-2_page06.wav",
+      "duration": 8.576,
+      "text": "しんらいずみコマンドと、Hooksのせっていをつくりました。\nつぎのレクチャーでは、EC2プラスtmuxから、Routineへの、てんかんのはなしにすすみます。"
+    }
+  ]
+}

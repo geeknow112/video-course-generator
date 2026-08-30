@@ -1,0 +1,37 @@
+{
+  "lecture_id": "6-1",
+  "total_pages": 5,
+  "total_duration": 119.38133333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-1\\6-1_page01.wav",
+      "duration": 7.712,
+      "text": "おつかれさまでした。これで、Claude Codeむじんうんようマスターこうざ、はしゅうりょうです。\nさいごに、このコースでまなんだことをふりかえりましょう。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-1\\6-1_page02.wav",
+      "duration": 46.83733333333333,
+      "text": "このコースでまなんだ4つのポイントをふりかえります。\nだいいちは、けんげんモードです。きょかリストほうしきと、バイパスほうしきは、べつのレイヤーでした。acceptEditsにしていても、Bashのきょかリストにないコマンドはとまる、というかんけいをかくにんしました。\nだいには、かんきょうこうちくです。CLAUDE.mdでプロジェクトのぶんみゃくをつたえ、settings.jsonのallow、denyで、なにをじどうかし、なにをつどかくにんするかを、せっけいしました。\nだいさんは、Routineとcronせっけいです。かくりかんきょうをじぶんでつくらなくても、Routineがぶんりじっこうかんきょうをかたがわりしました。cronは3パターンにしゅうそくし、UTCへんかんのちゅういてんもかくにんしました。\nだいよんは、しっぱいのついせきです。がいぶAPIちょくたたきのたんいつしょうがいてんと、next_run_atでのかくにんしゅうかんを、みました。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-1\\6-1_page03.wav",
+      "duration": 24.512,
+      "text": "このコースでとりあげたないようは、すべてじっさいにおきたじれいでした。\nきょかリストをせっていしてもとまった、EGRESS_BLOCKEDでつうしんがブロックされた、cronのじかんがずれた。\nどれも、そうぞうではなく、じっそくちとじったいけんにもとづいていました。\nこのコースでみたじれいと、じぶんのかんきょうでおきることは、かならずしもいっちしません。じぶんのかんきょうでも、おなじようにじっさいにためして、きろくをのこすことをおすすめします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-1\\6-1_page04.wav",
+      "duration": 28.864,
+      "text": "コースしゅうりょうごのつぎのステップをていあんします。\nだいいちに、じぶんのsettings.jsonの、allow、denyをみなおしてください。よみとりけいはじどうか、かきかえけいはつどかくにん、というきょうかいせんをつくってください。\nだいにに、CLAUDE.mdをかいてください。プロジェクトがいよう、かいはつルール、きんしじこう、からはじめれば、じゅうぶんです。\nだいさんに、ちいさいRoutineを1ぽんだけつくってみてください。cronは、next_run_atでかならずかくにんしてください。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\6-1\\6-1_page05.wav",
+      "duration": 11.456,
+      "text": "ここまでじゅこういただき、ありがとうございました。\nClaude Codeのむじんうんようで、かいはつこうりつをさいだいかしましょう。\nしつもんがあれば、Q&Aセクションでおまちしています。\nまたべつのコースでおあいしましょう。"
+    }
+  ]
+}
