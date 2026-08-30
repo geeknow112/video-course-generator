@@ -22,11 +22,28 @@ export interface Lesson {
   slide: string;
 }
 
+/**
+ * VOICEVOX の音声パラメータ上書き。
+ * 未指定のキーは scripts/generate_slide_audio.py の既定値（社長決定のcenter案）のまま。
+ * コースごとに声色を変えたい場合（例: 話者を変える）にだけ使う。
+ */
+export interface VoiceParams {
+  speedScale?: number;
+  intonationScale?: number;
+  pitchScale?: number;
+  volumeScale?: number;
+  pauseLengthScale?: number;
+  prePhonemeLength?: number;
+  postPhonemeLength?: number;
+}
+
 export interface Course {
   id: string;
   title: string;
   /** VOICEVOX の話者 ID。既定は 2（四国めたん ノーマル）。 */
   speakerId: number;
+  /** 音声パラメータの個別上書き。未指定ならPython側の既定値を使う。 */
+  voice?: VoiceParams;
   /** スライド間に挟む無音の秒数。 */
   silenceDuration: number;
   /**
@@ -42,6 +59,7 @@ interface RawCourse {
   id?: string;
   title?: string;
   speakerId?: number;
+  voice?: VoiceParams;
   silenceDuration?: number;
   audioLayout?: string;
   lessons?: Partial<Lesson>[];
@@ -93,6 +111,7 @@ export function loadCourse(courseId: string): Course {
     id: raw.id ?? courseId,
     title: raw.title ?? courseId,
     speakerId: raw.speakerId ?? 2,
+    voice: raw.voice,
     silenceDuration: raw.silenceDuration ?? 0.5,
     audioLayout: layout,
     lessons,

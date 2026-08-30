@@ -19,6 +19,34 @@ import requests
 VOICEVOX_HOST = os.environ.get("VOICEVOX_HOST", "http://localhost:50021")
 SPEAKER_ID = 2  # 四国めたん ノーマル
 
+# 音声パラメータの既定値（2026-08-30 社長決定）。
+# 比較試聴（audio/_quality_test_v2/）の結果、中庸案（center）を採用。
+# 狙いは「速く・平坦に」読み上げること（ゆっくり霊夢寄りのテンポ）。
+# prePhonemeLength/postPhonemeLength は center 音源の再現に必要な値
+# （社長からの指示文には明記されていないが、比較試聴で聴いていた音源はこの値で
+#  生成されている。詳細は audio/_quality_test_v2/README.md 参照）。
+DEFAULT_SPEED_SCALE = 1.2
+DEFAULT_INTONATION_SCALE = 0.7
+DEFAULT_PITCH_SCALE = 0.03
+DEFAULT_PAUSE_LENGTH_SCALE = 0.8
+DEFAULT_PRE_PHONEME_LENGTH = 0.05
+DEFAULT_POST_PHONEME_LENGTH = 0.05
+
+# 音声合成パラメータの上書き値。
+# --speed 等のCLI引数は上記の確定値をデフォルトに持つため、未指定でも
+# 常にこの確定値が synthesis に渡る（audio_query の生の既定値には戻らない）。
+# volumeScale だけは今回の決定に含まれないため、未指定（None）なら
+# audio_query の既定値（1.0）のまま渡す。
+QUERY_OVERRIDES = {
+    "speedScale": None,
+    "pitchScale": None,
+    "intonationScale": None,
+    "volumeScale": None,
+    "pauseLengthScale": None,
+    "prePhonemeLength": None,
+    "postPhonemeLength": None,
+}
+
 
 def text_to_speech(text: str, output_path: Path) -> float:
     """テキストを音声に変換してWAVファイルを保存"""
@@ -29,7 +57,12 @@ def text_to_speech(text: str, output_path: Path) -> float:
     )
     query_response.raise_for_status()
     query = query_response.json()
-    
+
+    # 明示的に指定されたパラメータだけ上書きする（未指定はaudio_queryの既定値のまま）
+    for key, value in QUERY_OVERRIDES.items():
+        if value is not None:
+            query[key] = value
+
     # 音声合成
     synthesis_response = requests.post(
         f"{VOICEVOX_HOST}/synthesis",
@@ -160,11 +193,35 @@ def main():
                         help=f"VOICEVOXの話者ID（既定: {SPEAKER_ID} 四国めたん ノーマル）")
     parser.add_argument("--host", default=VOICEVOX_HOST,
                         help=f"VOICEVOXのホスト（既定: {VOICEVOX_HOST}）")
+    # 音声パラメータ。既定値は2026-08-30社長決定のcenter案（DEFAULT_*定数）。
+    # 個別に変えたいときだけCLI引数で上書きする。
+    parser.add_argument("--speed", type=float, default=DEFAULT_SPEED_SCALE,
+                        help=f"speedScale（既定: {DEFAULT_SPEED_SCALE}）")
+    parser.add_argument("--pitch", type=float, default=DEFAULT_PITCH_SCALE,
+                        help=f"pitchScale（既定: {DEFAULT_PITCH_SCALE}）")
+    parser.add_argument("--intonation", type=float, default=DEFAULT_INTONATION_SCALE,
+                        help=f"intonationScale（既定: {DEFAULT_INTONATION_SCALE}）")
+    parser.add_argument("--volume", type=float, default=None,
+                        help="volumeScaleを上書き（既定はaudio_queryの1.0のまま。今回の決定に含まれない）")
+    parser.add_argument("--pause-scale", type=float, default=DEFAULT_PAUSE_LENGTH_SCALE,
+                        help=f"pauseLengthScale（既定: {DEFAULT_PAUSE_LENGTH_SCALE}）")
+    parser.add_argument("--pre-phoneme-length", type=float, default=DEFAULT_PRE_PHONEME_LENGTH,
+                        help=f"prePhonemeLength（既定: {DEFAULT_PRE_PHONEME_LENGTH}）")
+    parser.add_argument("--post-phoneme-length", type=float, default=DEFAULT_POST_PHONEME_LENGTH,
+                        help=f"postPhonemeLength（既定: {DEFAULT_POST_PHONEME_LENGTH}）")
 
     args = parser.parse_args()
 
     SPEAKER_ID = args.speaker
     VOICEVOX_HOST = args.host
+
+    QUERY_OVERRIDES["speedScale"] = args.speed
+    QUERY_OVERRIDES["pitchScale"] = args.pitch
+    QUERY_OVERRIDES["intonationScale"] = args.intonation
+    QUERY_OVERRIDES["volumeScale"] = args.volume
+    QUERY_OVERRIDES["pauseLengthScale"] = args.pause_scale
+    QUERY_OVERRIDES["prePhonemeLength"] = args.pre_phoneme_length
+    QUERY_OVERRIDES["postPhonemeLength"] = args.post_phoneme_length
 
     script_path = Path(args.script)
     output_dir = Path(args.output_dir)
