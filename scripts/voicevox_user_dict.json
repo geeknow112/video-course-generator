@@ -1,0 +1,30 @@
+[
+  {
+    "surface": "npm",
+    "pronunciation": "エヌピーエム",
+    "accent_type": 0,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "Q2",
+    "pronunciation": "キューニ",
+    "accent_type": 0,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "Hooks",
+    "pronunciation": "フックス",
+    "accent_type": 0,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "VS",
+    "pronunciation": "ブイエス",
+    "accent_type": 0,
+    "priority": 9,
+    "word_type": "PROPER_NOUN"
+  }
+]

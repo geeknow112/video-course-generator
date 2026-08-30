@@ -106,10 +106,23 @@ intonation・pause は逆側（0.6と1.0/1.0など）との対比で、下げた
 - `misread_dict_registered_speed1.2.wav` … 誤読確認（center速度・辞書登録後）
 - `misread_dict_registered_speed1.35.wav` … 誤読確認（extreme速度・辞書登録後）
 - `user_dict.json` … 登録した辞書のエクスポート（`GET /user_dict`）
+- `final_default.wav` … 2026-08-30 社長決定後、既定値変更後の `generate_slide_audio.py` を
+  CLI引数なしで実行した確認用出力（page1）。`center_*.wav` とバイト単位で同一。
+
+## 追記（2026-08-30）: 社長決定と既定値への反映
+
+比較試聴の結果、**中庸案（center）を採用**と決定。
+`scripts/generate_slide_audio.py` の既定値をこの値（speedScale=1.2 /
+intonationScale=0.7 / pitchScale=0.03 / pauseLengthScale=0.8 /
+prePhonemeLength・postPhonemeLength=0.05）に変更した。
+`courses/<id>.yaml` の `voice:` からコース単位で上書きできる仕組みも追加した
+（詳細は `video-generator/README.md` の「音声パラメータ」節を参照）。
+
+辞書4件は `scripts/voicevox_user_dict.json` + `scripts/register_user_dict.py` で
+環境非依存に復元できるようにした。
 
 ## 変更していないもの
 
-- `audio/003_kiro/`、`audio/001_cicd/` の既存音声は無加工。
-- 既存2コースの再生成はしていない。
-- `generate_slide_audio.py` の既定値は変更なし。
+- `audio/003_kiro/`、`audio/001_cicd/` の既存音声は無加工（一切上書きしていない）。
+- 既存2コースの再生成はしていない（このタスクの対象外）。
 - `audio/_quality_test/`（前回分）は削除していない。
