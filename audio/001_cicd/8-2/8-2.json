@@ -1,0 +1,91 @@
+{
+  "lecture_id": "8-2",
+  "total_pages": 14,
+  "total_duration": 167.296,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page01.wav",
+      "duration": 3.104,
+      "text": "このレクチャーでは、インフラこうせいのせっけいをおこないます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page02.wav",
+      "duration": 7.317333333333333,
+      "text": "このレクチャーでまなぶことは、リソースのせっけい、データのながれ、IAMけんげんのせっけい、かんきょうへんすうのせっけい、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page03.wav",
+      "duration": 12.629333333333333,
+      "text": "ひつようなリソースいちらんです。SNS Topicで、つうちをちゅうかいします。Lambda Functionで、メッセージをへんかんします。IAM Roleで、Lambdaのけんげんをかんりします。CloudWatch Logsで、ログをほぞんします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page04.wav",
+      "duration": 10.08,
+      "text": "SNS Topicのせっけいです。トピックめいは、CloudWatchAlarmTopicです。Lambdaを、サブスクライバーとしてとうろくします。CloudWatch Alarmから、メッセージをうけとります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page05.wav",
+      "duration": 12.554666666666666,
+      "text": "Lambda Functionのせっけいです。かんすうめいは、SlackNotificationFunctionです。ランタイムは、Node.js 20.xです。メモリは、128MBです。タイムアウトは、10びょうです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page06.wav",
+      "duration": 15.104,
+      "text": "データのながれです。CloudWatch Alarmが、SNSにメッセージをおくります。SNSが、Lambdaをきどうします。Lambdaが、SNSメッセージをパースします。Lambdaが、Slackけいしきにへんかんします。Lambdaが、Webhook URLにPOSTします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page07.wav",
+      "duration": 14.368,
+      "text": "SNSメッセージのこうぞうです。Recordsはいれつに、SNSオブジェクトがはいっています。SNSオブジェクトに、Messageがあります。Messageは、もじれつかされたJSONです。JSON.parseで、オブジェクトにへんかんします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page08.wav",
+      "duration": 13.674666666666667,
+      "text": "CloudWatch Alarmメッセージのこうぞうです。AlarmNameに、アラームめいがはいります。NewStateValueに、ALARMやOKがはいります。NewStateReasonに、りゆうがはいります。StateChangeTimeに、じこくがはいります。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page09.wav",
+      "duration": 11.552,
+      "text": "Slackメッセージのこうぞうです。textに、メッセージほんぶんをいれます。blocksで、リッチなひょうじができます。attachmentsで、いろつきのメッセージができます。colorに、dangerやgoodをしていします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page10.wav",
+      "duration": 12.309333333333333,
+      "text": "IAMけんげんのせっけいです。Lambdaには、きほんじっこうロールがひつようです。CloudWatch Logsへの、しょきこみけんげんがひつようです。SAMでは、AWSLambdaBasicExecutionRoleを、じどうでアタッチします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page11.wav",
+      "duration": 13.536,
+      "text": "かんきょうへんすうのせっけいです。SLACK_WEBHOOK_URLを、かんきょうへんすうでかんりします。コードにちょくせつかかないことで、セキュリティをたもちます。ほんばんでは、Secrets Managerをすいしょうします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page12.wav",
+      "duration": 12.490666666666666,
+      "text": "エラーハンドリングのせっけいです。SNSメッセージのパースエラーを、キャッチします。Slackへのリクエストエラーを、キャッチします。エラーじは、CloudWatch Logsにきろくします。リトライは、SNSがじどうでおこないます。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page13.wav",
+      "duration": 14.016,
+      "text": "ログせっけいです。CloudWatch Logsに、じっこうログをほぞんします。ログレベルを、INFO、ERROR、DEBUGでわけます。ほんばんでは、DEBUGをむこうにします。ログほぞんきかんを、せっていします。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-2\\8-2_page14.wav",
+      "duration": 14.56,
+      "text": "まとめです。SNS Topicで、つうちをちゅうかいします。Lambdaで、メッセージをへんかんします。かんきょうへんすうで、Webhook URLをかんりします。IAMけんげんは、さいしょうげんにします。つぎのレクチャーで、SAMテンプレートをじっそうします。"
+    }
+  ]
+}

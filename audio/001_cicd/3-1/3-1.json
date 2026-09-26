@@ -1,0 +1,79 @@
+{
+  "lecture_id": "3-1",
+  "total_pages": 12,
+  "total_duration": 133.65333333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page01.wav",
+      "duration": 5.184,
+      "text": "このレクチャーでは、CodePipelineのきほんてきながいねんと、こうせいようそについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page02.wav",
+      "duration": 8.213333333333333,
+      "text": "このレクチャーでまなぶことは、CodePipelineとはなにか、パイプラインのこうせいようそ、りょうきんたいけい、ほかのCICDツールとのひかく、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page03.wav",
+      "duration": 13.322666666666667,
+      "text": "まず、CodePipelineとはなにか、からはじめましょう。CodePipelineは、AWSがていきょうする、けいぞくてきデリバリーサービスです。コードのへんこうをじどうてきにけんちして、ビルド、テスト、デプロイをじどうでじっこうしてくれます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page04.wav",
+      "duration": 14.026666666666667,
+      "text": "パイプラインのながれをみてみましょう。ソースステージでGitHubからコードをしゅとくし、ビルドステージでCodeBuildがビルドをじっこう、テストステージでテストをじっこう、さいごにデプロイステージでS3やLambdaにデプロイします。このながれをじゆうにくみあわせることができます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page05.wav",
+      "duration": 12.426666666666666,
+      "text": "CodePipelineのこうせいようそをじゅんばんにみていきましょう。まず、パイプラインです。パイプラインは、ぜんたいのながれをていぎするものです。ふくすうのステージでこうせいされ、1つのパイプラインが1つのワークフローをあらわします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page06.wav",
+      "duration": 9.365333333333334,
+      "text": "つぎに、ステージです。ステージは、パイプラインないのしょりたんいです。たとえば、Source、Build、Deployなどがあります。ステージかんはじゅんばんにじっこうされます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page07.wav",
+      "duration": 9.973333333333333,
+      "text": "つぎに、アクションです。アクションは、ステージないのぐたいてきなしょりです。たとえば、GitHubからコードをしゅとくする、S3にデプロイする、などです。へいれつじっこうもかのうです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page08.wav",
+      "duration": 9.610666666666667,
+      "text": "さいごに、アーティファクトです。アーティファクトは、ステージかんでうけわたすファイルのことです。S3にじどうでほぞんされます。ビルドせいかぶつや、せっていファイルなどがふくまれます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page09.wav",
+      "duration": 11.797333333333333,
+      "text": "りょうきんたいけいをかくにんしましょう。アクティブなパイプラインは、つき1ドルです。ただし、さいしょの1つはむりょうでつかえます。30にちかんしようしないパイプラインは、ひアクティブあつかいとなり、りょうきんはかかりません。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page10.wav",
+      "duration": 14.837333333333333,
+      "text": "ほかのCICDツールとひかくしてみましょう。Jenkinsはこうきのうですが、じこかんりがひつようです。GitHub ActionsはGitHubとのとうごうがつよみです。CircleCIはクラウドがたでこうそくです。CodePipelineは、AWSとうごうとシンプルさがとくちょうです。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page11.wav",
+      "duration": 12.096,
+      "text": "CodePipelineをえらぶりゆうをまとめます。AWSサービスとのネイティブれんけい、IAMによるこまかいけんげんかんり、サーバーレスでうんようふかゼロ、そしてさいしょの1パイプラインはむりょう、というてんがあげられます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-1\\3-1_page12.wav",
+      "duration": 12.8,
+      "text": "まとめです。CodePipelineは、けいぞくてきデリバリーサービスです。パイプライン、ステージ、アクションというかいそうこうぞうになっています。さいしょの1つはむりょうでつかえます。つぎのレクチャーでは、GitHubリポジトリをじゅんびします。"
+    }
+  ]
+}

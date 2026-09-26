@@ -1,0 +1,61 @@
+{
+  "lecture_id": "2-2",
+  "total_pages": 9,
+  "total_duration": 113.33333333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page01.wav",
+      "duration": 11.2,
+      "text": "このレクチャーでは、じっさいにS3バケットをさくせいします。\n\nAWSマネジメントコンソールにログイン。\nS3サービスをひらく。\nバケットをさくせい。\nせっていをかくにん。\n\nいっしょにやっていきましょう。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page02.wav",
+      "duration": 15.306666666666667,
+      "text": "まず、AWSマネジメントコンソールにログインします。\n\naws.amazon.comにアクセスして、\nコンソールにサインインをクリックします。\nIAMユーザーまたはルートユーザーでログインしてください。\n\nリージョンを、とうきょう、ap-northeast-1にせっていしてください。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page03.wav",
+      "duration": 7.968,
+      "text": "つぎに、S3サービスをひらきます。\n\nけんさくバーに、S3とにゅうりょくします。\nS3をクリックします。\nS3ダッシュボードがひょうじされます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page04.wav",
+      "duration": 14.421333333333333,
+      "text": "バケットをさくせいします。\n\nバケットをさくせいボタンをクリックします。\n\nせっていこうもくは、\nバケットめい、せかいでいちいのなまえ。\nリージョン、アジアパシフィック、とうきょう。\nオブジェクトしょゆうしゃ、ACLむこう。\nパブリックアクセスは、あとでせっていします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page05.wav",
+      "duration": 18.058666666666667,
+      "text": "バケットめいのルールをせつめいします。\n\n3もじから63もじ。\nこもじ、すうじ、ハイフンのみ。\nせんとうとまつびは、もじかすうじ。\nせかいでいちいであるひつようがあります。\n\nめいめいれいとして、\nmy-website-bucket-20240101。\ncicd-demo-yourname。\nなどがあります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page06.wav",
+      "duration": 9.12,
+      "text": "パブリックアクセスせっていについてです。\n\nこんかいは、いったんデフォルトのままにします。\n\nパブリックアクセスをすべてブロックにチェックがはいっています。\n\nあとのレクチャーでへんこうします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page07.wav",
+      "duration": 10.730666666666666,
+      "text": "そのたのせっていです。\n\nバケットのバージョニングは、むこう。\nデフォルトのあんごうかは、SSE-S3、デフォルト。\nしょうさいせっていは、デフォルトのまま。\n\nバケットをさくせいをクリックします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page08.wav",
+      "duration": 12.138666666666667,
+      "text": "さくせいかんりょうです。\n\nバケットいちらんに、あたらしいバケットがひょうじされればせいこうです。\n\nかくにんポイントは、\nバケットめいがただしいか。\nリージョンがとうきょうか。\nアクセスが、バケットとオブジェクトはひこうかい、になっているか。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-2\\2-2_page09.wav",
+      "duration": 14.389333333333333,
+      "text": "まとめです。\n\nAWSコンソールから、S3バケットをさくせいしました。\nバケットめいは、せかいでいちいです。\nリージョンは、とうきょうをせんたく。\nパブリックアクセスは、あとでせっていします。\n\nつぎのレクチャーでは、せいてきウェブサイトホスティングをゆうこうかします。"
+    }
+  ]
+}

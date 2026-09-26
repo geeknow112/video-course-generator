@@ -1,0 +1,55 @@
+{
+  "lecture_id": "4-2",
+  "total_pages": 8,
+  "total_duration": 172.82133333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page01.wav",
+      "duration": 11.68,
+      "text": "ここからハンズオンです。\nJMeterをインストールして、じっさいにスクリプトをつくります。\nつくるのは、APIにGETリクエストをなげるだけのかんたんなものです。\nまずはうごくものをつくって、そこからふやしていきます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page02.wav",
+      "duration": 23.136,
+      "text": "まずインストールです。\nApache JMeterのこうしきサイトをひらきます。\nDownload Releasesから、さいしんばんをダウンロードします。\nZipをてんかいして、binフォルダのなかのjmeterをじっこうすれば、GUIがたちあがります。\nWindowsならjmeter.bat、MacやLinuxならjmeterというファイルです。\nJavaがひつようなので、はいっていないばあいはさきにいれてください。\nきどうにすこしじかんがかかります。まっててください。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page03.wav",
+      "duration": 26.485333333333333,
+      "text": "Thread Groupをつくります。\nTest Planをみぎクリックして、Add、Threads、Thread Groupのじゅんにえらびます。\nここでせっていするのは3つです。\nNumber of Threadsは、かそうユーザーのにんずう。\nRamp-up periodは、そのにんずうにたっするまでのびょうすう。\nLoop Countは、なんかいくりかえすかです。\nローカルでかくにんするだけなら、1にん、1びょう、1かいでじゅうぶんです。\nほんばんのふかは、DLTがわのせっていできめるので、ここはちいさくしておいてかまいません。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page04.wav",
+      "duration": 33.93066666666667,
+      "text": "HTTP Requestをついかします。\nThread Groupをみぎクリックして、Add、Sampler、HTTP Requestをえらびます。\nProtocolには、httpsまたはhttpをいれます。\nServer Name or IPに、たいしょうのホストめいをいれます。ここにはURLぜんたいではなく、ホストめいだけをいれます。\nPathに、たたきたいパスをいれます。スラッシュからはじめます。\nMethodは、GETやPOSTからえらびます。\nここでよくあるまちがいが、Server Name or IPにhttpsからはじまるURLをまるごといれてしまうことです。\nそうするとせつぞくできません。ホストめいだけにしてください。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page05.wav",
+      "duration": 23.925333333333334,
+      "text": "HTTP Header Managerをついかします。\nThread Groupをみぎクリックして、Add、Config Element、HTTP Header Managerです。\nここにContent-Typeや、にんしょうようのヘッダーをついかします。\nAPIをテストするばあい、これがないとリクエストがはじかれることがあります。\nUser-Agentをせっていしておくのもおすすめです。\nサーバーがわのログで、ふかテストからのリクエストだとみわけがつくようになります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page06.wav",
+      "duration": 17.962666666666667,
+      "text": "スクリプトをほぞんします。\nFile、Save Test Plan asをえらび、api-load-test.jmxのようななまえをつけます。\nこのjmxファイルが、DLTにアップロードするファイルになります。\nなかみはXMLなので、テキストエディタでもひらけます。\nGitでかんりしておくと、へんこうのりれきがのこるのでおすすめです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page07.wav",
+      "duration": 26.837333333333333,
+      "text": "できあがったこうせいをかくにんします。\nTest Planのしたに、Thread Groupがひとつ。\nそのしたに、HTTP RequestとHTTP Header Managerがならんでいるはずです。\nローカルで1かいだけじっこうして、エラーがでないことをたしかめておくと、あとがらくです。\nかくにんには、View Results Treeというリスナーをいちじてきについかします。\nレスポンスのなかみがみえるので、ただしくつながっているかがわかります。\nたしかめたら、リスナーはけしてください。DLTでじっこうするときにはふようです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-2\\4-2_page08.wav",
+      "duration": 8.864,
+      "text": "つぎのレクチャーでは、このスクリプトをDLTにアップロードして、じっさいにおおきなふかをかけます。\nローカルで1にんでうごいたものが、クラウドで100にんぶんうごきます。"
+    }
+  ]
+}

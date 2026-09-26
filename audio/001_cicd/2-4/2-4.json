@@ -1,0 +1,55 @@
+{
+  "lecture_id": "2-4",
+  "total_pages": 8,
+  "total_duration": 111.712,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page01.wav",
+      "duration": 12.32,
+      "text": "このレクチャーでは、HTMLファイルをS3にアップロードして、\nウェブサイトをこうかいします。\n\nシンプルなHTMLファイルをさくせい。\nS3バケットにアップロード。\nウェブサイトにアクセスしてかくにん。\n\nやっていきましょう。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page02.wav",
+      "duration": 15.690666666666667,
+      "text": "まず、HTMLファイルをさくせいします。\n\nテキストエディタで、index.htmlをさくせいします。\n\nHTMLのきほんこうぞうに、\nタイトルと、Hello from S3というみだしをかきます。\n\nファイルめいは、かならず、index.htmlにしてください。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page03.wav",
+      "duration": 12.490666666666666,
+      "text": "つぎに、S3にアップロードします。\n\nS3コンソールで、バケットをせんたく。\nオブジェクトタブをかくにん。\nアップロードボタンをクリック。\nファイルをついかで、index.htmlをせんたく。\nアップロードをクリック。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page04.wav",
+      "duration": 11.658666666666667,
+      "text": "アップロードかんりょうです。\n\nオブジェクトいちらんに、index.htmlがひょうじされればせいこうです。\n\nかくにんポイントは、\nファイルめいが、index.htmlか。\nサイズがひょうじされているか。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page05.wav",
+      "duration": 14.890666666666666,
+      "text": "ウェブサイトにアクセスします。\n\nエンドポイントURLにアクセスしてください。\n\nバケットめい、どっと、s3-website-ap-northeast-1、どっと、amazonaws、どっと、com。\n\nHello from S3がひょうじされれば、せいこうです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page06.wav",
+      "duration": 15.616,
+      "text": "うまくいかないばあいのたいしょほうです。\n\n403 Forbiddenのばあい。\nバケットポリシーがせっていされていない。\nパブリックアクセスがブロックされている。\n\n404 Not Foundのばあい。\nファイルめいが、index.htmlでない。\nインデックスドキュメントのせっていがちがう。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page07.wav",
+      "duration": 13.450666666666667,
+      "text": "ふくすうファイルのアップロードもかのうです。\n\nCSSやがぞうも、どうようにアップロードできます。\n\nindex.html、style.css、imagesフォルダ、logo.pngなど。\n\nフォルダこうぞうも、そのままアップロードできます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-4\\2-4_page08.wav",
+      "duration": 15.594666666666667,
+      "text": "まとめです。\n\nindex.htmlをさくせいして、アップロード。\nエンドポイントURLで、アクセスかくにん。\nエラーのばあいは、ポリシーとファイルめいをかくにん。\n\nこれで、S3せいてきウェブサイトがかんせいしました。\n\nつぎのレクチャーでは、セクションのまとめをおこないます。"
+    }
+  ]
+}

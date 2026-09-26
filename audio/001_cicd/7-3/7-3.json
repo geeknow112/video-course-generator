@@ -1,0 +1,73 @@
+{
+  "lecture_id": "7-3",
+  "total_pages": 11,
+  "total_duration": 238.99733333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page01.wav",
+      "duration": 12.757333333333333,
+      "text": "このレクチャーでは、SAM CLIをつかったローカルテストをまなびます。\nまえのレクチャーで、テンプレートをかきました。\nふつうなら、ここでデプロイしてためしたくなります。\nでも、そのまえに、てもとでうごかしてかくにんするほうほうがあります。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page02.wav",
+      "duration": 17.024,
+      "text": "このレクチャーでまなぶことは、6つです。\nローカルテストがひつようなりゆう。\nsam buildでのビルド。\nsam local invokeで、かんすうをたんたいでじっこうするほうほう。\nsam local start-apiで、APIをきどうするほうほう。\nテストイベントのせいせいと、デバッグ。\nそして、ローカルとクラウドのちがいです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page03.wav",
+      "duration": 23.925333333333334,
+      "text": "なぜローカルでテストするのか。\nデプロイしてかくにんするばあい、1かいあたりすうふんまたされます。\nログをみるには、CloudWatch Logsをひらきにいくひつようがあります。\nしっぱいすると、スタックがロールバックして、またまたされます。\nいっぽう、ローカルなら、けっかがすうびょうででます。\nひょうじゅんしゅつりょくが、そのままターミナルにながれます。\nしっぱいしても、なにもこわれません。\nしゅうせいとかくにんのおうふくがおおいほど、このさはおおきくなります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page04.wav",
+      "duration": 22.741333333333333,
+      "text": "ぜんていとして、Dockerがひつようです。\nSAM CLIのローカルじっこうは、Lambdaのじっこうかんきょうを、Dockerコンテナでさいげんします。\nなので、Docker Desktop、またはごかんのランタイムがきどうしているひつようがあります。\nしょかいは、ランタイムのイメージをとりにいくので、じかんがかかります。\nDockerがきどうしていないと、エラーでとまります。\nメッセージに、Dockerがひつようだとかいてあるので、すぐにわかります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page05.wav",
+      "duration": 31.594666666666665,
+      "text": "まず、sam buildです。\nこのコマンドは、template.yamlをよみ、かくかんすうのいぞんかんけいをかいけつします。\nけっかは、ドットaws-samスラッシュbuildというフォルダにしゅつりょくされます。\nここがだいじです。このあとのsam localは、ビルドずみのせいかぶつをみます。\nつまり、コードをなおしたら、もういちどsam buildをじっこうするひつようがあります。\nなおしたのにかわらない、というばあいは、たいていこれがげんいんです。\nuse-containerというオプションをつけると、Lambdaとおなじイメージのなかでビルドします。\nネイティブかくちょうをふくむライブラリをつかうときは、こちらがあんぜんです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page06.wav",
+      "duration": 19.765333333333334,
+      "text": "つぎに、sam local invokeです。\nかんすうを1かいだけじっこうします。\nかんすうめいをひきすうにわたすだけで、うごきます。\nイベントをわたすばあいは、ハイフンeオプションで、JSONファイルをしていします。\nかんきょうへんすうをさしかえたいばあいは、env-varsオプションをつかいます。\nほんばんのかんきょうへんすうをつかわずに、てもとのあたいでためせます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page07.wav",
+      "duration": 24.138666666666666,
+      "text": "テストイベントは、てでかくひつようがありません。\nsam local generate-eventというコマンドで、せいせいできます。\nたとえば、apigatewayのaws-proxyけいしきや、snsのnotification、s3のputなどです。\nしゅつりょくをファイルにリダイレクトして、eventsフォルダにほぞんしておきます。\nたいおうしているサービスのいちらんは、helpオプションでかくにんできます。\nじっさいのイベントとおなじこうぞうなので、パースのミスをみつけられます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page08.wav",
+      "duration": 20.48,
+      "text": "sam local start-apiをつかうと、API GatewayとLambdaを、ローカルでたちあげられます。\nじっこうすると、どのパスにどのかんすうがわりあてられたかが、ひょうじされます。\nべつのターミナルから、curlでたたけばかくにんできます。\nちゅういてんがひとつ。リクエストのたびにコンテナがきどうします。\nなので、しょかいはすうびょうかかります。おそいとかんじても、こしょうではありません。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page09.wav",
+      "duration": 17.813333333333333,
+      "text": "ログとデバッグです。\nconsole.logでしゅつりょくしたないようは、そのままターミナルにながれます。\nイベントのなかみをまるごとしゅつりょくしておくと、なにがわたってきたかがすぐわかります。\nデバッガをつなぎたいばあいは、ハイフンdオプションでポートをひらきます。\nVS Codeなどから、そのポートにアタッチすれば、ブレークポイントがつかえます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page10.wav",
+      "duration": 22.944,
+      "text": "ローカルとクラウドのちがいを、せいりしておきます。\nいちばんだいじなのは、IAMロールです。\nローカルじっこうでは、IAMロールはひょうかされません。\nつまり、けんげんがたりなくても、ローカルではうごいてしまいます。\nコールドスタートは、ローカルではまいかいはっせいします。\nどうじじっこうすうのせいげんも、さいげんされません。\nほかのAWSリソースへのせつぞくは、じつぶつにつながります。ここはちゅういしてください。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-3\\7-3_page11.wav",
+      "duration": 25.813333333333333,
+      "text": "まとめです。\nローカルテストは、しゅうせいとかくにんのおうふくを、すうふんからすうびょうにちぢめます。\nsam buildのあとに、sam local invoke。これがきほんのながれです。\nイベントは、generate-eventでつくれます。てがきはふようです。\nAPIは、start-apiでどうさかくにんできます。\nそして、IAMけんげんとネットワークは、ローカルではけんしょうできません。\nそこはデプロイしてからかくにんします。\nつぎのレクチャーでは、SAMをCodePipelineにくみこみます。"
+    }
+  ]
+}

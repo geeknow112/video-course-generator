@@ -1,0 +1,84 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 137.472,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 4.288,
+      "text": "このレクチャーでは、buildspec.ymlのきほんこうぞうについてせつめいします。"
+    },
+    {
+      "slide": 2,
+      "start": 4.288,
+      "duration": 7.1786666666666665,
+      "text": "このレクチャーでまなぶことは、buildspec.ymlとは、きほんこうぞう、かくフェーズのやくわり..."
+    },
+    {
+      "slide": 3,
+      "start": 11.466666666666667,
+      "duration": 12.362666666666666,
+      "text": "buildspec.ymlとはなにか、からはじめましょう。buildspec.ymlは、ビルドてじゅ..."
+    },
+    {
+      "slide": 4,
+      "start": 23.82933333333333,
+      "duration": 10.410666666666666,
+      "text": "きほんこうぞうをみてみましょう。versionは0.2をしていします。phasesセクションに、in..."
+    },
+    {
+      "slide": 5,
+      "start": 34.239999999999995,
+      "duration": 12.992,
+      "text": "フェーズのしゅるいをかくにんしましょう。installは、いぞんかんけいのインストールにつかいます。..."
+    },
+    {
+      "slide": 6,
+      "start": 47.232,
+      "duration": 10.101333333333333,
+      "text": "installフェーズのれいです。runtime-versionsで、nodejsの18をしていして..."
+    },
+    {
+      "slide": 7,
+      "start": 57.33333333333333,
+      "duration": 9.962666666666667,
+      "text": "pre_buildフェーズのれいです。commandsで、npm testをじっこうして、テストをじ..."
+    },
+    {
+      "slide": 8,
+      "start": 67.29599999999999,
+      "duration": 8.629333333333333,
+      "text": "buildフェーズのれいです。commandsで、npm run buildをじっこうしています。メ..."
+    },
+    {
+      "slide": 9,
+      "start": 75.92533333333333,
+      "duration": 9.696,
+      "text": "post_buildフェーズのれいです。commandsで、aws s3 syncをじっこうして、ビ..."
+    },
+    {
+      "slide": 10,
+      "start": 85.62133333333333,
+      "duration": 10.325333333333333,
+      "text": "artifactsセクションのせつめいです。filesで、しゅつりょくするファイルをしていします。b..."
+    },
+    {
+      "slide": 11,
+      "start": 95.94666666666666,
+      "duration": 10.997333333333334,
+      "text": "かんきょうへんすうのせっていほうほうです。envセクションのvariablesで、ちょくせつしていで..."
+    },
+    {
+      "slide": 12,
+      "start": 106.94399999999999,
+      "duration": 13.578666666666667,
+      "text": "かんぜんなれいをみてみましょう。versionは0.2、installフェーズでnodejs 18を..."
+    },
+    {
+      "slide": 13,
+      "start": 120.52266666666665,
+      "duration": 16.949333333333332,
+      "text": "まとめです。buildspec.ymlは、ビルドてじゅんをていぎするファイルです。4つのフェーズ、i..."
+    }
+  ]
+}

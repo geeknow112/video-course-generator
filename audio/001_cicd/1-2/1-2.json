@@ -1,0 +1,67 @@
+{
+  "lecture_id": "1-2",
+  "total_pages": 10,
+  "total_duration": 248.52266666666665,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page01.wav",
+      "duration": 8.949333333333334,
+      "text": "# セクション1 レクチャー2: CI/CDとは何か？なぜ必要か？\n\n## 動画情報\n- **時間**: 約10分\n- **形式**: スライド中心"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page02.wav",
+      "duration": 13.44,
+      "text": "## 台本\n\n### オープニング（0:00-0:30）\n\nこのレクチャーでは、CI/CDとは何か、\nそしてなぜ必要なのかを説明します。\n\n技術的な話に入る前に、\nまずは概念をしっかり理解しておきましょう。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page03.wav",
+      "duration": 37.06666666666667,
+      "text": "### 従来の開発フロー（0:30-2:00）\n\nまず、CI/CDがない従来の開発フローを見てみましょう。\n\n**従来のフロー:**\n1. 開発者がコードを書く\n2. 手動でテストを実行\n3. 問題なければ、手動でサーバーにアップロード\n4. 本番環境で動作確認\n\nこの方法には、いくつかの問題があります。\n\n**問題点:**\n- テストを忘れることがある\n- 手動アップロードでミスが起きる\n- デプロイに時間がかかる\n- 誰がいつデプロイしたか分からない\n- 本番環境で初めてバグに気づく\n\n皆さんも、こんな経験ありませんか？\n\n「あれ、ローカルでは動いてたのに...」\n「誰がこのファイル上げたの？」\n「デプロイ作業で2時間かかった...」"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page04.wav",
+      "duration": 35.989333333333335,
+      "text": "### CI（継続的インテグレーション）とは（2:00-4:00）\n\nCI、Continuous Integrationは、\n日本語で「継続的インテグレーション」と言います。\n\n**CIの定義:**\nコードの変更を頻繁にメインブランチに統合し、\nその都度、自動でビルドとテストを実行すること。\n\n**具体的には:**\n1. 開発者がコードをプッシュ\n2. 自動でビルドが走る\n3. 自動でテストが実行される\n4. 結果が開発者に通知される\n\n**CIのメリット:**\n- バグを早期発見できる\n- 「動くコード」が常にある状態を維持\n- チーム全員のコードが常に統合されている\n- テスト漏れがなくなる"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page05.wav",
+      "duration": 34.410666666666664,
+      "text": "### CD（継続的デリバリー/デプロイ）とは（4:00-6:00）\n\nCDには2つの意味があります。\n\n**Continuous Delivery（継続的デリバリー）:**\nCIに加えて、本番環境にデプロイできる状態を\n常に維持すること。\n最終的なデプロイは手動で承認。\n\n**Continuous Deployment（継続的デプロイ）:**\nテストが通ったら、自動で本番環境にデプロイ。\n人間の承認なしで自動化。\n\nこのコースでは、両方のパターンを学びます。\n\n**CDのメリット:**\n- デプロイ作業の自動化\n- ヒューマンエラーの削減\n- リリース頻度の向上\n- ロールバックが容易"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page06.wav",
+      "duration": 38.208,
+      "text": "### CI/CDパイプラインの全体像（6:00-8:00）\n\nCI/CDパイプラインの典型的な流れを見てみましょう。\n\n```\n[コード変更] → [ビルド] → [テスト] → [ステージング] → [本番デプロイ]\n     ↓           ↓          ↓           ↓              ↓\n   GitHub    CodeBuild   自動テスト   確認環境      S3/Lambda\n```\n\n**各ステージの役割:**\n\n1. **ソース**: GitHubからコードを取得\n2. **ビルド**: コードをコンパイル、パッケージング\n3. **テスト**: 自動テストを実行\n4. **ステージング**: 本番と同じ環境でテスト（任意）\n5. **デプロイ**: 本番環境に反映\n\nどこかで失敗したら、そこでパイプラインは止まります。\n壊れたコードが本番に行くことはありません。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page07.wav",
+      "duration": 34.666666666666664,
+      "text": "### なぜCI/CDが必要か（8:00-9:30）\n\n改めて、CI/CDが必要な理由をまとめます。\n\n**1. 品質の向上**\n- 自動テストで品質を担保\n- バグの早期発見\n\n**2. 開発速度の向上**\n- 手作業の削減\n- 素早いフィードバック\n\n**3. リスクの低減**\n- 小さな変更を頻繁にデプロイ\n- 問題があってもすぐ戻せる\n\n**4. チーム生産性の向上**\n- デプロイ作業からの解放\n- 開発に集中できる\n\n現代のソフトウェア開発では、\nCI/CDは「あったらいいな」ではなく「必須」です。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page08.wav",
+      "duration": 12.149333333333333,
+      "text": "### クロージング（9:30-10:00）\n\nCI/CDの概念は理解できましたか？\n\n次のレクチャーでは、\nAWSが提供するCI/CDサービスの概要を見ていきます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page09.wav",
+      "duration": 25.322666666666667,
+      "text": "## スライド構成案\n\n1. タイトル「CI/CDとは何か？」\n2. 従来の開発フロー（図解）\n3. 従来の問題点（リスト）\n4. CIの定義と流れ（図解）\n5. CIのメリット\n6. CDの2つの意味\n7. CDのメリット\n8. CI/CDパイプライン全体像（フロー図）\n9. なぜCI/CDが必要か（4つのポイント）\n10. まとめ"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-2\\1-2_page10.wav",
+      "duration": 8.32,
+      "text": "## 撮影メモ\n\n- 概念の説明なので、図解を多用\n- 「あるある」な問題を共感を込めて話す\n- パイプラインの流れは図でしっかり説明"
+    }
+  ]
+}

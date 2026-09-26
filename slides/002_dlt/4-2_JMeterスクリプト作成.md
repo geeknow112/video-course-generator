@@ -1,5 +1,3 @@
-# セクション4-2「JMeterスクリプト作成」スライド
-
 ---
 marp: true
 theme: default

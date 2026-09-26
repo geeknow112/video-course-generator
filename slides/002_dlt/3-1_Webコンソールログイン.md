@@ -1,5 +1,3 @@
-# セクション3-1「Webコンソールログイン」スライド
-
 ---
 marp: true
 theme: default

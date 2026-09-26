@@ -1,0 +1,84 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 168.05333333333334,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 3.296,
+      "text": "このレクチャーでは、AWS SAMについてせつめいします。"
+    },
+    {
+      "slide": 2,
+      "start": 3.296,
+      "duration": 7.1146666666666665,
+      "text": "このレクチャーでまなぶことは、SAMとはなにか、SAMのメリット、CloudFormationとのか..."
+    },
+    {
+      "slide": 3,
+      "start": 10.410666666666666,
+      "duration": 10.090666666666667,
+      "text": "SAMとは、Serverless Application Modelのりゃくです。サーバーレスアプリ..."
+    },
+    {
+      "slide": 4,
+      "start": 20.501333333333335,
+      "duration": 12.384,
+      "text": "SAMがかいけつするもんだいです。じゅうらいのLambdaかんりは、たいへんでした。かんすうごとにコ..."
+    },
+    {
+      "slide": 5,
+      "start": 32.885333333333335,
+      "duration": 12.48,
+      "text": "SAMのメリットです。かんけつなきじゅつで、すくないコードでていぎできます。ローカルテストで、じっき..."
+    },
+    {
+      "slide": 6,
+      "start": 45.36533333333334,
+      "duration": 16.672,
+      "text": "CloudFormationとのかんけいです。SAMは、CloudFormationのかくちょうです..."
+    },
+    {
+      "slide": 7,
+      "start": 62.037333333333336,
+      "duration": 12.352,
+      "text": "SAMのきほんがいねんです。SAMテンプレートで、リソースをていぎします。SAM CLIで、ローカル..."
+    },
+    {
+      "slide": 8,
+      "start": 74.38933333333334,
+      "duration": 18.101333333333333,
+      "text": "SAMテンプレートのきほんこうぞうです。AWSTemplateFormatVersionを、2010..."
+    },
+    {
+      "slide": 9,
+      "start": 92.49066666666667,
+      "duration": 21.056,
+      "text": "SAMでていぎできるリソースです。AWS::Serverless::Functionで、Lambda..."
+    },
+    {
+      "slide": 10,
+      "start": 113.54666666666667,
+      "duration": 14.069333333333333,
+      "text": "SAM CLIのインストールです。Windowsのばあい、MSIインストーラーをダウンロードします。..."
+    },
+    {
+      "slide": 11,
+      "start": 127.616,
+      "duration": 12.629333333333333,
+      "text": "SAM CLIのしゅようコマンドです。sam initで、プロジェクトをしょきかします。sam bu..."
+    },
+    {
+      "slide": 12,
+      "start": 140.24533333333332,
+      "duration": 14.581333333333333,
+      "text": "SAMとCloudFormationのひかくです。きじゅつりょうは、SAMがすくないです。ローカルテ..."
+    },
+    {
+      "slide": 13,
+      "start": 154.82666666666665,
+      "duration": 13.226666666666667,
+      "text": "まとめです。SAMは、サーバーレスアプリケーションのフレームワークです。CloudFormation..."
+    }
+  ]
+}

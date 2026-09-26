@@ -1,0 +1,79 @@
+{
+  "lecture_id": "1-3",
+  "total_pages": 12,
+  "total_duration": 264.14933333333335,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page01.wav",
+      "duration": 10.826666666666666,
+      "text": "# セクション1 レクチャー3: AWSのCI/CDサービス概要\n\n## 動画情報\n- **時間**: 約10分\n- **形式**: スライド + AWSコンソール画面"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page02.wav",
+      "duration": 13.066666666666666,
+      "text": "## 台本\n\n### オープニング（0:00-0:30）\n\nこのレクチャーでは、AWSが提供する\nCI/CD関連のサービスを紹介します。\n\nこのコースで使うサービスの全体像を\n先に把握しておきましょう。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page03.wav",
+      "duration": 37.248,
+      "text": "### AWSのCI/CDサービス一覧（0:30-2:00）\n\nAWSには、CI/CDを実現するための\n複数のサービスがあります。\n\n**主要なサービス:**\n\n1. **CodeCommit** - Gitリポジトリ（今回は使わない）\n2. **CodeBuild** - ビルド・テスト実行\n3. **CodeDeploy** - デプロイ自動化\n4. **CodePipeline** - パイプライン管理\n5. **CodeStar** - プロジェクト管理（統合ツール）\n\nこのコースでは、主に\n**CodePipeline**と**CodeBuild**を使います。\n\nソースコード管理には**GitHub**を使い、\nデプロイ先として**S3**と**Lambda**を使います。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page04.wav",
+      "duration": 33.088,
+      "text": "### CodePipeline（2:00-4:00）\n\nCodePipelineは、CI/CDパイプラインを\n構築・管理するサービスです。\n\n**役割:**\n- パイプライン全体の制御\n- 各ステージの連携\n- 実行状況の可視化\n\n**特徴:**\n- ビジュアルなパイプライン設計\n- 複数のソースに対応（GitHub, S3, CodeCommit）\n- 複数のデプロイ先に対応\n- 承認ステージの追加が可能\n\n**料金:**\n- アクティブなパイプライン1つにつき月額$1\n- 最初の1つは無料（無料利用枠）\n\nパイプラインの「司令塔」と考えてください。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page05.wav",
+      "duration": 31.765333333333334,
+      "text": "### CodeBuild（4:00-6:00）\n\nCodeBuildは、ビルドとテストを実行する\nマネージドサービスです。\n\n**役割:**\n- ソースコードのビルド\n- テストの実行\n- アーティファクトの生成\n\n**特徴:**\n- サーバー管理不要（フルマネージド）\n- 複数の言語・ランタイムに対応\n- buildspec.ymlで設定\n- 並列ビルドが可能\n\n**料金:**\n- ビルド時間に応じた従量課金\n- 月100分まで無料（無料利用枠）\n- 最小インスタンスで約$0.005/分\n\nこのコースの範囲なら、\nほぼ無料枠内で収まります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page06.wav",
+      "duration": 25.034666666666666,
+      "text": "### S3（6:00-7:00）\n\nS3は、オブジェクトストレージサービスです。\n\n**このコースでの用途:**\n- 静的ウェブサイトのホスティング\n- ビルドアーティファクトの保存\n\n**特徴:**\n- 高い耐久性（99.999999999%）\n- 静的サイトホスティング機能\n- 低コスト\n\n**料金:**\n- ストレージ: 約$0.025/GB/月\n- リクエスト: 非常に安価"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page07.wav",
+      "duration": 22.549333333333333,
+      "text": "### Lambda（7:00-8:00）\n\nLambdaは、サーバーレスの\nコンピューティングサービスです。\n\n**このコースでの用途:**\n- サーバーレス関数のデプロイ先\n- イベント駆動の処理\n\n**特徴:**\n- サーバー管理不要\n- 実行時間に応じた課金\n- 多数の言語に対応\n\n**料金:**\n- 月100万リクエストまで無料\n- 月40万GB秒まで無料\n\n学習用途なら、ほぼ無料で使えます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page08.wav",
+      "duration": 27.52,
+      "text": "### SAM（8:00-9:00）\n\nSAM（Serverless Application Model）は、\nサーバーレスアプリケーションを定義する\nフレームワークです。\n\n**役割:**\n- サーバーレスアプリのテンプレート定義\n- ローカルでのテスト\n- CloudFormationへの変換\n\n**特徴:**\n- YAMLでインフラを定義\n- Lambda、API Gateway、DynamoDBなどを簡単に定義\n- SAM CLIでローカルテスト可能\n\nSAM自体は無料です。\n作成されるリソースに対して課金されます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page09.wav",
+      "duration": 21.610666666666667,
+      "text": "### サービスの関係図（9:00-9:30）\n\nこれらのサービスの関係を図で見てみましょう。\n\n```\nGitHub ──→ CodePipeline ──→ CodeBuild ──→ S3 / Lambda\n              │                │\n              │                └── buildspec.yml\n              │\n              └── パイプライン定義\n                  （SAMテンプレート）\n```\n\nCodePipelineが全体を制御し、\nCodeBuildがビルド・テストを担当、\n最終的にS3やLambdaにデプロイされます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page10.wav",
+      "duration": 10.88,
+      "text": "### クロージング（9:30-10:00）\n\nAWSのCI/CDサービスの概要は以上です。\n\n次のレクチャーでは、\n開発環境のセットアップを行います。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page11.wav",
+      "duration": 20.896,
+      "text": "## スライド構成案\n\n1. タイトル「AWSのCI/CDサービス概要」\n2. サービス一覧（アイコン付き）\n3. CodePipelineの説明\n4. CodePipelineの料金\n5. CodeBuildの説明\n6. CodeBuildの料金\n7. S3の説明\n8. Lambdaの説明\n9. SAMの説明\n10. サービス関係図\n11. まとめ"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-3\\1-3_page12.wav",
+      "duration": 9.664,
+      "text": "## 撮影メモ\n\n- 各サービスのAWSコンソール画面を軽く見せる\n- 料金は「学習用途ならほぼ無料」を強調\n- 関係図でサービス間の連携を明確に"
+    }
+  ]
+}

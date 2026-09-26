@@ -1,0 +1,91 @@
+{
+  "lecture_id": "4-3",
+  "total_pages": 14,
+  "total_duration": 183.12533333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page01.wav",
+      "duration": 3.4346666666666668,
+      "text": "このレクチャーでは、ビルドかんきょうのせっていについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page02.wav",
+      "duration": 7.733333333333333,
+      "text": "このレクチャーでまなぶことは、ビルドかんきょうのしゅるい、コンピューティングタイプのせんたく、イメージのせんたく、かんきょうへんすうのせってい、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page03.wav",
+      "duration": 13.6,
+      "text": "ビルドかんきょうとはなにか、からはじめましょう。ビルドかんきょうは、ビルドがじっこうされるDockerコンテナです。AWSがていきょうするマネージドイメージ、または、どくじのDockerイメージをしようできます。ビルドごとにクリーンなかんきょうがようされます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page04.wav",
+      "duration": 18.944,
+      "text": "コンピューティングタイプをかくにんしましょう。smallは、vCPUが3、メモリが3GBで、けいりょうビルドにてきしています。mediumは、vCPUが7、メモリが15GBで、いっぱんてきなビルドにてきしています。largeは、vCPUが15、メモリが72GBで、だいきぼビルドにてきしています。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page05.wav",
+      "duration": 16.714666666666666,
+      "text": "どれをえらぶべきか、せつめいします。smallは、せいてきサイト、Node.js、Pythonなど、けいりょうなビルドにすいしょうです。がくしゅうようとにもてきしています。mediumは、Javaや、おおきなnpmいぞんがあるばあいにつかいます。largeは、Dockerビルドや、へいれつテストにつかいます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page06.wav",
+      "duration": 13.365333333333334,
+      "text": "マネージドイメージについてです。AWSがていきょうするこうしきイメージがあります。Amazon Linux 2は、はんようてきにつかえます。Ubuntuは、はばひろいげんごをサポートしています。Windows Serverは、ドットネットかいはつにつかいます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page07.wav",
+      "duration": 18.346666666666668,
+      "text": "イメージのせんたくれいです。aws、スラッシュ、codebuild、スラッシュ、amazonlinux2-x86_64-standard、コロン、5.0、というけいしきでしていします。Node.js、Python、Java、Goなどがプリインストールされています。さいしんバージョンのしようをすいしょうします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page08.wav",
+      "duration": 12.394666666666666,
+      "text": "ランタイムバージョンのしていほうほうです。buildspec.ymlのinstallフェーズで、runtime-versionsをしていします。nodejsの18、pythonの3.11、のように、ふくすうげんごをどうじにしていできます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page09.wav",
+      "duration": 17.066666666666666,
+      "text": "りようかのうなランタイムをかくにんしましょう。Node.jsは、16、18、20などがあります。Pythonは、3.9、3.10、3.11などがあります。Javaは、corretto11、corretto17などがあります。Goは、1.20、1.21などがあります。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page10.wav",
+      "duration": 15.829333333333333,
+      "text": "かんきょうへんすうのせっていほうほうは3つあります。1つめは、CodeBuildコンソールでせってい、プロジェクトさくせいじにしていします。2つめは、buildspec.ymlでせってい、envセクションにきじゅつします。3つめは、Parameter Storeれんけい、きみつじょうほうはこちらをすいしょうします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page11.wav",
+      "duration": 9.525333333333334,
+      "text": "コンソールでのせっていてじゅんです。CodeBuildプロジェクトをひらき、へんしゅう、かんきょう、をクリックします。ついかせってい、をてんかいし、かんきょうへんすう、についかします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page12.wav",
+      "duration": 11.68,
+      "text": "きみつじょうほうのあつかいについてです。buildspec.ymlのenvセクションで、parameter-storeや、secrets-managerをしようします。APIキーやパスワードは、ひらぶんでかかないでください。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page13.wav",
+      "duration": 10.816,
+      "text": "じっせんとして、ビルドプロジェクトをさくせいしましょう。CodeBuildコンソールをひらき、ビルドプロジェクトをさくせい、をクリックします。かんきょうせっていをせんたくし、buildspec.ymlをしていします。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-3\\4-3_page14.wav",
+      "duration": 13.674666666666667,
+      "text": "まとめです。ビルドかんきょうは、Dockerコンテナでじっこうされます。smallタイプでじゅうぶんなケースがおおいです。マネージドイメージがべんりです。きみつじょうほうは、Parameter Storeをしようしてください。つぎのレクチャーでは、テストじどうかをじっそうします。"
+    }
+  ]
+}

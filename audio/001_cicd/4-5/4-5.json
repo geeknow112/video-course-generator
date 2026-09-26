@@ -1,0 +1,97 @@
+{
+  "lecture_id": "4-5",
+  "total_pages": 15,
+  "total_duration": 171.02933333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page01.wav",
+      "duration": 3.6586666666666665,
+      "text": "このレクチャーでは、ビルドログのかくにんとデバッグについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page02.wav",
+      "duration": 7.413333333333333,
+      "text": "このレクチャーでまなぶことは、ビルドログのかくにんほうほう、よくあるエラーとたいしょほう、デバッグのコツ、ローカルでのテストほうほう、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page03.wav",
+      "duration": 8.970666666666666,
+      "text": "ビルドログのかくにんほうほうです。CodeBuildコンソールをひらき、ビルドプロジェクトをせんたくします。ビルドりれきからたいしょうをせんたくし、ビルドログタブをかくにんします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page04.wav",
+      "duration": 14.250666666666667,
+      "text": "ログのこうぞうをみてみましょう。Containerというプレフィックスで、Phase INSTALL、Running command npm install、などとひょうじされます。Phase complete、State SUCCEEDED、でフェーズのかんりょうがわかります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page05.wav",
+      "duration": 18.506666666666668,
+      "text": "フェーズごとのかくにんポイントです。INSTALLフェーズでは、いぞんかんけいのインストールをかくにんします。PRE_BUILDフェーズでは、テストけっかをかくにんします。BUILDフェーズでは、ビルドしゅつりょくをかくにんします。POST_BUILDフェーズでは、デプロイけっかをかくにんします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page06.wav",
+      "duration": 16.149333333333335,
+      "text": "よくあるエラー、その1です。npm installしっぱいのばあい、npm ERR code ERESOLVE、unable to resolve dependency tree、というエラーがでます。たいしょほうは、package-lock.jsonをさくじょして、さいせいせいすることです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page07.wav",
+      "duration": 9.610666666666667,
+      "text": "よくあるエラー、その2です。けんげんエラーのばあい、AccessDenied、Access Denied、というエラーがでます。たいしょほうは、IAMロールのけんげんをかくにんすることです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page08.wav",
+      "duration": 11.744,
+      "text": "よくあるエラー、その3です。ファイルがみつからないばあい、ENOENT、no such file or directory、というエラーがでます。たいしょほうは、パスのかくにん、artifactsせっていのかくにん、です。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page09.wav",
+      "duration": 9.909333333333333,
+      "text": "よくあるエラー、その4です。タイムアウトのばあい、Build timed out、というエラーがでます。たいしょほうは、タイムアウトちをえんちょうする、または、しょりをさいてきかすることです。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page10.wav",
+      "duration": 10.837333333333333,
+      "text": "デバッグのコツをおつたえします。まず、エラーメッセージをよくよむことです。つぎに、どのフェーズでしっぱいしたかかくにんします。echoでデバッグしゅつりょくをついかします。ローカルでさいげんテストをおこないます。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page11.wav",
+      "duration": 13.301333333333334,
+      "text": "echoでデバッグするほうほうです。buildフェーズのcommandsで、echo Current directory、pwd、echo Files、ls -la、npm run build、のようにきじゅつします。げんざいのディレクトリや、ファイルいちらんをかくにんできます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page12.wav",
+      "duration": 8.384,
+      "text": "CloudWatch Logsとのれんけいについてです。ビルドログは、CloudWatch Logsにほぞんされます。ちょうきほぞんがかのうで、ログインサイトでけんさくもかのうです。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page13.wav",
+      "duration": 14.741333333333333,
+      "text": "ローカルでのテストほうほうです。CodeBuild Local Agentをつかいます。Dockerがひつようです。docker pullで、amazon、スラッシュ、aws-codebuild-local、をしゅとくします。codebuild_build.shで、ローカルでビルドをじっこうできます。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page14.wav",
+      "duration": 11.146666666666667,
+      "text": "さいビルドのほうほうです。CodeBuildコンソールで、ビルドをさいしこう、をクリックします。または、ビルドのかいし、でしんきじっこうします。パイプラインから、へんこうをリリース、でもじっこうできます。"
+    },
+    {
+      "page": 15,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-5\\4-5_page15.wav",
+      "duration": 12.405333333333333,
+      "text": "まとめです。ビルドログで、エラーげんいんをとくていします。フェーズごとに、かくにんポイントがことなります。echoでデバッグしゅつりょくをついかできます。ローカルテストで、こうりつてきにデバッグできます。これでセクション4はしゅうりょうです。"
+    }
+  ]
+}

@@ -3,13 +3,11 @@
 このレクチャーでまなぶことは、template.yamlのさくせい、Lambdaかんすうのていぎ、SNS Topicのていぎ、Lambdaコードのじっそう、です。
 ---
 template.yamlのきほんこうぞうです。AWSTemplateFormatVersionを、2010-09-09にします。Transformを、AWS::Serverless-2016-10-31にします。Descriptionに、CloudWatch Alarm to Slack Notification、とかきます。
----
 Parametersセクションです。SlackWebhookUrlを、パラメータとしてていぎします。Typeは、Stringです。Descriptionに、Slack Incoming Webhook URL、とかきます。NoEchoを、trueにして、ひょうじをふせぎます。
 ---
 Globalsセクションです。Functionに、きょうつうせっていをかきます。Timeoutを、10びょうにします。Runtimeを、nodejs20.xにします。MemorySizeを、128にします。
 ---
 Lambdaかんすうのていぎです。SlackNotificationFunctionを、ていぎします。Typeは、AWS::Serverless::Functionです。CodeUriは、srcスラッシュです。Handlerは、index.handlerです。
----
 かんきょうへんすうのせっていです。Environmentセクションに、Variablesをていぎします。SLACK_WEBHOOK_URLに、!Ref SlackWebhookUrlをせっていします。パラメータのあたいを、かんきょうへんすうにわたします。
 ---
 SNSイベントのせっていです。Eventsセクションに、SNSEventをていぎします。Typeは、SNSです。Propertiesに、Topicをせっていします。Topicに、!Ref AlarmTopicをせっていします。

@@ -9,14 +9,14 @@
   {
     "surface": "Q2",
     "pronunciation": "キューニ",
-    "accent_type": 0,
+    "accent_type": 1,
     "priority": 8,
     "word_type": "PROPER_NOUN"
   },
   {
     "surface": "Hooks",
     "pronunciation": "フックス",
-    "accent_type": 0,
+    "accent_type": 1,
     "priority": 8,
     "word_type": "PROPER_NOUN"
   },
@@ -25,6 +25,41 @@
     "pronunciation": "ブイエス",
     "accent_type": 0,
     "priority": 9,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "S3",
+    "pronunciation": "エススリー",
+    "accent_type": 0,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "json",
+    "pronunciation": "ジェイソン",
+    "accent_type": 1,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "yml",
+    "pronunciation": "ヤムル",
+    "accent_type": 1,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "EC2",
+    "pronunciation": "イーシーツー",
+    "accent_type": 0,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "tmux",
+    "pronunciation": "ティーマックス",
+    "accent_type": 4,
+    "priority": 8,
     "word_type": "PROPER_NOUN"
   }
 ]

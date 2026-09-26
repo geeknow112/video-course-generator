@@ -1,0 +1,91 @@
+{
+  "lecture_id": "6-4",
+  "total_pages": 14,
+  "total_duration": 175.936,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page01.wav",
+      "duration": 4.0,
+      "text": "このレクチャーでは、かんきょうへんすうとシークレットかんりについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page02.wav",
+      "duration": 9.504,
+      "text": "このレクチャーでまなぶことは、かんきょうへんすうのひつようせい、Lambdaでのかんきょうへんすうせってい、Secrets Managerのかつよう、CICDでのあんぜんなかんり、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page03.wav",
+      "duration": 10.762666666666666,
+      "text": "なぜかんきょうへんすうがひつようでしょうか。コードにちょくせつかいてはいけないものがあります。APIキー。データベースせつぞくじょうほう。がいぶサービスのにんしょうじょうほう。かんきょうごとのせっていちです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page04.wav",
+      "duration": 10.954666666666666,
+      "text": "かんきょうへんすうのメリットです。セキュリティめんでは、きみつじょうほうをコードからぶんりできます。じゅうなんせいでは、かんきょうごとにあたいをへんこうできます。ほしゅせいでは、せっていへんこうにデプロイがふようです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page05.wav",
+      "duration": 12.0,
+      "text": "Lambdaでのかんきょうへんすうせっていです。コンソールからせっていします。Lambdaかんすうをひらきます。せっていタブから、かんきょうへんすうをせんたくします。へんしゅうをクリックします。キーとあたいをにゅうりょくします。ほぞんをクリックします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page06.wav",
+      "duration": 16.64,
+      "text": "コードからのさんしょうほうほうです。process.envで、かんきょうへんすうをしゅとくします。const apiKeyイコール、process.env.API_KEYです。const dbHostイコール、process.env.DB_HOSTです。このようにかんたんにしゅとくできます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page07.wav",
+      "duration": 13.536,
+      "text": "かんきょうへんすうのあんごうかです。KMSであんごうかかのうです。ほぞんじに、じどうあんごうかされます。じっこうじに、じどうふくごうされます。カスタムKMSキーもしようかのうです。きみつじょうほうは、Secrets Managerをすいしょうします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page08.wav",
+      "duration": 10.08,
+      "text": "Secrets Managerとはなにか。きみつじょうほうのあんぜんなかんりサービスです。じどうローテーションができます。アクセスせいぎょができます。かんさログがのこります。バージョンかんりができます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page09.wav",
+      "duration": 16.106666666666666,
+      "text": "Secrets Managerのつかいかたです。SecretsManagerクライアントをさくせいします。getSecretValueメソッドをよびだします。SecretIdに、シークレットめいをしていします。レスポンスの、SecretStringを、JSON.parseします。これでシークレットをしゅとくできます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page10.wav",
+      "duration": 15.946666666666667,
+      "text": "かんきょうへんすうと、Secrets Managerのひかくです。せっていは、かんきょうへんすうがかんたんです。ローテーションは、Secrets Managerがじどうかのうです。りょうきんは、かんきょうへんすうがむりょうです。ようとは、いっぱんせっていにかんきょうへんすう、きみつじょうほうにSecrets Managerです。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page11.wav",
+      "duration": 15.925333333333333,
+      "text": "CICDでのかんきょうへんすうかんりです。buildspec.ymlで、envセクションをつかいます。variablesで、つうじょうのへんすうをせっていします。parameter-storeで、Parameter Storeからしゅとくします。secrets-managerで、Secrets Managerからしゅとくします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page12.wav",
+      "duration": 13.386666666666667,
+      "text": "Parameter Storeのかつようです。Systems Manager Parameter Storeは、むりょうでつかえます。かいそうこうぞうでかんりできます。あんごうかオプションがあります。れいとして、スラッシュmyappスラッシュdevスラッシュdb_host、のようにかんりします。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page13.wav",
+      "duration": 12.672,
+      "text": "ベストプラクティスです。きみつじょうほうは、コードにハードコードしません。かんきょうごとに、ことなるあたいをしようします。ほんばんのきみつじょうほうは、Secrets Managerでかんりします。いっぱんせっていは、Parameter Storeでかんりします。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-4\\6-4_page14.wav",
+      "duration": 14.421333333333333,
+      "text": "セクション6のまとめです。Lambdaは、サーバーレスコンピューティングです。CodePipelineで、じどうデプロイかのうです。かんきょうへんすうで、せっていをがいぶかします。きみつじょうほうは、Secrets Managerでかんりします。つぎのセクションで、SAMをまなびます。"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "lecture_id": "5-2",
+  "total_pages": 13,
+  "total_duration": 161.97333333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page01.wav",
+      "duration": 3.328,
+      "text": "このレクチャーでは、Jestテストのじっそうについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page02.wav",
+      "duration": 7.434666666666667,
+      "text": "このレクチャーでまなぶことは、Jestとは、テストファイルのさくせい、テストのじっこうほうほう、buildspec.ymlへのくみこみ、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page03.wav",
+      "duration": 13.184,
+      "text": "Jestとはなにか、からはじめましょう。Jestは、JavaScriptのテストフレームワークです。Facebook、げんざいのMeta、がかいはつしました。ゼロせっていでつかえて、React、Vue、Node.jsでひろくしようされています。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page04.wav",
+      "duration": 13.76,
+      "text": "プロジェクトこうせいをかくにんしましょう。jsフォルダのなかに、package.json、sum.js、sum.test.js、があります。sum.jsがテストたいしょうで、sum.test.jsがテストファイルです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page05.wav",
+      "duration": 10.997333333333334,
+      "text": "テストたいしょうのコードをみてみましょう。sum.jsで、sumというかんすうをていぎします。ひきすうaとbをうけとり、aたすbをかえします。module.exportsで、sumをエクスポートします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page06.wav",
+      "duration": 17.781333333333333,
+      "text": "テストファイルをみてみましょう。sum.test.jsで、sumをrequireします。testかんすうで、1たす2は3、というテストをかきます。expectで、sum 1 2、のけっかが、toBe 3、であることをかくにんします。もうひとつ、0たす0は0、というテストもついかします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page07.wav",
+      "duration": 11.914666666666667,
+      "text": "package.jsonのせっていです。nameは、js-test、とします。scriptsセクションに、testとして、jestをしていします。devDependenciesに、jestのバージョン29をついかします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page08.wav",
+      "duration": 10.549333333333333,
+      "text": "ローカルでテストをじっこうするほうほうです。cdで、jsフォルダにいどうします。npm installで、いぞんパッケージをインストールします。npm testで、テストをじっこうします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page09.wav",
+      "duration": 15.648,
+      "text": "テストけっか、せいこうのばあいです。PASS、sum.test.js、とひょうじされます。チェックマークで、1たす2は3、2ミリセカンド、とひょうじされます。Test Suites、1 passed、Tests、2 passed、とひょうじされます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page10.wav",
+      "duration": 15.488,
+      "text": "テストけっか、しっぱいのばあいです。FAIL、sum.test.js、とひょうじされます。バツマークで、1たす2は3、とひょうじされます。Expected 4、Received 3、のように、きたいちとじっさいのちがひょうじされます。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page11.wav",
+      "duration": 12.714666666666666,
+      "text": "よくつかうマッチャーをしょうかいします。toBeは、げんみつとうかのかくにんにつかいます。toEqualは、オブジェクトひかくにつかいます。toBeTruthyは、しんちチェックにつかいます。toContainは、はいれつにふくむかのかくにんにつかいます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page12.wav",
+      "duration": 13.216,
+      "text": "buildspec.ymlへのくみこみです。installフェーズで、nodejs 18をしてい、cd jsして、npm installをじっこうします。pre_buildフェーズで、cd jsして、npm testをじっこうします。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-2\\5-2_page13.wav",
+      "duration": 15.957333333333333,
+      "text": "まとめです。Jestは、ゼロせっていでつかえるテストフレームワークです。testかんすうと、expectで、テストをきじゅつします。npm testでじっこうします。buildspec.ymlにくみこんで、CICD化します。つぎのレクチャーでは、PHPUnitをじっそうします。"
+    }
+  ]
+}

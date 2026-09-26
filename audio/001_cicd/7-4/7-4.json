@@ -1,0 +1,91 @@
+{
+  "lecture_id": "7-4",
+  "total_pages": 14,
+  "total_duration": 203.328,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page01.wav",
+      "duration": 3.9466666666666668,
+      "text": "このレクチャーでは、SAMとCodePipelineのとうごうほうほうをせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page02.wav",
+      "duration": 8.490666666666666,
+      "text": "このレクチャーでまなぶことは、SAMデプロイのながれ、buildspec.ymlのせってい、CloudFormationアクションのせってい、パイプラインのこうちく、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page03.wav",
+      "duration": 11.242666666666667,
+      "text": "SAMデプロイのながれです。まず、sam buildで、ビルドします。つぎに、sam packageで、パッケージかします。そして、sam deployで、デプロイします。これをCodePipelineでじどうかします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page04.wav",
+      "duration": 11.477333333333334,
+      "text": "パイプラインのぜんたいぞうです。ソースステージで、GitHubからしゅとくします。ビルドステージで、CodeBuildでビルドします。デプロイステージで、CloudFormationでデプロイします。3つのステージでこうせいします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page05.wav",
+      "duration": 36.821333333333335,
+      "text": "buildspec.ymlのきほんです。versionは、0.2です。phasesに、install、build、post_buildをていぎします。installで、sam cliをインストールします。buildで、sam buildをじっこうします。post_buildで、sam packageをじっこうします。\nbuildspec.ymlのれいです。installフェーズで、pip install aws-sam-cliをじっこうします。buildフェーズで、sam buildをじっこうします。post_buildフェーズで、sam packageをじっこうします。template-fileに、template.yamlをしていします。output-template-fileに、packaged.yamlをしていします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page06.wav",
+      "duration": 12.0,
+      "text": "アーティファクトのせっていです。artifactsセクションで、しゅつりょくファイルをしていします。filesに、packaged.yamlをしていします。discard-pathsを、yesにします。これで、デプロイステージにわたせます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page07.wav",
+      "duration": 15.530666666666667,
+      "text": "S3バケットのじゅんびです。SAMパッケージようのS3バケットがひつようです。sam-artifacts-バケットめい、のようにさくせいします。buildspec.ymlで、s3-bucketにしていします。CodeBuildのIAMロールに、S3アクセスけんげんをついかします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page08.wav",
+      "duration": 19.008,
+      "text": "デプロイステージのせっていです。アクションプロバイダーに、CloudFormationをせんたくします。アクションモードに、CREATE_UPDATE、またはCHANGE_SET_REPLACEをせんたくします。スタックめいをにゅうりょくします。テンプレートに、packaged.yamlをしていします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page09.wav",
+      "duration": 13.792,
+      "text": "CloudFormationのIAMロールです。CloudFormationじっこうロールがひつようです。Lambda、API Gateway、IAMなどのけんげんをふよします。AdministratorAccessは、さけてください。さいしょうけんげんのげんそくにしたがいます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page10.wav",
+      "duration": 17.952,
+      "text": "Capabilitiesのせっていです。CAPABILITY_IAMを、ゆうこうにします。CAPABILITY_AUTO_EXPANDも、ゆうこうにします。これがないと、IAMリソースのさくせいにしっぱいします。CloudFormationのせっていがめんで、チェックをいれます。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page11.wav",
+      "duration": 12.501333333333333,
+      "text": "パイプラインのさくせいてじゅんです。CodePipelineコンソールをひらきます。パイプラインをさくせいします。ソースに、GitHubをせんたくします。ビルドに、CodeBuildをせんたくします。デプロイに、CloudFormationをせんたくします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page12.wav",
+      "duration": 13.802666666666667,
+      "text": "どうさかくにんです。GitHubにプッシュします。パイプラインがじどうきどうします。ビルドステージで、sam buildとpackageがじっこうされます。デプロイステージで、CloudFormationスタックがさくせいされます。Lambdaコンソールで、かんすうをかくにんします。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page13.wav",
+      "duration": 11.136,
+      "text": "トラブルシューティングです。ビルドしっぱいのばあい、CodeBuildログをかくにんします。デプロイしっぱいのばあい、CloudFormationイベントをかくにんします。けんげんエラーのばあい、IAMロールをかくにんします。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-4\\7-4_page14.wav",
+      "duration": 15.626666666666667,
+      "text": "セクション7のまとめです。SAMで、サーバーレスアプリをかんたんにていぎできます。SAM CLIで、ローカルテストができます。CodePipelineで、じどうデプロイができます。CloudFormationで、インフラをコードかできます。つぎのセクションで、じっせんプロジェクトにとりくみます。"
+    }
+  ]
+}
