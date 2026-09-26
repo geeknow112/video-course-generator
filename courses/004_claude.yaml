@@ -1,0 +1,76 @@
+# 自動生成ではなく手動作成（004_claude）。
+# Kiro完全オートパイロット入門（003_kiro）の姉妹編。
+id: 004_claude
+title: Claude Code 無人運用マスター講座
+speakerId: 2
+silenceDuration: 0.5
+audioLayout: nested
+lessons:
+  - id: promo
+    title: プロモーション
+    script: scripts/004_claude/promo_プロモーション.txt
+    slide: slides/004_claude/promo_プロモーション.md
+  - id: 1-1
+    title: コース紹介
+    script: scripts/004_claude/1-1_コース紹介.txt
+    slide: slides/004_claude/1-1_コース紹介.md
+  - id: 1-2
+    title: なぜ無人化がとまるのか
+    script: scripts/004_claude/1-2_なぜ無人化がとまるのか.txt
+    slide: slides/004_claude/1-2_なぜ無人化がとまるのか.md
+  - id: 2-1
+    title: 許可リストとバイパスは別レイヤー
+    script: scripts/004_claude/2-1_許可リストとバイパスは別レイヤー.txt
+    slide: slides/004_claude/2-1_許可リストとバイパスは別レイヤー.md
+  - id: 2-2
+    title: バイパスを普段使いで避ける理由
+    script: scripts/004_claude/2-2_バイパスを普段使いで避ける理由.txt
+    slide: slides/004_claude/2-2_バイパスを普段使いで避ける理由.md
+  - id: 3-1
+    title: CLAUDE.mdとsettings.jsonの基本
+    script: scripts/004_claude/3-1_CLAUDE.mdとsettings.jsonの基本.txt
+    slide: slides/004_claude/3-1_CLAUDE.mdとsettings.jsonの基本.md
+  - id: 3-2
+    title: 信頼済みコマンドとHooksの設定
+    script: scripts/004_claude/3-2_信頼済みコマンドとHooksの設定.txt
+    slide: slides/004_claude/3-2_信頼済みコマンドとHooksの設定.md
+  - id: 3-3
+    title: ターミナル環境の整え方
+    script: scripts/004_claude/3-3_ターミナル環境の整え方.txt
+    slide: slides/004_claude/3-3_ターミナル環境の整え方.md
+  - id: 4-1
+    title: EC2とtmuxからRoutineへ
+    script: scripts/004_claude/4-1_EC2とtmuxからRoutineへ.txt
+    slide: slides/004_claude/4-1_EC2とtmuxからRoutineへ.md
+  - id: 4-2
+    title: Routineの実体とcron設計3パターン
+    script: scripts/004_claude/4-2_Routineの実体とcron設計3パターン.txt
+    slide: slides/004_claude/4-2_Routineの実体とcron設計3パターン.md
+  - id: 4-3
+    title: 用途ごとに権限を絞る4本のRoutine
+    script: scripts/004_claude/4-3_用途ごとに権限を絞る4本のRoutine.txt
+    slide: slides/004_claude/4-3_用途ごとに権限を絞る4本のRoutine.md
+  - id: 5-1
+    title: push・PR作成は許可main直接禁止
+    script: scripts/004_claude/5-1_push・PR作成は許可main直接禁止.txt
+    slide: slides/004_claude/5-1_push・PR作成は許可main直接禁止.md
+  - id: 5-2
+    title: 外部APIの単一障害点と失敗の追跡方法
+    script: scripts/004_claude/5-2_外部APIの単一障害点と失敗の追跡方法.txt
+    slide: slides/004_claude/5-2_外部APIの単一障害点と失敗の追跡方法.md
+  - id: 6-1
+    title: コースまとめ
+    script: scripts/004_claude/6-1_コースまとめ.txt
+    slide: slides/004_claude/6-1_コースまとめ.md
+  - id: 6-2
+    title: ボーナス（カスタムテーマ）
+    script: scripts/004_claude/6-2_ボーナス_カスタムテーマ.txt
+    slide: slides/004_claude/6-2_ボーナス_カスタムテーマ.md
+  - id: 6-3
+    title: FAQ
+    script: scripts/004_claude/6-3_FAQ.txt
+    slide: slides/004_claude/6-3_FAQ.md
+  - id: 6-4
+    title: 次のステップ
+    script: scripts/004_claude/6-4_次のステップ.txt
+    slide: slides/004_claude/6-4_次のステップ.md

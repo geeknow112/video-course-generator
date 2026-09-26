@@ -1,0 +1,43 @@
+{
+  "lecture_id": "2-1",
+  "total_pages": 6,
+  "total_duration": 87.34933333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-1\\2-1_page01.wav",
+      "duration": 10.741333333333333,
+      "text": "このレクチャーでは、きょかリストほうしきと、バイパスほうしきのかんけいを、フローとしてせいりします。\nコマンドやツールのよびだしがはっせいしたとき、Claude Codeがどうはんだんしているか、というながれです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-1\\2-1_page02.wav",
+      "duration": 13.397333333333334,
+      "text": "まず、`permission-mode`がなにか、をみます。\n`bypassPermissions`、または、`--dangerously-skip-permissions`、がしていされているばあい、チェックはまるごとスキップされます。\nつねにかくにんなしで、じっこうされます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-1\\2-1_page03.wav",
+      "duration": 26.677333333333333,
+      "text": "そうでないばあい、つまり、acceptEdits、auto、manual、dontAsk、planのいずれかのばあいは、つぎのぶんきにすすみます。\nBashコマンドかどうか、をはんだんします。\nBashコマンドであれば、settings.jsonのallow、denyに、いっちするかをかくにんします。\ndenyにいっちすれば、じっこうきょひです。チャットでゆるすとつたえても、とおりません。\nallowにいっちすれば、かくにんなしでじっこうされます。\nどちらにもなければ、まいかいユーザーにかくにんがはいります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-1\\2-1_page04.wav",
+      "duration": 10.250666666666667,
+      "text": "Bashコマンドでないばあい、たとえばEditやWriteのばあいは、acceptEditsかどうかをみます。\nacceptEditsであれば、かくにんなしでじっこう。\nそうでなければ、まいかいかくにんがはいります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-1\\2-1_page05.wav",
+      "duration": 16.714666666666666,
+      "text": "まえのレクチャーでみた、かこのきょかリストは、allowにいっちする、というぶんきだけを、じゅうじつさせたものでした。\n`git push`や`gh pr create`は、そこにとうろくしていなかったので、まいかいかくにんする、というぶんきにおち、やかんバッチはそこでとまっていた、ということです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-1\\2-1_page06.wav",
+      "duration": 9.568,
+      "text": "きょかリストほうしきと、バイパスほうしきのかんけいをせいりしました。\nつぎのレクチャーでは、バイパスほうしきを、なぜふだんづかいのかんきょうでつかわないほうがいいのか、をみていきます。"
+    }
+  ]
+}

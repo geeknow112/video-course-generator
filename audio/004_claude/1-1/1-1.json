@@ -1,0 +1,43 @@
+{
+  "lecture_id": "1-1",
+  "total_pages": 6,
+  "total_duration": 108.17066666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-1\\1-1_page01.wav",
+      "duration": 15.189333333333334,
+      "text": "こんにちは、このコースへようこそ。\nこのコースでは、Claude Codeをつかった、むじんじっこうのつくりかたをまなんでいきます。\nきょかリストをせっていしたのに、やかんバッチがpushやPRさくせいのてまえでとまる。\nそのげんいんをときながら、じっさいにさいごまでとどくせっけいをつくります。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-1\\1-1_page02.wav",
+      "duration": 35.06133333333333,
+      "text": "このコースでまなぶないようをしょうかいします。\nだいいちに、けんげんモード。きょかリストほうしきと、`--dangerously-skip-permissions`のようなバイパスほうしきが、べつのレイヤーだというじじつをまなびます。\nだいにに、かんきょうこうちく。CLAUDE.mdとsettings.jsonで、Claude Codeにプロジェクトをりかいさせるほうほうをまなびます。\nだいさんに、Routineとcronせっけい。クラウドじょうでスケジュールじっこうするしくみと、じっさいのcronパターンをまなびます。\nだいよんに、しっぱいのついせき。がいぶAPIのたんいつしょうがいてんや、むじんじっこうがとまったときのかくにんほうほうをまなびます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-1\\1-1_page03.wav",
+      "duration": 14.325333333333333,
+      "text": "このコースは、こんなかたをたいしょうにしています。\nClaude Codeをつかいはじめたかた。\nまいかいきょかをもとめられて、じどうかできていないかた。\nやかんバッチをむじんでうごかしたいかた。\nKiroかんぜんオートパイロットにゅうもんをじゅこうずみで、Claude Codeばんのたいひをしりたいかた。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-1\\1-1_page04.wav",
+      "duration": 19.84,
+      "text": "このコースをおえると、いかのことができるようになります。\nきょかリストほうしきと、バイパスほうしきのちがいをせつめいできる。\nCLAUDE.mdとsettings.jsonで、じぶんのプロジェクトにあったかんきょうをととのえられる。\nRoutineをつかって、cronによるむじんじっこうをせっけいできる。\nむじんじっこうがしっぱいしたとき、げんいんをついせきできる。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-1\\1-1_page05.wav",
+      "duration": 16.021333333333335,
+      "text": "このコースは、じっさいのせっていファイルやRoutineのじれいをみながらすすめます。\nとちゅうでとうじょうするエラーやズレは、すべてじっさいにおきたじれいです。\nそうぞうのないようではなく、じっそくちとじったいけんにもとづいたないようだけをあつかいます。\nしつもんがあれば、Q&Aセクションできがるにきいてください。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-1\\1-1_page06.wav",
+      "duration": 7.733333333333333,
+      "text": "それでは、つぎのレクチャーから、なぜむじんかがとまるのか、というといからまなんでいきましょう。\nいっしょに、しょうにんぜろのうんようをめざしましょう。"
+    }
+  ]
+}

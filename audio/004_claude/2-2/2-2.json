@@ -1,0 +1,43 @@
+{
+  "lecture_id": "2-2",
+  "total_pages": 6,
+  "total_duration": 91.25333333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-2\\2-2_page01.wav",
+      "duration": 8.298666666666668,
+      "text": "このレクチャーでは、`--dangerously-skip-permissions`を、なぜふだんづかいのマシンでつかわないほうがいいのか、をせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-2\\2-2_page02.wav",
+      "duration": 14.464,
+      "text": "`--dangerously-skip-permissions`は、こうしきヘルプに、こうめいきされています。\nRecommended only for sandboxes with no internet access。\nにほんごにすると、インターネットせつぞくのないサンドボックスでのみすいしょう、というないようです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-2\\2-2_page03.wav",
+      "duration": 22.773333333333333,
+      "text": "ふだんづかいのマシンでこれをゆうこうにすると、さぎょうちゅうによみこんだWebページやリポジトリのないように、あくいあるしじがしこまれていたばあい、それをうたがいなくじっこうしてしまうリスクがあります。\nプロンプトインジェクション、とよばれるリスクです。\nきょかリストほうしきが、なにをゆるすかをにんげんがじぜんにきめるしくみなのにたいし、フルバイパスは、エージェントのはんだんをぜんめんてきにしんらいするしくみなので、リスクのしつがちがいます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-2\\2-2_page04.wav",
+      "duration": 26.197333333333333,
+      "text": "では、あんぜんにむじんかするには、どうすればいいか。\nかんがえかたとして、つかいすてできるかくりかんきょう、ネットワークやIAMけんげんをしぼったEC2インスタンスなど、をようい。\nそのかくりかんきょうのなかだけで、bypassPermissionsをつかう。\nこわれても、ぼうそうしても、ひがいはんいがそのかんきょうないにおさまるようにする、というほうしんです。\n母艦がわ、ふだんづかいのマシン、では、bypassPermissionsはつかわない。きょかリストで、よみとりけいだけをじどうかする。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-2\\2-2_page05.wav",
+      "duration": 6.816,
+      "text": "このEC2プラスtmuxのこうそうは、このじてんではまだじっそうしていませんでした。\nつぎにやることとして、のこされていました。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\2-2\\2-2_page06.wav",
+      "duration": 12.704,
+      "text": "バイパスほうしきを、なぜふだんづかいのかんきょうでつかわないほうがいいのか、をみました。\nつぎのレクチャーでは、かんきょうこうちくのきほん、CLAUDE.mdとsettings.jsonのつくりかたに、はなしをすすめます。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 130.19733333333335,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 7.530666666666667,
+      "text": "このレクチャーでは、かんきょうこうちくのきほんとして、CLAUDE.mdとsettings.json..."
+    },
+    {
+      "slide": 2,
+      "start": 7.530666666666667,
+      "duration": 33.25866666666667,
+      "text": "CLAUDE.mdは、プロジェクトルートにおくせっていファイルです。\nClaude Codeがさいし..."
+    },
+    {
+      "slide": 3,
+      "start": 40.78933333333334,
+      "duration": 23.018666666666668,
+      "text": "CLAUDE.mdは、ディレクトリごとにおけます。\nプロジェクトルートにおく、ぜんたいのルール。\nf..."
+    },
+    {
+      "slide": 4,
+      "start": 63.80800000000001,
+      "duration": 35.52,
+      "text": "`~/.claude/settings.json`、グローバルせってい、または、`.claude/s..."
+    },
+    {
+      "slide": 5,
+      "start": 99.328,
+      "duration": 21.301333333333332,
+      "text": "GitHubなどのMCPサーバーとれんけいすれば、Claude Codeがちょくせつ、PRのさくせい..."
+    },
+    {
+      "slide": 6,
+      "start": 120.62933333333334,
+      "duration": 9.568,
+      "text": "CLAUDE.mdとsettings.jsonのきほんをつくりました。\nつぎのレクチャーでは、しんら..."
+    }
+  ]
+}

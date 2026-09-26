@@ -1,0 +1,43 @@
+{
+  "lecture_id": "1-2",
+  "total_pages": 6,
+  "total_duration": 125.03466666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-2\\1-2_page01.wav",
+      "duration": 9.845333333333333,
+      "text": "このレクチャーでは、なぜ、きょかリストをせっていしても、むじんかがとまるのか、というげんいんをかくにんします。\nけっろんからいうと、みているレイヤーがちがった、というのがげんいんです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-2\\1-2_page02.wav",
+      "duration": 32.66133333333333,
+      "text": "かこに、grepやcat、git logのような、よみとりせんようコマンドを、`.claude/settings.json`の`permissions.allow`にとうろくして、ちょうささぎょうのしょうにんをへらす、というせっていをつくったことがありました。\nこれをベースに、Zenn、Qiitaのトレンドをしらべてきじをかき、コミットしてpushしてPRをつくる、というさぎょうをやかんにむじんでまわそうとしました。\nけっか、`git push`や`gh pr create`のてまえでとまる、あるいはきょかリストについかしてもセッションちゅうははんえいされない、というじしょうにでくわしました。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-2\\1-2_page03.wav",
+      "duration": 22.069333333333333,
+      "text": "きょかリストをみなおすと、いといてきに、`git push`、`git commit`、`gh pr create`、ファイルのしんきさくせいやかきかえをともなうコマンドぜんぱん、をじょがいしていました。\nこれはあんぜんせいをゆうせんしたせっけいで、よみとりせんようのちょうささぎょうのしょうにんひろうをかいしょうすることが、もくてきでした。\nかきこみをともなうかんぜんむじんかは、そもそもそのせっていのスコープがいだった、というのがじったいです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-2\\1-2_page04.wav",
+      "duration": 32.309333333333335,
+      "text": "じっさいにインストールされている`claude`コマンドのヘルプをかくにんすると、きょかリストとはべつに、`--permission-mode`というオプションがあることがわかりました。\nこのオプションには、acceptEdits、auto、bypassPermissions、manual、dontAsk、planという、6つのせんたくしがあります。\nさらに、`--dangerously-skip-permissions`という、けんげんチェックをまるごとスキップするオプションもそんざいしました。\nきょかリストは、こべつのコマンドパターンをきょかするレイヤー。バイパスけいのオプションは、そのレイヤーごとスキップするレイヤー。りょうしゃはべつものでした。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-2\\1-2_page05.wav",
+      "duration": 20.629333333333335,
+      "text": "じぶんの`settings.json`は`defaultMode: \"acceptEdits\"`になっていました。\nこれは、ファイルへんしゅう、EditやWrite、のかくにんをじどうしょうにんするモードで、きょかリストにないBashコマンドのかくにんまでは、めんじょしません。\n`acceptEdits`にしているのにとまる、というのは、そもそもみているレイヤーがちがったから、というけつろんになります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\004_claude\\1-2\\1-2_page06.wav",
+      "duration": 7.52,
+      "text": "なぜむじんかがとまるのか、というげんいんをかくにんしました。\nつぎのレクチャーでは、このけんげんモードのしくみを、もうすこしくわしくみていきます。"
+    }
+  ]
+}
