@@ -1,0 +1,90 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 185.152,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 3.6053333333333333,
+      "text": "このレクチャーでは、SAMテンプレートのさくせいほうほうをせつめいします。"
+    },
+    {
+      "slide": 2,
+      "start": 3.6053333333333333,
+      "duration": 8.544,
+      "text": "このレクチャーでまなぶことは、SAMプロジェクトのしょきか、template.yamlのこうぞう、L..."
+    },
+    {
+      "slide": 3,
+      "start": 12.149333333333335,
+      "duration": 9.792,
+      "text": "プロジェクトのしょきかです。sam initコマンドをじっこうします。たいわけいしきでせっていします..."
+    },
+    {
+      "slide": 4,
+      "start": 21.941333333333333,
+      "duration": 13.397333333333334,
+      "text": "せいせいされるファイルこうぞうです。ルートに、template.yamlがあります。srcフォルダに..."
+    },
+    {
+      "slide": 5,
+      "start": 35.33866666666667,
+      "duration": 20.69333333333333,
+      "text": "template.yamlのきほんです。AWSTemplateFormatVersionを、2010..."
+    },
+    {
+      "slide": 6,
+      "start": 56.032,
+      "duration": 14.72,
+      "text": "Globalsセクションです。ぜんかんすうにきょうつうのせっていをかきます。Timeoutを、10び..."
+    },
+    {
+      "slide": 7,
+      "start": 70.752,
+      "duration": 16.746666666666666,
+      "text": "Lambdaかんすうのていぎです。Resourcesに、HelloFunctionをていぎします。T..."
+    },
+    {
+      "slide": 8,
+      "start": 87.49866666666667,
+      "duration": 11.285333333333334,
+      "text": "しゅようプロパティです。CodeUriは、コードのばしょです。Handlerは、エントリポイントです..."
+    },
+    {
+      "slide": 9,
+      "start": 98.78399999999999,
+      "duration": 17.813333333333333,
+      "text": "イベントタイプです。Apiは、API Gateway REST APIです。HttpApiは、API..."
+    },
+    {
+      "slide": 10,
+      "start": 116.59733333333332,
+      "duration": 14.549333333333333,
+      "text": "API Gatewayのせっていです。Eventsに、GetItemsをていぎします。Typeは、A..."
+    },
+    {
+      "slide": 11,
+      "start": 131.14666666666665,
+      "duration": 14.506666666666666,
+      "text": "かんきょうへんすうのせっていです。Environmentセクションに、Variablesをていぎしま..."
+    },
+    {
+      "slide": 12,
+      "start": 145.6533333333333,
+      "duration": 14.133333333333333,
+      "text": "IAMポリシーのせっていです。Policiesに、SAMポリシーテンプレートをしていします。Dyna..."
+    },
+    {
+      "slide": 13,
+      "start": 159.78666666666663,
+      "duration": 12.341333333333333,
+      "text": "Outputsセクションです。デプロイごのじょうほうをしゅつりょくします。ApiEndpointに、..."
+    },
+    {
+      "slide": 14,
+      "start": 172.12799999999996,
+      "duration": 13.024,
+      "text": "まとめです。sam initで、プロジェクトをしょきかします。template.yamlで、リソース..."
+    }
+  ]
+}

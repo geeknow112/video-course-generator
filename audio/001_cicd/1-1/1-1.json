@@ -1,0 +1,61 @@
+{
+  "lecture_id": "1-1",
+  "total_pages": 9,
+  "total_duration": 193.03466666666668,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page01.wav",
+      "duration": 9.269333333333334,
+      "text": "# セクション1 レクチャー1: コース紹介と学習ゴール\n\n## 動画情報\n- **時間**: 約5分\n- **形式**: スライド + 講師顔出し（任意）"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page02.wav",
+      "duration": 21.728,
+      "text": "## 台本\n\n### オープニング（0:00-0:30）\n\nこんにちは、このコースへようこそ。\n\nこのコースでは、AWSを使ったCI/CDパイプラインの構築方法を、\n実際に手を動かしながら学んでいきます。\n\n「コードをプッシュしたら自動でテストが走って、自動でデプロイされる」\n\nそんな開発環境を、このコースを終える頃には\n自分で構築できるようになります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page03.wav",
+      "duration": 56.501333333333335,
+      "text": "### このコースで学ぶこと（0:30-2:00）\n\n具体的に、このコースで学ぶ内容を紹介します。\n\n**1. S3静的サイトホスティング**\nまずは基本として、S3でウェブサイトを公開する方法を学びます。\nこれがデプロイ先になります。\n\n**2. CodePipeline**\nAWSのCI/CDサービスの中核となるCodePipelineを使って、\nGitHubからの自動デプロイパイプラインを構築します。\n\n**3. CodeBuild**\nビルドとテストを自動化するCodeBuildの設定方法を学びます。\nbuildspec.ymlの書き方もマスターします。\n\n**4. テスト自動化**\nJestとPHPUnitを使った、複数言語でのテスト自動化を実装します。\nテストが失敗したらデプロイを止める仕組みも作ります。\n\n**5. Lambda連携**\nサーバーレス関数であるLambdaを、\nCI/CDパイプラインでデプロイする方法を学びます。\n\n**6. SAM（Serverless Application Model）**\nAWSのサーバーレスアプリケーションを\nコードで管理するSAMの使い方を習得します。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page04.wav",
+      "duration": 22.656,
+      "text": "### 対象者（2:00-2:45）\n\nこのコースは、こんな方を対象にしています。\n\n- AWSの基本的な操作ができる方\n- 手動デプロイから自動化に移行したい方\n- DevOpsに興味があるエンジニア\n- インフラをコード化したい方\n\n逆に、AWSアカウントを持っていない方や、\nGitを全く使ったことがない方は、\n先にそちらの基礎を学んでからの受講をおすすめします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page05.wav",
+      "duration": 20.213333333333335,
+      "text": "### コース終了後にできること（2:45-3:30）\n\nこのコースを終えると、以下のことができるようになります。\n\n- GitHubにプッシュするだけで自動デプロイされる環境の構築\n- テスト自動化による品質担保\n- Lambda関数のCI/CDデプロイ\n- SAMを使ったサーバーレスアプリケーション開発\n\n実際の業務でも使えるスキルが身につきます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page06.wav",
+      "duration": 23.797333333333334,
+      "text": "### コースの進め方（3:30-4:30）\n\nこのコースは、ハンズオン形式で進めます。\n\n私が画面を操作しながら説明するので、\n一緒に手を動かしながら進めてください。\n\n各セクションの最後には、\nそのセクションで学んだことのまとめがあります。\n\nまた、ソースコードはGitHubで公開しているので、\n詰まったときは参考にしてください。\n\n質問があれば、Q&Aセクションで気軽に聞いてください。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page07.wav",
+      "duration": 9.813333333333333,
+      "text": "### クロージング（4:30-5:00）\n\nそれでは、次のレクチャーから\nCI/CDの基本概念について学んでいきましょう。\n\n一緒に頑張りましょう！"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page08.wav",
+      "duration": 22.325333333333333,
+      "text": "## スライド構成案\n\n1. タイトルスライド「実践！AWS CI/CDパイプライン構築マスター講座」\n2. 学習内容一覧（6項目をアイコン付きで）\n3. 対象者（チェックリスト形式）\n4. コース終了後にできること（Before/After形式）\n5. コースの進め方（ハンズオン形式の説明）\n6. 次のレクチャーへ"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-1\\1-1_page09.wav",
+      "duration": 6.730666666666667,
+      "text": "## 撮影メモ\n\n- 明るく、歓迎する雰囲気で\n- 学習ゴールを明確に伝える\n- 「一緒に頑張りましょう」で締める"
+    }
+  ]
+}

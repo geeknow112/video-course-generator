@@ -11,11 +11,9 @@ index.jsのないようです。exports.handlerで、async functionをていぎ�
 package.jsonのないようです。nameは、lambda-hello-functionです。versionは、1.0.0です。mainは、index.jsです。scriptsに、testをていぎします。devDependenciesに、jestをついかします。
 ---
 buildspec.ymlのないようです。versionは、0.2です。phasesに、install、build、post_buildをていぎします。installで、npm installをじっこうします。buildで、npm testをじっこうします。post_buildで、aws lambda update-function-codeをじっこうします。
----
 post_buildのコマンドをくわしくせつめいします。aws lambda update-function-codeをつかいます。function-nameに、かんすうめいをしていします。zip-fileに、fileb://function.zipをしていします。そのまえに、zipコマンドで、index.jsをあっしゅくします。
 ---
 IAMロールのせっていです。CodeBuildのサービスロールに、Lambdaへのアクセスけんげんをついかします。lambda:UpdateFunctionCodeが、ひつようです。lambda:GetFunctionも、ひつようです。Resourceに、たいしょうのLambda ARNをしていします。
----
 IAMポリシーのれいです。Effectは、Allowです。Actionに、lambda:UpdateFunctionCodeと、lambda:GetFunctionをしていします。Resourceに、arn:aws:lambda:リージョン:アカウントID:function:かんすうめい、をしていします。
 ---
 パイプラインのこうちくです。CodePipelineコンソールをひらきます。パイプラインをさくせいします。ソースステージで、GitHubをせんたくします。ビルドステージで、CodeBuildをせんたくします。デプロイステージは、スキップします。buildspecでデプロイするためです。

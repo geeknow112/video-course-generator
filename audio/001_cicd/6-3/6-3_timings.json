@@ -1,0 +1,84 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 197.46133333333333,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 4.266666666666667,
+      "text": "このレクチャーでは、CodePipelineからLambdaへデプロイするほうほうをせつめいします。"
+    },
+    {
+      "slide": 2,
+      "start": 4.266666666666667,
+      "duration": 8.074666666666667,
+      "text": "このレクチャーでまなぶことは、Lambdaデプロイのながれ、buildspec.ymlのせってい、I..."
+    },
+    {
+      "slide": 3,
+      "start": 12.341333333333335,
+      "duration": 7.573333333333333,
+      "text": "デプロイのぜんたいぞうです。GitHubからソースをしゅとく。CodeBuildでパッケージか。そし..."
+    },
+    {
+      "slide": 4,
+      "start": 19.91466666666667,
+      "duration": 11.914666666666667,
+      "text": "プロジェクトこうぞうです。ルートに、index.jsをおきます。package.jsonをおきます。..."
+    },
+    {
+      "slide": 5,
+      "start": 31.829333333333338,
+      "duration": 13.056,
+      "text": "index.jsのないようです。exports.handlerで、async functionをてい..."
+    },
+    {
+      "slide": 6,
+      "start": 44.885333333333335,
+      "duration": 14.592,
+      "text": "package.jsonのないようです。nameは、lambda-hello-functionです。..."
+    },
+    {
+      "slide": 7,
+      "start": 59.477333333333334,
+      "duration": 35.712,
+      "text": "buildspec.ymlのないようです。versionは、0.2です。phasesに、instal..."
+    },
+    {
+      "slide": 8,
+      "start": 95.18933333333334,
+      "duration": 30.442666666666668,
+      "text": "IAMロールのせっていです。CodeBuildのサービスロールに、Lambdaへのアクセスけんげんを..."
+    },
+    {
+      "slide": 9,
+      "start": 125.632,
+      "duration": 14.208,
+      "text": "パイプラインのこうちくです。CodePipelineコンソールをひらきます。パイプラインをさくせいし..."
+    },
+    {
+      "slide": 10,
+      "start": 139.84,
+      "duration": 16.405333333333335,
+      "text": "CodeBuildプロジェクトのせっていです。かんきょうイメージは、aws/codebuild/am..."
+    },
+    {
+      "slide": 11,
+      "start": 156.24533333333335,
+      "duration": 11.786666666666667,
+      "text": "どうさかくにんです。GitHubにプッシュします。パイプラインがじどうきどうします。CodeBuil..."
+    },
+    {
+      "slide": 12,
+      "start": 168.032,
+      "duration": 13.013333333333334,
+      "text": "トラブルシューティングです。けんげんエラーのばあい、IAMロールをかくにんします。zipエラーのばあ..."
+    },
+    {
+      "slide": 13,
+      "start": 181.04533333333333,
+      "duration": 16.416,
+      "text": "まとめです。buildspec.ymlで、Lambdaデプロイをじどうかできます。IAMロールに、L..."
+    }
+  ]
+}

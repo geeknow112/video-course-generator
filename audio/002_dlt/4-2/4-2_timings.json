@@ -1,0 +1,54 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 172.82133333333334,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 11.68,
+      "text": "ここからハンズオンです。\nJMeterをインストールして、じっさいにスクリプトをつくります。\nつくる..."
+    },
+    {
+      "slide": 2,
+      "start": 11.68,
+      "duration": 23.136,
+      "text": "まずインストールです。\nApache JMeterのこうしきサイトをひらきます。\nDownload ..."
+    },
+    {
+      "slide": 3,
+      "start": 34.816,
+      "duration": 26.485333333333333,
+      "text": "Thread Groupをつくります。\nTest Planをみぎクリックして、Add、Threads..."
+    },
+    {
+      "slide": 4,
+      "start": 61.30133333333333,
+      "duration": 33.93066666666667,
+      "text": "HTTP Requestをついかします。\nThread Groupをみぎクリックして、Add、Sam..."
+    },
+    {
+      "slide": 5,
+      "start": 95.232,
+      "duration": 23.925333333333334,
+      "text": "HTTP Header Managerをついかします。\nThread Groupをみぎクリックして、..."
+    },
+    {
+      "slide": 6,
+      "start": 119.15733333333333,
+      "duration": 17.962666666666667,
+      "text": "スクリプトをほぞんします。\nFile、Save Test Plan asをえらび、api-load-..."
+    },
+    {
+      "slide": 7,
+      "start": 137.12,
+      "duration": 26.837333333333333,
+      "text": "できあがったこうせいをかくにんします。\nTest Planのしたに、Thread Groupがひとつ..."
+    },
+    {
+      "slide": 8,
+      "start": 163.95733333333334,
+      "duration": 8.864,
+      "text": "つぎのレクチャーでは、このスクリプトをDLTにアップロードして、じっさいにおおきなふかをかけます。\n..."
+    }
+  ]
+}

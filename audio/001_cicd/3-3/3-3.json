@@ -1,0 +1,85 @@
+{
+  "lecture_id": "3-3",
+  "total_pages": 13,
+  "total_duration": 139.104,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page01.wav",
+      "duration": 4.245333333333333,
+      "text": "このレクチャーでは、CodePipelineとGitHubをせつぞくするせっていをおこないます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page02.wav",
+      "duration": 7.061333333333334,
+      "text": "このレクチャーでまなぶことは、CodeStar Connectionsとは、GitHubせつぞくのさくせいてじゅん、せつぞくのにんしょうフロー、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page03.wav",
+      "duration": 14.485333333333333,
+      "text": "CodeStar Connectionsについてせつめいします。これは、がいぶサービスとのせつぞくをかんりするきのうです。GitHub、GitLab、Bitbucketにたいおうしています。OAuthにんしょうであんぜんにせつぞくでき、いちどせっていすれば、ふくすうのパイプラインでさいりようできます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page04.wav",
+      "duration": 10.165333333333333,
+      "text": "せつぞくのしくみをみてみましょう。CodePipelineから、CodeStar Connectionsをけいゆして、GitHubにOAuthにんしょうでせつぞくします。そして、リポジトリにアクセスできるようになります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page05.wav",
+      "duration": 13.632,
+      "text": "せつぞくのさくせいてじゅんです。まず、AWSコンソールでCodePipelineをひらきます。ひだりメニューのせってい、せつぞく、をクリックします。せつぞくをさくせい、をクリックし、プロバイダーでGitHubをせんたく、せつぞくめいをにゅうりょくします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page06.wav",
+      "duration": 8.693333333333333,
+      "text": "せつぞくめいは、たとえば、github-connection、や、my-github-connection、などにします。わかりやすいなまえをつけましょう。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page07.wav",
+      "duration": 11.722666666666667,
+      "text": "GitHubにんしょうフローをせつめいします。GitHubにせつぞく、をクリックすると、GitHubのログインがめんがひょうじされます。Authorize AWS Connector、をクリックして、アクセスきょかをかくにんしてしょうにんします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page08.wav",
+      "duration": 10.101333333333333,
+      "text": "アクセスきょかのないようをかくにんしましょう。リポジトリのよみとり、Webhookのさくせい、コミットステータスのこうしん、がふくまれます。かきこみけんげんはふくまれないので、あんぜんです。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page09.wav",
+      "duration": 11.029333333333334,
+      "text": "せつぞくステータスについてです。ほりゅうちゅう、は、にんしょうまちです。りようかのう、は、せつぞくかんりょうです。エラー、は、にんしょうしっぱいです。りようかのう、になればせいこうです。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page10.wav",
+      "duration": 11.146666666666667,
+      "text": "せつぞくのかくにんほうほうです。せってい、せつぞく、をひらきます。さくせいしたせつぞくをせんたくします。ステータスが、りようかのう、かかくにんします。せつぞくARNをメモしておくとべんりです。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page11.wav",
+      "duration": 15.445333333333334,
+      "text": "よくあるエラーとたいしょほうです。にんしょうにしっぱいしました、というエラーは、GitHubにさいログインしてさいしこうしてください。けんげんがありません、というエラーは、リポジトリのオーナーかかくにんしてください。せつぞくがタイムアウト、というエラーは、ブラウザのポップアップをきょかしてください。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page12.wav",
+      "duration": 9.802666666666667,
+      "text": "セキュリティのポイントです。せつぞくは、さいしょうけんげんでさくせいされます。ふようになったら、せつぞくをさくじょしましょう。ていきてきに、せつぞくをかくにんすることをおすすめします。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-3\\3-3_page13.wav",
+      "duration": 11.573333333333334,
+      "text": "まとめです。CodeStar ConnectionsでGitHubとせつぞくしました。OAuthにんしょうであんぜんにアクセスできます。ステータスが、りようかのう、になればかんりょうです。つぎのレクチャーでは、パイプラインをさくせいします。"
+    }
+  ]
+}

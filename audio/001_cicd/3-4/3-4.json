@@ -1,0 +1,103 @@
+{
+  "lecture_id": "3-4",
+  "total_pages": 16,
+  "total_duration": 165.6,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page01.wav",
+      "duration": 2.88,
+      "text": "このレクチャーでは、さいしょのパイプラインをさくせいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page02.wav",
+      "duration": 7.904,
+      "text": "このレクチャーでまなぶことは、パイプラインのさくせいてじゅん、ソースステージのせってい、デプロイステージのせってい、しょかいじっこうのかくにん、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page03.wav",
+      "duration": 7.285333333333333,
+      "text": "さくせいするパイプラインのこうせいです。GitHubからソースをしゅとくし、S3にデプロイする、もっともシンプルなこうせいからはじめます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page04.wav",
+      "duration": 8.682666666666666,
+      "text": "パイプラインさくせいをかいしします。CodePipelineコンソールをひらき、パイプラインをさくせい、をクリックします。カスタムパイプラインをこうちく、をせんたくします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page05.wav",
+      "duration": 11.584,
+      "text": "ステップ1、パイプラインせっていです。パイプラインめいは、demo-pipeline、とします。パイプラインタイプは、V2、をせんたくします。サービスロールは、あたらしいサービスロール、をせんたくします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page06.wav",
+      "duration": 12.586666666666666,
+      "text": "パイプラインめいのルールをかくにんしましょう。えいすうじとハイフンのみしようかのうです。100もじいないで、リージョンないでいちいでなければなりません。demo-pipelineや、my-cicd-pipeline、などがよいれいです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page07.wav",
+      "duration": 14.549333333333333,
+      "text": "ステップ2、ソースステージです。ソースプロバイダーは、GitHub Version 2、をせんたくします。せつぞくは、さきほどさくせいしたせつぞくをせんたくします。リポジトリめいは、cicd-demo-site、ブランチめいは、main、をせんたくします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page08.wav",
+      "duration": 9.184,
+      "text": "トリガーのせっていです。プッシュでパイプラインをかいし、をせんたくします。これにより、mainブランチへのプッシュでじどうじっこうされます。Webhookがじどうでせっていされます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page09.wav",
+      "duration": 8.362666666666666,
+      "text": "ステップ3、ビルドステージです。こんかいはスキップします。せいてきサイトなので、ビルドはふようです。つぎのセクションで、CodeBuildをついかします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page10.wav",
+      "duration": 11.744,
+      "text": "ステップ4、デプロイステージです。デプロイプロバイダーは、Amazon S3、をせんたくします。バケットは、セクション2でさくせいしたバケットをせんたくします。デプロイまえにファイルをちゅうしゅつする、にチェックをいれます。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page11.wav",
+      "duration": 15.210666666666667,
+      "text": "ファイルをちゅうしゅつ、のせつめいです。チェックありのばあい、ZIPをてんかいしてアップロードします。index.htmlや、style.cssが、そのままアップロードされます。チェックなしのばあい、ZIPのままアップロードされます。せいてきサイトは、チェックありがひつようです。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page12.wav",
+      "duration": 10.101333333333333,
+      "text": "かくにんがめんです。せっていないようをかくにんして、パイプラインをさくせい、をクリックします。パイプラインめい、ソースがGitHub、デプロイがS3、であることをかくにんしてください。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page13.wav",
+      "duration": 10.570666666666666,
+      "text": "しょかいじっこうについてです。パイプラインさくせいご、じどうてきにしょかいじっこうがかいしされます。Sourceステージがしんこうちゅう、Deployステージがたいきちゅう、となります。すうふんでかんりょうします。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page14.wav",
+      "duration": 14.005333333333333,
+      "text": "じっこうけっかのかくにんです。せいこうのばあい、かくステージがみどりいろで、せいこう、とひょうじされます。S3にファイルがアップロードされています。しっぱいのばあい、あかいろで、しっぱい、とひょうじされます。しょうさいをクリックしてエラーをかくにんしてください。"
+    },
+    {
+      "page": 15,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page15.wav",
+      "duration": 9.866666666666667,
+      "text": "S3でのかくにんほうほうです。S3コンソールをひらき、バケットをせんたくします。ファイルがそんざいするかかくにんし、ウェブサイトURLにアクセスしてひょうじをかくにんします。"
+    },
+    {
+      "page": 16,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-4\\3-4_page16.wav",
+      "duration": 11.082666666666666,
+      "text": "まとめです。シンプルなGitHubからS3へのパイプラインをさくせいしました。ソースとデプロイの2ステージこうせいです。しょかいじっこうがじどうでかいしされます。つぎのレクチャーでは、トラブルシューティングをまなびます。"
+    }
+  ]
+}

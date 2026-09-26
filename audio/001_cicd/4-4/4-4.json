@@ -1,0 +1,91 @@
+{
+  "lecture_id": "4-4",
+  "total_pages": 14,
+  "total_duration": 170.73066666666668,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page01.wav",
+      "duration": 3.3706666666666667,
+      "text": "このレクチャーでは、テストじどうかのじっそうについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page02.wav",
+      "duration": 9.226666666666667,
+      "text": "このレクチャーでまなぶことは、CICDにおけるテストのじゅうようせい、テストのしゅるい、buildspec.ymlでのテストじっこう、テストしっぱいじのどうさ、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page03.wav",
+      "duration": 12.896,
+      "text": "なぜテストをじどうかするのか、せつめいします。ひんしつのたんぽとして、まいかいおなじテストをじっこうできます。そうきはっけんとして、もんだいをはやくみつけられます。じしんをもってデプロイできます。テストつうか、イコール、あんしん、です。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page04.wav",
+      "duration": 14.432,
+      "text": "テストのしゅるいをかくにんしましょう。たんたいテストは、かんすうたんいでテストし、じっこうじかんがはやいです。とうごうテストは、ふくすうコンポーネントをテストし、じっこうじかんはちゅうていどです。E2Eテストは、ぜんたいのどうさをテストし、じっこうじかんがおそいです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page05.wav",
+      "duration": 8.586666666666666,
+      "text": "CICDでのテストせんりゃくです。たんたいテストはひっす、とうごうテストはすいしょう、E2Eテストはじゅうようなきのうのみ、というピラミッドがたがりそうです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page06.wav",
+      "duration": 15.658666666666667,
+      "text": "Jestでのテストれいをみてみましょう。sum.test.jsというファイルで、sumかんすうをrequireします。testかんすうで、1たす2は3、というテストをかきます。expectで、sum 1 2、のけっかが、toBe 3、であることをかくにんします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page07.wav",
+      "duration": 9.418666666666667,
+      "text": "package.jsonのせっていです。scriptsセクションに、testとして、jestをしていします。devDependenciesに、jestのバージョン29をついかします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page08.wav",
+      "duration": 15.125333333333334,
+      "text": "buildspec.ymlでテストをじっこうするほうほうです。installフェーズで、nodejs 18をしてい、npm installをじっこうします。pre_buildフェーズで、npm testをじっこうします。buildフェーズで、npm run buildをじっこうします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page09.wav",
+      "duration": 12.746666666666666,
+      "text": "テストしっぱいじのどうさをせつめいします。テストがしっぱいすると、exit code 1がかえります。すると、CodeBuildがしっぱいします。パイプラインがていしします。けっかとして、デプロイされません。これがただしいどうさです。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page10.wav",
+      "duration": 16.266666666666666,
+      "text": "テストレポートのしゅつりょくほうほうです。buildspec.ymlのreportsセクションで、jest-reportsをていぎします。filesに、junit.xmlをしてい、file-formatに、JUNITXMLをしていします。CodeBuildコンソールでレポートをかくにんできます。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page11.wav",
+      "duration": 14.165333333333333,
+      "text": "Jestのせってい、レポートしゅつりょくようです。package.jsonのscriptsで、testに、jest、ハイフンハイフンci、ハイフンハイフンreportersイコールdefault、ハイフンハイフンreportersイコールjest-junit、をしていします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page12.wav",
+      "duration": 11.381333333333334,
+      "text": "カバレッジのかくにんほうほうです。pre_buildフェーズで、npm test、ハイフンハイフン、ハイフンハイフンcoverage、をじっこうします。コードのどのぶぶんがテストされているか、かくにんできます。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page13.wav",
+      "duration": 13.173333333333334,
+      "text": "じっせんとして、テストつきプロジェクトをさくせいしましょう。テストファイルをさくせいし、package.jsonにtest scriptをついかします。buildspec.ymlでnpm testをじっこうし、パイプラインをじっこうしてかくにんします。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-4\\4-4_page14.wav",
+      "duration": 14.282666666666668,
+      "text": "まとめです。テストじどうかで、ひんしつをたんぽします。pre_buildフェーズでテストをじっこうします。テストしっぱいで、パイプラインがていしします。レポートしゅつりょくで、けっかをかしかできます。つぎのレクチャーでは、ビルドログのかくにんほうほうをまなびます。"
+    }
+  ]
+}

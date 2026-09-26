@@ -1,0 +1,97 @@
+{
+  "lecture_id": "8-5",
+  "total_pages": 15,
+  "total_duration": 163.82933333333332,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page01.wav",
+      "duration": 2.848,
+      "text": "このレクチャーでは、どうさかくにんとテストをおこないます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page02.wav",
+      "duration": 8.234666666666667,
+      "text": "このレクチャーでまなぶことは、パイプラインのじっこうかくにん、CloudWatch Alarmのせってい、テストアラームのはっか、Slackつうちのかくにん、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page03.wav",
+      "duration": 10.122666666666667,
+      "text": "パイプラインのじっこうかくにんです。GitHubにプッシュします。CodePipelineコンソールを、ひらきます。パイプラインが、じっこうちゅうになります。かくステージの、じょうたいをかくにんします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page04.wav",
+      "duration": 10.773333333333333,
+      "text": "ソースステージのかくにんです。GitHubからの、しゅとくがせいこうしたか、かくにんします。しっぱいしたばあい、せつぞくせっていを、かくにんします。ブランチめいが、ただしいか、かくにんします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page05.wav",
+      "duration": 11.445333333333334,
+      "text": "ビルドステージのかくにんです。CodeBuildの、ログをかくにんします。sam buildが、せいこうしたか、かくにんします。sam packageが、せいこうしたか、かくにんします。エラーがあれば、ログをかくにんします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page06.wav",
+      "duration": 14.24,
+      "text": "デプロイステージのかくにんです。CloudFormationコンソールを、ひらきます。スタックの、じょうたいをかくにんします。CREATE_COMPLETEに、なっていれば、せいこうです。しっぱいしたばあい、イベントを、かくにんします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page07.wav",
+      "duration": 10.826666666666666,
+      "text": "さくせいされたリソースのかくにんです。Lambdaコンソールで、かんすうをかくにんします。SNSコンソールで、トピックをかくにんします。かんきょうへんすうが、せっていされているか、かくにんします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page08.wav",
+      "duration": 12.266666666666667,
+      "text": "CloudWatch Alarmのせっていです。CloudWatchコンソールを、ひらきます。アラームを、さくせいします。メトリクスを、せんたくします。しきいちを、せっていします。アクションに、SNS Topicを、していします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page09.wav",
+      "duration": 14.485333333333333,
+      "text": "テストようアラームのさくせいです。EC2の、CPUUtilizationを、せんたくします。しきいちを、1パーセントいじょうに、せっていします。これで、すぐにアラームが、はっかします。アクションに、さくせいしたSNS Topicを、していします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page10.wav",
+      "duration": 12.501333333333333,
+      "text": "アラームのはっかかくにんです。CloudWatchコンソールで、アラームじょうたいを、かくにんします。ALARMに、なっていれば、はっかしています。SNSコンソールで、メッセージが、おくられたか、かくにんします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page11.wav",
+      "duration": 10.133333333333333,
+      "text": "Slackつうちのかくにんです。Slackを、ひらきます。していしたチャンネルを、かくにんします。アラートメッセージが、とどいていれば、せいこうです。メッセージないようを、かくにんします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page12.wav",
+      "duration": 11.061333333333334,
+      "text": "トラブルシューティングです。Slackにつうちがこないばあい、CloudWatch Logsを、かくにんします。Lambdaの、じっこうログを、かくにんします。Webhook URLが、ただしいか、かくにんします。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page13.wav",
+      "duration": 12.533333333333333,
+      "text": "よくあるエラーとたいしょです。Lambdaタイムアウトのばあい、タイムアウトちを、ふやします。Webhook URLエラーのばあい、URLを、さいかくにんします。けんげんエラーのばあい、IAMロールを、かくにんします。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page14.wav",
+      "duration": 10.186666666666667,
+      "text": "テストかんりょうごのせいりです。テストようアラームを、さくじょします。ほんばんようアラームを、さくせいします。てきせつなしきいちを、せっていします。ひつようなメトリクスを、かんしします。"
+    },
+    {
+      "page": 15,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-5\\8-5_page15.wav",
+      "duration": 12.170666666666667,
+      "text": "まとめです。パイプラインが、せいこうしました。CloudWatch Alarmを、せっていしました。Slackに、つうちがとどきました。じっせんてきなかんしシステムが、かんせいしました。つぎのレクチャーで、コースをまとめます。"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "lecture_id": "5-4",
+  "total_pages": 14,
+  "total_duration": 184.07466666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page01.wav",
+      "duration": 3.9466666666666668,
+      "text": "このレクチャーでは、テストしっぱいじのパイプラインていしについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page02.wav",
+      "duration": 8.138666666666667,
+      "text": "このレクチャーでまなぶことは、とうごうbuildspec.ymlのさくせい、テストしっぱいじのどうさかくにん、じっせんてきなCICDフロー、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page03.wav",
+      "duration": 19.189333333333334,
+      "text": "とうごうbuildspec.ymlをさくせいしましょう。versionは0.2です。installフェーズで、runtime-versionsに、nodejs 18と、php 8.2をしていします。commandsで、cd jsして、npm install、cd、ドットドット、スラッシュ、phpして、composer install、をじっこうします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page04.wav",
+      "duration": 21.632,
+      "text": "とうごうbuildspec.ymlのつづきです。pre_buildフェーズで、echo Running Jest tests、cd jsして、npm test、echo Running PHPUnit tests、cd、ドットドット、スラッシュ、phpして、vendor、スラッシュ、bin、スラッシュ、phpunit、をじっこうします。buildフェーズで、echo All tests passed、をじっこうします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page05.wav",
+      "duration": 10.816,
+      "text": "テストじっこうのながれです。まず、Jestテストをじっこうします。せいこうしたら、PHPUnitテストをじっこうします。せいこうしたら、ビルドしょりをじっこうします。そして、デプロイします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page06.wav",
+      "duration": 8.298666666666668,
+      "text": "テストしっぱいじのどうさです。Jestテストがしっぱいすると、パイプラインがていしします。PHPUnitはじっこうされません。デプロイもされません。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page07.wav",
+      "duration": 14.709333333333333,
+      "text": "なぜていしするのか、せつめいします。exit codeのしくみです。テストせいこうは、exit code 0です。テストしっぱいは、exit code 1、つまり0いがいです。CodeBuildは、exit code 0いがいで、しっぱいとはんていします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page08.wav",
+      "duration": 12.576,
+      "text": "じっけんとして、わざとしっぱいさせてみましょう。sum.test.jsで、testかんすうに、わざとしっぱい、というテストをかきます。expectで、1たす1が、toBe 3、とします。これはしっぱいします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page09.wav",
+      "duration": 19.68,
+      "text": "しっぱいじのログをかくにんしましょう。Container、Running command npm test、とひょうじされます。FAIL、sum.test.js、バツマーク、わざとしっぱい、とひょうじされます。Command did not exit successfully、Phase complete PRE_BUILD State FAILED、とひょうじされます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page10.wav",
+      "duration": 11.957333333333333,
+      "text": "パイプラインのじょうたいをかくにんしましょう。Sourceは、せいこう、チェックマークです。Buildは、しっぱい、バツマーク、ここでていしします。Deployは、じっこうされません。ふかんぜんなコードは、デプロイされません。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page11.wav",
+      "duration": 9.621333333333334,
+      "text": "しゅうせいして、さいじっこうするながれです。まず、テストをしゅうせいします。GitHubにプッシュします。パイプラインがじどうじっこうされます。テストせいこうで、デプロイされます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page12.wav",
+      "duration": 10.741333333333333,
+      "text": "ベストプラクティスをしょうかいします。ローカルでテストしてから、プッシュしましょう。ちいさなへんこうを、ひんぱんにコミットしましょう。テストカバレッジをいしきしましょう。しっぱいしたら、すぐしゅうせいしましょう。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page13.wav",
+      "duration": 19.946666666666665,
+      "text": "かんせいしたプロジェクトこうせいです。projectフォルダに、jsフォルダ、phpフォルダ、buildspec.yml、があります。jsフォルダには、package.json、sum.js、sum.test.js、があります。phpフォルダには、composer.json、srcフォルダ、testsフォルダ、があります。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-4\\5-4_page14.wav",
+      "duration": 12.821333333333333,
+      "text": "まとめです。ふくすうげんごのテストを、1つのbuildspecでじっこうできます。テストしっぱいで、パイプラインがていしします。ふかんぜんなコードは、デプロイされません。これがCICDのほんしつです。これでセクション5はしゅうりょうです。"
+    }
+  ]
+}

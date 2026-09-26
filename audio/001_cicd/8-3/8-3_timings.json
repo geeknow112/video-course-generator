@@ -1,0 +1,90 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 208.77866666666668,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 2.7093333333333334,
+      "text": "このレクチャーでは、SAMテンプレートをじっそうします。"
+    },
+    {
+      "slide": 2,
+      "start": 2.7093333333333334,
+      "duration": 8.277333333333333,
+      "text": "このレクチャーでまなぶことは、template.yamlのさくせい、Lambdaかんすうのていぎ、S..."
+    },
+    {
+      "slide": 3,
+      "start": 10.986666666666666,
+      "duration": 31.861333333333334,
+      "text": "template.yamlのきほんこうぞうです。AWSTemplateFormatVersionを、..."
+    },
+    {
+      "slide": 4,
+      "start": 42.848,
+      "duration": 11.338666666666667,
+      "text": "Globalsセクションです。Functionに、きょうつうせっていをかきます。Timeoutを、1..."
+    },
+    {
+      "slide": 5,
+      "start": 54.18666666666667,
+      "duration": 26.986666666666668,
+      "text": "Lambdaかんすうのていぎです。SlackNotificationFunctionを、ていぎします..."
+    },
+    {
+      "slide": 6,
+      "start": 81.17333333333333,
+      "duration": 12.181333333333333,
+      "text": "SNSイベントのせっていです。Eventsセクションに、SNSEventをていぎします。Typeは、..."
+    },
+    {
+      "slide": 7,
+      "start": 93.35466666666666,
+      "duration": 12.906666666666666,
+      "text": "SNS Topicのていぎです。AlarmTopicを、ていぎします。Typeは、AWS::SNS:..."
+    },
+    {
+      "slide": 8,
+      "start": 106.26133333333333,
+      "duration": 13.877333333333333,
+      "text": "Outputsセクションです。TopicArnを、しゅつりょくします。Valueに、!Ref Ala..."
+    },
+    {
+      "slide": 9,
+      "start": 120.13866666666667,
+      "duration": 12.373333333333333,
+      "text": "Lambdaコードのじっそうです。srcフォルダに、index.jsをさくせいします。exports..."
+    },
+    {
+      "slide": 10,
+      "start": 132.512,
+      "duration": 14.816,
+      "text": "SNSメッセージのパースです。event.Recordsの、さいしょのようそをしゅとくします。rec..."
+    },
+    {
+      "slide": 11,
+      "start": 147.328,
+      "duration": 17.770666666666667,
+      "text": "Slackメッセージのさくせいです。textに、けいこくマークと、AWS Alertをせっていします..."
+    },
+    {
+      "slide": 12,
+      "start": 165.09866666666667,
+      "duration": 20.768,
+      "text": "Slackへのそうしんです。fetchを、つかいます。URLは、process.env.SLACK_..."
+    },
+    {
+      "slide": 13,
+      "start": 185.86666666666667,
+      "duration": 9.418666666666667,
+      "text": "エラーハンドリングです。try-catchで、エラーをキャッチします。console.errorで、..."
+    },
+    {
+      "slide": 14,
+      "start": 195.28533333333334,
+      "duration": 13.493333333333334,
+      "text": "まとめです。template.yamlで、LambdaとSNSをていぎしました。パラメータで、Web..."
+    }
+  ]
+}

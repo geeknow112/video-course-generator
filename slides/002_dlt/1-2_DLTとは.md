@@ -1,5 +1,3 @@
-# セクション1-2「DLTとは」スライド
-
 ---
 marp: true
 theme: default

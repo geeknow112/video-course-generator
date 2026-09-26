@@ -1,0 +1,85 @@
+{
+  "lecture_id": "4-2",
+  "total_pages": 13,
+  "total_duration": 137.472,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page01.wav",
+      "duration": 4.288,
+      "text": "このレクチャーでは、buildspec.ymlのきほんこうぞうについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page02.wav",
+      "duration": 7.1786666666666665,
+      "text": "このレクチャーでまなぶことは、buildspec.ymlとは、きほんこうぞう、かくフェーズのやくわり、じっせんてきなかきかた、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page03.wav",
+      "duration": 12.362666666666666,
+      "text": "buildspec.ymlとはなにか、からはじめましょう。buildspec.ymlは、ビルドてじゅんをていぎするファイルです。YAMLけいしきできじゅつし、リポジトリのルートにはいちします。CodeBuildがじどうでよみこみます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page04.wav",
+      "duration": 10.410666666666666,
+      "text": "きほんこうぞうをみてみましょう。versionは0.2をしていします。phasesセクションに、installやbuildなどのフェーズをきじゅつします。artifactsセクションに、しゅつりょくするファイルをしていします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page05.wav",
+      "duration": 12.992,
+      "text": "フェーズのしゅるいをかくにんしましょう。installは、いぞんかんけいのインストールにつかいます。pre_buildは、ビルドまえのじゅんびにつかいます。buildは、メインのビルドしょりにつかいます。post_buildは、ビルドごのしょりにつかいます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page06.wav",
+      "duration": 10.101333333333333,
+      "text": "installフェーズのれいです。runtime-versionsで、nodejsの18をしていしています。commandsで、npm installをじっこうして、いぞんパッケージをインストールします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page07.wav",
+      "duration": 9.962666666666667,
+      "text": "pre_buildフェーズのれいです。commandsで、npm testをじっこうして、テストをじっこうしています。かんきょうへんすうのせってい、ログインしょりなども、このフェーズでおこないます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page08.wav",
+      "duration": 8.629333333333333,
+      "text": "buildフェーズのれいです。commandsで、npm run buildをじっこうしています。メインのビルドしょり、コンパイル、バンドルなどを、このフェーズでおこないます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page09.wav",
+      "duration": 9.696,
+      "text": "post_buildフェーズのれいです。commandsで、aws s3 syncをじっこうして、ビルドせいかぶつをアップロードしています。つうちのそうしんなども、このフェーズでおこないます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page10.wav",
+      "duration": 10.325333333333333,
+      "text": "artifactsセクションのせつめいです。filesで、しゅつりょくするファイルをしていします。base-directoryで、きじゅんディレクトリをしていします。つぎのステージにわたすファイルをここでていぎします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page11.wav",
+      "duration": 10.997333333333334,
+      "text": "かんきょうへんすうのせっていほうほうです。envセクションのvariablesで、ちょくせつしていできます。parameter-storeで、AWS Systems Manager Parameter Storeからしゅとくすることもできます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page12.wav",
+      "duration": 13.578666666666667,
+      "text": "かんぜんなれいをみてみましょう。versionは0.2、installフェーズでnodejs 18をしてい、npm installをじっこう、buildフェーズでnpm run buildをじっこう、artifactsでdistディレクトリのすべてのファイルをしゅつりょくしています。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-2\\4-2_page13.wav",
+      "duration": 16.949333333333332,
+      "text": "まとめです。buildspec.ymlは、ビルドてじゅんをていぎするファイルです。4つのフェーズ、install、pre_build、build、post_build、があります。artifactsでしゅつりょくファイルをしていします。リポジトリのルートにはいちします。つぎのレクチャーでは、ビルドかんきょうをせっていします。"
+    }
+  ]
+}

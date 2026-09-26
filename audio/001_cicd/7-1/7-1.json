@@ -1,0 +1,85 @@
+{
+  "lecture_id": "7-1",
+  "total_pages": 13,
+  "total_duration": 168.05333333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page01.wav",
+      "duration": 3.296,
+      "text": "このレクチャーでは、AWS SAMについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page02.wav",
+      "duration": 7.1146666666666665,
+      "text": "このレクチャーでまなぶことは、SAMとはなにか、SAMのメリット、CloudFormationとのかんけい、SAMのきほんがいねん、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page03.wav",
+      "duration": 10.090666666666667,
+      "text": "SAMとは、Serverless Application Modelのりゃくです。サーバーレスアプリケーションをかんたんにていぎできます。CloudFormationのかくちょうです。AWSがこうしきにていきょうしています。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page04.wav",
+      "duration": 12.384,
+      "text": "SAMがかいけつするもんだいです。じゅうらいのLambdaかんりは、たいへんでした。かんすうごとにコンソールでせってい。IAMロールをべつべつにさくせい。API Gatewayをしゅどうでせってい。ふくすうかんすうのかんりがふくざつでした。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page05.wav",
+      "duration": 12.48,
+      "text": "SAMのメリットです。かんけつなきじゅつで、すくないコードでていぎできます。ローカルテストで、じっきでうごかせます。CICDとうごうで、じどうデプロイできます。ベストプラクティスで、AWSすいしょうこうせいになります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page06.wav",
+      "duration": 16.672,
+      "text": "CloudFormationとのかんけいです。SAMは、CloudFormationのかくちょうです。SAMテンプレートは、CloudFormationにへんかんされます。Transformで、AWS::Serverless-2016-10-31をしていします。CloudFormationのきのうも、すべてつかえます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page07.wav",
+      "duration": 12.352,
+      "text": "SAMのきほんがいねんです。SAMテンプレートで、リソースをていぎします。SAM CLIで、ローカルじっこうやデプロイをします。SAMビルドで、パッケージをさくせいします。SAMデプロイで、AWSにデプロイします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page08.wav",
+      "duration": 18.101333333333333,
+      "text": "SAMテンプレートのきほんこうぞうです。AWSTemplateFormatVersionを、2010-09-09にします。Transformを、AWS::Serverless-2016-10-31にします。Descriptionに、せつめいをかきます。Resourcesに、リソースをていぎします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page09.wav",
+      "duration": 21.056,
+      "text": "SAMでていぎできるリソースです。AWS::Serverless::Functionで、Lambdaかんすうをていぎします。AWS::Serverless::Apiで、API Gatewayをていぎします。AWS::Serverless::SimpleTableで、DynamoDBをていぎします。AWS::Serverless::LayerVersionで、Lambdaレイヤーをていぎします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page10.wav",
+      "duration": 14.069333333333333,
+      "text": "SAM CLIのインストールです。Windowsのばあい、MSIインストーラーをダウンロードします。Macのばあい、brew install aws-sam-cliです。Linuxのばあい、pipでインストールします。sam versionで、インストールをかくにんします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page11.wav",
+      "duration": 12.629333333333333,
+      "text": "SAM CLIのしゅようコマンドです。sam initで、プロジェクトをしょきかします。sam buildで、ビルドします。sam localで、ローカルじっこうします。sam deployで、デプロイします。sam logsで、ログをかくにんします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page12.wav",
+      "duration": 14.581333333333333,
+      "text": "SAMとCloudFormationのひかくです。きじゅつりょうは、SAMがすくないです。ローカルテストは、SAMがかのうです。がくしゅうコストは、SAMがひくいです。じゅうなんせいは、CloudFormationがたかいです。ようとは、サーバーレスにSAM、それいがいにCloudFormationです。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-1\\7-1_page13.wav",
+      "duration": 13.226666666666667,
+      "text": "まとめです。SAMは、サーバーレスアプリケーションのフレームワークです。CloudFormationのかくちょうで、かんけつにきじゅつできます。SAM CLIで、ローカルテストとデプロイができます。つぎのレクチャーで、SAMテンプレートをさくせいします。"
+    }
+  ]
+}

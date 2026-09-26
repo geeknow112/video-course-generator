@@ -1,5 +1,3 @@
-# セクション4-3「JMeterスクリプト実行」スライド
-
 ---
 marp: true
 theme: default

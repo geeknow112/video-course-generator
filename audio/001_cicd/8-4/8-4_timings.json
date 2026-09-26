@@ -1,0 +1,90 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 200.672,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 3.2746666666666666,
+      "text": "このレクチャーでは、CICDパイプラインをこうちくします。"
+    },
+    {
+      "slide": 2,
+      "start": 3.2746666666666666,
+      "duration": 8.853333333333333,
+      "text": "このレクチャーでまなぶことは、buildspec.ymlのさくせい、CodePipelineのせって..."
+    },
+    {
+      "slide": 3,
+      "start": 12.128,
+      "duration": 10.08,
+      "text": "パイプラインのぜんたいぞうです。ソースステージで、GitHubからしゅとくします。ビルドステージで、..."
+    },
+    {
+      "slide": 4,
+      "start": 22.208,
+      "duration": 22.090666666666667,
+      "text": "buildspec.ymlのさくせいです。versionは、0.2です。phasesに、instal..."
+    },
+    {
+      "slide": 5,
+      "start": 44.29866666666666,
+      "duration": 34.165333333333336,
+      "text": "buildフェーズです。sam buildを、じっこうします。これで、Lambdaかんすうが、ビルド..."
+    },
+    {
+      "slide": 6,
+      "start": 78.464,
+      "duration": 12.896,
+      "text": "S3バケットのじゅんびです。SAMパッケージようの、S3バケットをさくせいします。バケットめいは、s..."
+    },
+    {
+      "slide": 7,
+      "start": 91.36,
+      "duration": 10.858666666666666,
+      "text": "CodePipelineのさくせいです。CodePipelineコンソールを、ひらきます。パイプライ..."
+    },
+    {
+      "slide": 8,
+      "start": 102.21866666666666,
+      "duration": 10.709333333333333,
+      "text": "ソースステージのせっていです。ソースプロバイダーに、GitHubを、せんたくします。リポジトリを、せ..."
+    },
+    {
+      "slide": 9,
+      "start": 112.928,
+      "duration": 14.976,
+      "text": "ビルドステージのせっていです。ビルドプロバイダーに、CodeBuildを、せんたくします。プロジェク..."
+    },
+    {
+      "slide": 10,
+      "start": 127.904,
+      "duration": 18.186666666666667,
+      "text": "デプロイステージのせっていです。デプロイプロバイダーに、CloudFormationを、せんたくしま..."
+    },
+    {
+      "slide": 11,
+      "start": 146.09066666666666,
+      "duration": 12.309333333333333,
+      "text": "パラメータのわたしかたです。テンプレートせっていで、パラメータオーバーライドを、せっていします。Sl..."
+    },
+    {
+      "slide": 12,
+      "start": 158.4,
+      "duration": 15.104,
+      "text": "Capabilitiesのせっていです。CAPABILITY_IAMを、ゆうこうにします。CAPAB..."
+    },
+    {
+      "slide": 13,
+      "start": 173.50400000000002,
+      "duration": 12.554666666666666,
+      "text": "CloudFormationロールのせっていです。CloudFormationじっこうロールを、さく..."
+    },
+    {
+      "slide": 14,
+      "start": 186.05866666666668,
+      "duration": 14.613333333333333,
+      "text": "まとめです。buildspec.ymlで、SAMビルドとパッケージを、じどうかしました。CodePi..."
+    }
+  ]
+}

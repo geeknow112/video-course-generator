@@ -1,0 +1,79 @@
+{
+  "lecture_id": "6-2",
+  "total_pages": 12,
+  "total_duration": 151.78666666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page01.wav",
+      "duration": 2.6453333333333333,
+      "text": "このレクチャーでは、Lambdaかんすうをさくせいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page02.wav",
+      "duration": 8.394666666666666,
+      "text": "このレクチャーでまなぶことは、Lambdaかんすうのきほんこうぞう、ハンドラーのかきかた、ローカルでのテストほうほう、AWSコンソールでのさくせい、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page03.wav",
+      "duration": 15.082666666666666,
+      "text": "Lambdaかんすうのきほんこうぞうです。Node.jsのばあい、exports.handlerで、async functionをていぎします。ひきすうは、eventと、contextです。eventには、リクエストじょうほうがはいっています。contextには、じっこうかんきょうじょうほうがはいっています。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page04.wav",
+      "duration": 15.146666666666667,
+      "text": "シンプルなれいをみましょう。exports.handlerイコール、async functionで、eventをうけとります。const nameイコール、event.nameまたは、Worldです。return、statusCode 200、bodyは、Hello、nameです。これがきほんけいです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page05.wav",
+      "duration": 16.373333333333335,
+      "text": "eventオブジェクトについてせつめいします。API Gatewayからのばあい、bodyに、リクエストボディがはいります。queryStringParametersに、クエリパラメータがはいります。headersに、HTTPヘッダーがはいります。httpMethodに、GET、POSTなどがはいります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page06.wav",
+      "duration": 15.648,
+      "text": "contextオブジェクトについてせつめいします。functionNameは、かんすうめいです。functionVersionは、バージョンです。memoryLimitInMBは、わりあてメモリです。awsRequestIdは、リクエストIDです。getRemainingTimeInMillisで、のこりじっこうじかんがとれます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page07.wav",
+      "duration": 14.986666666666666,
+      "text": "レスポンスのけいしきです。statusCodeは、HTTPステータスコードです。headersは、レスポンスヘッダーです。bodyは、レスポンスボディです。bodyはもじれつでかえすひつようがあります。JSONのばあい、JSON.stringifyをつかいます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page08.wav",
+      "duration": 11.786666666666667,
+      "text": "ローカルでのテストほうほうです。test.jsファイルをつくります。handlerをrequireします。テストイベントをさくせいします。handlerをよびだして、けっかをひょうじします。node test.jsでじっこうできます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page09.wav",
+      "duration": 15.541333333333334,
+      "text": "AWSコンソールでのさくせいです。Lambdaコンソールをひらきます。かんすうのさくせいをクリックします。いちからさくせいをせんたくします。かんすうめいを、hello-functionにします。ランタイムを、Node.js 20.xにします。さくせいをクリックします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page10.wav",
+      "duration": 9.994666666666667,
+      "text": "コードのへんしゅうです。コードソースセクションで、index.mjsをひらきます。コードをへんしゅうします。Deployボタンをクリックして、デプロイします。これでかんすうがこうしんされます。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page11.wav",
+      "duration": 12.48,
+      "text": "テストのじっこうです。Testボタンをクリックします。テストイベントをせっていします。イベントめいを、testEventにします。JSONで、nameに、Udemyをしていします。テストをじっこうして、けっかをかくにんします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\6-2\\6-2_page12.wav",
+      "duration": 13.706666666666667,
+      "text": "まとめです。Lambdaかんすうは、handlerでていぎします。eventでリクエストをうけとります。レスポンスは、statusCodeとbodyをかえします。コンソールで、かんたんにさくせいとテストができます。つぎのレクチャーで、CodePipelineからデプロイします。"
+    }
+  ]
+}

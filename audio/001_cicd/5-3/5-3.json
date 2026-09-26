@@ -1,0 +1,85 @@
+{
+  "lecture_id": "5-3",
+  "total_pages": 13,
+  "total_duration": 162.784,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page01.wav",
+      "duration": 4.053333333333334,
+      "text": "このレクチャーでは、PHPUnitテストのじっそうについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page02.wav",
+      "duration": 8.170666666666667,
+      "text": "このレクチャーでまなぶことは、PHPUnitとは、テストファイルのさくせい、テストのじっこうほうほう、buildspec.ymlへのくみこみ、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page03.wav",
+      "duration": 14.848,
+      "text": "PHPUnitとはなにか、からはじめましょう。PHPUnitは、PHPのテストフレームワークです。PHPかいのデファクトスタンダードです。Laravel、Symfonyなどで、ひょうじゅんさいようされています。xUnitけいのテストフレームワークです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page04.wav",
+      "duration": 13.856,
+      "text": "プロジェクトこうせいをかくにんしましょう。phpフォルダのなかに、composer.json、srcフォルダ、testsフォルダ、があります。srcフォルダに、Calculator.php、testsフォルダに、CalculatorTest.php、があります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page05.wav",
+      "duration": 10.581333333333333,
+      "text": "テストたいしょうのコードをみてみましょう。src、スラッシュ、Calculator.phpで、Calculatorクラスをていぎします。addメソッドで、ひきすうaとbをうけとり、aたすbをかえします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page06.wav",
+      "duration": 20.736,
+      "text": "テストファイルをみてみましょう。tests、スラッシュ、CalculatorTest.phpで、PHPUnit、Framework、TestCaseをuseします。CalculatorTestクラスは、TestCaseをけいしょうします。testAddメソッドで、Calculatorをインスタンスかし、assertEqualsで、3と、calc add 1 2、がひとしいことをかくにんします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page07.wav",
+      "duration": 12.202666666666667,
+      "text": "composer.jsonのせっていです。require-devに、phpunit、スラッシュ、phpunit、バージョン10をしていします。autoloadセクションで、psr-4として、srcフォルダをしていします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page08.wav",
+      "duration": 10.304,
+      "text": "phpunit.xmlのせっていです。bootstrapに、vendor、スラッシュ、autoload.php、をしていします。testsuitesで、testsディレクトリをしていします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page09.wav",
+      "duration": 13.664,
+      "text": "ローカルでテストをじっこうするほうほうです。cdで、phpフォルダにいどうします。composer installで、いぞんパッケージをインストールします。vendor、スラッシュ、bin、スラッシュ、phpunit、で、テストをじっこうします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page10.wav",
+      "duration": 12.565333333333333,
+      "text": "テストけっか、せいこうのばあいです。PHPUnit 10.0.0、とひょうじされます。ドットで、しんちょくがひょうじされます。OK、1 test、1 assertion、とひょうじされます。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page11.wav",
+      "duration": 12.341333333333333,
+      "text": "よくつかうアサーションをしょうかいします。assertEqualsは、とうかチェックにつかいます。assertTrueは、しんちチェックにつかいます。assertNullは、nullチェックにつかいます。assertCountは、はいれつのようそすうかくにんにつかいます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page12.wav",
+      "duration": 15.530666666666667,
+      "text": "buildspec.ymlへのくみこみです。installフェーズで、php 8.2をしてい、cd phpして、composer installをじっこうします。pre_buildフェーズで、cd phpして、vendor、スラッシュ、bin、スラッシュ、phpunit、をじっこうします。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-3\\5-3_page13.wav",
+      "duration": 13.930666666666667,
+      "text": "まとめです。PHPUnitは、PHPのひょうじゅんテストフレームワークです。TestCaseをけいしょうして、テストクラスをさくせいします。assertメソッドでけんしょうします。Composerでインストールします。つぎのレクチャーでは、りょうほうをとうごうします。"
+    }
+  ]
+}

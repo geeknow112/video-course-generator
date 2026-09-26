@@ -1,0 +1,97 @@
+{
+  "lecture_id": "3-5",
+  "total_pages": 15,
+  "total_duration": 180.90666666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page01.wav",
+      "duration": 3.2853333333333334,
+      "text": "このレクチャーでは、パイプラインのトラブルシューティングをまなびます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page02.wav",
+      "duration": 5.749333333333333,
+      "text": "このレクチャーでまなぶことは、よくあるエラーパターン、エラーのげんいんとたいしょほう、デバッグのコツ、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page03.wav",
+      "duration": 7.392,
+      "text": "よくあるエラーパターンをしょうかいします。ソースステージのエラー、デプロイステージのエラー、けんげんエラー、の3つにわけてせつめいします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page04.wav",
+      "duration": 16.32,
+      "text": "ソースステージのエラー、その1です。せつぞくエラーのばあい、エラーメッセージは、Connection is not available、です。げんいんは、GitHubせつぞくがほりゅうちゅう、または、さくじょされた、ことです。たいしょほうは、せつぞくをさいさくせい、または、にんしょうをやりなおす、ことです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page05.wav",
+      "duration": 17.621333333333332,
+      "text": "ソースステージのエラー、その2です。リポジトリがみつからないばあい、エラーメッセージは、Repository not found、です。げんいんは、リポジトリめいのスペルミス、または、リポジトリがさくじょされた、ことです。たいしょほうは、リポジトリめいをかくにん、または、せつぞくのけんげんをかくにん、することです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page06.wav",
+      "duration": 17.621333333333332,
+      "text": "ソースステージのエラー、その3です。ブランチがみつからないばあい、エラーメッセージは、Branch not found、です。げんいんは、ブランチめいのスペルミス、または、ブランチがさくじょされた、ことです。たいしょほうは、ブランチめいをかくにん、または、mainブランチがそんざいするかかくにん、することです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page07.wav",
+      "duration": 16.416,
+      "text": "デプロイステージのエラー、その1です。バケットがみつからないばあい、エラーメッセージは、Bucket does not exist、です。げんいんは、バケットがさくじょされた、または、リージョンがちがう、ことです。たいしょほうは、バケットをさいさくせい、または、リージョンをかくにん、することです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page08.wav",
+      "duration": 17.450666666666667,
+      "text": "デプロイステージのエラー、その2です。アクセスきょひのばあい、エラーメッセージは、Access Denied、です。げんいんは、S3バケットポリシーのせってい、または、IAMロールのけんげんぶそく、です。たいしょほうは、バケットポリシーをかくにん、または、サービスロールのけんげんをかくにん、することです。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page09.wav",
+      "duration": 10.037333333333333,
+      "text": "けんげんエラーについてです。CodePipelineサービスロールには、S3へのアクセスけんげん、GitHubせつぞくのしようけんげん、CloudWatch Logsへのしゅつりょくけんげん、がひつようです。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page10.wav",
+      "duration": 9.6,
+      "text": "エラーしょうさいのかくにんほうほうです。しっぱいしたステージをクリックし、しょうさいをひょうじ、をクリックします。エラーメッセージをかくにんし、CloudWatch Logsでログをかくにんします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page11.wav",
+      "duration": 10.816,
+      "text": "さいじっこうのほうほうです。へんこうをリリースする、をクリックすると、さいしんのソースでさいじっこうされます。しっぱいしたステージをさいしこう、をクリックすると、しっぱいしたステージからさいかいされます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page12.wav",
+      "duration": 13.504,
+      "text": "デバッグのコツをおつたえします。まず、エラーメッセージをよくよむことです。つぎに、IAMロールのけんげんをかくにんします。そして、CloudWatch Logsでしょうさいログをかくにんします。さいごに、AWSドキュメントをさんしょうしてください。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page13.wav",
+      "duration": 10.506666666666666,
+      "text": "パイプラインのへんしゅうほうほうです。パイプラインをせんたくし、へんしゅう、をクリックします。ステージやアクションをついか、へんこう、さくじょできます。へんこうをほぞん、をクリックしてかんりょうです。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page14.wav",
+      "duration": 10.421333333333333,
+      "text": "じっせんれんしゅうです。わざとエラーをおこしてみましょう。リポジトリめいをまちがえてみる、バケットめいをまちがえてみる、などをためして、エラーメッセージをかくにんし、しゅうふくしてみてください。"
+    },
+    {
+      "page": 15,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-5\\3-5_page15.wav",
+      "duration": 14.165333333333333,
+      "text": "まとめです。エラーメッセージをよくよむことがたいせつです。けんげんエラーがもっともおおいです。さいじっこうでかいけつすることもおおいです。CloudWatch Logsでしょうさいをかくにんできます。これでセクション3はしゅうりょうです。つぎのセクションでは、CodeBuildをまなびます。"
+    }
+  ]
+}

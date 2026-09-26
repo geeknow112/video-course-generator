@@ -1,0 +1,85 @@
+{
+  "lecture_id": "8-1",
+  "total_pages": 13,
+  "total_duration": 150.57066666666665,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page01.wav",
+      "duration": 3.3386666666666667,
+      "text": "このレクチャーでは、じっせんプロジェクトのがいようをせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page02.wav",
+      "duration": 7.370666666666667,
+      "text": "このレクチャーでまなぶことは、プロジェクトのもくてき、システムこうせい、しようするAWSサービス、かんせいイメージ、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page03.wav",
+      "duration": 11.082666666666666,
+      "text": "プロジェクトのもくてきです。CloudWatchアラームを、Slackにつうちします。AWSリソースのかんしをします。いじょうけんちじに、そくざにつうちします。CICDで、じどうデプロイします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page04.wav",
+      "duration": 9.354666666666667,
+      "text": "なぜこのプロジェクトでしょうか。じつむでつかえるこうせいだからです。かんしは、うんようのきほんです。サーバーレスで、ていコストです。CICDのそうまとめになります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page05.wav",
+      "duration": 11.797333333333333,
+      "text": "システムこうせいずです。CloudWatch Alarmが、アラームをはっかします。SNS Topicが、つうちをちゅうかいします。Lambda Functionが、メッセージをへんかんします。Slack Webhookに、つうちをおくります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page06.wav",
+      "duration": 13.642666666666667,
+      "text": "しようするAWSサービスです。CloudWatchで、メトリクスをかんしします。SNSで、つうちをちゅうかいします。Lambdaで、メッセージをへんかんします。SAMで、インフラをていぎします。CodePipelineで、じどうデプロイします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page07.wav",
+      "duration": 13.664,
+      "text": "かんせいイメージです。EC2のCPUしようりつが、80パーセントをこえたとします。CloudWatchが、アラームをはっかします。SNSが、Lambdaをきどうします。Lambdaが、Slackにつうちします。Slackに、メッセージがとどきます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page08.wav",
+      "duration": 15.722666666666667,
+      "text": "Slackつうちのれいです。けいこくマークと、AWS Alertというタイトルです。Alarmに、HighCPUUtilizationです。Statusに、ALARMです。Instanceに、インスタンスIDです。Reasonに、CPUが80パーセントをこえた、です。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page09.wav",
+      "duration": 15.52,
+      "text": "プロジェクトこうせいです。ルートに、template.yamlをおきます。srcフォルダに、index.jsをおきます。buildspec.ymlをおきます。eventsフォルダに、test-event.jsonをおきます。README.mdもさくせいします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page10.wav",
+      "duration": 12.522666666666666,
+      "text": "がくしゅうのポイントです。SAMでの、ふくすうリソースていぎをまなびます。SNSとLambdaのれんけいをまなびます。かんきょうへんすうで、Webhook URLをかんりします。じっせんてきなCICDパイプラインをこうちくします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page11.wav",
+      "duration": 9.664,
+      "text": "ぜんていじょうけんです。Slackワークスペースがあること。Webhook URLをしゅとくずみであること。AWSアカウントがあること。これまでのセクションをかんりょうしていること。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page12.wav",
+      "duration": 13.813333333333333,
+      "text": "このセクションのながれです。まず、プロジェクトがいようをせつめいします。つぎに、インフラこうせいをせっけいします。SAMテンプレートをじっそうします。CICDパイプラインをこうちくします。どうさかくにんとテストをします。さいごに、コースまとめです。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-1\\8-1_page13.wav",
+      "duration": 13.077333333333334,
+      "text": "まとめです。CloudWatchアラームを、Slackにつうちするシステムです。SAMで、インフラをコードかします。CICDで、じどうデプロイします。じつむでつかえるこうせいです。つぎのレクチャーで、インフラこうせいをせっけいします。"
+    }
+  ]
+}

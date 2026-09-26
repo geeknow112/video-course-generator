@@ -1,5 +1,3 @@
-# セクション4-1「JMeter概要」スライド
-
 ---
 marp: true
 theme: default

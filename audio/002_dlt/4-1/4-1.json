@@ -1,0 +1,49 @@
+{
+  "lecture_id": "4-1",
+  "total_pages": 7,
+  "total_duration": 147.97866666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-1\\4-1_page01.wav",
+      "duration": 9.077333333333334,
+      "text": "このセクションからは、JMeterのスクリプトをつかいます。\nWebコンソールだけではとどかない、ふくざつなシナリオをくめるようになります。\nここからがDLTのほんりょうです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-1\\4-1_page02.wav",
+      "duration": 26.389333333333333,
+      "text": "なぜJMeterがひつようなのか。\nWebコンソールでつくれるのは、たんじゅんなHTTPリクエストだけです。\nエンドポイントもひとつです。\nじっさいのりようしゃは、ログインして、いちらんをひらいて、しょうさいをみて、こうにゅうする、というながれでうごきます。\nこのながれのなかで、ふかがかかるのはいちぶのがめんだけ、ということもよくあります。\nトップページだけをテストして、だいじょうぶだとはんだんすると、ほんばんでけんさくがめんがたおれます。\nこのながれをさいげんするには、JMeterがいります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-1\\4-1_page03.wav",
+      "duration": 21.12,
+      "text": "JMeterとはなにか。\nApache JMeterは、オープンソースのふかテストツールです。\n1998ねんからつづいており、しりょうもじれいもほうふにあります。\nGUIでシナリオをくみたて、jmxというかくちょうしのファイルにほぞんします。\nJavaでうごくので、Windows、Mac、Linuxのどれでもつかえます。\nふるいツールですが、いまもかいはつがつづいており、げんえきです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-1\\4-1_page04.wav",
+      "duration": 21.792,
+      "text": "JMeterのきほんこうせいをみます。\nいちばんうえにTest Plan。テストぜんたいのいれものです。\nそのしたにThread Group。かそうユーザーのにんずうと、ふかのかけかたをきめます。\nさらにそのしたに、HTTP Requestなどのサンプラーをおきます。これがじっさいのリクエストです。\nこのさんそうこうぞうが、JMeterのきほんです。\nほかにもたくさんのようそがありますが、まずはこのみっつをおぼえてください。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-1\\4-1_page05.wav",
+      "duration": 31.562666666666665,
+      "text": "それぞれのやくわりをせいりします。\nTest Planは、ぜんたいのせってい。へんすうのていぎもここでできます。\nThread Groupは、なんにんが、どれくらいのじかんをかけて、どれだけのあいだアクセスするか。\nSamplerは、どこへ、どんなリクエストをおくるか。HTTP Requestがいちばんよくつかわれます。\nConfig Elementは、ヘッダーやクッキーなど、きょうつうのせってい。\nそしてListenerは、けっかをみるためのようそです。\nただし、DLTでじっこうするばあい、けっかはDLTがわがあつめるので、Listenerはふようです。\nローカルでうごきをたしかめるときだけつかってください。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-1\\4-1_page06.wav",
+      "duration": 26.293333333333333,
+      "text": "DLTでのつかいかたのながれです。\nまず、JMeterのGUIでスクリプトをつくり、jmxファイルとしてほぞんします。\nつぎに、DLTのWebコンソールでそのファイルをアップロードします。\nあとは、タスクすうとどうじユーザーすうをせっていして、じっこうするだけです。\nJMeterじたいをサーバーにいれるひつようはありません。\nFargateのタスクのなかに、JMeterがすでにはいっています。\nつまり、ローカルでつくって、クラウドでおおきくはしらせる、というつかいかたになります。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\002_dlt\\4-1\\4-1_page07.wav",
+      "duration": 11.744,
+      "text": "つぎのレクチャーでは、じっさいにJMeterをインストールして、スクリプトをつくります。\nGUIのそうさがちゅうしんなので、みながらいっしょにすすめてください。\nいちどつくってしまえば、おなじファイルをなんどもつかいまわせます。"
+    }
+  ]
+}

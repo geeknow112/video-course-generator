@@ -5,13 +5,10 @@
 パイプラインのぜんたいぞうです。ソースステージで、GitHubからしゅとくします。ビルドステージで、SAMビルドとパッケージをします。デプロイステージで、CloudFormationでデプロイします。
 ---
 buildspec.ymlのさくせいです。versionは、0.2です。phasesに、install、build、post_buildをていぎします。artifactsに、しゅつりょくファイルをしていします。
----
 installフェーズです。runtime-versionsで、pythonを、3.11にします。commandsで、pip install aws-sam-cliをじっこうします。SAM CLIを、インストールします。
 ---
 buildフェーズです。sam buildを、じっこうします。これで、Lambdaかんすうが、ビルドされます。いぞんかんけいが、かいけつされます。
----
 post_buildフェーズです。sam packageを、じっこうします。template-fileに、.aws-sam/build/template.yamlをしていします。output-template-fileに、packaged.yamlをしていします。s3-bucketに、アーティファクトバケットをしていします。
----
 artifactsセクションです。filesに、packaged.yamlをしていします。discard-pathsを、yesにします。これで、デプロイステージに、わたせます。
 ---
 S3バケットのじゅんびです。SAMパッケージようの、S3バケットをさくせいします。バケットめいは、sam-artifacts-アカウントID、などにします。CodeBuildのIAMロールに、S3アクセスけんげんをついかします。

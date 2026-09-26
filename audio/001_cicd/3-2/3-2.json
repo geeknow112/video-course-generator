@@ -1,0 +1,85 @@
+{
+  "lecture_id": "3-2",
+  "total_pages": 13,
+  "total_duration": 140.13866666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page01.wav",
+      "duration": 4.042666666666666,
+      "text": "このレクチャーでは、CodePipelineでつかうGitHubリポジトリをじゅんびします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page02.wav",
+      "duration": 6.677333333333333,
+      "text": "このレクチャーでまなぶことは、パイプラインようリポジトリのさくせい、ひつようなファイルこうせい、サンプルコードのじゅんび、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page03.wav",
+      "duration": 12.544,
+      "text": "なぜGitHubをつかうのか、せつめいします。GitHubは、CodePipelineのソースとしてもっともいっぱんてきです。CodeStar Connectionsをつかえば、かんたんにれんけいできます。また、プルリクエストでのレビューフローもかつようできます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page04.wav",
+      "duration": 12.650666666666666,
+      "text": "では、リポジトリをさくせいしましょう。まず、GitHubにログインします。つぎに、New repositoryをクリックします。リポジトリめいをにゅうりょくし、PublicまたはPrivateをせんたくして、Create repositoryをクリックします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page05.wav",
+      "duration": 9.152,
+      "text": "リポジトリめいは、たとえば、cicd-demo-site、のようにします。わかりやすいなまえをつけましょう。ハイフンくぎりがいっぱんてきで、こもじをすいしょうします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page06.wav",
+      "duration": 13.109333333333334,
+      "text": "ひつようなファイルこうせいをかくにんしましょう。index.html、style.css、script.js、README.md、というシンプルなこうせいです。まずは、せいてきサイトからはじめます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page07.wav",
+      "duration": 12.629333333333333,
+      "text": "index.htmlのサンプルです。HTMLのきほんこうぞうに、Hello CICDというみだしと、Version 1.0というテキストをいれています。style.cssをよみこむlinkタグもわすれずにいれましょう。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page08.wav",
+      "duration": 7.754666666666667,
+      "text": "style.cssのサンプルです。bodyにフォントやはいけいいろをせってい、h1にもじいろをせっていしています。シンプルなスタイルからはじめましょう。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page09.wav",
+      "duration": 15.562666666666667,
+      "text": "ファイルのアップロードほうほうは2つあります。1つめは、GitHub Web UIをつかうほうほうです。Add fileから、Upload filesをせんたくします。2つめは、Gitコマンドをつかうほうほうです。git init、git add、git commit、git pushのじゅんばんでじっこうします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page10.wav",
+      "duration": 16.618666666666666,
+      "text": "コミットメッセージのコツをおつたえします。よいれいは、Add index.html、Fix header style、Update version to 1.1、などです。なにをへんこうしたか、めいかくにかきましょう。update、fix、しゅうせい、などのあいまいなメッセージはさけてください。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page11.wav",
+      "duration": 10.154666666666667,
+      "text": "ブランチせんりゃくについてです。このコースでは、mainブランチのみしようします。シンプルにmainブランチにちょくせつプッシュします。ほんばんかんきょうでは、featureブランチをつかうことをすいしょうします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page12.wav",
+      "duration": 9.024,
+      "text": "かくにんポイントです。リポジトリがさくせいできたか、index.htmlがアップロードできたか、mainブランチにコミットされているか、をかくにんしてください。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\3-2\\3-2_page13.wav",
+      "duration": 10.218666666666667,
+      "text": "まとめです。GitHubでリポジトリをさくせいし、シンプルなHTMLファイルをようい、mainブランチにプッシュしました。つぎのレクチャーでは、CodePipelineとGitHubをせつぞくします。"
+    }
+  ]
+}

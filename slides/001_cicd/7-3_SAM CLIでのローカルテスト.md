@@ -2,203 +2,166 @@
 marp: true
 theme: default
 paginate: true
-style: |
-  section {
-    background: #ffffff;
-    color: #232f3e;
-    position: relative;
-    padding-top: 80px;
-  }
-  section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background: #232f3e;
-  }
-  section::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(135deg, transparent 50%, #ff9900 50%);
-    opacity: 0.6;
-  }
-  h1 {
-    position: absolute;
-    top: 12px;
-    left: 40px;
-    color: #ffffff;
-    font-size: 1.3em;
-    margin: 0;
-  }
-  th { background: #ff9900; color: white; }
-  td, th { border: 1px solid #ddd; padding: 8px 12px; }
-  code { background: #f5f5f5; }
 ---
 
 # SAM CLIでのローカルテスト
-
-AWS CI/CDパイプライン構築マスター講座
-セクション7 - レクチャー3
+## デプロイ前に手元で確かめる
 
 ---
 
 # このレクチャーで学ぶこと
 
-- sam local invokeの使い方
-- sam local start-apiの使い方
-- イベントファイルの作成
-- デバッグ方法
+✅ ローカルテストが必要な理由
+✅ `sam build` でのビルド
+✅ `sam local invoke` で関数を単体実行
+✅ `sam local start-api` でAPIを起動
+✅ テストイベントの生成とデバッグ
+✅ ローカルとクラウドの違い
 
 ---
 
-# ローカルテストのメリット
+# なぜローカルでテストするのか
 
-- デプロイ前に動作確認
-- 高速なフィードバックサイクル
-- AWS料金が発生しない
-- 実際のLambda環境に近い
+| デプロイして確認 | ローカルで確認 |
+|---|---|
+| 1回あたり数分待つ | 数秒で結果が出る |
+| CloudWatch Logsを見に行く | 手元の標準出力に出る |
+| 失敗するとスタックがロールバック | 失敗しても何も壊れない |
+| 修正のたびに再デプロイ | 保存して再実行するだけ |
+
+**修正と確認の往復回数が多いほど、差が開きます。**
 
 ---
 
-# 前提条件
+# 前提：Dockerが必要
 
-- **Docker**がインストール済み
-- SAM CLIがインストール済み
-- AWSクレデンシャルが設定済み
+SAM CLIのローカル実行は、**Lambdaの実行環境をDockerコンテナで再現**します。
 
-Dockerを起動しておいてください
+```bash
+$ docker --version
+Docker version 24.0.7
+```
+
+- Docker Desktop、または互換のランタイムが起動していること
+- 初回はランタイムのイメージ取得に時間がかかる
+- 起動していないと `Running AWS SAM projects locally requires Docker` で止まる
+
+---
+
+# sam build
+
+```bash
+sam build
+```
+
+- `template.yaml` を読み、各関数の依存関係を解決する
+- 結果は `.aws-sam/build/` に出力される
+- **以降の `sam local` はビルド済みの成果物を見る**
+
+```bash
+sam build --use-container
+```
+
+`--use-container` を付けると、Lambdaと同じイメージの中でビルドします。
+ネイティブ拡張を含むライブラリを使うときは、こちらが安全です。
 
 ---
 
 # sam local invoke
 
-**Lambda関数を直接実行**
+関数を1回だけ実行します。
 
 ```bash
-# 基本
-sam local invoke HelloFunction
+# そのまま実行
+sam local invoke HelloWorldFunction
 
 # イベントを渡す
-sam local invoke HelloFunction -e events/event.json
+sam local invoke HelloWorldFunction -e events/event.json
+
+# 環境変数を差し替える
+sam local invoke HelloWorldFunction --env-vars env.json
 ```
 
 ---
 
-# イベントファイルの作成
+# テストイベントを生成する
 
-```json
-{
-  "body": "{\"name\": \"Udemy\"}",
-  "queryStringParameters": {
-    "id": "123"
-  },
-  "httpMethod": "GET",
-  "path": "/hello"
-}
+イベントのJSONを手で書く必要はありません。
+
+```bash
+sam local generate-event apigateway aws-proxy > events/api.json
+sam local generate-event sns notification      > events/sns.json
+sam local generate-event s3  put               > events/s3.json
 ```
 
-`events/event.json` に保存
+対応しているサービスの一覧は次で確認できます。
+
+```bash
+sam local generate-event --help
+```
 
 ---
 
 # sam local start-api
 
-**ローカルでAPIサーバーを起動**
+API Gateway + Lambda をローカルで立ち上げます。
 
 ```bash
 sam local start-api
 ```
 
-- デフォルト: `http://localhost:3000`
-- ブラウザやcurlでアクセス可能
+```
+Mounting HelloWorldFunction at http://127.0.0.1:3000/hello [GET]
+```
+
+別のターミナルから叩きます。
+
+```bash
+curl http://127.0.0.1:3000/hello
+```
+
+**リクエストのたびにコンテナが起動する**ので、初回は数秒かかります。
 
 ---
 
-# APIサーバーの使い方
+# ログとデバッグ
+
+標準出力がそのままターミナルに流れます。
+
+```js
+exports.handler = async (event) => {
+  console.log('received:', JSON.stringify(event));
+  return { statusCode: 200, body: 'ok' };
+};
+```
+
+デバッガを繋ぐ場合はポートを開けます。
 
 ```bash
-# ターミナル1: サーバー起動
-sam local start-api
-
-# ターミナル2: リクエスト送信
-curl http://localhost:3000/hello
-curl -X POST http://localhost:3000/items -d '{"name":"test"}'
+sam local invoke HelloWorldFunction -d 5858
 ```
 
 ---
 
-# ホットリロード
+# ローカルとクラウドの違い
 
-**コード変更が自動反映**
+| 項目 | ローカル | クラウド |
+|---|---|---|
+| IAMロール | **評価されない** | 評価される |
+| 他のAWSリソース | 実物へ接続 | 実物へ接続 |
+| コールドスタート | 毎回発生 | 条件次第 |
+| 同時実行数 | 再現されない | 制限あり |
 
-- コードを変更
-- 次のリクエストで新コードが実行
-- 再起動不要
-
-※ template.yamlの変更は再起動が必要
-
----
-
-# デバッグ方法
-
-```bash
-# ログ出力
-console.log('Debug:', data);
-
-# デバッガー接続
-sam local invoke -d 5858 HelloFunction
-```
-
-VS Codeと連携可能
-
----
-
-# sam local generate-event
-
-**イベントテンプレートを生成**
-
-```bash
-# API Gatewayイベント
-sam local generate-event apigateway aws-proxy > events/api.json
-
-# S3イベント
-sam local generate-event s3 put > events/s3.json
-```
-
----
-
-# よくあるエラーと対処
-
-| エラー | 対処法 |
-|--------|--------|
-| Docker未起動 | Dockerを起動 |
-| ポート使用中 | `-p 3001`で別ポート |
-| メモリ不足 | Dockerメモリ増加 |
-| タイムアウト | Timeout値を増加 |
-
----
-
-# ベストプラクティス
-
-- 本番に近いイベントでテスト
-- エラーケースもテスト
-- 環境変数をローカル用に設定
-- Dockerリソースを適切に管理
+**権限エラーはローカルでは出ません。**
 
 ---
 
 # まとめ
 
-- `sam local invoke`で関数を直接実行
-- `sam local start-api`でAPIサーバー起動
-- イベントファイルで様々なケースをテスト
-- Dockerが必要
+- ローカルテストは、修正と確認の往復を**数分から数秒に縮める**
+- `sam build` → `sam local invoke` が基本の流れ
+- イベントは `sam local generate-event` で作る
+- APIは `sam local start-api` で動作確認できる
+- **IAM権限とネットワークはローカルでは検証できない**
 
-次のレクチャーでCodePipelineと統合します
-
+次のレクチャーでは、SAMをCodePipelineに組み込みます。

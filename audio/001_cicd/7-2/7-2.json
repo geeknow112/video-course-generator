@@ -1,0 +1,91 @@
+{
+  "lecture_id": "7-2",
+  "total_pages": 14,
+  "total_duration": 185.152,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page01.wav",
+      "duration": 3.6053333333333333,
+      "text": "このレクチャーでは、SAMテンプレートのさくせいほうほうをせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page02.wav",
+      "duration": 8.544,
+      "text": "このレクチャーでまなぶことは、SAMプロジェクトのしょきか、template.yamlのこうぞう、Lambdaかんすうのていぎ、API Gatewayのせってい、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page03.wav",
+      "duration": 9.792,
+      "text": "プロジェクトのしょきかです。sam initコマンドをじっこうします。たいわけいしきでせっていします。テンプレートをせんたくします。ランタイムをせんたくします。プロジェクトめいをにゅうりょくします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page04.wav",
+      "duration": 13.397333333333334,
+      "text": "せいせいされるファイルこうぞうです。ルートに、template.yamlがあります。srcフォルダに、app.jsがあります。eventsフォルダに、event.jsonがあります。README.mdもせいせいされます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page05.wav",
+      "duration": 20.69333333333333,
+      "text": "template.yamlのきほんです。AWSTemplateFormatVersionを、2010-09-09にします。Transformを、AWS::Serverless-2016-10-31にします。Descriptionに、せつめいをかきます。Globalsに、きょうつうせっていをかきます。Resourcesに、リソースをていぎします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page06.wav",
+      "duration": 14.72,
+      "text": "Globalsセクションです。ぜんかんすうにきょうつうのせっていをかきます。Timeoutを、10びょうにします。Runtimeを、nodejs20.xにします。MemorySizeを、128MBにします。Environmentで、かんきょうへんすうをせっていします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page07.wav",
+      "duration": 16.746666666666666,
+      "text": "Lambdaかんすうのていぎです。Resourcesに、HelloFunctionをていぎします。Typeは、AWS::Serverless::Functionです。Propertiesに、CodeUri、Handler、Runtime、Eventsをせっていします。CodeUriは、srcスラッシュです。Handlerは、app.handlerです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page08.wav",
+      "duration": 11.285333333333334,
+      "text": "しゅようプロパティです。CodeUriは、コードのばしょです。Handlerは、エントリポイントです。Runtimeは、じっこうかんきょうです。Eventsは、トリガーせっていです。Policiesは、IAMポリシーです。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page09.wav",
+      "duration": 17.813333333333333,
+      "text": "イベントタイプです。Apiは、API Gateway REST APIです。HttpApiは、API Gateway HTTP APIです。Scheduleは、CloudWatch Eventsです。S3は、S3イベントです。SNSは、SNSつうちです。SQSは、SQSメッセージです。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page10.wav",
+      "duration": 14.549333333333333,
+      "text": "API Gatewayのせっていです。Eventsに、GetItemsをていぎします。Typeは、Apiです。Propertiesに、Pathと、Methodをせっていします。Pathは、スラッシュitemsです。Methodは、getです。ふくすうエンドポイントをていぎかのうです。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page11.wav",
+      "duration": 14.506666666666666,
+      "text": "かんきょうへんすうのせっていです。Environmentセクションに、Variablesをていぎします。TABLE_NAMEに、!Ref MyTableをせっていします。STAGEに、!Ref Stageをせっていします。CloudFormationのさんしょうがつかえます。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page12.wav",
+      "duration": 14.133333333333333,
+      "text": "IAMポリシーのせっていです。Policiesに、SAMポリシーテンプレートをしていします。DynamoDBCrudPolicyで、DynamoDBへのアクセスをきょかします。S3ReadPolicyで、S3のよみとりをきょかします。かんたんにけんげんをふよできます。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page13.wav",
+      "duration": 12.341333333333333,
+      "text": "Outputsセクションです。デプロイごのじょうほうをしゅつりょくします。ApiEndpointに、APIのURLをしゅつりょくします。FunctionArnに、かんすうのARNをしゅつりょくします。!Subや、!GetAttがつかえます。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\7-2\\7-2_page14.wav",
+      "duration": 13.024,
+      "text": "まとめです。sam initで、プロジェクトをしょきかします。template.yamlで、リソースをていぎします。Eventsで、トリガーをせっていします。Policiesで、けんげんをふよします。つぎのレクチャーで、ローカルテストをします。"
+    }
+  ]
+}

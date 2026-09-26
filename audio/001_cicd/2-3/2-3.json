@@ -1,0 +1,61 @@
+{
+  "lecture_id": "2-3",
+  "total_pages": 9,
+  "total_duration": 132.39466666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page01.wav",
+      "duration": 12.832,
+      "text": "このレクチャーでは、S3バケットで\nせいてきウェブサイトホスティングをせっていします。\n\nせいてきウェブサイトホスティングをゆうこうか。\nインデックスドキュメントをせってい。\nパブリックアクセスをきょか。\nバケットポリシーをせってい。\n\nじゅんばんにやっていきましょう。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page02.wav",
+      "duration": 11.925333333333333,
+      "text": "まず、せいてきウェブサイトホスティングをゆうこうかします。\n\nS3コンソールで、バケットをせんたくします。\nプロパティタブをクリック。\nせいてきウェブサイトホスティングの、へんしゅうをクリック。\nゆうこうにするをせんたくします。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page03.wav",
+      "duration": 18.613333333333333,
+      "text": "インデックスドキュメントをせっていします。\n\nインデックスドキュメントには、index.htmlとにゅうりょくします。\nこれは、サイトのトップページになるファイルです。\nURLのまつびがスラッシュのばあいに、ひょうじされます。\n\nエラードキュメントは、にんいです。\nerror.htmlとせっていすると、404エラーじにひょうじされます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page04.wav",
+      "duration": 16.78933333333333,
+      "text": "せっていをほぞんすると、エンドポイントURLがはっこうされます。\n\nバケットめい、どっと、s3-website-ap-northeast-1、どっと、amazonaws、どっと、com。\n\nこのURLで、ウェブサイトにアクセスできます。\nまだファイルがないので、エラーになります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page05.wav",
+      "duration": 15.274666666666667,
+      "text": "つぎに、パブリックアクセスをきょかします。\n\nアクセスきょかタブをクリック。\nブロックパブリックアクセスの、へんしゅうをクリック。\nすべてのチェックをはずします。\nへんこうのほぞんをクリックして、かくにんとにゅうりょくします。\n\nちゅうい、こうかいせっていなので、きみつじょうほうはおかないでください。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page06.wav",
+      "duration": 15.690666666666667,
+      "text": "つぎに、バケットポリシーをせっていします。\n\nアクセスきょかタブの、バケットポリシーで、へんしゅうをクリック。\n\nJSONけいしきで、ポリシーをにゅうりょくします。\nバケットめいのぶぶんは、じぶんのバケットめいにおきかえてください。\n\nこのポリシーで、だれでもファイルをしゅとくできるようになります。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page07.wav",
+      "duration": 16.085333333333335,
+      "text": "バケットポリシーのいみをせつめいします。\n\nEffect、Allowは、きょかする。\nPrincipal、アスタリスクは、だれでも。\nAction、s3:GetObjectは、ファイルのしゅとく。\nResourceは、たいしょうのバケットないすべて。\n\nつまり、だれでもこのバケットのファイルをしゅとくできる、といういみです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page08.wav",
+      "duration": 9.493333333333334,
+      "text": "せっていかんりょうのかくにんです。\n\nアクセスが、こうかいになっている。\nエンドポイントURLがはっこうされている。\nバケットポリシーがせっていされている。\n\nこれらをかくにんしてください。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-3\\2-3_page09.wav",
+      "duration": 15.690666666666667,
+      "text": "まとめです。\n\nせいてきウェブサイトホスティングを、ゆうこうかしました。\nインデックスドキュメントに、index.htmlをせってい。\nパブリックアクセスの、ブロックをかいじょ。\nバケットポリシーで、こうかいせってい。\n\nつぎのレクチャーでは、HTMLファイルをアップロードします。"
+    }
+  ]
+}

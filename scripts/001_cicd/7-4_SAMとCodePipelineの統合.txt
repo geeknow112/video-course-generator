@@ -7,7 +7,6 @@ SAMデプロイのながれです。まず、sam buildで、ビルドします�
 パイプラインのぜんたいぞうです。ソースステージで、GitHubからしゅとくします。ビルドステージで、CodeBuildでビルドします。デプロイステージで、CloudFormationでデプロイします。3つのステージでこうせいします。
 ---
 buildspec.ymlのきほんです。versionは、0.2です。phasesに、install、build、post_buildをていぎします。installで、sam cliをインストールします。buildで、sam buildをじっこうします。post_buildで、sam packageをじっこうします。
----
 buildspec.ymlのれいです。installフェーズで、pip install aws-sam-cliをじっこうします。buildフェーズで、sam buildをじっこうします。post_buildフェーズで、sam packageをじっこうします。template-fileに、template.yamlをしていします。output-template-fileに、packaged.yamlをしていします。
 ---
 アーティファクトのせっていです。artifactsセクションで、しゅつりょくファイルをしていします。filesに、packaged.yamlをしていします。discard-pathsを、yesにします。これで、デプロイステージにわたせます。

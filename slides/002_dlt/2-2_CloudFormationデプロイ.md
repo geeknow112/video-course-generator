@@ -1,5 +1,3 @@
-# セクション2-2「CloudFormationデプロイ」スライド
-
 ---
 marp: true
 theme: default

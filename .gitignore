@@ -30,3 +30,7 @@ Thumbs.db
 
 # 実行ログ
 logs/
+
+# 作業中の一時ファイル
+*.bak
+*.tmp.js

@@ -1,0 +1,55 @@
+{
+  "lecture_id": "2-5",
+  "total_pages": 8,
+  "total_duration": 84.128,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page01.wav",
+      "duration": 5.173333333333333,
+      "text": "セクション2のまとめです。\n\nこのセクションでは、S3せいてきウェブサイトホスティングをがくしゅうしました。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page02.wav",
+      "duration": 10.304,
+      "text": "このセクションでまなんだことをふりかえります。\n\nS3のきほんがいねん。\nバケットのさくせい。\nせいてきウェブサイトホスティングのせってい。\nHTMLファイルのアップロード。\nウェブサイトのこうかい。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page03.wav",
+      "duration": 10.24,
+      "text": "S3のきほんです。\n\nS3は、Simple Storage Serviceのりゃくです。\nオブジェクトストレージサービスです。\nバケットに、ファイルをほぞんします。\nこうたいきゅうせい、ていコストがとくちょうです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page04.wav",
+      "duration": 11.072,
+      "text": "せいてきウェブサイトホスティングのせっていてじゅんです。\n\nバケットをさくせい。\nせいてきウェブサイトホスティングをゆうこうか。\nパブリックアクセスをきょか。\nバケットポリシーをせってい。\nHTMLファイルをアップロード。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page05.wav",
+      "duration": 11.370666666666667,
+      "text": "じゅうようなポイントです。\n\nバケットめいは、せかいでいちい。\nインデックスドキュメントは、index.html。\nこうかいするには、バケットポリシーがひつよう。\nきみつじょうほうは、ぜったいにおかない。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page06.wav",
+      "duration": 10.432,
+      "text": "リソースのさくじょについてです。\n\nハンズオンごは、かならずさくじょしてください。\n\nバケットないのオブジェクトを、すべてさくじょ。\nそのあと、バケットをさくじょ。\n\nさくじょしないと、かきんがつづきます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page07.wav",
+      "duration": 13.376,
+      "text": "つぎのセクションへのあんないです。\n\nセクション2では、S3でせいてきサイトをこうかいしました。\n\nセクション3では、\nCodePipelineをつかって、\nGitHubからS3へのじどうデプロイをこうちくします。\n\nしゅどうアップロードから、じどうデプロイへ、すすみます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\2-5\\2-5_page08.wav",
+      "duration": 12.16,
+      "text": "おつかれさまでした。\n\nS3バケットのさくせい、かんりょう。\nせいてきウェブサイトホスティング、かんりょう。\nHTMLファイルのこうかい、かんりょう。\n\nつぎのセクションで、CI/CDパイプラインをこうちくしましょう。"
+    }
+  ]
+}

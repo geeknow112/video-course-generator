@@ -1,0 +1,91 @@
+{
+  "lecture_id": "8-6",
+  "total_pages": 14,
+  "total_duration": 167.65866666666668,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page01.wav",
+      "duration": 3.7546666666666666,
+      "text": "このレクチャーでは、コースのまとめと、つぎのステップをせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page02.wav",
+      "duration": 6.773333333333333,
+      "text": "このレクチャーでまなぶことは、コースのふりかえり、しゅうとくしたスキル、つぎのがくしゅうステップ、リソースのせいり、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page03.wav",
+      "duration": 10.837333333333333,
+      "text": "コースのふりかえりです。セクション1で、CICDのきほんをまなびました。セクション2で、S3せいてきサイトホスティングをまなびました。セクション3で、CodePipelineのきそをまなびました。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page04.wav",
+      "duration": 21.930666666666667,
+      "text": "セクション4から6のふりかえりです。セクション4で、CodeBuildのせっていをまなびました。セクション5で、ふくすうげんごテストをまなびました。セクション6で、Lambdaれんけいをまなびました。\nセクション7と8のふりかえりです。セクション7で、SAMのかつようをまなびました。セクション8で、じっせんプロジェクトにとりくみました。CloudWatchアラームを、Slackにつうちするシステムを、こうちくしました。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page05.wav",
+      "duration": 14.229333333333333,
+      "text": "しゅうとくしたスキルです。CodePipelineで、じどうデプロイパイプラインを、こうちくできます。CodeBuildで、テストじどうかが、できます。Lambdaかんすうを、CICDでデプロイできます。SAMをつかった、サーバーレスアプリケーションかいはつが、できます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page06.wav",
+      "duration": 10.581333333333333,
+      "text": "CICDのメリットをふりかえりです。しゅどうさぎょうの、さくげんができました。ヒューマンエラーの、ぼうしができました。デプロイの、こうそくかができました。ひんしつの、あんていかができました。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page07.wav",
+      "duration": 12.714666666666666,
+      "text": "つぎのがくしゅうステップです。CodeDeployで、EC2やECSへの、デプロイをまなびましょう。CloudFormationで、より、ふくざつなインフラを、ていぎしましょう。Terraformで、マルチクラウドたいおうを、まなびましょう。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page08.wav",
+      "duration": 12.277333333333333,
+      "text": "おすすめのがくしゅうリソースです。AWSこうしきドキュメントを、よみましょう。AWSハンズオンを、ためしましょう。AWSにんていしけんに、ちょうせんしましょう。DevOps Professionalが、おすすめです。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page09.wav",
+      "duration": 11.232,
+      "text": "じっせんでのかつようです。きそんプロジェクトに、CICDをどうにゅうしましょう。まずは、テストじどうかから、はじめましょう。しょうきぼから、はじめて、かくだいしましょう。チームに、きょうゆうしましょう。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page10.wav",
+      "duration": 12.192,
+      "text": "リソースのせいりです。がくしゅうようリソースを、さくじょしましょう。S3バケットを、さくじょします。CodePipelineを、さくじょします。CloudFormationスタックを、さくじょします。IAMロールを、さくじょします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page11.wav",
+      "duration": 13.12,
+      "text": "さくじょのじゅんばんです。まず、CodePipelineを、さくじょします。つぎに、CloudFormationスタックを、さくじょします。そして、S3バケットを、からにして、さくじょします。さいごに、IAMロールを、さくじょします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page12.wav",
+      "duration": 10.432,
+      "text": "りょうきんのかくにんです。AWSコストエクスプローラーで、りょうきんをかくにんしましょう。よそうがいのかきんが、ないか、かくにんしましょう。ふようなリソースは、そくざにさくじょしましょう。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page13.wav",
+      "duration": 13.397333333333334,
+      "text": "さいごにです。このコースを、じゅこうしていただき、ありがとうございました。CICDは、げんだいかいはつに、ひっすのスキルです。ぜひ、じっせんで、かつようしてください。ごしつもんがあれば、Q&Aで、おまちしています。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-6\\8-6_page14.wav",
+      "duration": 14.186666666666667,
+      "text": "まとめです。CICDの、きそから、じっせんまで、まなびました。CodePipeline、CodeBuild、Lambda、SAMを、しゅうとくしました。じっせんプロジェクトで、そうまとめをしました。つぎのステップに、すすみましょう。ありがとうございました。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lecture_id": "4-1",
+  "total_pages": 11,
+  "total_duration": 136.448,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page01.wav",
+      "duration": 3.7226666666666666,
+      "text": "このレクチャーでは、CodeBuildのがいねんとりょうきんについてせつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page02.wav",
+      "duration": 6.474666666666667,
+      "text": "このレクチャーでまなぶことは、CodeBuildとはなにか、CodeBuildのとくちょう、りょうきんたいけい、ユースケース、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page03.wav",
+      "duration": 14.933333333333334,
+      "text": "CodeBuildとはなにか、からはじめましょう。CodeBuildは、AWSがていきょうする、フルマネージドのビルドサービスです。ソースコードのコンパイル、テストのじっこう、デプロイかのうなパッケージのさくせい、をおこないます。サーバーかんりふようで、じどうスケールします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page04.wav",
+      "duration": 13.770666666666667,
+      "text": "CodeBuildのとくちょうをみていきましょう。フルマネージドなので、サーバーこうちくやかんりがふようです。じどうスケールで、どうじビルドにもたいおうします。じゅうりょうかきんで、つかったぶんだけしはらいます。Dockerイメージをしていして、カスタマイズもかのうです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page05.wav",
+      "duration": 13.269333333333334,
+      "text": "ビルドのながれをせつめいします。まず、ソースコードをしゅとくします。つぎに、ビルドかんきょう、つまりDockerコンテナ、をきどうします。そして、buildspec.ymlにしたがってしょりをじっこうします。さいごに、アーティファクトをしゅつりょくします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page06.wav",
+      "duration": 15.082666666666666,
+      "text": "りょうきんたいけいをかくにんしましょう。build.general1.smallは、1ぷんあたり0.005ドルです。build.general1.mediumは、1ぷんあたり0.01ドルです。build.general1.largeは、1ぷんあたり0.02ドルです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page07.wav",
+      "duration": 9.376,
+      "text": "むりょうりようわくについてです。まいつき100ぷんまでむりょうで、build.general1.smallがたいしょうです。がくしゅうようとならじゅうぶんです。ちょうかぶんのみかきんされます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page08.wav",
+      "duration": 8.629333333333333,
+      "text": "りょうきんのけいさんれいです。1かいのビルドが5ふん、つき20かいじっこうのばあい、5ふんかける20かいで、100ぷんです。むりょうわくないでおさまります。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page09.wav",
+      "duration": 17.909333333333333,
+      "text": "ユースケースをしょうかいします。Webアプリのビルドでは、npm buildや、webpackをじっこうします。テストじっこうでは、Jest、PHPUnit、pytestなどをつかいます。Dockerイメージさくせいでは、docker buildとpushをおこないます。せいてきかいせきでは、ESLintや、SonarQubeをじっこうします。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page10.wav",
+      "duration": 19.285333333333334,
+      "text": "CodeBuildとJenkinsをひかくしてみましょう。かんりめんでは、CodeBuildはふよう、Jenkinsはサーバーがひつようです。スケールは、CodeBuildはじどう、Jenkinsはしゅどうせっていです。りょうきんは、CodeBuildはじゅうりょうかきん、Jenkinsはサーバーひようです。せっていは、CodeBuildはbuildspec.yml、JenkinsはJenkinsfileです。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\4-1\\4-1_page11.wav",
+      "duration": 13.994666666666667,
+      "text": "まとめです。CodeBuildは、フルマネージドのビルドサービスです。サーバーかんりふようで、じどうスケールします。まいつき100ぷんまでむりょうです。buildspec.ymlでビルドてじゅんをていぎします。つぎのレクチャーでは、buildspec.ymlをまなびます。"
+    }
+  ]
+}

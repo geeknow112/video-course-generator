@@ -1,0 +1,84 @@
+{
+  "silence_duration": 0.5,
+  "total_duration": 162.784,
+  "slides": [
+    {
+      "slide": 1,
+      "start": 0,
+      "duration": 4.053333333333334,
+      "text": "このレクチャーでは、PHPUnitテストのじっそうについてせつめいします。"
+    },
+    {
+      "slide": 2,
+      "start": 4.053333333333334,
+      "duration": 8.170666666666667,
+      "text": "このレクチャーでまなぶことは、PHPUnitとは、テストファイルのさくせい、テストのじっこうほうほう..."
+    },
+    {
+      "slide": 3,
+      "start": 12.224,
+      "duration": 14.848,
+      "text": "PHPUnitとはなにか、からはじめましょう。PHPUnitは、PHPのテストフレームワークです。P..."
+    },
+    {
+      "slide": 4,
+      "start": 27.072000000000003,
+      "duration": 13.856,
+      "text": "プロジェクトこうせいをかくにんしましょう。phpフォルダのなかに、composer.json、src..."
+    },
+    {
+      "slide": 5,
+      "start": 40.928000000000004,
+      "duration": 10.581333333333333,
+      "text": "テストたいしょうのコードをみてみましょう。src、スラッシュ、Calculator.phpで、Cal..."
+    },
+    {
+      "slide": 6,
+      "start": 51.50933333333334,
+      "duration": 20.736,
+      "text": "テストファイルをみてみましょう。tests、スラッシュ、CalculatorTest.phpで、PH..."
+    },
+    {
+      "slide": 7,
+      "start": 72.24533333333333,
+      "duration": 12.202666666666667,
+      "text": "composer.jsonのせっていです。require-devに、phpunit、スラッシュ、ph..."
+    },
+    {
+      "slide": 8,
+      "start": 84.44800000000001,
+      "duration": 10.304,
+      "text": "phpunit.xmlのせっていです。bootstrapに、vendor、スラッシュ、autoloa..."
+    },
+    {
+      "slide": 9,
+      "start": 94.75200000000001,
+      "duration": 13.664,
+      "text": "ローカルでテストをじっこうするほうほうです。cdで、phpフォルダにいどうします。composer ..."
+    },
+    {
+      "slide": 10,
+      "start": 108.41600000000001,
+      "duration": 12.565333333333333,
+      "text": "テストけっか、せいこうのばあいです。PHPUnit 10.0.0、とひょうじされます。ドットで、しん..."
+    },
+    {
+      "slide": 11,
+      "start": 120.98133333333334,
+      "duration": 12.341333333333333,
+      "text": "よくつかうアサーションをしょうかいします。assertEqualsは、とうかチェックにつかいます。a..."
+    },
+    {
+      "slide": 12,
+      "start": 133.32266666666666,
+      "duration": 15.530666666666667,
+      "text": "buildspec.ymlへのくみこみです。installフェーズで、php 8.2をしてい、cd ..."
+    },
+    {
+      "slide": 13,
+      "start": 148.85333333333332,
+      "duration": 13.930666666666667,
+      "text": "まとめです。PHPUnitは、PHPのひょうじゅんテストフレームワークです。TestCaseをけいし..."
+    }
+  ]
+}

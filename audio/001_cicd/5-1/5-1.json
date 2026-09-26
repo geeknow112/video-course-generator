@@ -1,0 +1,67 @@
+{
+  "lecture_id": "5-1",
+  "total_pages": 10,
+  "total_duration": 122.34666666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page01.wav",
+      "duration": 3.8506666666666667,
+      "text": "このレクチャーでは、なぜふくすうげんごでテストするのか、せつめいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page02.wav",
+      "duration": 6.752,
+      "text": "このレクチャーでまなぶことは、ハイブリッドかんきょうのげんじつ、ふくすうげんごテストのメリット、このセクションでつくるもの、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page03.wav",
+      "duration": 15.498666666666667,
+      "text": "げんじつのプロジェクトについてかんがえましょう。おおくのプロジェクトは、ふくすうのぎじゅつでこうせいされています。フロントエンドは、JavaScriptや、TypeScriptです。バックエンドは、PHP、Python、Javaなどです。インフラは、Terraformや、CloudFormationです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page04.wav",
+      "duration": 15.797333333333333,
+      "text": "よくあるこうせいれいをみてみましょう。プロジェクトフォルダのなかに、frontendフォルダがあり、ReactでJestをつかいます。backendフォルダがあり、PHPでPHPUnitをつかいます。apiフォルダがあり、Pythonでpytestをつかいます。infraフォルダには、Terraformがあります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page05.wav",
+      "duration": 15.562666666666667,
+      "text": "ふくすうげんごテストのメリットをせつめいします。1つめは、ぜんたいのひんしつたんぽです。かくコンポーネントをテストできます。2つめは、そうきはっけんです。どこでもんだいがおきたか、とくていできます。3つめは、チームかんれんけいです。きょうつうのCICDパイプラインをつかえます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page06.wav",
+      "duration": 13.162666666666667,
+      "text": "CodeBuildのつよみをせつめいします。1つのビルドで、ふくすうげんごをテストかのうです。runtime-versionsで、nodejs 18、php 8.2、python 3.11、のように、どうじにしていできます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page07.wav",
+      "duration": 16.010666666666665,
+      "text": "このセクションでつくるものをかくにんしましょう。テストプロジェクトフォルダのなかに、jsフォルダがあり、sum.test.jsで、Jestをつかいます。phpフォルダがあり、CalculatorTest.phpで、PHPUnitをつかいます。ルートに、buildspec.ymlをはいちします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page08.wav",
+      "duration": 12.458666666666666,
+      "text": "パイプラインのながれです。まず、ソースをしゅとくします。つぎに、Jestテストをじっこうします。そして、PHPUnitテストをじっこうします。すべてせいこうしたら、デプロイします。1つでもしっぱいしたら、ていしします。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page09.wav",
+      "duration": 10.901333333333334,
+      "text": "がくしゅうのポイントです。ふくすうのテストフレームワークを、1つのbuildspecでじっこうします。テストしっぱいじの、パイプラインていしをかくにんします。じっせんてきなCICDこうせいをまなびます。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\5-1\\5-1_page10.wav",
+      "duration": 12.352,
+      "text": "まとめです。げんじつのプロジェクトは、ふくすうぎじゅつでこうせいされています。CodeBuildで、ふくすうげんごのテストがかのうです。すべてのテストをつうかしてから、デプロイします。つぎのレクチャーでは、Jestテストをじっそうします。"
+    }
+  ]
+}

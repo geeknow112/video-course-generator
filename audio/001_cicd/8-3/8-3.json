@@ -1,0 +1,91 @@
+{
+  "lecture_id": "8-3",
+  "total_pages": 14,
+  "total_duration": 208.77866666666668,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page01.wav",
+      "duration": 2.7093333333333334,
+      "text": "このレクチャーでは、SAMテンプレートをじっそうします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page02.wav",
+      "duration": 8.277333333333333,
+      "text": "このレクチャーでまなぶことは、template.yamlのさくせい、Lambdaかんすうのていぎ、SNS Topicのていぎ、Lambdaコードのじっそう、です。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page03.wav",
+      "duration": 31.861333333333334,
+      "text": "template.yamlのきほんこうぞうです。AWSTemplateFormatVersionを、2010-09-09にします。Transformを、AWS::Serverless-2016-10-31にします。Descriptionに、CloudWatch Alarm to Slack Notification、とかきます。\nParametersセクションです。SlackWebhookUrlを、パラメータとしてていぎします。Typeは、Stringです。Descriptionに、Slack Incoming Webhook URL、とかきます。NoEchoを、trueにして、ひょうじをふせぎます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page04.wav",
+      "duration": 11.338666666666667,
+      "text": "Globalsセクションです。Functionに、きょうつうせっていをかきます。Timeoutを、10びょうにします。Runtimeを、nodejs20.xにします。MemorySizeを、128にします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page05.wav",
+      "duration": 26.986666666666668,
+      "text": "Lambdaかんすうのていぎです。SlackNotificationFunctionを、ていぎします。Typeは、AWS::Serverless::Functionです。CodeUriは、srcスラッシュです。Handlerは、index.handlerです。\nかんきょうへんすうのせっていです。Environmentセクションに、Variablesをていぎします。SLACK_WEBHOOK_URLに、!Ref SlackWebhookUrlをせっていします。パラメータのあたいを、かんきょうへんすうにわたします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page06.wav",
+      "duration": 12.181333333333333,
+      "text": "SNSイベントのせっていです。Eventsセクションに、SNSEventをていぎします。Typeは、SNSです。Propertiesに、Topicをせっていします。Topicに、!Ref AlarmTopicをせっていします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page07.wav",
+      "duration": 12.906666666666666,
+      "text": "SNS Topicのていぎです。AlarmTopicを、ていぎします。Typeは、AWS::SNS::Topicです。Propertiesに、TopicNameをせっていします。TopicNameは、CloudWatchAlarmTopicです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page08.wav",
+      "duration": 13.877333333333333,
+      "text": "Outputsセクションです。TopicArnを、しゅつりょくします。Valueに、!Ref AlarmTopicをせっていします。Descriptionに、SNS Topic ARN for CloudWatch Alarms、とかきます。CloudWatch Alarmせっていじに、つかいます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page09.wav",
+      "duration": 12.373333333333333,
+      "text": "Lambdaコードのじっそうです。srcフォルダに、index.jsをさくせいします。exports.handlerで、async functionをていぎします。eventから、SNSメッセージをしゅとくします。Slackにつうちをおくります。"
+    },
+    {
+      "page": 10,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page10.wav",
+      "duration": 14.816,
+      "text": "SNSメッセージのパースです。event.Recordsの、さいしょのようそをしゅとくします。record.Sns.Messageを、しゅとくします。JSON.parseで、オブジェクトにへんかんします。AlarmNameや、NewStateValueを、しゅとくします。"
+    },
+    {
+      "page": 11,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page11.wav",
+      "duration": 17.770666666666667,
+      "text": "Slackメッセージのさくせいです。textに、けいこくマークと、AWS Alertをせっていします。attachmentsはいれつを、さくせいします。colorに、NewStateValueがALARMなら、danger、そうでなければ、goodをせっていします。fieldsに、Alarm、Status、Reasonを、ついかします。"
+    },
+    {
+      "page": 12,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page12.wav",
+      "duration": 20.768,
+      "text": "Slackへのそうしんです。fetchを、つかいます。URLは、process.env.SLACK_WEBHOOK_URLです。methodは、POSTです。headersに、Content-Type、application/jsonをせっていします。bodyに、JSON.stringifyした、メッセージをせっていします。"
+    },
+    {
+      "page": 13,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page13.wav",
+      "duration": 9.418666666666667,
+      "text": "エラーハンドリングです。try-catchで、エラーをキャッチします。console.errorで、エラーをログにきろくします。エラーをthrowして、SNSにリトライさせます。"
+    },
+    {
+      "page": 14,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\8-3\\8-3_page14.wav",
+      "duration": 13.493333333333334,
+      "text": "まとめです。template.yamlで、LambdaとSNSをていぎしました。パラメータで、Webhook URLをうけとります。Lambdaコードで、メッセージをへんかんします。つぎのレクチャーで、CICDパイプラインをこうちくします。"
+    }
+  ]
+}
