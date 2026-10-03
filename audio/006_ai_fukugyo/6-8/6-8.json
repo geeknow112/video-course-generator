@@ -1,0 +1,55 @@
+{
+  "lecture_id": "6-8",
+  "total_pages": 8,
+  "total_duration": 80.256,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page01.wav",
+      "duration": 7.872,
+      "text": "このレクチャーでは、AIへのしじぶんを、じぶんのさぎょうで、じっさいにかきます。\n2-5でまなんだ、4つのようそを、つかいます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page02.wav",
+      "duration": 10.954666666666666,
+      "text": "まず、だいざいを、ひとつえらびます。\nえんしゅう1でえらんだ、さいしょにじどうかするさぎょうが、いちばんてきしています。\nまだえらんでいなければ、くりかえしがおおく、とりかえしがつくものを、えらびます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page03.wav",
+      "duration": 16.373333333333335,
+      "text": "つぎに、4つのようそを、うめます。\nひとつめは、もくてき。このさぎょうは、なんのためにおこなうのか。\nふたつめは、にゅうりょく。なにをみて、はんだんするのか。\nみっつめは、はんていきじゅん。どうなったら、OKなのか。\nよっつめは、しゅつりょくのかたち。けっかを、どんなひょうにするのか。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page04.wav",
+      "duration": 11.189333333333334,
+      "text": "きじゅんは、すうじやじょうけんで、かきます。\nいい、わるい、ではなく、ぐたいてきなかずや、じょうけんをいれます。\nきんしじこうも、ひとつはかきます。やってはいけないことを、あきらかにします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page05.wav",
+      "duration": 9.109333333333334,
+      "text": "れいを、ひとつだけ、つけます。\nじっさいにあったデータを、1けんぶん、しゅつりょくのかたちで、かきます。\nれいがあると、AIは、かたちをそろえてくれます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page06.wav",
+      "duration": 8.213333333333333,
+      "text": "できたら、すくないデータで、ためします。\nまずは、3けんほどです。\nけっかを、にんげんがみて、おもったとおりに、なっているかをかくにんします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page07.wav",
+      "duration": 10.218666666666667,
+      "text": "ちがっているところは、ルールにかきたします。\nAIのまちがいをなおすのではなく、ルールをなおす、というかんがえかたです。\nなんどかくりかえすと、ルールが、じぶんのしごとにあってきます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-8\\6-8_page08.wav",
+      "duration": 6.325333333333333,
+      "text": "ここで、ビデオをとめて、しじぶんをかいてみてください。\nつぎのレクチャーでは、えいぎょうのぶんしょうを、レビューします。"
+    }
+  ]
+}

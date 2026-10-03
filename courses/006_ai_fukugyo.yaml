@@ -121,6 +121,14 @@ lessons:
     title: "演習4: 1週間の記録をつける"
     script: scripts/006_ai_fukugyo/6-7_演習_1週間の記録をつける.txt
     slide: slides/006_ai_fukugyo/6-7_演習_1週間の記録をつける.md
+  - id: 6-8
+    title: "演習5: AIへの指示文を書く"
+    script: scripts/006_ai_fukugyo/6-8_演習_AIへの指示文を書く.txt
+    slide: slides/006_ai_fukugyo/6-8_演習_AIへの指示文を書く.md
+  - id: 6-9
+    title: "演習6: 営業文をレビューする"
+    script: scripts/006_ai_fukugyo/6-9_演習_営業文をレビューする.txt
+    slide: slides/006_ai_fukugyo/6-9_演習_営業文をレビューする.md
   - id: 7-1
     title: "コースまとめ"
     script: scripts/006_ai_fukugyo/7-1_コースまとめ.txt
