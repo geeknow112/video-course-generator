@@ -1,0 +1,49 @@
+{
+  "lecture_id": "1-3",
+  "total_pages": 7,
+  "total_duration": 59.31733333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-3\\1-3_page01.wav",
+      "duration": 4.917333333333334,
+      "text": "このレクチャーでは、AIにまかせるかどうかを、きめるための3つのきじゅんをしょうかいします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-3\\1-3_page02.wav",
+      "duration": 9.130666666666666,
+      "text": "ひとつめは、とりかえしがつくか、です。\nやりなおせるさぎょうは、AIにまかせやすい。\nけしたり、もどしたりできないそうさは、にんげんのしょうにんを、はさみます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-3\\1-3_page03.wav",
+      "duration": 11.829333333333333,
+      "text": "ふたつめは、おかねやしんようにちょくけつするか、です。\nおかねがうごくかいものや、とりひき。しんようにかかわる、ひとへのへんしん。\nこうしたものは、したがきまでをAIにまかせて、さいごは、にんげんがきめます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-3\\1-3_page04.wav",
+      "duration": 9.856,
+      "text": "みっつめは、そとにでるか、です。\nじぶんのなかで、かんけつするさぎょうは、まかせやすい。\nメールのそうしんや、こうかいのように、がいぶにでるものは、しょうにんをはさみます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-3\\1-3_page05.wav",
+      "duration": 7.882666666666666,
+      "text": "この3つのうち、ひとつでもあてはまれば、にんげんのしょうにんをいれます。\nぎゃくに、どれにもあてはまらなければ、AIにまかせてだいじょうぶです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-3\\1-3_page06.wav",
+      "duration": 11.818666666666667,
+      "text": "じっさいに、わたしのしくみでは、しらべるのは、AIにまかせています。\nしたがきをつくるのも、AIにまかせています。\nでも、おくる、こうかいする、かう、というところは、かならずにんげんがきめます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-3\\1-3_page07.wav",
+      "duration": 3.8826666666666667,
+      "text": "つぎのレクチャーでは、このきじゅんをつかった、しくみのぜんたいぞうをみます。"
+    }
+  ]
+}

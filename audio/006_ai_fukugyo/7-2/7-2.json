@@ -1,0 +1,43 @@
+{
+  "lecture_id": "7-2",
+  "total_pages": 6,
+  "total_duration": 58.784,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-2\\7-2_page01.wav",
+      "duration": 2.816,
+      "text": "このレクチャーでは、よくあるしつもんに、こたえます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-2\\7-2_page02.wav",
+      "duration": 12.064,
+      "text": "ひとつめのしつもん。このコースで、しゅうにゅうはえられますか。\nこたえ。しゅうにゅうは、やくそくしません。\nこのコースがおしえるのは、しくみのつくりかたです。\nじぶんのすうじを、きろくしながら、かいぜんしていくためのものです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-2\\7-2_page03.wav",
+      "duration": 12.682666666666666,
+      "text": "ふたつめのしつもん。AIがまちがえたら、どうなりますか。\nこたえ。だから、おかねやしんようにかかわるものは、にんげんがしょうにんします。\nAIがつくるのは、したがきまでです。まちがいは、しょうにんのだんかいで、とめます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-2\\7-2_page04.wav",
+      "duration": 13.525333333333334,
+      "text": "みっつめのしつもん。プログラミングができなくても、できますか。\nこたえ。このコースでは、スプレッドシートと、ブックマークのような、みじかなものから、はじめるかんがえかたを、おすすめしています。\nおおがかりなものは、あとからで、かまいません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-2\\7-2_page05.wav",
+      "duration": 12.277333333333333,
+      "text": "よっつめのしつもん。どのAIツールをつかえば、よいですか。\nこたえ。このコースのかんがえかたは、とくていのツールにはよりません。\nきりわけのきじゅん、しょうにんのながれ、けんげんのしぼりかたは、どのツールでも、つかえます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-2\\7-2_page06.wav",
+      "duration": 5.418666666666667,
+      "text": "しつもんにこたえました。\nこのコースが、みなさんのしくみづくりの、やくにたつことを、ねがっています。"
+    }
+  ]
+}

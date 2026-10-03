@@ -1,0 +1,49 @@
+{
+  "lecture_id": "2-3",
+  "total_pages": 7,
+  "total_duration": 57.68533333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-3\\2-3_page01.wav",
+      "duration": 3.8613333333333335,
+      "text": "このレクチャーでは、りえきを、じゅんりえきではんていするほうほうをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-3\\2-3_page02.wav",
+      "duration": 9.653333333333334,
+      "text": "みかけのりえきとは、うりねからしいれねだけをひいた、きんがくです。\nしかし、じっさいには、ほかにもひかれるものがあります。\nAmazonのてすうりょうや、はいそうにかかるひようなどです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-3\\2-3_page03.wav",
+      "duration": 8.341333333333333,
+      "text": "じゅんりえきは、これらをすべてひいたあとに、のこるきんがくです。\nみかけのりえきでははんだんせず、じゅんりえきではんていするというルールを、さいしょにきめます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-3\\2-3_page04.wav",
+      "duration": 12.437333333333333,
+      "text": "はんていけっかは、データベースにとうろくします。\nしょうひんめい、JANコード、しいれさき、うりね、しいれね、じゅんりえき、はんていけっか。\nひょうにそろえておくと、にんげんがみるときも、くらべやすくなります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-3\\2-3_page05.wav",
+      "duration": 8.896,
+      "text": "もうひとつ、だいじなことがあります。\nうりねは、じかんがたつと、かわります。\nとうろくしたときのねだんが、ふるくなっていないかを、ていきてきにたしかめなおします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-3\\2-3_page06.wav",
+      "duration": 10.656,
+      "text": "ここも、AIにまかせるぶぶんです。\nとうろくずみのしょうひんを、もういちど、しらべなおして、はんていがいまもただしいかを、かくにんします。\nただしくなくなっていれば、みおくりにへんこうします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-3\\2-3_page07.wav",
+      "duration": 3.84,
+      "text": "つぎのレクチャーでは、これらをうごかすための、しくみのつくりかたをみます。"
+    }
+  ]
+}

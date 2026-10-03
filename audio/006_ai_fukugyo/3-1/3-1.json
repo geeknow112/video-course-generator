@@ -1,0 +1,43 @@
+{
+  "lecture_id": "3-1",
+  "total_pages": 6,
+  "total_duration": 49.81333333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-1\\3-1_page01.wav",
+      "duration": 3.957333333333333,
+      "text": "このレクチャーでは、ぎじゅつきじのしっぴつで、なにをじどうかするかをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-1\\3-1_page02.wav",
+      "duration": 9.717333333333332,
+      "text": "きじのしっぴつも、せどりとおなじ、ながれになります。\nちょうさ、したがき、しょうにん、こうかい、きろく。\nちょうさとしたがきはAI。しょうにんとこうかいは、にんげんです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-1\\3-1_page03.wav",
+      "duration": 9.728,
+      "text": "ちょうさでは、QiitaやZennのトレンドをしらべます。\nいまどんなテーマが、よまれているか。どんなタイトルが、つよいか。\nランキングやニュースレターから、AIがようてんをあつめます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-1\\3-1_page04.wav",
+      "duration": 10.442666666666666,
+      "text": "したがきは、トレンドと、じぶんのけいけんを、かけあわせてつくります。\nトレンドだけをなぞると、いっぱんろんになります。\nじぶんがじっさいにやった、せっていや、すうじを、かくにします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-1\\3-1_page05.wav",
+      "duration": 7.434666666666667,
+      "text": "こうかいは、にんげんがきめます。\nきじは、そとにでて、しんようにかかわるので、きりわけのきじゅんでは、しょうにんがひつようなぶぶんです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-1\\3-1_page06.wav",
+      "duration": 8.533333333333333,
+      "text": "このしくみをつかうと、にんげんがやることは、したがきをよんで、なおして、こうかいをきめることだけです。\nつぎのレクチャーでは、だいざいのえらびかたをみます。"
+    }
+  ]
+}

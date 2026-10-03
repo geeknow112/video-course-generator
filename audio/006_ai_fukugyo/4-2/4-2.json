@@ -1,0 +1,43 @@
+{
+  "lecture_id": "4-2",
+  "total_pages": 6,
+  "total_duration": 53.728,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-2\\4-2_page01.wav",
+      "duration": 4.192,
+      "text": "このレクチャーでは、おうぼぶんや、へんしんぶんの、したがきについてみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-2\\4-2_page02.wav",
+      "duration": 9.653333333333334,
+      "text": "おうぼすることがきまったら、さいしょのメッセージの、したがきを、AIにつくらせます。\nあんけんのないようを、よんで、じぶんのけいけんと、むすびつけた、ぶんしょうです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-2\\4-2_page03.wav",
+      "duration": 9.504,
+      "text": "ここで、AIがつくったぶんしょうは、あくまで、したがきです。\nそのまま、おくってはいけません。\nきりわけのきじゅんでいえば、そとにでて、しんようにかかわるものだからです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-2\\4-2_page04.wav",
+      "duration": 10.944,
+      "text": "まちがえやすいのは、ないぶのことばが、そのまま、まざることです。\nたとえば、じぶんだけがつかっている、しゅうけいのよびかたや、ないぶのぶんるいめいです。\nきゃくさきのぶんしょうに、はいってはいけません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-2\\4-2_page05.wav",
+      "duration": 9.386666666666667,
+      "text": "そのため、にんげんが、ぜんぶんをとおしてよみます。\nさぶんだけをなおすと、つぎのけっかんが、つぎのひにでてきます。\nさいしょから、さいごまで、よむのがポイントです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-2\\4-2_page06.wav",
+      "duration": 10.048,
+      "text": "もうひとつ、きめているルールがあります。\nしょきのうちあわせのぶんに、こうほうびを、いれません。\nひづけは、さきほうに、ききます。\nつぎのレクチャーでは、しょうにんのしかたを、みます。"
+    }
+  ]
+}

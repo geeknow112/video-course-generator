@@ -1,0 +1,49 @@
+{
+  "lecture_id": "5-1",
+  "total_pages": 7,
+  "total_duration": 71.40266666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-1\\5-1_page01.wav",
+      "duration": 4.469333333333333,
+      "text": "このレクチャーでは、AIをむじんでうごかすときの、けんげんのしぼりかたをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-1\\5-1_page02.wav",
+      "duration": 10.997333333333334,
+      "text": "ここまでのしくみは、よるに、むじんでうごかすことができます。\nただし、むじんでうごかすと、にんげんが、そばにいません。\nだからこそ、さいしょに、AIにもたせるけんげんを、しぼります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-1\\5-1_page03.wav",
+      "duration": 12.266666666666667,
+      "text": "AIのしごとを、ようとごとにわけて、ひとつずつ、べつのRoutineにします。\nじょうほうのしゅうけいだけをおこなうもの。メールのしわけをおこなうもの。きじのしたがきをつくるもの。\nそれぞれに、ひつようなけんげんだけをわたします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-1\\5-1_page04.wav",
+      "duration": 11.477333333333334,
+      "text": "しゅうけいのRoutineは、よむことと、データベースへのとうろくだけ。\nメールのしわけは、これにメールのそうさがくわわります。\nきじのしたがきだけが、ブランチのpushと、PRのさくせいまで、ひろがります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-1\\5-1_page05.wav",
+      "duration": 10.538666666666666,
+      "text": "つまり、いちばんつよいけんげんをもつのは、ぜんぶのうち、1ほんだけです。\nしゅうけいのRoutineが、まちがって、PRをつくるということは、そのけんげんをもたせていないので、おきません。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-1\\5-1_page06.wav",
+      "duration": 12.373333333333333,
+      "text": "けんげんをきめるときのかんがえかたは、2つです。\nそのしごとが、しっぱいしたときに、いちばんこまるそうさは、なにか。\nそのそうさをおこなうのに、ほんとうにひつようなものは、どれか。\nさきにきめてから、けんげんをわたします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-1\\5-1_page07.wav",
+      "duration": 9.28,
+      "text": "とりあえずぜんぶきょかして、あとからしぼる、というじゅんばんは、しぼるきっかけが、えいえんにきません。\nつぎのレクチャーでは、いちばんつよいけんげんの、まもりかたをみます。"
+    }
+  ]
+}

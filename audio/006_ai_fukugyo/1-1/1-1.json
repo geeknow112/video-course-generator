@@ -1,0 +1,43 @@
+{
+  "lecture_id": "1-1",
+  "total_pages": 6,
+  "total_duration": 74.26133333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-1\\1-1_page01.wav",
+      "duration": 7.157333333333334,
+      "text": "こんにちは、このコースへようこそ。\nこのコースでは、AIをつかって、ふくぎょうのしごとを、しくみにするほうほうをまなびます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-1\\1-1_page02.wav",
+      "duration": 16.394666666666666,
+      "text": "このコースでまなぶないようを、しょうかいします。\nだいいちしょうでは、かんがえかた。AIにまかせることと、じぶんできめることのきりわけ。\nだいにしょうでは、ちょうさのじどうか。せどりのしいれちょうさをれいにします。\nだいさんしょうでは、しっぴつのじどうか。ぎじゅつきじのしたがきから、こうかいまでのながれ。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-1\\1-1_page03.wav",
+      "duration": 13.92,
+      "text": "だいよんしょうでは、えいぎょうのじどうか。あんけんのしぶんけと、へんしんぶんのしたがき。\nだいごしょうでは、むじんうんよう。けんげんをしぼって、よるにうごかすほうほう。\nだいろくしょうでは、すうじでふりかえる。じかんとひようをきろくして、こうかをはかります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-1\\1-1_page04.wav",
+      "duration": 13.482666666666667,
+      "text": "このコースは、こんなかたをたいしょうにしています。\nほんぎょうがいそがしく、ふくぎょうのじかんがとれないかた。\nAIツールはつかっているけれど、しごとのしくみにはなっていないかた。\nせどり、きじのしっぴつ、えいぎょうなど、くりかえしのさぎょうがあるかた。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-1\\1-1_page05.wav",
+      "duration": 13.973333333333333,
+      "text": "このコースをおえると、いかのことができるようになります。\nAIにまかせるはんいと、にんげんがしょうにんするはんいを、きりわけられる。\nちょうさ、しっぴつ、えいぎょうの、じどうかのながれを、せっけいできる。\nむじんでうごかすときの、けんげんをしぼれる。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-1\\1-1_page06.wav",
+      "duration": 9.333333333333334,
+      "text": "ひとつ、おやくそくです。\nこのコースは、しゅうにゅうをやくそくするものではありません。\nとりあげるすうじは、じっそくちだけです。\nそれでは、つぎのレクチャーから、はじめましょう。"
+    }
+  ]
+}

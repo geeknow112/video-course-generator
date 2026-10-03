@@ -1,0 +1,49 @@
+{
+  "lecture_id": "2-1",
+  "total_pages": 7,
+  "total_duration": 55.68,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-1\\2-1_page01.wav",
+      "duration": 3.968,
+      "text": "このレクチャーでは、せどりのしいれちょうさで、なにをじどうかするかをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-1\\2-1_page02.wav",
+      "duration": 10.634666666666666,
+      "text": "せどりのしいれは、3つのだんかいにわけられます。\nまず、うれそうなしょうひんを、しぼりこむ。\nつぎに、やすくかえるしいれさきを、さがす。\nさいごに、りえきがでるかを、はんていする。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-1\\2-1_page03.wav",
+      "duration": 10.581333333333333,
+      "text": "ひとつめのしぼりこみは、Amazonがわのうりねと、じゅようをみます。\nうれゆきがよく、ねだんがあんていしているしょうひんを、のこします。\nここは、じょうけんをきめておけば、AIにまかせられます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-1\\2-1_page04.wav",
+      "duration": 10.688,
+      "text": "ふたつめのしいれさきさがしは、いちばんてまがかかります。\nしょうひんごとに、いくつものサイトをくらべて、いちばんやすいところをさがします。\nくりかえしのさぎょうなので、AIにまかせるのにむいています。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-1\\2-1_page05.wav",
+      "duration": 8.96,
+      "text": "みっつめのはんていは、すうじのけいさんです。\nうりねから、しいれねやてすうりょうをひいて、のこるりえきをだします。\nここも、ルールをきめれば、AIがおこなえます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-1\\2-1_page06.wav",
+      "duration": 7.445333333333333,
+      "text": "ただし、かうかどうかのさいごのけっていは、にんげんです。\nおかねがうごくので、さきほどのきじゅんでは、かならずしょうにんをはさむぶぶんです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-1\\2-1_page07.wav",
+      "duration": 3.4026666666666667,
+      "text": "つぎのレクチャーでは、しいれさきのさがしかたを、くわしくみます。"
+    }
+  ]
+}

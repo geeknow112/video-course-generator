@@ -1,0 +1,43 @@
+{
+  "lecture_id": "4-1",
+  "total_pages": 6,
+  "total_duration": 54.464,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-1\\4-1_page01.wav",
+      "duration": 4.949333333333334,
+      "text": "このレクチャーでは、えいぎょうのじどうかの、さいしょのだんかい、あんけんのいちじしわけをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-1\\4-1_page02.wav",
+      "duration": 8.426666666666666,
+      "text": "あんけんの、つうちメールが、まいにちとどきます。\nひとつずつよんで、おうぼするかを、きめるのは、てまがかかります。\nここを、AIにまかせます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-1\\4-1_page03.wav",
+      "duration": 10.378666666666666,
+      "text": "ながれは、つぎのとおりです。\nまず、あたらしいつうちメールを、あつめます。\nつぎに、あんけんリストと、つきあわせます。\nすでにとうろくずみか、あたらしいあんけんかを、はんべつします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-1\\4-1_page04.wav",
+      "duration": 9.386666666666667,
+      "text": "あたらしいあんけんは、リストにとうろくします。\nそのうえで、おうぼするかどうかの、はんだんざいりょうを、そろえます。\nじぶんのとくいぶんやか、きんがくやじきは、あっているか。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-1\\4-1_page05.wav",
+      "duration": 11.381333333333334,
+      "text": "ひとつ、だいじなルールがあります。\nメールだけで、はんだんしないことです。\nかんりがめんや、つうちメールだけをみて、ステータスをきめると、すでにしっちゅうしたあんけんを、さいゆうせんとあやまることがあります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-1\\4-1_page06.wav",
+      "duration": 9.941333333333333,
+      "text": "かならず、あんけんのページや、これまでのやりとりを、よんでから、はんだんします。\nここも、AIにそのようにしじをします。\nつぎのレクチャーでは、へんしんぶんのしたがきをみます。"
+    }
+  ]
+}

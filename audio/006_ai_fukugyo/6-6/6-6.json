@@ -1,0 +1,55 @@
+{
+  "lecture_id": "6-6",
+  "total_pages": 8,
+  "total_duration": 62.72,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page01.wav",
+      "duration": 3.52,
+      "text": "このレクチャーでは、だいちょうをつかった、しょうにんのルールをきめます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page02.wav",
+      "duration": 10.624,
+      "text": "ルールは、4つのしつもんに、こたえることで、きまります。\nだれが、しょうにんするのか。いつ、しょうにんするのか。なにを、みてしょうにんするのか。しょうにんされなかったとき、どうするのか。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page03.wav",
+      "duration": 10.752,
+      "text": "ひとつめ。だれが。\nひとりでしごとをしているなら、じぶんです。\nそれでも、したがきをつくるじぶんと、しょうにんするじぶんを、わけてかんがえます。\nじかんをおいて、よみかえすことが、ポイントです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page04.wav",
+      "duration": 10.005333333333333,
+      "text": "ふたつめ。いつ。\nまいにち、きまったじかんに、だいちょうをひらきます。\nあさ10ぷんか、よる10ぷんほどで、じゅうぶんです。\nしょうにんの、じかんをきめておくと、たまりません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page05.wav",
+      "duration": 6.8693333333333335,
+      "text": "みっつめ。なにを、みて。\nさきほどの、チェックリストをつかいます。\nチェックリストにとおったものだけを、しょうにんずみにします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page06.wav",
+      "duration": 10.997333333333334,
+      "text": "よっつめ。しょうにんされなかったとき。\nいつまでも、しょうにんされないものは、きげんをきめて、みおくりにします。\nたとえば、1しゅうかんたったら、みおくりです。\nだいちょうがたまっていくのを、ふせぎます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page07.wav",
+      "duration": 7.061333333333334,
+      "text": "ここで、ビデオをとめて、4つのしつもんに、こたえをかいてみてください。\nかいたものを、だいちょうのよこに、メモしておきます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-6\\6-6_page08.wav",
+      "duration": 2.8906666666666667,
+      "text": "つぎのレクチャーでは、1しゅうかん、きろくをつけます。"
+    }
+  ]
+}

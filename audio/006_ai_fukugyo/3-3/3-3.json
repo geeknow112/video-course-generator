@@ -1,0 +1,43 @@
+{
+  "lecture_id": "3-3",
+  "total_pages": 6,
+  "total_duration": 51.46666666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-3\\3-3_page01.wav",
+      "duration": 3.3386666666666667,
+      "text": "このレクチャーでは、きじをこうかいするまでの、ながれをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-3\\3-3_page02.wav",
+      "duration": 9.973333333333333,
+      "text": "AIがつくったきじを、そのまま、こうかいしてはいけません。\nかならず、にんげんがかくにんするひとてまを、はさみます。\nそのためのしくみが、プルリクエスト、略してPRです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-3\\3-3_page03.wav",
+      "duration": 9.397333333333334,
+      "text": "ながれは、つぎのとおりです。\nAIが、あたらしいブランチをつくって、きじのファイルをおきます。\nそのうえで、PRをつくります。\nここまでが、AIのたんとうです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-3\\3-3_page04.wav",
+      "duration": 9.290666666666667,
+      "text": "にんげんは、PRのがめんで、きじをよんで、なおして、しょうにんします。\nしょうにんされたら、マージして、じどうでこうかいされます。\nマージするのは、にんげんです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-3\\3-3_page05.wav",
+      "duration": 8.202666666666667,
+      "text": "こうすることで、まちがったきじが、そとにでることを、ふせげます。\nそして、AIがつくったものと、にんげんがなおしたものが、れきしにのこります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\3-3\\3-3_page06.wav",
+      "duration": 11.264,
+      "text": "たいせつなのは、AIに、mainブランチへのちょくせつのこうかいを、させないことです。\nこのことは、あとのしょうで、さらにくわしくみます。\nつぎのレクチャーでは、きじのまつびの、こうもくについてみます。"
+    }
+  ]
+}

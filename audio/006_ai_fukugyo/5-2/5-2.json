@@ -1,0 +1,49 @@
+{
+  "lecture_id": "5-2",
+  "total_pages": 7,
+  "total_duration": 79.69066666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-2\\5-2_page01.wav",
+      "duration": 3.541333333333333,
+      "text": "このレクチャーでは、いちばんつよいけんげんを、どうまもるかをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-2\\5-2_page02.wav",
+      "duration": 11.648,
+      "text": "きじのしたがきをつくるRoutineは、PRをつくります。\nでも、mainブランチへの、ちょくせつのpushや、PRのじどうマージは、させたくありません。\nこのようけんを、どうつくるか、というはなしです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-2\\5-2_page03.wav",
+      "duration": 14.794666666666666,
+      "text": "さいしょは、ツールのけんげんで、わけようとしました。\nしかし、リポジトリのそうさを、シェルにまかせたじてんで、PRのさくせいも、ただのシェルコマンドです。\npushとPRさくせいだけをゆるして、mainへのpushだけをとめる、というわけかたは、できませんでした。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-2\\5-2_page04.wav",
+      "duration": 14.037333333333333,
+      "text": "つぎにとったのは、プロンプトでのきんしです。\nmainへのちょくせつのpushは、ぜったいにしない。PRはじぶんでマージしない。\nこれは、ひつようです。ですが、モデルがしじにしたがうことへの、しんらいで、なりたっています。\nきょうせいりょくは、ありません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-2\\5-2_page05.wav",
+      "duration": 12.384,
+      "text": "そこで、GitHubがわで、ぶつりてきに、ふさぎます。\nmainに、ブランチほごのルールをつくり、PRをかならずけいゆさせて、しょうにんをひっすにします。\nこれなら、プロンプトがやぶられても、mainにはとどきません。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-2\\5-2_page06.wav",
+      "duration": 13.525333333333334,
+      "text": "ただし、おとしあながあります。\nGitHubのルールは、せつぞくしたアクセスに、てきようされます。\nそのアクセスが、ルールをバイパスできるせっていだと、とめられません。\nかんりしゃにも、ルールをてきようする、せっていになっているかを、かくにんします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-2\\5-2_page07.wav",
+      "duration": 9.76,
+      "text": "せっていしたら、かならず、じっさいにためします。\nmainへpushさせてみて、はじかれるかを、かくにんしてください。\nつぎのレクチャーでは、うごかなくなったときの、みかたをみます。"
+    }
+  ]
+}

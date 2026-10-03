@@ -1,0 +1,55 @@
+{
+  "lecture_id": "6-7",
+  "total_pages": 8,
+  "total_duration": 62.38933333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page01.wav",
+      "duration": 5.610666666666667,
+      "text": "このレクチャーでは、しくみをうごかして、1しゅうかん、きろくをつけます。\nえんしゅうは、これでさいごです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page02.wav",
+      "duration": 7.712,
+      "text": "きろくするのは、まえにまなんだ、3つです。\nじかん、ひよう、せいか。\nきろくは、1にちの、おわりに、まとめて、かきます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page03.wav",
+      "duration": 10.901333333333334,
+      "text": "ひとつめは、じかんです。\nしくみをつかったさぎょうに、にんげんがつかった、じかん。\nしくみをつくるまえに、おなじさぎょうにかかっていたじかんも、きろくしておきます。\nくらべるための、きじゅんになります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page04.wav",
+      "duration": 6.709333333333333,
+      "text": "ふたつめは、ひようです。\nAIツールのりようりょう。クラウドのひよう。\nこまかいかずでなくても、おおよそのかずをかきます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page05.wav",
+      "duration": 7.658666666666667,
+      "text": "みっつめは、せいかです。\nとうろくしたけんすう。こうかいしたきじのほんすう。おくったへんしんぶんのかず。\nすうじにできるものだけを、かきます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page06.wav",
+      "duration": 11.84,
+      "text": "しゅうまつに、ふりかえります。\nじかんは、へったか。ひようは、よそうどおりか。せいかは、でたか。\nかいぜんする、てんを、ひとつだけ、えらびます。\nいちどに、たくさんなおさないのが、ポイントです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page07.wav",
+      "duration": 8.981333333333334,
+      "text": "きろくには、かならず、じっそくちだけを、かきます。\nきたいや、よそうは、べつのらんにかきます。\nじっそくちを、そろえておくと、つぎのしゅうとくらべられます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-7\\6-7_page08.wav",
+      "duration": 2.976,
+      "text": "つぎのレクチャーで、コースぜんたいを、ふりかえります。"
+    }
+  ]
+}

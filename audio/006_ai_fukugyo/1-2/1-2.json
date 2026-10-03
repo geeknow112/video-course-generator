@@ -1,0 +1,49 @@
+{
+  "lecture_id": "1-2",
+  "total_pages": 7,
+  "total_duration": 62.44266666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-2\\1-2_page01.wav",
+      "duration": 5.930666666666666,
+      "text": "このレクチャーでは、AIにまかせるはんいと、じぶんできめるはんいを、きりわけるかんがえかたをまなびます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-2\\1-2_page02.wav",
+      "duration": 11.328,
+      "text": "ふくぎょうがつづかないりゆうのおおくは、じぶんのじかんを、そのままうっているからです。\nしごとがふえれば、じかんがたりなくなります。\nじかんをうるかぎり、しゅうにゅうも、じぶんのじかんのなかに、おさまってしまいます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-2\\1-2_page03.wav",
+      "duration": 10.858666666666666,
+      "text": "そこで、しごとを、にんげんがやるぶぶんと、AIにまかせるぶぶんに、わけます。\nAIにまかせやすいのは、しらべる、したがきをつくる、しわけて、そろえる、といったさぎょうです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-2\\1-2_page04.wav",
+      "duration": 9.578666666666667,
+      "text": "いっぽうで、にんげんがきめるぶぶんがあります。\nおかねがうごくはんだん。しんようにかかわるはっしん。とりかえしのつかないそうさ。\nこれらは、かならず、にんげんがしょうにんします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-2\\1-2_page05.wav",
+      "duration": 11.829333333333333,
+      "text": "きりわけのイメージは、つぎのとおりです。\nAIは、じゅんびをします。にんげんは、けっていをします。\nAIが100パーセントやるのではなく、AIがつくったしたがきを、にんげんがかくにんして、おくりだす。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-2\\1-2_page06.wav",
+      "duration": 9.472,
+      "text": "このかたちにすると、にんげんのじかんは、けっていだけにつかわれます。\nかくにんは、したがきができあがったあとの、ごふんほどです。\nじかんをうらないしくみの、はじまりです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-2\\1-2_page07.wav",
+      "duration": 3.445333333333333,
+      "text": "つぎのレクチャーでは、きりわけのきじゅんを、3つにまとめます。"
+    }
+  ]
+}

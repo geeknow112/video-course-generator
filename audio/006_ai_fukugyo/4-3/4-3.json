@@ -1,0 +1,49 @@
+{
+  "lecture_id": "4-3",
+  "total_pages": 7,
+  "total_duration": 55.605333333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-3\\4-3_page01.wav",
+      "duration": 4.266666666666667,
+      "text": "このレクチャーでは、したがきを、しょうにんして、おくるまでのながれを、みます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-3\\4-3_page02.wav",
+      "duration": 7.189333333333333,
+      "text": "ここで、だいちょうを、つかいます。\nスプレッドシートに、えいぎょうのだいちょうを、つくります。\n1ぎょうが、1つのおくりものです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-3\\4-3_page03.wav",
+      "duration": 11.605333333333334,
+      "text": "ぎょうには、つぎのこうもくを、いれます。\nあいて。ようけん。おくるぶんしょうの、ぜんぶん。そして、ステータス。\nステータスは、したがき、かくにんちゅう、そうしんか、そうしんずみ、のようにします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-3\\4-3_page04.wav",
+      "duration": 10.549333333333333,
+      "text": "ぶんしょうは、ないようらんに、ぜんぶんを、いれます。\nにんげんは、そのぎょうを、よんで、なおして、そうしんかに、かきかえます。\nステータスが、そうしんかのぎょうだけが、おくられます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-3\\4-3_page05.wav",
+      "duration": 11.050666666666666,
+      "text": "なぜ、チャットでなく、ぎょうなのか。\nチャットで、おくってよいかと、きいてまわると、どれをさしているのか、わからなくなります。\nぎょうにこたえをかけば、ひとめでわかり、しょうにんのきろくにもなります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-3\\4-3_page06.wav",
+      "duration": 7.957333333333334,
+      "text": "そうしんかになっていないものは、AIが、かってにおくることは、ありません。\nルールとして、だいちょうのステータスが、さいごのかんもんになります。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-3\\4-3_page07.wav",
+      "duration": 2.986666666666667,
+      "text": "つぎのレクチャーでは、おくったあとの、かくにんをみます。"
+    }
+  ]
+}

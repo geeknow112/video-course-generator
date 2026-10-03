@@ -1,0 +1,43 @@
+{
+  "lecture_id": "6-1",
+  "total_pages": 6,
+  "total_duration": 53.19466666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-1\\6-1_page01.wav",
+      "duration": 4.341333333333333,
+      "text": "このレクチャーでは、しくみのこうかを、はかるために、なにをきろくするかをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-1\\6-1_page02.wav",
+      "duration": 7.722666666666667,
+      "text": "しくみをつくっても、こうかをはからなければ、よくなっているのか、わかりません。\nきろくするのは、3つです。\nじかん、ひよう、せいか。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-1\\6-1_page03.wav",
+      "duration": 12.448,
+      "text": "ひとつめは、じかんです。\nしくみをつくるまえに、そのさぎょうに、なんじかんかかっていたか。\nしくみをつくったあとに、にんげんがつかったじかんは、なんじかんか。\nくらべるには、まえのじかんを、きろくしておくひつようがあります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-1\\6-1_page04.wav",
+      "duration": 8.448,
+      "text": "ふたつめは、ひようです。\nAIツールやクラウドのりようりょう。\nたとえば、しくみにたしたしょりの、ついかのひようは、まえもって、けいさんしておきます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-1\\6-1_page05.wav",
+      "duration": 11.157333333333334,
+      "text": "みっつめは、せいかです。\nしゅうにゅうのほかに、うごいたけんすうでも、かまいません。\nしんきのあんけんの、とうろくけんすう。こうかいしたきじの、ほんすう。\nすうじにできる、せいかを、きめておきます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-1\\6-1_page06.wav",
+      "duration": 9.077333333333334,
+      "text": "だいじなのは、じっそくちだけを、きろくすることです。\nきたいやよそうは、じっそくちとは、わけてかきます。\nつぎのレクチャーでは、ながれこみをはかる、れいをみます。"
+    }
+  ]
+}
