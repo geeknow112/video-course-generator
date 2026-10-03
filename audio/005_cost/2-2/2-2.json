@@ -1,0 +1,43 @@
+{
+  "lecture_id": "2-2",
+  "total_pages": 6,
+  "total_duration": 63.754666666666665,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\2-2\\2-2_page01.wav",
+      "duration": 4.597333333333333,
+      "text": "このレクチャーでは、うちわけひょうから、こうせいひをだして、ゆうせんじゅんいをきめます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\2-2\\2-2_page02.wav",
+      "duration": 7.850666666666666,
+      "text": "けいさんは、かんたんです。\nこうもくのきんがくを、ごうけいでわって、パーセントにします。\nじれいでは、こうせいひは、つぎのようになりました。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\2-2\\2-2_page03.wav",
+      "duration": 11.765333333333333,
+      "text": "SSDストレージは、よんじゅうよんてんいちパーセント。\nマルチAZのついかぶんは、よんじゅうななてんごパーセント。\nバックアップは、ごてんいちパーセント。\nそして、スループットは、さんてんさんパーセントです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\2-2\\2-2_page04.wav",
+      "duration": 15.872,
+      "text": "ここで、こたえがでます。\nストレージとマルチAZのついかぶんをあわせると、ぜんたいのきゅうじゅういちてんろくパーセントをしめています。\nいっぽうで、さいしょにうたがったスループットは、さんてんさんパーセントしかありません。\nぼしゅうだんがちいさいので、どれだけてきかくにしても、きんがくはふえません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\2-2\\2-2_page05.wav",
+      "duration": 14.357333333333333,
+      "text": "ゆうせんじゅんいのきめかたは、ふたつのしつもんにまとめられます。\nそのこうもくは、ぜんたいのなんパーセントをしめているか。\nそのこうもくを、なんパーセントさげられるか。\nこのふたつをかけたものが、さくげんのうえのかちです。\nしようりつのひくさだけでは、ここまでわかりません。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\2-2\\2-2_page06.wav",
+      "duration": 9.312,
+      "text": "こうせいひで、ゆうせんじゅんいをきめるほうほうをみました。\nつぎのセクションでは、しようりつをじっさいにはかります。\nCloudWatchで7にちぶんのデータをとるほうほうをみていきます。"
+    }
+  ]
+}

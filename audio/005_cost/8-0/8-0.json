@@ -1,0 +1,49 @@
+{
+  "lecture_id": "8-0",
+  "total_pages": 7,
+  "total_duration": 75.43466666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-0\\8-0_page01.wav",
+      "duration": 6.304,
+      "text": "このレクチャーでは、えんしゅうでつかう、スプレッドシートのテンプレートをしょうかいします。\n2まいのシートで、できています。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-0\\8-0_page02.wav",
+      "duration": 11.68,
+      "text": "1まいめは、うちわけひょうです。\nれつは、5つ。こうもく、きんがく、こうせいひ、さげはばのよそう、さくげんがくのじょうげん。\nさいごに、きんがくのでどころを、メモするれつを、ひとつたしておきます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-0\\8-0_page03.wav",
+      "duration": 11.114666666666666,
+      "text": "こうせいひのしきは、こうもくのきんがくを、ごうけいでわる、だけです。\nごうけいのせるは、しきのなかで、かためておきます。\nそうすると、したのぎょうに、コピーしても、ごうけいのばしょが、ずれません。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-0\\8-0_page04.wav",
+      "duration": 13.237333333333334,
+      "text": "ドルのたんかをつかうときは、かんさんレートを、ひとつのせるに、まとめます。\nたとえば、1ドルは150えん。\nほかのせるは、すべてこのせるを、さんしょうします。\nレートをかえたいときも、ひとつのせるを、なおすだけで、すみます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-0\\8-0_page05.wav",
+      "duration": 9.696,
+      "text": "2まいめは、ひかくひょうです。\nさくげんあんをならべて、れつは、ねんかんのさくげんがく、せいのうへのえいきょう、しょうにんのてま、いちじコスト、かいしゅうきかん、の5つです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-0\\8-0_page06.wav",
+      "duration": 10.656,
+      "text": "かいしゅうきかんのしきは、いちじコストを、つきのさくげんがくでわります。\nねんかんのさくげんがくは、つきのさくげんがくに、12をかけます。\nこのふたつのしきだけで、あんのそんとくが、そろいます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-0\\8-0_page07.wav",
+      "duration": 12.746666666666666,
+      "text": "つかいかたは、かんたんです。\n1まいめで、ゆうせんじゅんいを、きめる。\n2まいめで、うえのこうもくの、さくげんあんをくらべる。\nつぎのレクチャーでは、このテンプレートで、FSxのじれいを、とく、かいとうれいをみます。"
+    }
+  ]
+}

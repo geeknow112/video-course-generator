@@ -1,0 +1,43 @@
+{
+  "lecture_id": "9-1",
+  "total_pages": 6,
+  "total_duration": 66.58133333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-1\\9-1_page01.wav",
+      "duration": 2.6026666666666665,
+      "text": "このレクチャーでは、コースぜんたいをふりかえります。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-1\\9-1_page02.wav",
+      "duration": 11.050666666666666,
+      "text": "まなんだのは、5つのことです。\nひとつめ。しようりつがひくくても、そこをけずってきんがくがさがるとはかぎりません。\nふたつめ。うちわけひょうをつくり、こうせいひをだすと、ゆうせんじゅんいがきまります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-1\\9-1_page03.wav",
+      "duration": 17.813333333333333,
+      "text": "みっつめ。CloudWatchで、へいじつとどようにちをふくむ、1しゅうかんいじょうをじっそくします。\nよっつめ。さくげんあんは、さくげんがく、せいのう、しょうにんのてまを、おなじどひょうでくらべます。\nいつつめ。ちいさなきんがくのときは、あんていをゆうせんします。さくげんしたあとは、アラームとていきレビューで、かんしをつづけます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-1\\9-1_page04.wav",
+      "duration": 20.010666666666665,
+      "text": "じれいのすうじを、もういちどならべます。\nつきがくは、やくさんじゅういちまんはっせんえん。スループットは、そのさんてんさんパーセント。\nHDDマルチAZへのいこうで、つきに、じゅうにまんよんせんにじゅうえん、ねんかんで、やくひゃくよんじゅうきゅうまんえんのさくげんです。\nいちじコストは、やくろくまんごせんろっぴゃくえんで、かいしゅうは、はんつきほどです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-1\\9-1_page05.wav",
+      "duration": 8.629333333333333,
+      "text": "いちばんおおきなきょうくんは、これです。\nはでなさくげんりつにとびつくまえに、うちわけひょうをつくる。\nこのひとてまで、じかんのつかいかたが、まったくかわります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-1\\9-1_page06.wav",
+      "duration": 6.474666666666667,
+      "text": "さいごまで、ありがとうございました。\nじぶんのAWSせいきゅうで、まず、うちわけひょうをつくってみてください。"
+    }
+  ]
+}

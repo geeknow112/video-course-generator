@@ -1,0 +1,43 @@
+{
+  "lecture_id": "1-1",
+  "total_pages": 6,
+  "total_duration": 86.96533333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-1\\1-1_page01.wav",
+      "duration": 13.610666666666667,
+      "text": "こんにちは、このコースへようこそ。\nこのコースでは、AWSのコストをさげるとき、どこからてをつけるかを、じっそくでけっていするほうほうをまなびます。\nつかうのは、じっさいにおこなった、ファイルサーバAmazon FSxのコストみなおしのじれいです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-1\\1-1_page02.wav",
+      "duration": 23.722666666666665,
+      "text": "このコースでまなぶないようをしょうかいします。\nだいいちに、うちわけひょう。つきがくをこうもくごとにわけて、こうせいひをだします。\nだいにに、じっそく。CloudWatchのメトリクスを7にちぶんとって、しようりつをけいさんします。\nだいさんに、さくげんあんのひかく。さくげんがくと、せいのうと、しょうにんのてまをならべてけっていします。\nだいよんに、いこうほうしきと、いちじコスト。のうりょくをおとすときの、そんとくをけいさんします。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-1\\1-1_page03.wav",
+      "duration": 12.362666666666666,
+      "text": "このコースは、こんなかたをたいしょうにしています。\nAWSのコストみなおしをまかされたかた。\nしようりつがひくいのは、わかるけれど、いくらさげられるのか、わからないかた。\nひかくあんのきめかたを、すうじでせつめいしたいかた。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-1\\1-1_page04.wav",
+      "duration": 16.565333333333335,
+      "text": "このコースをおえると、いかのことができるようになります。\nつきがくのうちわけひょうをつくり、こうせいひで、ゆうせんじゅんいをつけられる。\nCloudWatchで7にちぶんをじっそくし、しようりつをけいさんできる。\nさくげんあんを、えんで、ひかくできる。\nいこうのいちじコストとかいしゅうきかんを、せつめいできる。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-1\\1-1_page05.wav",
+      "duration": 15.264,
+      "text": "このコースでつかうたんかは、2025ねん8がつじてんで、わたしがしさんにつかったすうじです。\nリージョンやけいやくじょうけん、じきによってかわります。\nじっさいにけんとうするときは、AWSのこうしきりょうきんページと、りょうきんけいさんツールで、かならずかくにんしてください。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-1\\1-1_page06.wav",
+      "duration": 5.44,
+      "text": "それでは、つぎのレクチャーから、なぜしようりつだけをみてはいけないのか、というところからはじめましょう。"
+    }
+  ]
+}

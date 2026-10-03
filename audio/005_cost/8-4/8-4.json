@@ -1,0 +1,55 @@
+{
+  "lecture_id": "8-4",
+  "total_pages": 8,
+  "total_duration": 113.056,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page01.wav",
+      "duration": 7.264,
+      "text": "このレクチャーでは、FSxのじれいを、テンプレートにいれた、かいとうれいをみます。\nじぶんのひょうと、くらべながら、みてください。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page02.wav",
+      "duration": 16.650666666666666,
+      "text": "まず、うちわけひょうです。\nSSDストレージが、じゅうよんまんよんひゃくえん。\nスループットが、いちまんごひゃくろくじゅうえん。\nマルチAZのついかぶんが、じゅうごまんきゅうせんきゅうひゃくろくじゅうえん。\nバックアップが、いちまんろくせんにひゃくえん。\nごうけいは、さんじゅういちまんはっせんひゃくにじゅうえんです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page03.wav",
+      "duration": 13.109333333333334,
+      "text": "こうせいひは、つぎのとおりです。\nSSDストレージが、よんじゅうよんてんいちパーセント。\nマルチAZのついかぶんが、よんじゅうななてんごパーセント。\nバックアップが、ごてんいちパーセント。\nスループットが、さんてんさんパーセントです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page04.wav",
+      "duration": 28.650666666666666,
+      "text": "つぎに、さくげんのほうさくごとに、さげはばをいれます。\nひとつめは、SSDからHDDへのいこう。ストレージけいの、にじゅうはちまんはっせんびゃくえんのうち、じゅうまんはっせんえんがさがります。さげはばは、やくさんじゅうはちてんごパーセント。\nふたつめは、バックアップ。いちまんろくせんにひゃくえんから、はっせんひゃくえんさがり、さげはばは、ごじゅうパーセントです。\nみっつめは、スループットを、32から8メガバイトまいびょうに。ななせんきゅうひゃくにじゅうえんがさがり、さげはばは、ななじゅうごパーセントです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page05.wav",
+      "duration": 11.008,
+      "text": "さくげんがくのじょうげんをあわせます。\nじゅうまんはっせんえんと、はっせんひゃくえんと、ななせんきゅうひゃくにじゅうえんで、じゅうにまんよんせんにじゅうえん。\nつきがくの、やくさんじゅうきゅうパーセントにあたります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page06.wav",
+      "duration": 13.205333333333334,
+      "text": "ねんかんにすると、じゅうにまんよんせんにじゅうえんかける12で、やくひゃくよんじゅうはちてんはちまんえんです。\nそのうち、SSDからHDDへのいこうが、ほとんどをしめています。\nスループットのさくげんは、ぜんたいのなかで、ごくわずかです。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page07.wav",
+      "duration": 11.296,
+      "text": "いちじコストと、かいしゅうきかんも、ひかくひょうにいれます。\nいちじコストは、やくろくまんごせんろっぴゃくえん。\nつきのさくげんがく、じゅうにまんよんせんにじゅうえんでわると、やくれいてんごかげつでかいしゅうできます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-4\\8-4_page08.wav",
+      "duration": 11.872,
+      "text": "じぶんのひょうの、けっかと、くらべてみてください。\nこうせいひで、おおきなこうもくから、さくげんがくをけいさんする。\nいちじコストをいれて、かいしゅうきかんをだす。\nこのながれが、いつもおなじであることが、わかります。"
+    }
+  ]
+}

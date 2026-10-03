@@ -1,0 +1,55 @@
+{
+  "lecture_id": "6-3",
+  "total_pages": 8,
+  "total_duration": 81.62133333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page01.wav",
+      "duration": 8.053333333333333,
+      "text": "このレクチャーでは、あたらしいしくみをたすときの、ついかコストのみつもりかたをまなびます。\nさくげんだけでなく、ふやすひようも、さきにけいさんします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page02.wav",
+      "duration": 12.896,
+      "text": "じれいは、かんしシステムに、じどうふっきゅうのしょりをたすかどうか、というものでした。\n1じかんおきに、ようすをみる、しょりです。\n1にち24かい、ひとつき30にちとすると、ひとつきに、720かいじっこうされます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page03.wav",
+      "duration": 10.506666666666666,
+      "text": "まず、Lambdaのひようです。\n720かい、かける、1かいやく3びょうで、さんぜんびょうをこえるじっこうじかんになります。\nけいさんすると、つきに、やく0.01ドルでした。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page04.wav",
+      "duration": 8.768,
+      "text": "つぎに、EventBridgeのひようです。\n720かいのスケジュールじっこうで、つきに、やく0.001ドルです。\nどちらも、すうえんにもなりません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page05.wav",
+      "duration": 11.221333333333334,
+      "text": "ごうけいは、やく0.021ドル、えんにして、やくさんえんです。\nいまのつきがくは、4.50ドル。たしたあとは、4.52ドルになります。\nふえるのは、0.4パーセントほどです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page06.wav",
+      "duration": 12.618666666666666,
+      "text": "みつもりのてじゅんは、3つです。\nひとつ。しょりが、ひとつきに、なんかいうごくかをかぞえる。\nふたつ。1かいあたりの、じっこうじかんやしようりょうを、みつもる。\nみっつ。たんかをかけて、いまのつきがくに、たしざんする。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page07.wav",
+      "duration": 13.941333333333333,
+      "text": "だいじなのは、ふやすまえに、けいさんしておくことです。\nつきがく、4.50ドルのシステムに、つきがく、50ドルのしくみをたせば、じゅうばいいじょうになります。\nうちわけひょうがあれば、ついかぶんも、おなじひょうにたして、こうせいひをみなおせます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-3\\6-3_page08.wav",
+      "duration": 3.616,
+      "text": "つぎのセクションでは、さくげんしたあとの、かんしについてまなびます。"
+    }
+  ]
+}

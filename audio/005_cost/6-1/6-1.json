@@ -1,0 +1,55 @@
+{
+  "lecture_id": "6-1",
+  "total_pages": 8,
+  "total_duration": 94.83733333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page01.wav",
+      "duration": 7.168,
+      "text": "このレクチャーでは、FSxとはちがう、ちいさなきんがくのじれいをみます。\nおなじてじゅんでも、きんがくのけたが、まったくちがいます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page02.wav",
+      "duration": 13.813333333333333,
+      "text": "じれいは、ウェブサーバのしぼうかんしシステムです。\n5だいのサーバーを、Route 53のヘルスチェックで、16のリージョンからかんしします。\nいじょうをけんちしたら、SNSでメールとSlackにつうちします。\nつうちのしょりには、Lambdaをつかっています。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page03.wav",
+      "duration": 15.285333333333334,
+      "text": "つきがくのうちわけは、つぎのとおりです。\nRoute 53のヘルスチェックが、2.50ドル。\nCloudWatchが、2.00ドル。\nSNSは、0.001ドル。Lambdaは、むりょうわくのなかで、0ドルです。\nごうけいは、やく4.50ドルでした。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page04.wav",
+      "duration": 14.048,
+      "text": "ここに、あたらしいしょりを、ひとつたしました。\nついかのひようは、やく0.021ドル。えんにして、やくさんえんです。\nたしたあとの、つきがくは、4.52ドルになりました。\n1ドルを150えんとすると、やくろっぴゃくななじゅうはちえんです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page05.wav",
+      "duration": 12.096,
+      "text": "こうせいひをだします。\nRoute 53のヘルスチェックは、4.52ドルのうち、やくごじゅうごてんさんパーセント。\nCloudWatchは、やくよんじゅうよんてんにパーセントです。\nふたつで、ほぼぜんぶを、しめています。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page06.wav",
+      "duration": 13.973333333333333,
+      "text": "Route 53のヘルスチェックは、1こあたり、つき0.50ドルです。\nかんしするサーバーは5だいなので、0.50ドルかける5で、2.50ドル。\nたんかとこすうをかけるだけで、うちわけのいちばんおおきなこうもくが、せつめいできます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page07.wav",
+      "duration": 14.762666666666666,
+      "text": "ねんかんにすると、4.52ドルかける12で、54.24ドル。えんで、やくはっせんひゃくさんじゅうろくえんです。\nFSxは、つきがくがさんじゅういちまんはっせんえんでした。\nおなじうちわけひょうでも、きんがくのけたがちがえば、みなおしのしかたもかわります。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\6-1\\6-1_page08.wav",
+      "duration": 3.6906666666666665,
+      "text": "つぎのレクチャーでは、ちいさなきんがくで、どうはんだんするかをみます。"
+    }
+  ]
+}

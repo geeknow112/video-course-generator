@@ -1,0 +1,61 @@
+{
+  "lecture_id": "8-2",
+  "total_pages": 9,
+  "total_duration": 83.21066666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page01.wav",
+      "duration": 5.696,
+      "text": "このレクチャーでは、まえのレクチャーでつくったうちわけひょうから、こうせいひをだして、ゆうせんじゅんいをつけます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page02.wav",
+      "duration": 9.429333333333334,
+      "text": "まず、こうせいひをけいさんします。\nこうもくのきんがくを、ごうけいでわって、パーセントにします。\nスプレッドシートなら、1しきを、したのぎょうに、コピーするだけです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page03.wav",
+      "duration": 11.434666666666667,
+      "text": "つぎに、うえからならべかえます。\nぜんたいの、おおくをしめるこうもくが、ゆうせんじゅんいのたかいほうです。\nFSxのじれいでは、ストレージとマルチAZのついかぶんで、きゅうじゅういちてんろくパーセントでした。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page04.wav",
+      "duration": 14.304,
+      "text": "そのうえで、それぞれのこうもくの、さげはばをかんがえます。\nたとえば、ストレージのしゅるいをかえたら、なんパーセントさがるか。\nスループットをへらしたら、なんパーセントさがるか。\nかんがえかたは、こうせいひかけるさげはばで、さくげんがくのうえげんがわかります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page05.wav",
+      "duration": 10.218666666666667,
+      "text": "さげはばは、さいしょは、おおまかなかずでかまいません。\nきにするのは、じゅんいが、いれかわらないかどうかです。\nゆうせんじゅんいが、おおきくかわらなければ、ここでのけっていに、じゅうぶんです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page06.wav",
+      "duration": 10.4,
+      "text": "ひょうには、4つのれつをつくります。\nこうもく。こうせいひ。さげはばのよそう。さくげんがくのうえげん。\nうえげんがおおきいじゅんに、ならべると、てをつけるじゅんばんが、みえてきます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page07.wav",
+      "duration": 10.912,
+      "text": "ゆうせんじゅんいが、きまりました。\nつぎのレクチャーでは、そのうえのこうもくについて、さくげんあんを、いくつかつくって、くらべます。\nいちど、ビデオをとめて、じぶんのひょうで、やってみてください。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page08.wav",
+      "duration": 8.810666666666666,
+      "text": "かならず、まもってほしいことがあります。\nしようりつのひくさだけで、ゆうせんじゅんいをきめないことです。\nきんがくのおおきさと、こうせいひを、さきにみてください。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-2\\8-2_page09.wav",
+      "duration": 2.005333333333333,
+      "text": "つぎのレクチャーで、おまちしています。"
+    }
+  ]
+}

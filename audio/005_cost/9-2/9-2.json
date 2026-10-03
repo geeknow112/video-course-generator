@@ -1,0 +1,43 @@
+{
+  "lecture_id": "9-2",
+  "total_pages": 6,
+  "total_duration": 72.27733333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-2\\9-2_page01.wav",
+      "duration": 2.816,
+      "text": "このレクチャーでは、よくあるしつもんに、こたえます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-2\\9-2_page02.wav",
+      "duration": 16.768,
+      "text": "ひとつめのしつもん。なぜさいしょに、スループットをうたがったのですか。\nこたえ。CloudWatchのなかで、しようりつがいちばんみやすく、れいてんにごパーセントというめだつすうじがでたからです。\nめだつすうじほど、けずるべきたいしょうにみえます。ぜんたいにしめるわりあいをみるまでは、ゆうせんじゅんいはきめられません。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-2\\9-2_page03.wav",
+      "duration": 17.813333333333333,
+      "text": "ふたつめのしつもん。HDDで、レイテンシがわるくなっても、ぎょうむにえいきょうはありませんでしたか。\nこたえ。このじれいでは、よみとりちゅうしんで、ぜったいりょうがちいさいので、えいきょうは、ゆるせるとはんだんしました。\nただし、これはしさんとはんだんです。じぶんのかんきょうでは、じっそくちで、かくにんしてください。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-2\\9-2_page04.wav",
+      "duration": 13.642666666666667,
+      "text": "みっつめのしつもん。さくげんがくがいちばんおおきい、SSDシングルAZをえらばなかったのは、なぜですか。\nこたえ。かようせいのようけんをかえるしょうにんを、とりなおすてまが、ねんかんやくろくじゅうまんえんのさにみあわないと、はんだんしたからです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-2\\9-2_page05.wav",
+      "duration": 15.541333333333334,
+      "text": "よっつめのしつもん。このコースのたんかを、そのままつかってよいですか。\nこたえ。いいえ。2025ねん8がつじてんの、しさんようのすうじです。\nりょうきんは、リージョンやじきでかわります。AWSのこうしきページと、けいさんツールで、かならずかくにんしてください。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\9-2\\9-2_page06.wav",
+      "duration": 5.696,
+      "text": "しつもんにこたえました。\nこのコースが、みなさんのコストみなおしの、じっさいのやくにたつことをねがっています。"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lecture_id": "5-1",
+  "total_pages": 6,
+  "total_duration": 56.34133333333334,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-1\\5-1_page01.wav",
+      "duration": 4.224,
+      "text": "このレクチャーでは、いこうのほうしきと、いちじてきにかかるコストをけいさんします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-1\\5-1_page02.wav",
+      "duration": 13.536,
+      "text": "いこうほうしきは、オンラインほうしきをえらびました。\nいまのFSxをうごかしたまま、あたらしいかんきょうに、データをうつします。\nへいこうかどうのきかんは、3にちから5にち。きりかえじのぎょうむていしは、10ぷんから30ぷんと、みこんでいます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-1\\5-1_page03.wav",
+      "duration": 12.234666666666667,
+      "text": "いちじコストは、ふたつあります。\nへいこうかどう、3にちぶんで、やくごまんさんぜんえん。\nさいごのバックアップ、7にちかんほじで、やくいちまんにせんろっぴゃくえん。\nごうけいは、やくろくまんごせんろっぴゃくえんです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-1\\5-1_page04.wav",
+      "duration": 11.904,
+      "text": "かいしゅうきかんをけいさんします。\nつきのさくげんがくは、じゅうにまんよんせんにじゅうえん。\nいちじコストのろくまんごせんろっぴゃくえんを、これでわります。\nこたえは、やくれいてんごかげつ、つまりはんつきほどでかいしゅうできます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-1\\5-1_page05.wav",
+      "duration": 8.736,
+      "text": "いちじコストをけいさんにいれないと、さくげんがくがおおきくみえすぎます。\nかならず、へいこうかどうのひようと、バックアップのひようを、さきにけいさんしてください。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-1\\5-1_page06.wav",
+      "duration": 5.706666666666667,
+      "text": "いこうほうしきと、いちじコストをみました。\nつぎのレクチャーでは、せいのうへのえいきょうを、かくにんします。"
+    }
+  ]
+}

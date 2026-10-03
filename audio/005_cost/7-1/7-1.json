@@ -1,0 +1,49 @@
+{
+  "lecture_id": "7-1",
+  "total_pages": 7,
+  "total_duration": 79.456,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-1\\7-1_page01.wav",
+      "duration": 7.072,
+      "text": "このレクチャーでは、さくげんしたあとの、かんしのしきいちのきめかたをまなびます。\nスペックをさげたら、さげっぱなしにしてはいけません。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-1\\7-1_page02.wav",
+      "duration": 9.44,
+      "text": "しきいちのきじゅんは、じっそくちです。\nFSxのしようりつは、ピークでも、れいてんにごパーセントでした。\nこのかずをもとに、よゆうをのこして、アラームのラインをきめます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-1\\7-1_page03.wav",
+      "duration": 15.690666666666667,
+      "text": "じれいでは、つぎの3つのしきいちを、すいしょうしていました。\nひとつめは、スループットのしようりつが、70パーセントをこえたとき。\nふたつめは、1にちのデータてんそうりょうが、10ギガバイトをこえたとき。\nみっつめは、IOPSのしようりつが、70パーセントをこえたとき。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-1\\7-1_page04.wav",
+      "duration": 14.197333333333333,
+      "text": "70パーセントにするのは、じゅうぶんなよゆうをのこしたまま、たりなくなるまえに、きづくためです。\n100パーセントになってからでは、ユーザーのたいかんに、でてしまいます。\nピークのれいてんにごパーセントとくらべれば、70パーセントは、ずっととおいラインです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-1\\7-1_page05.wav",
+      "duration": 13.504,
+      "text": "いこうのさぎょうちゅうは、もっときびしいラインにします。\nいこうちゅうのアラームは、ThroughputUtilizationが、80パーセントをこえたとき。\n5ふんのへいきんを、つかいます。\nいこうちゅうは、ふだんとちがうしようになるので、はやくきづけるようにします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-1\\7-1_page06.wav",
+      "duration": 10.88,
+      "text": "もうひとつ、だいじなこころえがあります。\nせっていをかえたあとの1しゅうかんは、しようりょうを、ちゅういぶかくみます。\nさげたせっていが、じっさいにたりているかは、しばらくうごかさないと、わかりません。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-1\\7-1_page07.wav",
+      "duration": 8.672,
+      "text": "しきいちは、いちどきめたらおわりではありません。\nつかいかたがかわれば、みなおします。\nつぎのレクチャーでは、CloudWatchのアラームを、じっさいにつくります。"
+    }
+  ]
+}

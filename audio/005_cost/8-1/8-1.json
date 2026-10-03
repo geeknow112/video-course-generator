@@ -1,0 +1,55 @@
+{
+  "lecture_id": "8-1",
+  "total_pages": 8,
+  "total_duration": 80.84266666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page01.wav",
+      "duration": 6.133333333333334,
+      "text": "このレクチャーからは、えんしゅうです。\nじぶんのAWSせいきゅうで、うちわけひょうを、じっさいにつくります。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page02.wav",
+      "duration": 12.042666666666667,
+      "text": "まず、Cost Explorerをひらきます。\nAWSのマネジメントコンソールから、Billing and Cost Managementの、Cost Explorerにすすみます。\nさいしょにつかうときは、ゆうこうにするひつようがあるばあいがあります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page03.wav",
+      "duration": 9.088,
+      "text": "きかんは、ちょくきん1かげつにします。\nつきのとちゅうだと、きんがくが、そろっていません。\nさきつきの、まるまる1かげつを、えらぶと、くらべやすくなります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page04.wav",
+      "duration": 9.045333333333334,
+      "text": "つぎに、グループをサービスべつにします。\nきんがくの、おおいじゅんに、サービスがならびます。\nうえから3つが、ぜんたいの、おおくをしめていることが、おおいです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page05.wav",
+      "duration": 15.04,
+      "text": "うえのサービスは、さらに、しようタイプべつに、わけてみます。\nストレージ、スループット、データてんそうなど、ひようのしゅるいごとに、きんがくがでます。\nFSxのじれいでは、このレベルまでわけて、はじめて、ストレージとマルチAZのおおきさが、みえました。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page06.wav",
+      "duration": 10.432,
+      "text": "けっかを、スプレッドシートにうつします。\nこうもくのなまえと、きんがくと、どこからとったかのメモを、ならべます。\nごうけいも、かならずけいさんして、せいきゅうがくとあうか、かくにんします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page07.wav",
+      "duration": 10.336,
+      "text": "ここまでが、うちわけひょうです。\nつぎのレクチャーでは、このひょうから、こうせいひをだして、ゆうせんじゅんいをつけます。\nいちど、ビデオをとめて、じぶんのせいきゅうで、やってみてください。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-1\\8-1_page08.wav",
+      "duration": 8.725333333333333,
+      "text": "えんしゅうのこつは、さいしょから、かんぺきをめざさないことです。\nうえから3つの、おおきなこうもくだけで、だいじょうぶです。\nつぎのレクチャーで、おまちしています。"
+    }
+  ]
+}

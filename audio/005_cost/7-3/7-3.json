@@ -1,0 +1,49 @@
+{
+  "lecture_id": "7-3",
+  "total_pages": 7,
+  "total_duration": 68.33066666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-3\\7-3_page01.wav",
+      "duration": 4.437333333333333,
+      "text": "このレクチャーでは、さくげんしたあとの、ていきてきなみなおしのまわしかたをまなびます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-3\\7-3_page02.wav",
+      "duration": 9.269333333333334,
+      "text": "かんしするこうもくは、3つのペースにわけます。\nまいしゅうの、しようりょうレポート。\nまいつきの、コストぶんせき。\n3かげつにいちどの、せいのうとこうせいのみなおし。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-3\\7-3_page03.wav",
+      "duration": 10.965333333333334,
+      "text": "まいしゅうは、しようりょうのへんかを、みます。\nピークのひの、よみとりとかきこみの、りょう。\nしようりつ。アラームがならなかったか。\nしゅうに1かい、5ふんでおわるくらいの、かるいかくにんにします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-3\\7-3_page04.wav",
+      "duration": 10.826666666666666,
+      "text": "まいつきは、うちわけひょうを、こうしんします。\nせいきゅうがくが、よそうとおりか。\nこうせいひに、へんかがないか。\nあたらしいこうもくが、ふえていないか。\nつきに1かいの、コストのけんしんです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-3\\7-3_page05.wav",
+      "duration": 10.858666666666666,
+      "text": "3かげつにいちどは、こうせいそのものを、みなおします。\nデータりょうは、ふえていないか。\nつかいかたは、かわっていないか。\nさげたせっていで、じゅうぶんか。それとも、もうすこしさげられるか。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-3\\7-3_page06.wav",
+      "duration": 12.778666666666666,
+      "text": "けっかは、かならずきろくにのこします。\nいつ、なにをみて、なにをけっていしたか。\nつぎにみなおすひとが、ずっとまえのはんだんのりゆうを、たどれるようにします。\nきろくがなければ、おなじけんとうを、なんどもやりなおすことになります。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-3\\7-3_page07.wav",
+      "duration": 9.194666666666667,
+      "text": "こうしたレビューを、しくみにしておくと、さくげんは、いちどきりでなく、つづくものになります。\nつぎのセクションでは、じぶんのせいきゅうで、じっさいにてをうごかします。"
+    }
+  ]
+}
