@@ -10,8 +10,8 @@ Q1、むりょうでつかえますか？
 ---
 
 Q2、VS Codeとのちがいは？
-Kiroのきばんは、VS Codeとおなじです。
-かくちょうきのうも、ほとんどつかえます。
+Kiroのきばんは、VS Codeのオープンソースばん、Code OSSです。
+VS Codeとにた、そうさかんです。
 ちがいは、AIとのとうごうがふかいことです。
 Autopilot、Steering、Hooksは、Kiroどくじのきのうです。
 

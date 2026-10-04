@@ -38,7 +38,7 @@ style: |
 
 ## Autopilotの場所
 
-1. VS Codeを開く
+1. Kiroを開く
 2. Kiroのチャット欄を表示
 3. 上部のトグルスイッチをクリック
 
