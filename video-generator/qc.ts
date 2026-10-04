@@ -463,39 +463,97 @@ function isoDate(offsetDays: number): string {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
-function registerIssues(candidates: IssueCandidate[], create: boolean): void {
+/** 開いている親 Issue（コースごとに1つ）を探す。 */
+function findOpenParent(config: IssueConfig, courseId: string): number | null {
+  const raw = gh(['issue', 'list', '--repo', config.repo, '--state', 'open', '--limit', '300', '--json', 'number,body']);
+  for (const issue of JSON.parse(raw) as { number: number; body: string }[]) {
+    if ((issue.body ?? '').includes(`<!-- qc:parent:${courseId} -->`)) return issue.number;
+  }
+  return null;
+}
+
+/** Issue を Project に追加し、開始日（当日）と終了日（数日後）を設定する。 */
+function addToProject(config: IssueConfig, url: string): void {
+  const itemId = gh([
+    'project', 'item-add', String(config.projectNumber), '--owner', config.projectOwner, '--url', url,
+    '--format', 'json', '--jq', '.id',
+  ]);
+  for (const [fieldId, date] of [
+    [config.startDateFieldId, isoDate(0)],
+    [config.targetDateFieldId, isoDate(config.durationDays)],
+  ]) {
+    gh([
+      'project', 'item-edit', '--id', itemId, '--project-id', config.projectId, '--field-id', fieldId,
+      '--date', date, '--format', 'json', '--jq', '.id',
+    ]);
+  }
+}
+
+function createParent(config: IssueConfig, course: Course, tmpDir: string): number {
+  const bodyFile = path.join(tmpDir, 'parent.md');
+  fs.writeFileSync(
+    bodyFile,
+    [
+      '## 背景',
+      '',
+      '品質検査（`npm run qc`）で検出した不具合を、1件ずつサブIssueにする。',
+      '',
+      '## 要件',
+      '',
+      'サブIssueを、すべて解消する。読みの検出には、誤検出が含まれる。音声を聞いて確認し、正しければ承認として閉じる。',
+      '',
+      '## 完了の定義',
+      '',
+      '- [ ] サブIssueが、すべて閉じている',
+      '- [ ] 修正した動画を、Udemyで差し替えた（公開済みの講座の場合）',
+      '',
+      `<!-- qc:parent:${course.id} -->`,
+      '',
+      FOOTER,
+    ].join('\n'),
+    'utf-8'
+  );
+  const url = gh([
+    'issue', 'create', '--repo', config.repo, '--title', `[${course.id}] 品質検査で検出した不具合`, '--body-file', bodyFile,
+  ]);
+  addToProject(config, url);
+  console.log(`  親Issueを作成: ${url}`);
+  return Number(url.split('/').pop());
+}
+
+function linkSubIssue(config: IssueConfig, parentNumber: number, childUrl: string): void {
+  const childNumber = childUrl.split('/').pop();
+  const childId = gh(['api', `repos/${config.repo}/issues/${childNumber}`, '--jq', '.id']);
+  gh(['api', '-X', 'POST', `repos/${config.repo}/issues/${parentNumber}/sub_issues`, '-F', `sub_issue_id=${childId}`, '--jq', '.number']);
+}
+
+function registerIssues(course: Course, candidates: IssueCandidate[], create: boolean): void {
   const config: IssueConfig = JSON.parse(fs.readFileSync(ISSUE_CONFIG_FILE, 'utf-8'));
   const existing = openMarkers(config);
   const fresh = candidates.filter((c) => !existing.has(c.marker));
   const skipped = candidates.length - fresh.length;
+  let parent = findOpenParent(config, course.id);
 
   console.log(`\nIssue候補: ${candidates.length}件（開いているIssueと重複: ${skipped}件 / 新規: ${fresh.length}件）`);
+  console.log(`親Issue: ${parent ? `#${parent}（既存。サブIssueとして追加する）` : '無し（作成時に新しく作る）'}`);
   for (const c of fresh) console.log(`  - ${c.title}`);
 
   if (!create) {
     console.log('\n作成はしていません。作る場合は --issues --create を付けて、もう一度実行してください。');
     return;
   }
+  if (fresh.length === 0) return;
 
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'qc-issue-'));
+  if (parent === null) parent = createParent(config, course, tmpDir);
+
   for (const c of fresh) {
     const bodyFile = path.join(tmpDir, 'body.md');
     fs.writeFileSync(bodyFile, c.body, 'utf-8');
     const url = gh(['issue', 'create', '--repo', config.repo, '--title', c.title, '--body-file', bodyFile]);
-    const itemId = gh([
-      'project', 'item-add', String(config.projectNumber), '--owner', config.projectOwner, '--url', url,
-      '--format', 'json', '--jq', '.id',
-    ]);
-    for (const [fieldId, date] of [
-      [config.startDateFieldId, isoDate(0)],
-      [config.targetDateFieldId, isoDate(config.durationDays)],
-    ]) {
-      gh([
-        'project', 'item-edit', '--id', itemId, '--project-id', config.projectId, '--field-id', fieldId,
-        '--date', date, '--format', 'json', '--jq', '.id',
-      ]);
-    }
-    console.log(`  作成: ${url}`);
+    addToProject(config, url);
+    linkSubIssue(config, parent, url);
+    console.log(`  作成（親 #${parent} のサブ）: ${url}`);
   }
 }
 
@@ -524,7 +582,7 @@ async function main(): Promise<void> {
   writeReport(outDir, course, lessons, visual, reading, sheets);
   console.log(`報告書: ${path.join(outDir, 'report.html')}`);
 
-  if (issues) registerIssues(buildIssueCandidates(course, lessons, visual, reading), create);
+  if (issues) registerIssues(course, buildIssueCandidates(course, lessons, visual, reading), create);
 
   if (visual && visual.length > 0) process.exit(1);
 }
