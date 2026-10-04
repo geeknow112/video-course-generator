@@ -34,3 +34,6 @@ logs/
 # 作業中の一時ファイル
 *.bak
 *.tmp.js
+
+# 品質検査の報告書（画像を含む）
+video-generator/qc-report/
