@@ -22,6 +22,7 @@
 import { chromium } from '@playwright/test';
 import { execFileSync } from 'child_process';
 import * as fs from 'fs';
+import * as os from 'os';
 import * as path from 'path';
 import { Course, Lesson, REPO_ROOT, lessonPaths, loadCourse } from './lib/course';
 import { buildSlideHtml } from './lib/slides';
@@ -62,6 +63,8 @@ function parseArgs(argv: string[]) {
     courseId: positional[0],
     only: value('only')?.split(',') ?? null,
     checks,
+    issues: argv.includes('--issues'),
+    create: argv.includes('--create'),
   };
 }
 
@@ -326,8 +329,178 @@ function writeReport(
   fs.writeFileSync(path.join(outDir, 'findings.json'), JSON.stringify({ visual, reading }, null, 2), 'utf-8');
 }
 
+/* ---------------- Issue 登録 ---------------- */
+
+interface IssueCandidate {
+  marker: string;
+  title: string;
+  body: string;
+}
+
+interface IssueConfig {
+  repo: string;
+  projectOwner: string;
+  projectNumber: number;
+  projectId: string;
+  startDateFieldId: string;
+  targetDateFieldId: string;
+  durationDays: number;
+}
+
+const ISSUE_CONFIG_FILE = path.join(REPO_ROOT, 'scripts', 'qc_issues_config.json');
+const FOOTER = '🤖 Generated with [Claude Code](https://claude.com/claude-code)';
+
+function buildIssueCandidates(
+  course: Course,
+  lessons: Lesson[],
+  visual: VisualFinding[] | null,
+  reading: ReadingFinding[] | null
+): IssueCandidate[] {
+  const candidates: IssueCandidate[] = [];
+
+  // 見た目: スライド1枚につき1件
+  const bySlide = new Map<string, VisualFinding[]>();
+  for (const f of visual ?? []) {
+    const key = `${f.lesson}:${f.slide}`;
+    bySlide.set(key, [...(bySlide.get(key) ?? []), f]);
+  }
+  for (const [key, items] of bySlide) {
+    const [lessonId, slide] = key.split(':');
+    const lesson = lessons.find((l) => l.id === lessonId)!;
+    const marker = `qc:visual:${course.id}:${lessonId}:${slide}`;
+    const list = items
+      .map((i) => `- 「${i.text}」 文字色 ${i.color} / 背景色 ${i.background} / コントラスト比 ${i.ratio}`)
+      .join('\n');
+    candidates.push({
+      marker,
+      title: `[${course.id}] ${lessonId} スライド${slide}の文字が背景と同化して見えない`,
+      body: [
+        '## 背景',
+        '',
+        '品質検査（`npm run qc`）で検出した。コントラスト比が3未満で、動画では、ほぼ読めない。',
+        '',
+        '## 要件',
+        '',
+        `${lesson.title}（\`${lesson.slide}\`）のスライド${slide}で、次の文字が背景と同化している。`,
+        '',
+        list,
+        '',
+        '## 手順',
+        '',
+        '1. スライドのスタイルで、インラインコード（`code`）の文字色を、背景と十分に差のある色にする',
+        `2. \`npm run qc -- ${course.id} --only ${lessonId} --checks visual\` で、検出されなくなったことを確認する`,
+        `3. \`npm run course -- ${course.id} --only ${lessonId} --from slides --force\` で、動画を作り直す`,
+        '',
+        '## 完了の定義',
+        '',
+        '- [ ] 品質検査（見た目）で、このスライドが検出されない',
+        '- [ ] 作り直した動画で、該当の文字が読める',
+        '- [ ] Udemyの講義を差し替えた（公開済みの講座の場合）',
+        '',
+        `<!-- ${marker} -->`,
+        '',
+        FOOTER,
+      ].join('\n'),
+    });
+  }
+
+  // 読み: 文中の読みが違う語につき1件
+  for (const r of (reading ?? []).filter((x) => x.status === 'context')) {
+    const marker = `qc:reading:${course.id}:${r.token}`;
+    const lessonIds = [...new Set(r.lessons.map((l) => l.split('#')[0]))];
+    candidates.push({
+      marker,
+      title: `[${course.id}] 「${r.token}」の読みが文中で変わる`,
+      body: [
+        '## 背景',
+        '',
+        `品質検査（\`npm run qc\`）で検出した。単語単体では「${r.reading}」と読むが、文の中では、その読みが現れない。`,
+        '',
+        '## 要件',
+        '',
+        `台本の次の箇所で、「${r.token}」が意図どおりに読まれていない可能性がある。実際の音声を聞いて確認する。`,
+        '',
+        r.lessons.map((l) => `- ${l}（レッスン#セクション）`).join('\n'),
+        '',
+        '## 手順',
+        '',
+        '1. 該当の音声を聞き、読みが違えば、`scripts/voicevox_user_dict.json` に語を足す',
+        '2. `python scripts/register_user_dict.py` で、辞書を登録し直す',
+        `3. 次のレッスンの音声を作り直す: ${lessonIds.map((id) => `\`npm run course -- ${course.id} --only ${id} --force\``).join(' / ')}`,
+        '4. 読みが正しければ、`scripts/qc_reading_ok.json` に承認として足す（誤検出の場合）',
+        '',
+        '## 完了の定義',
+        '',
+        '- [ ] 該当箇所の音声が、意図どおりの読みになっている',
+        '- [ ] 品質検査（読み）で、この語が検出されない',
+        '',
+        `<!-- ${marker} -->`,
+        '',
+        FOOTER,
+      ].join('\n'),
+    });
+  }
+  return candidates;
+}
+
+function gh(args: string[]): string {
+  return execFileSync('gh', args, { encoding: 'utf-8', maxBuffer: 1 << 26 }).trim();
+}
+
+function openMarkers(config: IssueConfig): Set<string> {
+  const raw = gh(['issue', 'list', '--repo', config.repo, '--state', 'open', '--limit', '300', '--json', 'body']);
+  const markers = new Set<string>();
+  for (const issue of JSON.parse(raw) as { body: string }[]) {
+    for (const m of (issue.body ?? '').matchAll(/<!-- (qc:[^ ]+) -->/g)) markers.add(m[1]);
+  }
+  return markers;
+}
+
+function isoDate(offsetDays: number): string {
+  const d = new Date();
+  d.setDate(d.getDate() + offsetDays);
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+function registerIssues(candidates: IssueCandidate[], create: boolean): void {
+  const config: IssueConfig = JSON.parse(fs.readFileSync(ISSUE_CONFIG_FILE, 'utf-8'));
+  const existing = openMarkers(config);
+  const fresh = candidates.filter((c) => !existing.has(c.marker));
+  const skipped = candidates.length - fresh.length;
+
+  console.log(`\nIssue候補: ${candidates.length}件（開いているIssueと重複: ${skipped}件 / 新規: ${fresh.length}件）`);
+  for (const c of fresh) console.log(`  - ${c.title}`);
+
+  if (!create) {
+    console.log('\n作成はしていません。作る場合は --issues --create を付けて、もう一度実行してください。');
+    return;
+  }
+
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'qc-issue-'));
+  for (const c of fresh) {
+    const bodyFile = path.join(tmpDir, 'body.md');
+    fs.writeFileSync(bodyFile, c.body, 'utf-8');
+    const url = gh(['issue', 'create', '--repo', config.repo, '--title', c.title, '--body-file', bodyFile]);
+    const itemId = gh([
+      'project', 'item-add', String(config.projectNumber), '--owner', config.projectOwner, '--url', url,
+      '--format', 'json', '--jq', '.id',
+    ]);
+    for (const [fieldId, date] of [
+      [config.startDateFieldId, isoDate(0)],
+      [config.targetDateFieldId, isoDate(config.durationDays)],
+    ]) {
+      gh([
+        'project', 'item-edit', '--id', itemId, '--project-id', config.projectId, '--field-id', fieldId,
+        '--date', date, '--format', 'json', '--jq', '.id',
+      ]);
+    }
+    console.log(`  作成: ${url}`);
+  }
+}
+
 async function main(): Promise<void> {
-  const { courseId, only, checks } = parseArgs(process.argv.slice(2));
+  const { courseId, only, checks, issues, create } = parseArgs(process.argv.slice(2));
   if (!courseId) {
     console.error('使い方: npm run qc -- <courseId> [--only 1-1,1-2] [--checks visual,reading,frames]');
     process.exit(2);
@@ -350,6 +523,8 @@ async function main(): Promise<void> {
 
   writeReport(outDir, course, lessons, visual, reading, sheets);
   console.log(`報告書: ${path.join(outDir, 'report.html')}`);
+
+  if (issues) registerIssues(buildIssueCandidates(course, lessons, visual, reading), create);
 
   if (visual && visual.length > 0) process.exit(1);
 }

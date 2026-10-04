@@ -175,6 +175,18 @@ npm run qc -- 003_kiro --checks visual,reading
 
 音声の抑揚や間の違和感は、機械的な判定が難しい（#36）。人の耳による確認は残る。
 
+### 検出した不具合を Issue にする
+
+```bash
+npm run qc -- 003_kiro --checks visual,reading --issues            # 候補の一覧だけ（作成しない）
+npm run qc -- 003_kiro --checks visual,reading --issues --create   # 1件ずつ Issue を作成
+```
+
+- 見た目はスライド1枚につき1件、読みは「文中の読みが違う」語につき1件。未承認の語は件数が多いため対象外
+- 本文に `<!-- qc:... -->` の印を入れ、開いている Issue と重複するものは作らない
+- 作成した Issue は、`scripts/qc_issues_config.json` の Project に追加し、開始日（当日）と終了日（3日後）を設定する
+- 設定は `gh` が使える状態（ログイン済み）が前提
+
 ## 構成
 
 ```
