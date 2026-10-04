@@ -1,0 +1,55 @@
+{
+  "lecture_id": "8-6",
+  "total_pages": 8,
+  "total_duration": 83.584,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page01.wav",
+      "duration": 8.064,
+      "text": "このレクチャーでは、さくげんをじっこうするまえの、さいしゅうチェックリストをみます。\nけいさんがあっていても、じっこうのてじゅんをまちがえれば、そんをします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page02.wav",
+      "duration": 8.469333333333333,
+      "text": "ひとつめは、バックアップです。\nいこうまえに、かんぜんなバックアップをとります。\nバックアップが、ほんとうにとれたかを、かくにんしてから、つぎにすすみます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page03.wav",
+      "duration": 12.64,
+      "text": "ふたつめは、しょうにんです。\nAWSのそうさは、じぜんにしょうにんをえます。\nしょうにんをとらないまま、せっていをかえるのは、あとでもんだいになります。\nしょうにんがすでにおりているのか、とりなおしがいるのかも、このときにかくにんします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page04.wav",
+      "duration": 10.016,
+      "text": "みっつめは、じっこうするじかんです。\nぎょうむじかんがいに、さぎょうします。\nかんけいしゃには、じぜんにつうちします。\nぎょうむていしのじかんが、どれくらいになるかも、つたえておきます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page05.wav",
+      "duration": 13.504,
+      "text": "よっつめは、もどしかたです。\nもんだいがおきたときに、もとにもどせるかを、さきにきめておきます。\nじれいでは、HDDからSSDのシングルAZへ、きりかえるせんたくしを、のこしていました。\nもどしかたがないまま、うごかしてはいけません。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page06.wav",
+      "duration": 8.768,
+      "text": "いつつめは、アラームです。\nしきいちをこえたら、つうちがとどくように、じっこうするまえに、せっていしておきます。\nつくったアラームは、かならずテストします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page07.wav",
+      "duration": 10.538666666666666,
+      "text": "むっつめは、じっこうしたあとのかんしです。\nせっていをかえたあとの1しゅうかんは、しようりょうを、ちゅういぶかくみます。\nさげたせっていで、じっさいにたりているかは、うごかしてみないとわかりません。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-6\\8-6_page08.wav",
+      "duration": 11.584,
+      "text": "このチェックリストを、うちわけひょうやひかくひょうと、おなじフォルダにおいておきます。\nじっこうのたびに、うえからじゅんばんに、チェックしてください。\nこれで、さくげんのけいかくから、じっこうまで、ひととおりそろいます。"
+    }
+  ]
+}

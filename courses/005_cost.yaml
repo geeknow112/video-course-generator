@@ -97,6 +97,14 @@ lessons:
     title: 解答例 FSxの内訳表
     script: scripts/005_cost/8-4_解答例_FSxの内訳表.txt
     slide: slides/005_cost/8-4_解答例_FSxの内訳表.md
+  - id: 8-5
+    title: "解答例 死活監視システムの内訳表"
+    script: scripts/005_cost/8-5_解答例_死活監視システムの内訳表.txt
+    slide: slides/005_cost/8-5_解答例_死活監視システムの内訳表.md
+  - id: 8-6
+    title: "削減を実行する前の最終チェック"
+    script: scripts/005_cost/8-6_削減を実行する前の最終チェック.txt
+    slide: slides/005_cost/8-6_削減を実行する前の最終チェック.md
   - id: 9-1
     title: コースまとめ
     script: scripts/005_cost/9-1_コースまとめ.txt
