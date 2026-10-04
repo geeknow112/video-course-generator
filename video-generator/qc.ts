@@ -515,6 +515,7 @@ function createParent(config: IssueConfig, course: Course, tmpDir: string): numb
   );
   const url = gh([
     'issue', 'create', '--repo', config.repo, '--title', `[${course.id}] 品質検査で検出した不具合`, '--body-file', bodyFile,
+    '--assignee', '@me',
   ]);
   addToProject(config, url);
   console.log(`  親Issueを作成: ${url}`);
