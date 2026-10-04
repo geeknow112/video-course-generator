@@ -38,8 +38,8 @@ h2 {
 
 ## Q2: VS Codeとの違いは？
 
-- **基盤はVS Codeと同じ**
-- 拡張機能もほとんど使える
+- **基盤はVS Codeのオープンソース版(Code - OSS)**
+- VS Codeに似た操作感
 - **違いはAIとの統合の深さ**
   - Autopilot
   - Steering

@@ -46,7 +46,7 @@ style: |
 ## Kiroとは
 
 - **AWS製AIコーディングツール**
-- VS Code拡張機能として動作
+- VS Codeのオープンソース版(Code - OSS)をベースにした**独立したIDE**
 - コード生成・編集・実行・テスト・コミットを代行
 
 **GitHub Copilotとの違い**
