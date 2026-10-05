@@ -33,8 +33,11 @@ npm run courses                            # コース一覧
 | `prepare` | WAV を結合し、タイミング JSON を作る | ffmpeg |
 | `slides` | Marp で `.md` → `.html` | marp-cli |
 | `video` | Playwright で録画し、音声と結合する | Chromium, ffmpeg |
+| `pdf` | スライドを PDF にする。Udemy の講義にダウンロード資料として添付する | marp-cli, Chromium |
 
 `--from` に工程名を渡すと、そこから後だけ実行する。
+PDF は `output/<courseId>/<lessonId>.pdf` に出る（動画と同じ場所。リポジトリには含めない）。
+スライドのソースが新しくなったときだけ、作り直す。
 
 ## コース定義
 
