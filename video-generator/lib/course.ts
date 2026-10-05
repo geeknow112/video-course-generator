@@ -132,6 +132,8 @@ export interface LessonPaths {
   combinedWav: string;
   timings: string;
   outputMp4: string;
+  /** Udemy の講義にダウンロード資料として添付する、スライドの PDF。 */
+  outputPdf: string;
 }
 
 export function lessonPaths(course: Course, lesson: Lesson): LessonPaths {
@@ -155,5 +157,6 @@ export function lessonPaths(course: Course, lesson: Lesson): LessonPaths {
     combinedWav: path.join(audioDir, `${lesson.id}_combined.wav`),
     timings: path.join(audioDir, `${lesson.id}_timings.json`),
     outputMp4: path.join(OUTPUT_ROOT, course.id, `${lesson.id}.mp4`),
+    outputPdf: path.join(OUTPUT_ROOT, course.id, `${lesson.id}.pdf`),
   };
 }

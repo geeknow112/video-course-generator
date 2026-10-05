@@ -27,6 +27,38 @@ function quote(value: string): string {
   return `"${value}"`;
 }
 
+/**
+ * Marp スライド（.md）から PDF への変換。
+ * 受講生がテキストで読み返せるように、Udemy の講義へ資料として添付する。
+ */
+export function buildSlidePdf(sourcePath: string, pdfPath: string): void {
+  if (!fs.existsSync(sourcePath)) {
+    throw new Error(`スライドのソースがありません: ${sourcePath}`);
+  }
+
+  fs.mkdirSync(path.dirname(pdfPath), { recursive: true });
+
+  const command = [
+    marpCommand(),
+    quote(sourcePath),
+    '--pdf',
+    '--allow-local-files',
+    '-o',
+    quote(pdfPath),
+  ].join(' ');
+
+  try {
+    execSync(command, { stdio: 'pipe' });
+  } catch (error) {
+    const stderr = (error as { stderr?: Buffer }).stderr?.toString().trim();
+    throw new Error(`Marp の PDF 変換に失敗しました: ${sourcePath}${stderr ? `\n${stderr}` : ''}`);
+  }
+
+  if (!fs.existsSync(pdfPath)) {
+    throw new Error(`Marp が PDF を出力しませんでした: ${pdfPath}`);
+  }
+}
+
 export function buildSlideHtml(sourcePath: string, htmlPath: string): void {
   if (!fs.existsSync(sourcePath)) {
     throw new Error(`スライドのソースがありません: ${sourcePath}`);

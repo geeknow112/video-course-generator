@@ -23,11 +23,11 @@ import { generateLessonAudio } from './lib/audio';
 import { Course, Lesson, lessonPaths, listCourseIds, loadCourse } from './lib/course';
 import { prepareLesson } from './lib/prepare';
 import { renderLessonVideo } from './lib/render';
-import { buildSlideHtml } from './lib/slides';
+import { buildSlideHtml, buildSlidePdf } from './lib/slides';
 import { SlideTimings } from './lib/prepare';
 import { assertVoicevoxRunning } from './lib/tools';
 
-const STEPS = ['audio', 'prepare', 'slides', 'video'] as const;
+const STEPS = ['audio', 'prepare', 'slides', 'video', 'pdf'] as const;
 type Step = (typeof STEPS)[number];
 
 interface Options {
@@ -46,7 +46,7 @@ function parseArgs(argv: string[]): Options | null {
 
   const courseId = argv.find((arg) => !arg.startsWith('--'));
   if (!courseId) {
-    console.log('Usage: npm run course -- <courseId> [--only 1-1,1-2] [--from audio|prepare|slides|video] [--force]');
+    console.log('Usage: npm run course -- <courseId> [--only 1-1,1-2] [--from audio|prepare|slides|video|pdf] [--force]');
     console.log('       npm run course -- --list');
     process.exit(1);
   }
@@ -142,6 +142,17 @@ async function runLesson(
       verbose: true,
     });
     performed.push('video');
+  }
+
+  // 5. PDF（ダウンロード資料）。スライドのソースが新しければ作り直す。
+  const pdfFresh =
+    fs.existsSync(paths.outputPdf) &&
+    fs.existsSync(paths.slideSource) &&
+    fs.statSync(paths.outputPdf).mtimeMs >= fs.statSync(paths.slideSource).mtimeMs;
+  if (shouldRun('pdf', options.from) && (options.force || !pdfFresh)) {
+    console.log(`  [pdf]     ${lesson.id}`);
+    buildSlidePdf(paths.slideSource, paths.outputPdf);
+    performed.push('pdf');
   }
 
   if (performed.length === 0) {
