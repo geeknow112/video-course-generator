@@ -1,0 +1,43 @@
+{
+  "lecture_id": "4-1",
+  "total_pages": 6,
+  "total_duration": 67.17866666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-1\\4-1_page01.wav",
+      "duration": 4.373333333333333,
+      "text": "このレクチャーでは、スループットをへらしたときのさくげんがくを、えんでしさんします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-1\\4-1_page02.wav",
+      "duration": 12.789333333333333,
+      "text": "かんがえかたは、たんかにへらすりょうをかけるだけです。\nスループットは、1メガバイトまいびょうあたり、2.20ドル。\n32メガバイトまいびょうから、8メガバイトまいびょうにへらすと、へらすのは、24メガバイトまいびょうぶんです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-1\\4-1_page03.wav",
+      "duration": 12.970666666666666,
+      "text": "けいさんは、つぎのとおりです。\n24かける2.20ドルで、52.8ドル。\n1ドルを150えんとすると、つきに、ななせんきゅうひゃくにじゅうえんのさくげんです。\nねんかんにすると、きゅうまんごせんよんじゅうえんになります。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-1\\4-1_page04.wav",
+      "duration": 17.130666666666666,
+      "text": "もうすこしおだやかに、16メガバイトまいびょうにへらすばあいは、つきに、さんぜんきゅうひゃくろくじゅうえんです。\nさくげんりつは、8メガバイトまいびょうが75パーセント、16メガバイトまいびょうが50パーセントです。\nしようりつがれいてんにごパーセントでも、8メガバイトまいびょうなら、じゅうぶんよゆうがあります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-1\\4-1_page05.wav",
+      "duration": 13.866666666666667,
+      "text": "ただし、このさくげんがくを、つきがくのさんじゅういちまんはっせんえんとくらべてください。\nねんかんきゅうまんごせんえんは、ねんかんのごうけい、やくさんびゃくはちじゅうにまんえんの、わずかなわりあいです。\nりつではおおきくみえても、きんがくは、ちいさいままです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-1\\4-1_page06.wav",
+      "duration": 6.048,
+      "text": "さくげんがくを、えんでしさんするほうほうをみました。\nつぎのレクチャーでは、ほかのさくげんあんと、くらべます。"
+    }
+  ]
+}

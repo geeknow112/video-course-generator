@@ -1,0 +1,43 @@
+{
+  "lecture_id": "3-2",
+  "total_pages": 6,
+  "total_duration": 68.50133333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\3-2\\3-2_page01.wav",
+      "duration": 4.064,
+      "text": "このレクチャーでは、じっそくちから、スループットのしようりつをけいさんします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\3-2\\3-2_page02.wav",
+      "duration": 16.810666666666666,
+      "text": "まず、1にちにおくれるりろんじょうのさいだいりょうをだします。\nせっていしているスループットは、32メガバイトまいびょう。\nこれに、1にちのびょうすう、86400をかけます。\nけいさんけっかは、2,764,800メガバイト。ギガバイトにすると、やくにせんななひゃくギガバイトです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\3-2\\3-2_page03.wav",
+      "duration": 11.328,
+      "text": "つぎに、じっさいのしようりょうをだします。\nいちばんおおかった7がつ30にちは、よみとりが、ろくてんさんいちギガバイト。\nかきこみが、れいてんろくにギガバイト。\nごうけいで、ろくてんきゅうさんギガバイトです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\3-2\\3-2_page04.wav",
+      "duration": 16.426666666666666,
+      "text": "しようりつは、このふたつをわって、でます。\nろくてんきゅうさんギガバイトを、にせんななひゃくギガバイトでわると、れいてんにごパーセント。\nほかのひも、7がつ29にちがれいてんいちななパーセント、7がつ28にちがれいてんいちごパーセント、8がつ1にちがれいてんいちれいパーセントでした。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\3-2\\3-2_page05.wav",
+      "duration": 13.12,
+      "text": "すうじだけをみると、きゅうわりきゅうぶいじょうが、つかわれていないようにみえます。\nここで、おおくのひとは、そのぶんをけずろうとかんがえます。\nけれども、まえのセクションでみたとおり、けずってよいぶぶんと、きんがくがおおきいぶぶんは、べつです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\3-2\\3-2_page06.wav",
+      "duration": 6.752,
+      "text": "しようりつのけいさんほうほうをみました。\nつぎのセクションでは、このしようりつをもとに、さくげんがくを、えんでけいさんします。"
+    }
+  ]
+}

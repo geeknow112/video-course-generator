@@ -1,0 +1,61 @@
+{
+  "lecture_id": "8-5",
+  "total_pages": 9,
+  "total_duration": 107.712,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page01.wav",
+      "duration": 10.037333333333333,
+      "text": "このレクチャーでは、6しょうでみた、しぼうかんしシステムを、テンプレートにいれた、かいとうれいをみます。\nFSxとくらべて、きんがくのけたが、どうちがうかにも、ちゅうもくしてください。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page02.wav",
+      "duration": 17.514666666666667,
+      "text": "まず、うちわけひょうです。\nRoute 53のヘルスチェックが、2.50ドル。\nCloudWatchが、2.00ドル。\nSNSは、0.001ドル。Lambdaは、むりょうわくのなかで、0ドルです。\nあたらしいしょりをたしたぶんが、やく0.02ドル。ごうけいは、やく4.52ドルです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page03.wav",
+      "duration": 14.389333333333333,
+      "text": "ドルをえんにかんさんします。\n1ドルを150えんとすると、ごうけいは、やくろっぴゃくななじゅうはちえん。\nRoute 53のヘルスチェックは、さんびゃくななじゅうごえん。\nCloudWatchは、さんびゃくえんです。\nかんさんレートは、ひとつのセルに、まとめておきます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page04.wav",
+      "duration": 12.48,
+      "text": "こうせいひをだします。\nRoute 53のヘルスチェックが、やくごじゅうごてんさんパーセント。\nCloudWatchが、やくよんじゅうよんてんにパーセント。\nふたつで、ほぼぜんぶをしめています。\nSNSとLambdaは、ほとんどゼロです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page05.wav",
+      "duration": 12.394666666666666,
+      "text": "つぎに、さげはばをかんがえます。\nこのしくみのメモには、コストのさいてきかで、さいだいで、つき2ドルのさくげんよちがある、とありました。\nつまり、さくげんのじょうげんは、つき2ドル。えんで、やくさんびゃくえんです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page06.wav",
+      "duration": 9.418666666666667,
+      "text": "ねんかんにすると、やくさんぜんろっぴゃくえんです。\nFSxのHDDいこうは、ねんかん、やくひゃくよんじゅうきゅうまんえんでした。\nさくげんがくのけたが、まったくちがいます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page07.wav",
+      "duration": 11.562666666666667,
+      "text": "ここで、はんだんをします。\nみなおしのてまと、しっぱいしたときのリスクを、さくげんがくとくらべます。\nかんしがとまっては、ほんまつてんとうです。\nだから、このしくみでは、さくげんよりも、あんていをゆうせんします。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page08.wav",
+      "duration": 16.426666666666666,
+      "text": "FSxのかいとうれいとくらべてみてください。\nどちらも、うちわけひょう、こうせいひ、さくげんがくのじょうげん、の3つをだして、はんだんしています。\nきんがくがおおきければ、こうせいひのおおきいこうもくをせめる。ちいさければ、あんていをまもる。\nこのはんだんのしかたは、どんなきんがくでも、かわりません。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-5\\8-5_page09.wav",
+      "duration": 3.488,
+      "text": "じぶんのうちわけひょうも、おなじながれで、みなおしてみてください。"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lecture_id": "5-2",
+  "total_pages": 6,
+  "total_duration": 53.376,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-2\\5-2_page01.wav",
+      "duration": 4.629333333333333,
+      "text": "このレクチャーでは、HDDにかえたときの、せいのうへのえいきょうをかくにんします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-2\\5-2_page02.wav",
+      "duration": 12.085333333333333,
+      "text": "せいのうの、へんかは、つぎのとおりです。\nレイテンシは、1ミリびょうから、3ミリびょうから5ミリびょうに、わるくなります。\nIOPSは、にまんいっせんろっぴゃくから、ななせんにひゃくに、3ぶんの1にさがります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-2\\5-2_page03.wav",
+      "duration": 9.098666666666666,
+      "text": "いっぽうで、かわらないものもあります。\nスループットは、32メガバイトまいびょうを、いじできます。\nかようせいも、マルチAZのままで、えいきょうはありません。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-2\\5-2_page04.wav",
+      "duration": 10.165333333333333,
+      "text": "このじれいでは、えいきょうをゆるせるとはんだんしました。\nりゆうは、ワークロードが、よみとりちゅうしんで、ピークのひでも、1にち7ギガバイトていどと、ぜったいりょうがちいさいからです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-2\\5-2_page05.wav",
+      "duration": 12.885333333333334,
+      "text": "ただし、おなじけっろんになるとはかぎりません。\nIOPSのようきゅうがきびしいワークロードや、レイテンシにびんかんなアプリケーションでは、はんだんがかわります。\nまずは、じぶんのじっそくちで、ひつようなせいのうを、かくにんしてください。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\5-2\\5-2_page06.wav",
+      "duration": 4.512,
+      "text": "せいのうのトレードオフをみました。\nつぎのセクションでは、ちいさなきんがくのべつのじれいを、みていきます。"
+    }
+  ]
+}

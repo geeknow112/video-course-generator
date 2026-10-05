@@ -1,0 +1,43 @@
+{
+  "lecture_id": "4-2",
+  "total_pages": 6,
+  "total_duration": 80.68266666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-2\\4-2_page01.wav",
+      "duration": 3.3386666666666667,
+      "text": "このレクチャーでは、さくげんあんを3つならべて、ひかくします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-2\\4-2_page02.wav",
+      "duration": 13.28,
+      "text": "けんとうしたのは、つぎの3つです。\nひとつめは、SSDのシングルAZにいこうする、あん。\nふたつめは、HDDのマルチAZにいこうする、あん。\nみっつめは、スループットのさいてきかだけをおこなう、あんです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-2\\4-2_page03.wav",
+      "duration": 18.634666666666668,
+      "text": "けんとうしょきのおおまかなかずは、つぎのとおりです。\nSSDシングルAZは、ねんかん、やくひゃくきゅうじゅうまんえんのさくげん。せいのうは、9わりごぶのいじ。\nHDDマルチAZは、やくひゃくさんじゅうまんえんで、せいのうは、7わりのいじ。\nスループットのみは、やくななまんえんで、せいのうは、まるまるいじです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-2\\4-2_page04.wav",
+      "duration": 21.226666666666667,
+      "text": "そのあと、うちわけをつみなおすと、すうじがかわりました。\nHDDマルチAZは、ストレージがじゅうまんはっせんえん、バックアップがはっせんひゃくえん、スループットがななせんきゅうひゃくにじゅうえん、さくげんされます。\nごうけいは、つきに、じゅうにまんよんせんにじゅうえん。ねんかんでは、やくひゃくよんじゅうきゅうまんえんです。\nスループットのみは、やくきゅうてんごまんえんになりました。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-2\\4-2_page05.wav",
+      "duration": 14.88,
+      "text": "じゅんいは、かわりませんでした。\nだから、けっていは、おおまかなかずのだんかいでおこなっています。\nここで、ほとんどのさくげんは、ストレージのしゅるいで、うまれていることがわかります。\nスループットのさくげんは、HDDマルチAZのさくげんのうち、わずかなわりあいです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\4-2\\4-2_page06.wav",
+      "duration": 9.322666666666667,
+      "text": "3つのさくげんあんを、ひかくしました。\nただし、いちばんさくげんがくがおおきいあんが、ただしいとはかぎりません。\nつぎのレクチャーでは、しょうにんのてまを、ひかくにいれます。"
+    }
+  ]
+}

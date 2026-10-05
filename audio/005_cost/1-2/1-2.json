@@ -1,0 +1,43 @@
+{
+  "lecture_id": "1-2",
+  "total_pages": 6,
+  "total_duration": 79.97866666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-2\\1-2_page01.wav",
+      "duration": 5.525333333333333,
+      "text": "このレクチャーでは、なぜしようりつだけをみて、さくげんたいしょうをきめてはいけないのか、をかくにんします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-2\\1-2_page02.wav",
+      "duration": 20.437333333333335,
+      "text": "まず、このコースでつかうじれいのこうせいです。\nAmazon FSx for Windows File Serverを、しようしています。\nストレージは7.2テラバイトのSSD。スループットは、32メガバイトまいびょう。\nデプロイは、マルチAZで、リージョンは、とうきょうです。\nつきがくは、やくさんじゅういちまんはっせんえん。ねんかんでは、やくさんびゃくはちじゅうにまんえんになります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-2\\1-2_page03.wav",
+      "duration": 14.378666666666666,
+      "text": "コストをさげようとしたとき、まずうたがったのは、スループットをはりすぎていないか、でした。\nCloudWatchで7にちかんをはかると、しようりつは、さいだいでも、れいてんにごパーセント。\nほとんどつかっていない。ここをけずれば、おおきくさげられる。そうおもいました。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-2\\1-2_page04.wav",
+      "duration": 16.053333333333335,
+      "text": "ところが、けいさんしてみると、かんがえがかわります。\nスループットを32から8メガバイトまいびょうにへらしても、つきのさくげんがくは、ななせんきゅうひゃくにじゅうえん。\nねんかんでも、やくきゅうまんごせんえんです。\n75パーセントもへらしたのに、きんがくは、つきがくのわずかしかありません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-2\\1-2_page05.wav",
+      "duration": 13.568,
+      "text": "りゆうは、スループットのひようそのものが、つきがくのなかで、ちいさいからです。\nしようりつがひくいことと、そこをけずればおおきくさがることは、べつのはなしです。\nじっさいにきくのは、ストレージのしゅるいを、SSDからHDDにかえることでした。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\1-2\\1-2_page06.wav",
+      "duration": 10.016,
+      "text": "このレクチャーでは、しようりつのひくさと、さくげんがくのおおきさは、イコールではない、ということをみました。\nつぎのレクチャーでは、まずつきがくのうちわけひょうをつくるほうほうをみていきます。"
+    }
+  ]
+}

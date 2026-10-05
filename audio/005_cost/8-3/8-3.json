@@ -1,0 +1,61 @@
+{
+  "lecture_id": "8-3",
+  "total_pages": 9,
+  "total_duration": 79.94666666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page01.wav",
+      "duration": 5.653333333333333,
+      "text": "このレクチャーでは、ゆうせんじゅんいのたかいこうもくについて、さくげんあんをつくり、くらべてけっていします。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page02.wav",
+      "duration": 11.914666666666667,
+      "text": "さくげんあんは、2つから3つ、つくります。\nたとえば、ストレージのしゅるいをかえるあん、こうせいをかえるあん、いまのせっていをさいてきかするあん。\nかならず、なにもしないあんも、ひとつ、ならべておきます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page03.wav",
+      "duration": 8.117333333333333,
+      "text": "それぞれのあんについて、つぎのよっつをかきだします。\nねんかんのさくげんがく。\nせいのうへのえいきょう。\nしょうにんのてま。\nいこうにかかる、いちじコスト。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page04.wav",
+      "duration": 10.933333333333334,
+      "text": "さくげんがくは、うちわけひょうのたんかから、けいさんします。\nせいのうは、じっそくちと、あんのせいのうをくらべます。\nしょうにんは、いまのしょうにんで、おわるか、とりなおしがいるかを、かくにんします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page05.wav",
+      "duration": 8.234666666666667,
+      "text": "いちじコストは、かならずいれます。\nへいこうかどうとバックアップの、ひようです。\nつきのさくげんがくで、いちじコストをわって、かいしゅうきかんをだします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page06.wav",
+      "duration": 10.773333333333333,
+      "text": "ひょうがうまると、くらべられます。\nさくげんがくがおおきくて、せいのうもたもてて、しょうにんもかんたん。そんなあんは、すくないです。\nどこをえらび、どこをあきらめるかを、ひょうをみながら、きめます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page07.wav",
+      "duration": 10.741333333333333,
+      "text": "けっていしたら、かならず、りゆうをきろくします。\nどのあんを、なぜえらび、どのあんを、なぜえらばなかったか。\nこたえだけでなく、りゆうがのこっていれば、あとでみなおすときに、やくにたちます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page08.wav",
+      "duration": 8.704,
+      "text": "けっていのあとは、かんしをわすれないでください。\nアラームをつくり、1しゅうかんは、ようすをみます。\nそして、まいしゅう、まいつきのレビューに、くみこみます。"
+    },
+    {
+      "page": 9,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\8-3\\8-3_page09.wav",
+      "duration": 4.874666666666666,
+      "text": "これで、えんしゅうはおわりです。\nつぎのセクションで、コースぜんたいを、ふりかえります。"
+    }
+  ]
+}

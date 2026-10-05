@@ -1,0 +1,115 @@
+# 手動作成（005_cost）。AWSコスト最適化。FSxの実測データ(2025-07/08)と、死活監視システムの月額内訳を題材にする。
+id: 005_cost
+title: AWSコスト最適化 実測で決める削減の優先順位
+speakerId: 2
+silenceDuration: 0.5
+audioLayout: nested
+lessons:
+  - id: promo
+    title: プロモーション
+    script: scripts/005_cost/promo_プロモーション.txt
+    slide: slides/005_cost/promo_プロモーション.md
+  - id: 1-1
+    title: コース紹介
+    script: scripts/005_cost/1-1_コース紹介.txt
+    slide: slides/005_cost/1-1_コース紹介.md
+  - id: 1-2
+    title: 使用率だけ見てはいけない理由
+    script: scripts/005_cost/1-2_使用率だけ見てはいけない理由.txt
+    slide: slides/005_cost/1-2_使用率だけ見てはいけない理由.md
+  - id: 2-1
+    title: 月額内訳の表を作る
+    script: scripts/005_cost/2-1_月額内訳の表を作る.txt
+    slide: slides/005_cost/2-1_月額内訳の表を作る.md
+  - id: 2-2
+    title: 構成比で優先順位を決める
+    script: scripts/005_cost/2-2_構成比で優先順位を決める.txt
+    slide: slides/005_cost/2-2_構成比で優先順位を決める.md
+  - id: 3-1
+    title: CloudWatchで7日間を実測する
+    script: scripts/005_cost/3-1_CloudWatchで7日間を実測する.txt
+    slide: slides/005_cost/3-1_CloudWatchで7日間を実測する.md
+  - id: 3-2
+    title: 使用率の計算方法
+    script: scripts/005_cost/3-2_使用率の計算方法.txt
+    slide: slides/005_cost/3-2_使用率の計算方法.md
+  - id: 4-1
+    title: 削減額を円で試算する
+    script: scripts/005_cost/4-1_削減額を円で試算する.txt
+    slide: slides/005_cost/4-1_削減額を円で試算する.md
+  - id: 4-2
+    title: 3つの削減案を比較する
+    script: scripts/005_cost/4-2_3つの削減案を比較する.txt
+    slide: slides/005_cost/4-2_3つの削減案を比較する.md
+  - id: 4-3
+    title: 承認コストも比較に入れる
+    script: scripts/005_cost/4-3_承認コストも比較に入れる.txt
+    slide: slides/005_cost/4-3_承認コストも比較に入れる.md
+  - id: 5-1
+    title: 移行方式と一時コスト
+    script: scripts/005_cost/5-1_移行方式と一時コスト.txt
+    slide: slides/005_cost/5-1_移行方式と一時コスト.md
+  - id: 5-2
+    title: 性能のトレードオフ
+    script: scripts/005_cost/5-2_性能のトレードオフ.txt
+    slide: slides/005_cost/5-2_性能のトレードオフ.md
+  - id: 6-1
+    title: 小さな金額の積み上げ
+    script: scripts/005_cost/6-1_小さな金額の積み上げ.txt
+    slide: slides/005_cost/6-1_小さな金額の積み上げ.md
+  - id: 6-2
+    title: 削減の余地と判断
+    script: scripts/005_cost/6-2_削減の余地と判断.txt
+    slide: slides/005_cost/6-2_削減の余地と判断.md
+  - id: 6-3
+    title: 追加コストの見積もり方
+    script: scripts/005_cost/6-3_追加コストの見積もり方.txt
+    slide: slides/005_cost/6-3_追加コストの見積もり方.md
+  - id: 7-1
+    title: しきい値の決め方
+    script: scripts/005_cost/7-1_しきい値の決め方.txt
+    slide: slides/005_cost/7-1_しきい値の決め方.md
+  - id: 7-2
+    title: アラームの作り方
+    script: scripts/005_cost/7-2_アラームの作り方.txt
+    slide: slides/005_cost/7-2_アラームの作り方.md
+  - id: 7-3
+    title: 定期レビューの回し方
+    script: scripts/005_cost/7-3_定期レビューの回し方.txt
+    slide: slides/005_cost/7-3_定期レビューの回し方.md
+  - id: 8-0
+    title: 内訳表のテンプレート
+    script: scripts/005_cost/8-0_内訳表のテンプレート.txt
+    slide: slides/005_cost/8-0_内訳表のテンプレート.md
+  - id: 8-1
+    title: 演習1 自分の請求で内訳表を作る
+    script: scripts/005_cost/8-1_自分の請求で内訳表を作る.txt
+    slide: slides/005_cost/8-1_自分の請求で内訳表を作る.md
+  - id: 8-2
+    title: 演習2 構成比を出して優先順位をつける
+    script: scripts/005_cost/8-2_構成比を出して優先順位をつける.txt
+    slide: slides/005_cost/8-2_構成比を出して優先順位をつける.md
+  - id: 8-3
+    title: 演習3 削減案を比べて決める
+    script: scripts/005_cost/8-3_削減案を比べて決める.txt
+    slide: slides/005_cost/8-3_削減案を比べて決める.md
+  - id: 8-4
+    title: 解答例 FSxの内訳表
+    script: scripts/005_cost/8-4_解答例_FSxの内訳表.txt
+    slide: slides/005_cost/8-4_解答例_FSxの内訳表.md
+  - id: 8-5
+    title: "解答例 死活監視システムの内訳表"
+    script: scripts/005_cost/8-5_解答例_死活監視システムの内訳表.txt
+    slide: slides/005_cost/8-5_解答例_死活監視システムの内訳表.md
+  - id: 8-6
+    title: "削減を実行する前の最終チェック"
+    script: scripts/005_cost/8-6_削減を実行する前の最終チェック.txt
+    slide: slides/005_cost/8-6_削減を実行する前の最終チェック.md
+  - id: 9-1
+    title: コースまとめ
+    script: scripts/005_cost/9-1_コースまとめ.txt
+    slide: slides/005_cost/9-1_コースまとめ.md
+  - id: 9-2
+    title: FAQ
+    script: scripts/005_cost/9-2_FAQ.txt
+    slide: slides/005_cost/9-2_FAQ.md

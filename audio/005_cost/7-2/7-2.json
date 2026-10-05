@@ -1,0 +1,55 @@
+{
+  "lecture_id": "7-2",
+  "total_pages": 8,
+  "total_duration": 97.152,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page01.wav",
+      "duration": 3.6373333333333333,
+      "text": "このレクチャーでは、CloudWatchのアラームを、じっさいにつくります。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page02.wav",
+      "duration": 17.930666666666667,
+      "text": "アラームは、5つのようそでできています。\nひとつめは、メトリクス。なにをはかるか。\nふたつめは、とうけいほうほう。へいきんか、さいだいか。\nみっつめは、きかん。なんびょうごとに、みるか。\nよっつめは、しきいち。いくつをこえたら、ならすか。\nいつつめは、ひかくのむき。こえたときか、したまわったときか。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page03.wav",
+      "duration": 16.78933333333333,
+      "text": "じれいでは、いこうちゅうのアラームを、つくりました。\nなまえは、FSx、ハイフン、Migration、ハイフン、ThroughputHigh。\nメトリクスは、ThroughputUtilization。\nなまえくうかんは、AWSスラッシュFSx。\nとうけいほうほうは、Average、きかんは、300びょう。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page04.wav",
+      "duration": 16.234666666666666,
+      "text": "しきいちは、80。ひかくのむきは、GreaterThanThreshold、つまり、こえたときです。\nたいしょうのファイルシステムは、ディメンションの、FileSystemIdでしていします。\nせつめいぶんには、しようりつが80パーセントをこえたこと、とかいておくと、ならしたときに、わかりやすくなります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page05.wav",
+      "duration": 15.050666666666666,
+      "text": "コマンドでつくるときは、put-metric-alarmをつかいます。\nアラームのなまえ、メトリクスのなまえ、なまえくうかん、とうけいほうほう、きかん、しきいち、ひかくのむき、ディメンションを、ひとつずつしていします。\nくわしいかきかたは、スライドにまとめてあります。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page06.wav",
+      "duration": 10.922666666666666,
+      "text": "アラームがならったときのつうちさきも、わすれずにしていします。\nならすだけで、だれにもとどかなければ、いみがありません。\nSNSのトピックをむすびつけて、メールやSlackに、つうちをとどけます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page07.wav",
+      "duration": 11.2,
+      "text": "つくったら、かならず、テストします。\nしきいちを、いっときだけひくくして、ほんとうにならして、つうちがとどくかを、かくにんしてください。\nなったことがない、アラームは、ほんとうにうごくか、わかりません。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\7-2\\7-2_page08.wav",
+      "duration": 5.386666666666667,
+      "text": "アラームのつくりかたをみました。\nつぎのレクチャーでは、ていきてきなみなおしの、まわしかたをまなびます。"
+    }
+  ]
+}

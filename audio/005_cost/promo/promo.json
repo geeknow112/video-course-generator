@@ -1,0 +1,37 @@
+{
+  "lecture_id": "promo",
+  "total_pages": 5,
+  "total_duration": 71.136,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\promo\\promo_page01.wav",
+      "duration": 16.981333333333332,
+      "text": "こんにちは。\nAWSのコストをさげようとして、まずスループットのしようりつをみて、そこをけずろうとしたことはありませんか。\nしようりつは、たったのれいてんにごパーセント。きっとむだにちがいない。そうおもってけずったのに、けっかのきんがくは、おもったよりずっとちいさかった。\nそんなけいけんは、ありませんか。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\promo\\promo_page02.wav",
+      "duration": 16.085333333333335,
+      "text": "このこうざでは、じっさいにあった、ファイルサーバのコストみなおしを、そのままきょうざいにします。\nひとつきさんじゅういちまんえんをこえていたAmazon FSxを、7にちかんのCloudWatchのじっそくで、うちわけからぶんせきします。\nそして、どこをけずれば、いくらきくのかを、えんでけいさんしていきます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\promo\\promo_page03.wav",
+      "duration": 16.32,
+      "text": "まなぶのは、3つのポイントです。\nだいいちに、ひとつきぶんのうちわけひょうをつくり、こうせいひで、ゆうせんじゅんいをきめるほうほう。\nだいにに、CloudWatchでじっそくして、しようりつをけいさんするほうほう。\nだいさんに、さくげんあんをくらべ、しょうにんのてまもふくめて、けっていするほうほうです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\promo\\promo_page04.wav",
+      "duration": 10.485333333333333,
+      "text": "このこうざは、AWSのコストをみなおす、インフラたんとうしゃや、フリーランスのかたをたいしょうにしています。\nFSxにかぎらず、どのサービスにもあてはまる、かんがえかたをまなべます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\005_cost\\promo\\promo_page05.wav",
+      "duration": 11.264,
+      "text": "はでなさくげんりつにとびつくまえに、うちわけひょうをつくる。\nそのひとてまだけで、じかんのつかいかたが、まったくかわります。\nつぎのレクチャーから、いっしょにみていきましょう。\nいますぐ、じゅこうをはじめましょう。"
+    }
+  ]
+}
