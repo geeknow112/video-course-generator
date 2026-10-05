@@ -6,6 +6,7 @@
     "course": "npx ts-node course.ts",
     "courses": "npx ts-node course.ts --list",
     "scan": "npx ts-node scan-course.ts",
+    "ingest": "npx ts-node ingest.ts",
     "prepare": "npx ts-node prepare-lecture.ts",
     "video": "npx ts-node generate-video-v3.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json"
