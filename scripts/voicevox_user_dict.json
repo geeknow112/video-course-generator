@@ -61,5 +61,12 @@
     "accent_type": 4,
     "priority": 8,
     "word_type": "PROPER_NOUN"
+  },
+  {
+    "surface": "md",
+    "pronunciation": "エムディー",
+    "accent_type": 0,
+    "priority": 8,
+    "word_type": "PROPER_NOUN"
   }
 ]
