@@ -1,0 +1,55 @@
+{
+  "lecture_id": "2-5",
+  "total_pages": 8,
+  "total_duration": 85.16266666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page01.wav",
+      "duration": 7.232,
+      "text": "このレクチャーでは、AIにわたす、はんていルールの、かきかたをまなびます。\nルールのかきかたで、けっかのせいどが、きまります。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page02.wav",
+      "duration": 11.349333333333334,
+      "text": "あいまいなしじからは、あいまいなけっかしか、うまれません。\nたとえば、いいしょうひんをさがして、とたのんでも、なにがいいのかは、AIにはわかりません。\nルールは、ぶんしょうにして、はっきりかきます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page03.wav",
+      "duration": 16.138666666666666,
+      "text": "ルールには、4つのようそを、いれます。\nひとつめは、もくてき。なんのために、しらべるのか。\nふたつめは、にゅうりょく。なにをみて、はんだんするのか。\nみっつめは、はんていきじゅん。どうなったら、こうほになるのか。\nよっつめは、しゅつりょくのかたち。けっかを、どんなひょうにするのか。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page04.wav",
+      "duration": 14.72,
+      "text": "せどりのれいで、あてはめます。\nもくてきは、しいれこうほを、えらぶこと。\nにゅうりょくは、しょうひんのJANコード。\nはんていきじゅんは、じゅんりえきが、じぶんできめたきんがくいじょう。\nしゅつりょくは、しょうひんめい、しいれさき、じゅんりえき、はんていの、ひょうです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page05.wav",
+      "duration": 11.264,
+      "text": "きんしじこうも、かいておきます。\nしょうひんめいでのけんさくは、きんし。\nJANコードで、さいていでも3サイトをあたる。\nやってはいけないことは、やるべきことと、おなじくらい、はっきりかきます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page06.wav",
+      "duration": 11.04,
+      "text": "すうじは、ぐたいてきにします。\nたとえば、りえきがでるものではなく、じゅんりえきが、じぶんできめたきんがくいじょう、とかきます。\nれいを1つ、つけておくと、AIが、かきかたをまねてくれます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page07.wav",
+      "duration": 10.122666666666667,
+      "text": "ルールをかいたら、すこしのしょうひんで、ためします。\nけっかを、にんげんがみて、ちがうところを、ルールにかきたします。\nこのくりかえしで、ルールが、だんだんただしくなっていきます。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-5\\2-5_page08.wav",
+      "duration": 3.296,
+      "text": "つぎのしょうでは、ぎじゅつきじのしっぴつの、じどうかをみます。"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+# 手動作成（006_ai_fukugyo）。AI駆動副業。実際に運用している仕組みを題材にする。
+id: 006_ai_fukugyo
+title: AI駆動副業入門 調査・執筆・営業をAIに任せる仕組みの作り方
+speakerId: 2
+silenceDuration: 0.5
+audioLayout: nested
+lessons:
+  - id: promo
+    title: "プロモーション"
+    script: scripts/006_ai_fukugyo/promo_プロモーション.txt
+    slide: slides/006_ai_fukugyo/promo_プロモーション.md
+  - id: 1-1
+    title: "コース紹介"
+    script: scripts/006_ai_fukugyo/1-1_コース紹介.txt
+    slide: slides/006_ai_fukugyo/1-1_コース紹介.md
+  - id: 1-2
+    title: "時間を売らない副業"
+    script: scripts/006_ai_fukugyo/1-2_時間を売らない副業.txt
+    slide: slides/006_ai_fukugyo/1-2_時間を売らない副業.md
+  - id: 1-3
+    title: "切り分けの3つの基準"
+    script: scripts/006_ai_fukugyo/1-3_切り分けの3つの基準.txt
+    slide: slides/006_ai_fukugyo/1-3_切り分けの3つの基準.md
+  - id: 1-4
+    title: "仕組みの全体像"
+    script: scripts/006_ai_fukugyo/1-4_仕組みの全体像.txt
+    slide: slides/006_ai_fukugyo/1-4_仕組みの全体像.md
+  - id: 2-1
+    title: "仕入れ調査で自動化すること"
+    script: scripts/006_ai_fukugyo/2-1_仕入れ調査で自動化すること.txt
+    slide: slides/006_ai_fukugyo/2-1_仕入れ調査で自動化すること.md
+  - id: 2-2
+    title: "JANコードで仕入れ先を探す"
+    script: scripts/006_ai_fukugyo/2-2_JANコードで仕入れ先を探す.txt
+    slide: slides/006_ai_fukugyo/2-2_JANコードで仕入れ先を探す.md
+  - id: 2-3
+    title: "純利で判定する"
+    script: scripts/006_ai_fukugyo/2-3_純利で判定する.txt
+    slide: slides/006_ai_fukugyo/2-3_純利で判定する.md
+  - id: 2-4
+    title: "作りすぎない仕組み"
+    script: scripts/006_ai_fukugyo/2-4_作りすぎない仕組み.txt
+    slide: slides/006_ai_fukugyo/2-4_作りすぎない仕組み.md
+  - id: 2-5
+    title: "判定ルールの書き方"
+    script: scripts/006_ai_fukugyo/2-5_判定ルールの書き方.txt
+    slide: slides/006_ai_fukugyo/2-5_判定ルールの書き方.md
+  - id: 3-1
+    title: "技術記事で自動化すること"
+    script: scripts/006_ai_fukugyo/3-1_技術記事で自動化すること.txt
+    slide: slides/006_ai_fukugyo/3-1_技術記事で自動化すること.md
+  - id: 3-2
+    title: "題材は技術とお金の軸"
+    script: scripts/006_ai_fukugyo/3-2_題材は技術とお金の軸.txt
+    slide: slides/006_ai_fukugyo/3-2_題材は技術とお金の軸.md
+  - id: 3-3
+    title: "PRで人が承認する"
+    script: scripts/006_ai_fukugyo/3-3_PRで人が承認する.txt
+    slide: slides/006_ai_fukugyo/3-3_PRで人が承認する.md
+  - id: 3-4
+    title: "導線は記事の末尾に1か所"
+    script: scripts/006_ai_fukugyo/3-4_導線は記事の末尾に1か所.txt
+    slide: slides/006_ai_fukugyo/3-4_導線は記事の末尾に1か所.md
+  - id: 4-1
+    title: "案件の一次仕分け"
+    script: scripts/006_ai_fukugyo/4-1_案件の一次仕分け.txt
+    slide: slides/006_ai_fukugyo/4-1_案件の一次仕分け.md
+  - id: 4-2
+    title: "返信文の下書き"
+    script: scripts/006_ai_fukugyo/4-2_返信文の下書き.txt
+    slide: slides/006_ai_fukugyo/4-2_返信文の下書き.md
+  - id: 4-3
+    title: "台帳の行で承認する"
+    script: scripts/006_ai_fukugyo/4-3_台帳の行で承認する.txt
+    slide: slides/006_ai_fukugyo/4-3_台帳の行で承認する.md
+  - id: 4-4
+    title: "送信したら完了を確認する"
+    script: scripts/006_ai_fukugyo/4-4_送信したら完了を確認する.txt
+    slide: slides/006_ai_fukugyo/4-4_送信したら完了を確認する.md
+  - id: 4-5
+    title: "送る前のチェックリスト"
+    script: scripts/006_ai_fukugyo/4-5_送る前のチェックリスト.txt
+    slide: slides/006_ai_fukugyo/4-5_送る前のチェックリスト.md
+  - id: 5-1
+    title: "用途ごとに権限を絞る"
+    script: scripts/006_ai_fukugyo/5-1_用途ごとに権限を絞る.txt
+    slide: slides/006_ai_fukugyo/5-1_用途ごとに権限を絞る.md
+  - id: 5-2
+    title: "mainに直接pushさせない"
+    script: scripts/006_ai_fukugyo/5-2_mainに直接pushさせない.txt
+    slide: slides/006_ai_fukugyo/5-2_mainに直接pushさせない.md
+  - id: 5-3
+    title: "止まったときの確認方法"
+    script: scripts/006_ai_fukugyo/5-3_止まったときの確認方法.txt
+    slide: slides/006_ai_fukugyo/5-3_止まったときの確認方法.md
+  - id: 6-1
+    title: "何を測るか"
+    script: scripts/006_ai_fukugyo/6-1_何を測るか.txt
+    slide: slides/006_ai_fukugyo/6-1_何を測るか.md
+  - id: 6-2
+    title: "流入元を測る"
+    script: scripts/006_ai_fukugyo/6-2_流入元を測る.txt
+    slide: slides/006_ai_fukugyo/6-2_流入元を測る.md
+  - id: 6-3
+    title: "小さな数字との向き合い方"
+    script: scripts/006_ai_fukugyo/6-3_小さな数字との向き合い方.txt
+    slide: slides/006_ai_fukugyo/6-3_小さな数字との向き合い方.md
+  - id: 6-4
+    title: "演習1: 任せる範囲を切り分ける"
+    script: scripts/006_ai_fukugyo/6-4_演習_任せる範囲を切り分ける.txt
+    slide: slides/006_ai_fukugyo/6-4_演習_任せる範囲を切り分ける.md
+  - id: 6-5
+    title: "演習2: 台帳を作る"
+    script: scripts/006_ai_fukugyo/6-5_演習_台帳を作る.txt
+    slide: slides/006_ai_fukugyo/6-5_演習_台帳を作る.md
+  - id: 6-6
+    title: "演習3: 承認のルールを決める"
+    script: scripts/006_ai_fukugyo/6-6_演習_承認のルールを決める.txt
+    slide: slides/006_ai_fukugyo/6-6_演習_承認のルールを決める.md
+  - id: 6-7
+    title: "演習4: 1週間の記録をつける"
+    script: scripts/006_ai_fukugyo/6-7_演習_1週間の記録をつける.txt
+    slide: slides/006_ai_fukugyo/6-7_演習_1週間の記録をつける.md
+  - id: 6-8
+    title: "演習5: AIへの指示文を書く"
+    script: scripts/006_ai_fukugyo/6-8_演習_AIへの指示文を書く.txt
+    slide: slides/006_ai_fukugyo/6-8_演習_AIへの指示文を書く.md
+  - id: 6-9
+    title: "演習6: 営業文をレビューする"
+    script: scripts/006_ai_fukugyo/6-9_演習_営業文をレビューする.txt
+    slide: slides/006_ai_fukugyo/6-9_演習_営業文をレビューする.md
+  - id: 7-1
+    title: "コースまとめ"
+    script: scripts/006_ai_fukugyo/7-1_コースまとめ.txt
+    slide: slides/006_ai_fukugyo/7-1_コースまとめ.md
+  - id: 7-2
+    title: "FAQ"
+    script: scripts/006_ai_fukugyo/7-2_FAQ.txt
+    slide: slides/006_ai_fukugyo/7-2_FAQ.md

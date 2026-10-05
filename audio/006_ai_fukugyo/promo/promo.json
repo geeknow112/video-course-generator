@@ -1,0 +1,37 @@
+{
+  "lecture_id": "promo",
+  "total_pages": 5,
+  "total_duration": 57.35466666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\promo\\promo_page01.wav",
+      "duration": 9.834666666666667,
+      "text": "こんにちは。\n副業をはじめたいけれど、ほんぎょうがいそがしくて、じかんがとれない。\nそんなふうにおもっていませんか。\nそのしょうがいは、じかんをうるというかんがえかたから、きています。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\promo\\promo_page02.wav",
+      "duration": 12.309333333333333,
+      "text": "このこうざでは、AIにまかせるはんいと、じぶんできめるはんいをきりわけて、じかんをうらないふくぎょうのしくみをつくるほうほうをまなびます。\nちょうさ、しっぴつ、えいぎょう。この3つを、AIにまかせるしくみをつくります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\promo\\promo_page03.wav",
+      "duration": 10.645333333333333,
+      "text": "ここでおはなしするのは、わたしがじっさいにくんで、はたらかせているしくみです。\nそうぞうのはなしではなく、じっさいにやってみてわかった、うまくいったこと、つまずいたことを、そのままおつたえします。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\promo\\promo_page04.wav",
+      "duration": 13.386666666666667,
+      "text": "まなぶのは、3つのポイントです。\nだいいちに、AIにまかせるはんいと、にんげんがしょうにんするはんいのきりわけかた。\nだいにに、ちょうさ、しっぴつ、えいぎょうのじどうか。\nだいさんに、むじんでうごかすときの、けんげんのしぼりかたです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\promo\\promo_page05.wav",
+      "duration": 11.178666666666667,
+      "text": "おかねのやくそくは、いたしません。\nこのこうざがおしえるのは、しくみのつくりかたです。\nじぶんのしくみをつくって、すうじをきろくしながら、かいぜんしていくためのこうざです。\nつぎのレクチャーから、はじめましょう。"
+    }
+  ]
+}

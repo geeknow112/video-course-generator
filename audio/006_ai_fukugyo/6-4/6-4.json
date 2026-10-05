@@ -1,0 +1,55 @@
+{
+  "lecture_id": "6-4",
+  "total_pages": 8,
+  "total_duration": 64.24533333333333,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page01.wav",
+      "duration": 5.493333333333333,
+      "text": "このレクチャーからは、えんしゅうです。\nじぶんのしごとで、AIにまかせるはんいを、きりわけます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page02.wav",
+      "duration": 10.346666666666666,
+      "text": "まず、さぎょうをかきだします。\nさいきん1しゅうかんで、くりかえしおこなった、さぎょうを、すべてかきだしてください。\nかんぺきでなくて、だいじょうぶです。おもいつくものを、ならべます。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page03.wav",
+      "duration": 9.728,
+      "text": "つぎに、それぞれのさぎょうに、3つのきじゅんを、あてはめます。\nとりかえしがつくか。おかねやしんようにかかわるか。そとにでるか。\nひとつずつ、はいかいいえで、こたえます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page04.wav",
+      "duration": 12.810666666666666,
+      "text": "こたえをもとに、3つにわけます。\nどれにもあてはまらないものは、AIにまかせるさぎょう。\nひとつでもあてはまるものは、AIがしたがきをつくって、にんげんがしょうにんするさぎょう。\nじぶんにしかできないものは、にんげんだけのさぎょうです。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page05.wav",
+      "duration": 5.962666666666666,
+      "text": "ひょうのれつは、つぎのとおりです。\nさぎょうのなまえ。かかるじかん。3つのきじゅんのこたえ。わけたけっか。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page06.wav",
+      "duration": 9.888,
+      "text": "そして、さいしょにじどうかするものを、ひとつだけえらびます。\nえらびかたは、かかるじかんがながく、とりかえしがつくものです。\nさいしょは、しっぱいしてもこまらないものから、はじめます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page07.wav",
+      "duration": 6.602666666666667,
+      "text": "ここで、ビデオをとめて、じぶんのひょうをつくってみてください。\nさぎょうは、10こほど、かきだせれば、じゅうぶんです。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-4\\6-4_page08.wav",
+      "duration": 3.4133333333333336,
+      "text": "つぎのレクチャーでは、しょうにんをあつめる、だいちょうをつくります。"
+    }
+  ]
+}

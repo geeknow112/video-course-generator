@@ -1,0 +1,49 @@
+{
+  "lecture_id": "2-2",
+  "total_pages": 7,
+  "total_duration": 62.66666666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-2\\2-2_page01.wav",
+      "duration": 7.957333333333334,
+      "text": "このレクチャーでは、しいれさきのさがしかたを、くわしくみます。\nポイントは、しょうひんめいではなく、JANコードでさがす、ということです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-2\\2-2_page02.wav",
+      "duration": 9.045333333333334,
+      "text": "しょうひんめいでさがすと、ひょうきのゆれや、にたべつのしょうひんを、ひろってしまいます。\nちがうしょうひんのやすいねだんを、みつけてしまい、あやまったはんだんにつながります。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-2\\2-2_page03.wav",
+      "duration": 11.488,
+      "text": "JANコードは、しょうひんごとに、ひとつだけきまるばんごうです。\nこのばんごうでさがせば、おなじしょうひんだけが、みつかります。\nAmazonのしょうひんページから、JANコードがとれれば、そこからさがせます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-2\\2-2_page04.wav",
+      "duration": 9.770666666666667,
+      "text": "さがすサイトは、ひとつにしぼりません。\nかかくドットコム。らくてん。ヤフー。かでんりょうはんてんやせんもんてん。\nJANコードで、さいていでも3つのサイトをあたります。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-2\\2-2_page05.wav",
+      "duration": 9.578666666666667,
+      "text": "1つのサイトだけをみて、しいれさきをきめると、もっとやすいところを、みのがします。\nしいれさきは、Amazonではなく、ネットぜんたいにあります。\nAmazonは、うるばしょです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-2\\2-2_page06.wav",
+      "duration": 10.848,
+      "text": "AIにたのむときも、このルールをつたえます。\nしょうひんめいでのけんさくは、きんし。JANコードで、さいていでも3サイト。\nルールをかいておけば、AIは、そのとおりにうごきます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-2\\2-2_page07.wav",
+      "duration": 3.978666666666667,
+      "text": "つぎのレクチャーでは、りえきを、じゅんりえきではんていするほうほうをみます。"
+    }
+  ]
+}

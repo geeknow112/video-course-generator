@@ -1,0 +1,43 @@
+{
+  "lecture_id": "5-3",
+  "total_pages": 6,
+  "total_duration": 57.888,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-3\\5-3_page01.wav",
+      "duration": 4.661333333333333,
+      "text": "このレクチャーでは、むじんでうごかしたものが、とまったときの、かくにんほうほうをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-3\\5-3_page02.wav",
+      "duration": 7.616,
+      "text": "むじんじっこうでは、うまくいっているように、みえることがあります。\nじっこういちらんで、ステータスがみどりになっていると、あんしんしがちです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-3\\5-3_page03.wav",
+      "duration": 8.821333333333333,
+      "text": "ところが、このみどりは、じっこうがはじまって、インフラのエラーなく、おわったことを、しめすだけです。\nたのんだしごとが、せいこうしたかどうかとは、べつです。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-3\\5-3_page04.wav",
+      "duration": 12.277333333333333,
+      "text": "ですので、かならず、じっこうのログをひらきます。\nじっさいに、なにをしたか。ツールのよびだしは、きょひされていないか。ネットワークのつうしんが、ブロックされていないか。\nログをよむまで、せいこうとは、いえません。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-3\\5-3_page05.wav",
+      "duration": 13.685333333333332,
+      "text": "もうひとつの、おとしあなは、たんいつしょうがいてんです。\nがいぶのAPIにしかたよっていると、そのつうしんが、とめられたとき、しごとぜんたいが、とまります。\nじっさいに、トレンドのしゅとくが、ネットワークのせいげんで、できなかったことがありました。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\5-3\\5-3_page06.wav",
+      "duration": 10.826666666666666,
+      "text": "そのときは、べつのけいろ、メールのニュースレターに、きりかえて、しのぎました。\nひとつのけいろに、たよらないしくみにしておくと、とまりにくくなります。\nつぎのしょうでは、すうじでふりかえります。"
+    }
+  ]
+}

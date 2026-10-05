@@ -1,0 +1,55 @@
+{
+  "lecture_id": "4-5",
+  "total_pages": 8,
+  "total_duration": 70.016,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page01.wav",
+      "duration": 7.573333333333333,
+      "text": "このレクチャーでは、おくるまえに、にんげんがおこなう、かくにんを、チェックリストにします。\nえいぎょうのじどうかは、このレクチャーでおわりです。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page02.wav",
+      "duration": 9.994666666666667,
+      "text": "チェックリストにするりゆうは、まいかい、おなじかくにんを、おなじじゅんばんで、おこなうためです。\nきおくにたよると、いそがしいときほど、わすれます。\nかみにかいておけば、わすれません。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page03.wav",
+      "duration": 9.941333333333333,
+      "text": "ひとつめは、あいてとあんけんの、かくにんです。\nあいてのなまえと、かいしゃのなまえは、あっているか。\nあんけんのなまえは、あっているか。\nべつのあんけんのぶんが、まざっていないか。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page04.wav",
+      "duration": 9.205333333333334,
+      "text": "ふたつめは、ないぶようごの、かくにんです。\nじぶんだけがつかうよびかたや、ぶんるいめいは、はいっていないか。\nきゃくさきがよんで、いみのわかる、ことばだけにします。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page05.wav",
+      "duration": 10.773333333333333,
+      "text": "みっつめは、きんがくやじょうけんの、かくにんです。\nせんぽうのひっすようけんを、かってにかえていないか。\nきんがくは、さがくではなく、じつがくでかいてあるか。\nひにちを、かってにいれていないか。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page06.wav",
+      "duration": 7.413333333333333,
+      "text": "よっつめは、ぶんたいの、かくにんです。\nけいごは、ただしいか。\nながすぎないか。\nさいごまで、ぜんぶんを、とおしてよみます。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page07.wav",
+      "duration": 8.928,
+      "text": "すべてチェックできたら、だいちょうのステータスを、そうしんかにかきかえます。\nひとつでもあやしければ、かきかえません。\nこのひとてまで、おくりまちがいが、ぐっとへります。"
+    },
+    {
+      "page": 8,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\4-5\\4-5_page08.wav",
+      "duration": 6.1866666666666665,
+      "text": "えいぎょうのじどうかは、ここまでです。\nつぎのしょうでは、これらを、むじんでうごかすときの、けんげんについてみます。"
+    }
+  ]
+}

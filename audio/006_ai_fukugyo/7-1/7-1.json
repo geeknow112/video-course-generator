@@ -1,0 +1,43 @@
+{
+  "lecture_id": "7-1",
+  "total_pages": 6,
+  "total_duration": 54.666666666666664,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-1\\7-1_page01.wav",
+      "duration": 2.912,
+      "text": "このレクチャーでは、コースぜんたいを、ふりかえります。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-1\\7-1_page02.wav",
+      "duration": 12.501333333333333,
+      "text": "まなんだのは、5つのことです。\nひとつめ。しごとを、AIにまかせるはんいと、にんげんがきめるはんいに、きりわける。\nふたつめ。きりわけのきじゅんは、とりかえしがつくか、おかねやしんようにかかわるか、そとにでるか。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-1\\7-1_page03.wav",
+      "duration": 10.378666666666666,
+      "text": "みっつめ。ちょうさ、しっぴつ、えいぎょうは、おなじながれでじどうかできる。\nちょうさとしたがきはAI。しょうにんとそうしん、こうかいは、にんげん。\nしょうにんは、だいちょうのぎょうにあつめる。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-1\\7-1_page04.wav",
+      "duration": 12.437333333333333,
+      "text": "よっつめ。むじんでうごかすときは、ようとごとにけんげんをしぼる。\nいちばんつよいけんげんは、プロンプトのきんしだけでなく、GitHubがわでふさぐ。\nいつつめ。じっそくちだけをきろくして、ちいさなすうじでも、かいぜんにつなげる。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-1\\7-1_page05.wav",
+      "duration": 9.344,
+      "text": "いちばんのきょうくんは、これです。\nじかんをうらないために、AIにまかせる。\nただし、おかねとしんようのけっていは、にんげんがもつ。\nこのせんびきを、まもることです。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\7-1\\7-1_page06.wav",
+      "duration": 7.093333333333334,
+      "text": "さいごまで、ありがとうございました。\nまず、じぶんのしごとで、AIにまかせられるさぎょうを、ひとつ、えらんでみてください。"
+    }
+  ]
+}

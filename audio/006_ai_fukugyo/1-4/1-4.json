@@ -1,0 +1,49 @@
+{
+  "lecture_id": "1-4",
+  "total_pages": 7,
+  "total_duration": 56.842666666666666,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-4\\1-4_page01.wav",
+      "duration": 4.032,
+      "text": "このレクチャーでは、AIにまかせるしくみの、ぜんたいのながれをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-4\\1-4_page02.wav",
+      "duration": 8.736,
+      "text": "ながれは、5つのだんかいです。\nちょうさ。したがき。しょうにん。じっこう。きろく。\nこのながれは、せどりでも、きじでも、えいぎょうでも、おなじです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-4\\1-4_page03.wav",
+      "duration": 5.76,
+      "text": "ちょうさとしたがきは、AIがおこないます。\nしらべて、したがきをつくり、けっかをかたちにそろえます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-4\\1-4_page04.wav",
+      "duration": 11.296,
+      "text": "しょうにんは、にんげんです。\nただし、しょうにんのばしょを、ひとつにあつめます。\nわたしは、スプレッドシートの、だいちょうを、つかっています。\nはんだんがひつようなものを、1ぎょうにして、そこにならべます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-4\\1-4_page05.wav",
+      "duration": 10.208,
+      "text": "にんげんは、だいちょうのぎょうをみて、こたえをかきます。\nチャットで、はいかいいえを、きいてまわらない。\nぎょうにこたえをかく、というかたちにしておくと、あとで、しょうにんのきろくもそろいます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-4\\1-4_page06.wav",
+      "duration": 7.1146666666666665,
+      "text": "じっこうは、しょうにんされたものだけです。\nそうしんかのうになったぎょうだけを、おくる。\nさいごに、けっかを、だいちょうにきろくします。"
+    },
+    {
+      "page": 7,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\1-4\\1-4_page07.wav",
+      "duration": 9.696,
+      "text": "このながれがあれば、AIがなにをしたかと、にんげんがなにをきめたかが、あとから、すべてわかります。\nつぎのしょうから、せどりのちょうさで、このながれをじっさいにみていきます。"
+    }
+  ]
+}

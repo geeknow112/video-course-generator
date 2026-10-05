@@ -1,0 +1,43 @@
+{
+  "lecture_id": "2-4",
+  "total_pages": 6,
+  "total_duration": 53.45066666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-4\\2-4_page01.wav",
+      "duration": 4.629333333333333,
+      "text": "このレクチャーでは、ちょうさのしくみを、つくりすぎない、というかんがえかたをまなびます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-4\\2-4_page02.wav",
+      "duration": 9.930666666666667,
+      "text": "ちょうさのじどうかというと、APIをつかって、プログラムをくむ、というイメージがあるかもしれません。\nでも、さいしょから、おおがかりなものを、つくるひつようは、ありません。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-4\\2-4_page03.wav",
+      "duration": 11.477333333333334,
+      "text": "わたしは、ブラウザのブックマークに、じょうけんをきめたけんさくけっかを、ほぞんしています。\nカテゴリごとに、17のけんさくじょうけんがならんでいます。\nこの、ブックマークのいちらんを、AIにまわらせます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-4\\2-4_page04.wav",
+      "duration": 12.48,
+      "text": "このほうほうのよいところは、3つです。\nひとつめ。あたらしいプログラムを、つくらなくていい。\nふたつめ。じょうけんを、ブックマークをかえるだけで、なおせる。\nみっつめ。うごかなくなったときの、げんいんが、わかりやすい。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-4\\2-4_page05.wav",
+      "duration": 10.496,
+      "text": "しくみは、さいしょは、ちいさくはじめます。\nうごかして、てまがかかるところだけを、あとからじどうかします。\nさいしょから、ぜんぶをじどうかしようとすると、つくっただけで、おわってしまいます。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\2-4\\2-4_page06.wav",
+      "duration": 4.437333333333333,
+      "text": "つぎのレクチャーでは、AIにわたす、はんていルールの、かきかたをみます。"
+    }
+  ]
+}

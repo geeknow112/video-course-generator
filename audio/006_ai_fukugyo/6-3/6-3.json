@@ -1,0 +1,43 @@
+{
+  "lecture_id": "6-3",
+  "total_pages": 6,
+  "total_duration": 49.89866666666667,
+  "pages": [
+    {
+      "page": 1,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-3\\6-3_page01.wav",
+      "duration": 4.416,
+      "text": "このレクチャーでは、さいしょにでてくる、ちいさなすうじと、どうむきあうかをみます。"
+    },
+    {
+      "page": 2,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-3\\6-3_page02.wav",
+      "duration": 10.88,
+      "text": "しくみをつくって、うごかしはじめても、さいしょのすうじは、ちいさいものです。\nUdemyのしゅうにゅうも、さいしょは、ほんのすこしです。\nここで、あきらめたり、かんちがいしたりしないことが、だいじです。"
+    },
+    {
+      "page": 3,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-3\\6-3_page03.wav",
+      "duration": 10.762666666666666,
+      "text": "ちいさなすうじでも、きろくすることには、いみがあります。\nどのきじのあとに、うごきがあったか。\nどのコースに、アクセスがあつまっているか。\nなにをかいぜんすれば、よいかが、すうじからみえてきます。"
+    },
+    {
+      "page": 4,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-3\\6-3_page04.wav",
+      "duration": 10.72,
+      "text": "ただし、すうじを、よくみせようとしてはいけません。\nふえたように、みえても、きかんがみじかければ、たまたまかもしれません。\nどれくらいのきかんを、みたのかを、いつも、いっしょにかきます。"
+    },
+    {
+      "page": 5,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-3\\6-3_page05.wav",
+      "duration": 8.309333333333333,
+      "text": "そして、すうじがちいさいうちは、しくみのあんていを、ゆうせんします。\nあんていしたしくみのうえで、すうじをみながら、すこしずつ、かいぜんします。"
+    },
+    {
+      "page": 6,
+      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\006_ai_fukugyo\\6-3\\6-3_page06.wav",
+      "duration": 4.810666666666667,
+      "text": "ここからは、えんしゅうです。\nつぎのレクチャーでは、じぶんのしごとで、AIにまかせるはんいを、きりわけます。"
+    }
+  ]
+}
