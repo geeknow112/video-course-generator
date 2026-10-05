@@ -149,11 +149,51 @@ python scripts/register_user_dict.py
 | `Hooks` | フックス | （文脈依存でエイチウックス） |
 | `VS` | ブイエス | バーサス（`VS Code`のスペース区切りに対応するため`VS`単体で登録） |
 
+## 品質検査
+
+生成した動画を公開する前に、機械で検出できる不具合を先に潰す。
+
+```bash
+npm run qc -- 003_kiro
+npm run qc -- 003_kiro --only 4-1,4-2
+npm run qc -- 003_kiro --checks visual,reading
+```
+
+| 検査 | 内容 | 結果の扱い |
+| --- | --- | --- |
+| `visual` | スライドの全文字と背景のコントラストを計算する。3未満を「白塗り」として検出する | 1件でもあれば終了コード 1 |
+| `reading` | 台本の英字を含む語を VOICEVOX に読ませる。承認済みの読みとの照合と、文の中での読みの確認 | 警告のみ（要 VOICEVOX 起動） |
+| `frames` | 生成した MP4 から 8 秒ごとの静止画を抜き出し、報告書に並べる | AI または人が見る |
+
+報告書は `video-generator/qc-report/<courseId>/report.html`（`findings.json` も出す）。
+
+読みの扱い:
+
+- 読みが正しい語は `scripts/qc_reading_ok.json` に `{ "語": "読み" }` を足す（承認）
+- 読みが違う語は `scripts/voicevox_user_dict.json` に足し、`register_user_dict.py` で登録し直す
+- 「文中の読みが違う」は、単語単体では正しくても、前後の文脈で読みが変わった語（例: `.md` が「ムド」になる）
+
+音声の抑揚や間の違和感は、機械的な判定が難しい（#36）。人の耳による確認は残る。
+
+### 検出した不具合を Issue にする
+
+```bash
+npm run qc -- 003_kiro --checks visual,reading --issues            # 候補の一覧だけ（作成しない）
+npm run qc -- 003_kiro --checks visual,reading --issues --create   # 1件ずつ Issue を作成
+```
+
+- 見た目はスライド1枚につき1件、読みは「文中の読みが違う」語につき1件。未承認の語は件数が多いため対象外
+- 本文に `<!-- qc:... -->` の印を入れ、開いている Issue と重複するものは作らない
+- コースごとに親 Issue（`[<courseId>] 品質検査で検出した不具合`）を1つ作り、検出した Issue をサブ Issue にまとめる。親が開いていれば、それに追加する。親 Issue には、`gh` にログインしているユーザー（自分）をアサインする
+- 作成した Issue は、`scripts/qc_issues_config.json` の Project に追加し、開始日（当日）と終了日（3日後）を設定する
+- 設定は `gh` が使える状態（ログイン済み）が前提
+
 ## 構成
 
 ```
 video-generator/
 ├── course.ts           コース一括生成（入口）
+├── qc.ts               生成物の品質検査
 ├── scan-course.ts      courses/<id>.yaml の雛形生成
 ├── prepare-lecture.ts  1レッスンの WAV 結合（デバッグ用）
 ├── generate-video-v3.ts 1レッスンの動画生成（デバッグ用）

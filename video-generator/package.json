@@ -8,7 +8,8 @@
     "scan": "npx ts-node scan-course.ts",
     "prepare": "npx ts-node prepare-lecture.ts",
     "video": "npx ts-node generate-video-v3.ts",
-    "typecheck": "tsc --noEmit -p tsconfig.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "qc": "npx ts-node qc.ts"
   },
   "dependencies": {
     "yaml": "^2.7.0"
