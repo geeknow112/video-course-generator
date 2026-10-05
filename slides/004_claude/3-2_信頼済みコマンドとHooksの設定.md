@@ -21,6 +21,11 @@ style: |
   }
   code {
     background-color: #f1f5f9;
+    color: #0f172a;
+  }
+  pre code {
+    background-color: transparent;
+    color: inherit;
   }
   pre {
     background-color: #1e293b;
