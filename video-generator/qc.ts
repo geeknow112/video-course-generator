@@ -345,10 +345,11 @@ interface IssueConfig {
   startDateFieldId: string;
   targetDateFieldId: string;
   durationDays: number;
+  /** 作成する Issue に付けるラベル（AI が作成したことを示す）。 */
+  label: string;
 }
 
 const ISSUE_CONFIG_FILE = path.join(REPO_ROOT, 'scripts', 'qc_issues_config.json');
-const FOOTER = '🤖 Generated with [Claude Code](https://claude.com/claude-code)';
 
 function buildIssueCandidates(
   course: Course,
@@ -398,8 +399,6 @@ function buildIssueCandidates(
         '- [ ] Udemyの講義を差し替えた（公開済みの講座の場合）',
         '',
         `<!-- ${marker} -->`,
-        '',
-        FOOTER,
       ].join('\n'),
     });
   }
@@ -435,8 +434,6 @@ function buildIssueCandidates(
         '- [ ] 品質検査（読み）で、この語が検出されない',
         '',
         `<!-- ${marker} -->`,
-        '',
-        FOOTER,
       ].join('\n'),
     });
   }
@@ -508,14 +505,12 @@ function createParent(config: IssueConfig, course: Course, tmpDir: string): numb
       '- [ ] 修正した動画を、Udemyで差し替えた（公開済みの講座の場合）',
       '',
       `<!-- qc:parent:${course.id} -->`,
-      '',
-      FOOTER,
     ].join('\n'),
     'utf-8'
   );
   const url = gh([
     'issue', 'create', '--repo', config.repo, '--title', `[${course.id}] 品質検査で検出した不具合`, '--body-file', bodyFile,
-    '--assignee', '@me',
+    '--assignee', '@me', '--label', config.label,
   ]);
   addToProject(config, url);
   console.log(`  親Issueを作成: ${url}`);
@@ -551,7 +546,9 @@ function registerIssues(course: Course, candidates: IssueCandidate[], create: bo
   for (const c of fresh) {
     const bodyFile = path.join(tmpDir, 'body.md');
     fs.writeFileSync(bodyFile, c.body, 'utf-8');
-    const url = gh(['issue', 'create', '--repo', config.repo, '--title', c.title, '--body-file', bodyFile]);
+    const url = gh([
+      'issue', 'create', '--repo', config.repo, '--title', c.title, '--body-file', bodyFile, '--label', config.label,
+    ]);
     addToProject(config, url);
     linkSubIssue(config, parent, url);
     console.log(`  作成（親 #${parent} のサブ）: ${url}`);
