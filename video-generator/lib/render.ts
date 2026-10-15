@@ -74,6 +74,10 @@ async function captureSlides(htmlPath: string, expected: number, tempDir: string
     await page.goto(`file://${htmlPath.split(path.sep).join('/')}`);
     await page.waitForLoadState('networkidle');
 
+    // Marp の bespoke テンプレートは、ページ送りの操作バー（Page 1 of 13 など）を画面下に出す。
+    // スクリーンショットに写り込むため、隠してから撮る
+    await page.addStyleTag({ content: '.bespoke-marp-osc { display: none !important; }' });
+
     // 背景画像（![bg]）のあるスライドは、Marp が section を3つ作るため、id のある section だけ数える
     const slideCount = await page.evaluate(() => document.querySelectorAll('section[id]').length);
     if (verbose) console.log(`    HTML のスライド数: ${slideCount} / タイミングの件数: ${expected}`);
