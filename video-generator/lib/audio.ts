@@ -11,7 +11,7 @@ import { Course, Lesson, REPO_ROOT, VoiceParams, lessonPaths } from './course';
 import { VOICEVOX_HOST, resolvePython } from './tools';
 
 // course.voice のキー → generate_slide_audio.py のCLI引数名。
-// 未指定のキーはpython側の既定値（社長決定のcenter案）のまま渡さない。
+// 未指定のキーはpython側の既定値（2026-08-30 に決定したcenter案）のまま渡さない。
 const VOICE_FLAGS: Record<keyof VoiceParams, string> = {
   speedScale: '--speed',
   intonationScale: '--intonation',
