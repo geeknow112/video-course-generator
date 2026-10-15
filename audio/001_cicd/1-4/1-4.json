@@ -1,73 +1,61 @@
 {
   "lecture_id": "1-4",
-  "total_pages": 11,
-  "total_duration": 197.52533333333332,
+  "total_pages": 9,
+  "total_duration": 169.76,
   "pages": [
     {
       "page": 1,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page01.wav",
       "duration": 8.384,
-      "text": "# セクション1 レクチャー4: 開発環境のセットアップ\n\n## 動画情報\n- **時間**: 約5分\n- **形式**: 画面共有（ハンズオン）"
+      "text": "このレクチャーでは、コースを進めるために必要な環境をセットアップします。"
     },
     {
       "page": 2,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page02.wav",
       "duration": 12.341333333333333,
-      "text": "## 台本\n\n### オープニング（0:00-0:20）\n\nこのレクチャーでは、\nコースを進めるために必要な環境をセットアップします。\n\nすでに準備ができている方は、\n次のセクションに進んでいただいて大丈夫です。"
+      "text": "必要なツールとアカウントを確認し、それぞれのインストール方法を紹介します。\nすでに準備ができている方は、次のセクションに進んでいただいて大丈夫です。"
     },
     {
       "page": 3,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page03.wav",
       "duration": 23.946666666666665,
-      "text": "### 必要なもの一覧（0:20-1:00）\n\nこのコースで必要なものは以下の通りです。\n\n**必須:**\n1. AWSアカウント\n2. GitHubアカウント\n3. Git（ローカル環境）\n4. テキストエディタ（VS Code推奨）\n\n**あると便利:**\n5. AWS CLI\n6. SAM CLI（セクション7で使用）\n7. Node.js（テスト用）"
+      "text": "このコースで必要なものは、次のとおりです。\n必須なのは、AWSアカウント、GitHubアカウント、ローカル環境のGit、そしてテキストエディタです。テキストエディタは、VS Codeをおすすめします。\nあると便利なのは、AWS CLIと、セクション7で使うSAM CLIです。"
     },
     {
       "page": 4,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page04.wav",
       "duration": 25.546666666666667,
-      "text": "### AWSアカウント（1:00-2:00）\n\nAWSアカウントをお持ちでない方は、\naws.amazon.com から作成してください。\n\n**注意点:**\n- クレジットカードの登録が必要です\n- 無料利用枠を活用すれば、このコースの内容は\n  月額数ドル程度で実践できます\n- 使い終わったリソースは削除することを忘れずに\n\nアカウント作成の詳細は、\nAWSの公式ドキュメントを参照してください。"
+      "text": "AWSアカウントをお持ちでない方は、AWSの公式サイトから作成してください。\n作成には、クレジットカードの登録が必要です。\n無料利用枠を活用すれば、このコースの内容は、月に数ドル程度で実践できます。\n使い終わったリソースは、必ず削除してください。\nアカウント作成の詳しい手順は、AWSの公式ドキュメントを参照してください。"
     },
     {
       "page": 5,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page05.wav",
       "duration": 14.336,
-      "text": "### GitHubアカウント（2:00-2:30）\n\nGitHubアカウントをお持ちでない方は、\ngithub.com から作成してください。\n\n無料アカウントで十分です。\n\nこのコースでは、GitHubをソースコードの\n管理場所として使用します。"
+      "text": "GitHubアカウントをお持ちでない方は、GitHubのサイトから作成してください。\n無料のアカウントで十分です。\nこのコースでは、GitHubをソースコードの管理場所として使い、CodePipelineと連携させます。"
     },
     {
       "page": 6,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page06.wav",
       "duration": 28.117333333333335,
-      "text": "### Gitのインストール（2:30-3:30）\n\nローカル環境にGitをインストールします。\n\n**Windows:**\nGit for Windowsをダウンロードしてインストール\nhttps://gitforwindows.org/\n\n**Mac:**\n```bash\n# Homebrewを使う場合\nbrew install git\n\n# または Xcode Command Line Tools\nxcode-select --install\n```\n\n**インストール確認:**\n```bash\ngit --version\n# git version 2.x.x と表示されればOK\n```"
+      "text": "ローカル環境に、Gitをインストールします。\nWindowsの方は、Git for Windowsをダウンロードしてインストールしてください。\nMacの方は、Homebrewでインストールするか、Xcodeのコマンドラインツールをインストールしてください。\nインストールできたら、ターミナルでgit、ハイフン、ハイフン、versionと入力し、バージョンが表示されることを確認してください。"
     },
     {
       "page": 7,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page07.wav",
       "duration": 17.248,
-      "text": "### テキストエディタ（3:30-4:00）\n\nテキストエディタは何でも構いませんが、\nVS Codeをおすすめします。\n\n**VS Codeのメリット:**\n- 無料\n- Git統合\n- AWS関連の拡張機能が豊富\n- ターミナル内蔵\n\nhttps://code.visualstudio.com/"
+      "text": "テキストエディタは何でも構いませんが、VS Codeをおすすめします。\n無料で使え、Gitと統合されていて、AWS関連の拡張機能が豊富で、ターミナルも内蔵しています。"
     },
     {
       "page": 8,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page08.wav",
       "duration": 29.952,
-      "text": "### AWS CLI（任意）（4:00-4:30）\n\nAWS CLIは必須ではありませんが、\nあると便利です。\n\n**インストール:**\nhttps://aws.amazon.com/cli/\n\n**設定:**\n```bash\naws configure\n# Access Key ID: [IAMで作成したキー]\n# Secret Access Key: [IAMで作成したシークレット]\n# Default region: ap-northeast-1\n# Default output format: json\n```\n\nセクション7のSAMで使用します。"
+      "text": "AWS CLIは必須ではありませんが、あると便利です。セクション7のSAMで使います。\nインストールしたら、aws configureコマンドで、IAMで作成したアクセスキーとシークレットキー、リージョン、出力形式を設定します。"
     },
     {
       "page": 9,
       "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page09.wav",
       "duration": 9.888,
-      "text": "### クロージング（4:30-5:00）\n\n環境のセットアップは以上です。\n\n準備ができたら、次のセクションで\nS3静的サイトホスティングを始めましょう！"
-    },
-    {
-      "page": 10,
-      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page10.wav",
-      "duration": 18.464,
-      "text": "## スライド構成案\n\n1. タイトル「開発環境のセットアップ」\n2. 必要なもの一覧（チェックリスト）\n3. AWSアカウント作成の注意点\n4. GitHubアカウント\n5. Gitインストール方法\n6. VS Code紹介\n7. AWS CLI（任意）\n8. 準備完了！"
-    },
-    {
-      "page": 11,
-      "wav": "C:\\Users\\youre\\Documents\\git_repo\\video-course-generator\\audio\\001_cicd\\1-4\\1-4_page11.wav",
-      "duration": 9.301333333333334,
-      "text": "## 撮影メモ\n\n- 各ツールのインストール画面は軽く見せる程度\n- 詳細なインストール手順は補足資料に誘導\n- 「すでに準備できている人は飛ばしてOK」を伝える"
+      "text": "環境のセットアップは以上です。\n準備ができたら、次のセクションで、S3の静的サイトホスティングを始めましょう。"
     }
   ]
 }
