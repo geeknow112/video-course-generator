@@ -19,11 +19,11 @@ import requests
 VOICEVOX_HOST = os.environ.get("VOICEVOX_HOST", "http://localhost:50021")
 SPEAKER_ID = 2  # 四国めたん ノーマル
 
-# 音声パラメータの既定値（2026-08-30 社長決定）。
+# 音声パラメータの既定値（2026-08-30 決定）。
 # 比較試聴（audio/_quality_test_v2/）の結果、中庸案（center）を採用。
 # 狙いは「速く・平坦に」読み上げること（ゆっくり霊夢寄りのテンポ）。
 # prePhonemeLength/postPhonemeLength は center 音源の再現に必要な値
-# （社長からの指示文には明記されていないが、比較試聴で聴いていた音源はこの値で
+# （指示文には明記されていないが、比較試聴で聴いていた音源はこの値で
 #  生成されている。詳細は audio/_quality_test_v2/README.md 参照）。
 DEFAULT_SPEED_SCALE = 1.2
 DEFAULT_INTONATION_SCALE = 0.7
@@ -193,7 +193,7 @@ def main():
                         help=f"VOICEVOXの話者ID（既定: {SPEAKER_ID} 四国めたん ノーマル）")
     parser.add_argument("--host", default=VOICEVOX_HOST,
                         help=f"VOICEVOXのホスト（既定: {VOICEVOX_HOST}）")
-    # 音声パラメータ。既定値は2026-08-30社長決定のcenter案（DEFAULT_*定数）。
+    # 音声パラメータ。既定値は2026-08-30に決定したcenter案（DEFAULT_*定数）。
     # 個別に変えたいときだけCLI引数で上書きする。
     parser.add_argument("--speed", type=float, default=DEFAULT_SPEED_SCALE,
                         help=f"speedScale（既定: {DEFAULT_SPEED_SCALE}）")

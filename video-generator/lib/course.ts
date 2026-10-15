@@ -24,7 +24,7 @@ export interface Lesson {
 
 /**
  * VOICEVOX の音声パラメータ上書き。
- * 未指定のキーは scripts/generate_slide_audio.py の既定値（社長決定のcenter案）のまま。
+ * 未指定のキーは scripts/generate_slide_audio.py の既定値（2026-08-30 に決定したcenter案）のまま。
  * コースごとに声色を変えたい場合（例: 話者を変える）にだけ使う。
  */
 export interface VoiceParams {

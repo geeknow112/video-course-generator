@@ -1,7 +1,7 @@
 # 音声品質比較 v2（feature/voice-quality）
 
 前回（`audio/_quality_test/`）は「落ち着いた速度＋抑揚を強める」方向で検討したが、
-社長のフィードバックで方向転換。
+フィードバックで方向転換。
 
 > 聞いた。余り改善が見られない。読み上げスピードを少し早めて。イメージはゆっくり霊夢の音声。
 
@@ -106,10 +106,10 @@ intonation・pause は逆側（0.6と1.0/1.0など）との対比で、下げた
 - `misread_dict_registered_speed1.2.wav` … 誤読確認（center速度・辞書登録後）
 - `misread_dict_registered_speed1.35.wav` … 誤読確認（extreme速度・辞書登録後）
 - `user_dict.json` … 登録した辞書のエクスポート（`GET /user_dict`）
-- `final_default.wav` … 2026-08-30 社長決定後、既定値変更後の `generate_slide_audio.py` を
+- `final_default.wav` … 2026-08-30 の決定後、既定値変更後の `generate_slide_audio.py` を
   CLI引数なしで実行した確認用出力（page1）。`center_*.wav` とバイト単位で同一。
 
-## 追記（2026-08-30）: 社長決定と既定値への反映
+## 追記（2026-08-30）: 決定と既定値への反映
 
 比較試聴の結果、**中庸案（center）を採用**と決定。
 `scripts/generate_slide_audio.py` の既定値をこの値（speedScale=1.2 /

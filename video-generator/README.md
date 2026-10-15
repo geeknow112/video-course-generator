@@ -94,7 +94,7 @@ Python は `requests` が入っているものが必要。
 ## 音声パラメータ
 
 `scripts/generate_slide_audio.py` の既定値は、比較試聴（`audio/_quality_test_v2/`）の結果、
-2026-08-30に社長が決定した「中庸案（center）」に固定している。
+2026-08-30に決定した「中庸案（center）」に固定している。
 
 ```
 speedScale        1.2   # 速く
