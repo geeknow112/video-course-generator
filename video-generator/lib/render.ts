@@ -74,7 +74,8 @@ async function captureSlides(htmlPath: string, expected: number, tempDir: string
     await page.goto(`file://${htmlPath.split(path.sep).join('/')}`);
     await page.waitForLoadState('networkidle');
 
-    const slideCount = await page.evaluate(() => document.querySelectorAll('section').length);
+    // 背景画像（![bg]）のあるスライドは、Marp が section を3つ作るため、id のある section だけ数える
+    const slideCount = await page.evaluate(() => document.querySelectorAll('section[id]').length);
     if (verbose) console.log(`    HTML のスライド数: ${slideCount} / タイミングの件数: ${expected}`);
     if (slideCount !== expected) {
       // 枚数が合わないまま作ると、途中から別のスライドを映しながら話す動画になる
