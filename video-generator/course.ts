@@ -24,6 +24,7 @@ import { Course, Lesson, lessonPaths, listCourseIds, loadCourse } from './lib/co
 import { prepareLesson } from './lib/prepare';
 import { renderLessonVideo } from './lib/render';
 import { buildSlideHtml } from './lib/slides';
+import { checkScriptFile, formatIssues } from './lib/check-script';
 import { SlideTimings } from './lib/prepare';
 import { assertVoicevoxRunning } from './lib/tools';
 
@@ -98,6 +99,12 @@ async function runLesson(
 
   if (!fs.existsSync(paths.script)) {
     return { id: lesson.id, status: 'failed', detail: `台本がありません: ${lesson.script}` };
+  }
+
+  // 0. 台本の検査：制作メモの混入や、スライドとの枚数のずれがあれば、音声を作る前に止める
+  const scriptIssues = checkScriptFile(paths.script, paths.slideSource);
+  if (scriptIssues.length > 0) {
+    return { id: lesson.id, status: 'failed', detail: `台本の検査で不合格\n${formatIssues(scriptIssues)}` };
   }
 
   // 1. 音声

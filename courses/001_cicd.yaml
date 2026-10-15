@@ -12,19 +12,19 @@ lessons:
     slide: slides/001_cicd/promo_プロモーション.md
   - id: 1-1
     title: コース紹介
-    script: scripts/001_cicd/1-1_コース紹介.md
+    script: scripts/001_cicd/1-1_コース紹介.txt
     slide: slides/001_cicd/1-1_コース紹介_スライド.md
   - id: 1-2
     title: CI-CDとは
-    script: scripts/001_cicd/1-2_CI-CDとは.md
+    script: scripts/001_cicd/1-2_CI-CDとは.txt
     slide: slides/001_cicd/1-2_CI-CDとは_スライド.md
   - id: 1-3
     title: AWSサービス概要
-    script: scripts/001_cicd/1-3_AWSサービス概要.md
+    script: scripts/001_cicd/1-3_AWSサービス概要.txt
     slide: slides/001_cicd/1-3_AWSサービス概要.md
   - id: 1-4
     title: 環境セットアップ
-    script: scripts/001_cicd/1-4_環境セットアップ.md
+    script: scripts/001_cicd/1-4_環境セットアップ.txt
     slide: slides/001_cicd/1-4_環境セットアップ.md
   - id: 2-1
     title: S3とは
